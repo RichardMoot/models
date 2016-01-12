@@ -4,20 +4,20 @@
 ! O 39
 " I-LOC 1
 " I-ORG 1
-" O 1169
+" O 1171
 $ I-MON 1
 % I-PCT 259
 & I-ORG 2
 & O 1
 ' O 2
 'm O 1
-( O 458
+( O 460
 (...) O 13
-) O 459
+) O 461
 + I-PCT 4
 , I-LOC 2
 , I-ORG 5
-, O 5777
+, O 5799
 - I-LOC 2
 - I-MON 1
 - I-PCT 8
@@ -38,7 +38,7 @@ $ I-MON 1
 -t-il O 27
 -t-on O 9
 -vous O 11
-. O 3357
+. O 3377
 .. O 1
 ... O 63
 / I-TIM 3
@@ -101,7 +101,7 @@ $ I-MON 1
 1.939,64 I-MON 1
 10 I-MON 2
 10 I-PCT 11
-10 I-TIM 17
+10 I-TIM 18
 10,5 I-PCT 1
 10,50 I-PCT 1
 10,6 I-MON 2
@@ -176,7 +176,7 @@ $ I-MON 1
 150 I-TIM 1
 150 O 6
 150.000 O 1
-1500 O 1
+1500 O 2
 154.000 O 1
 158 I-MON 1
 1598 I-TIM 1
@@ -325,7 +325,7 @@ $ I-MON 1
 1996 I-TIM 2
 1997 I-TIM 1
 1998 I-TIM 10
-1999 I-TIM 7
+1999 I-TIM 8
 1er I-TIM 9
 2 I-MON 2
 2 I-ORG 1
@@ -372,10 +372,10 @@ $ I-MON 1
 2001 I-TIM 5
 2002 I-TIM 9
 2003 I-TIM 4
-2004 I-TIM 1
-2005 I-TIM 1
+2004 I-TIM 2
+2005 I-TIM 2
 2006 I-TIM 1
-2007 I-TIM 3
+2007 I-TIM 4
 2008 I-TIM 2
 2009 I-TIM 3
 2010 I-TIM 1
@@ -497,6 +497,7 @@ $ I-MON 1
 35 I-TIM 1
 35-49 I-TIM 1
 350 I-MON 1
+353 O 1
 35e I-LOC 1
 35e O 1
 36 I-PCT 1
@@ -741,12 +742,12 @@ $ I-MON 1
 96 O 1
 97 I-TIM 1
 98 I-TIM 1
-: O 239
+: O 242
 ; O 192
 = I-LOC 1
 = O 1
 ? O 80
-A O 53
+A O 54
 A2-FR3 I-ORG 1
 A36 I-LOC 2
 ACCEPTER O 1
@@ -784,7 +785,7 @@ Adouci O 1
 Adour I-LOC 2
 Adversaires O 1
 Aegon I-ORG 2
-Affaire O 7
+Affaire O 9
 Affaires O 3
 Afin O 2
 Afrique I-LOC 9
@@ -1053,6 +1054,7 @@ Bayeux I-LOC 1
 Bayonne I-LOC 1
 Bayssellance I-PER 1
 Bazillac I-PER 1
+Beach I-LOC 3
 Beaucens I-LOC 2
 Beaucoup O 1
 Beauty O 1
@@ -1168,6 +1170,8 @@ Brandt I-PER 1
 Brasiliens O 1
 Brauvilliers I-LOC 1
 Brazil O 2
+Brazzaville I-LOC 4
+Brazzaville-Kinshasa I-LOC 1
 Breda I-PER 1
 Bref O 5
 Brenen I-LOC 1
@@ -1297,7 +1301,7 @@ Caroline I-LOC 1
 Caron I-ORG 1
 Carrère I-PER 1
 Casini I-PER 1
-Cassation I-ORG 1
+Cassation I-ORG 2
 Cassini I-PER 1
 Castel I-LOC 1
 Castelbert I-PER 1
@@ -1306,7 +1310,7 @@ Castellum I-LOC 1
 Castelo I-LOC 1
 Catherine I-PER 3
 Catégorie O 1
-Catégories O 3
+Catégories O 4
 Cau I-LOC 1
 Cauterets I-LOC 15
 Cauteretz I-LOC 4
@@ -1331,13 +1335,13 @@ Centrales I-LOC 1
 Centre I-LOC 1
 Centre I-ORG 4
 Centre-Ouest I-LOC 1
-Cependant O 4
+Cependant O 6
 Cernay I-LOC 1
-Certaines O 1
+Certaines O 2
 Certains O 4
 Certes O 3
 Ces I-TIM 3
-Ces O 23
+Ces O 24
 Cesano I-LOC 1
 Cessez O 1
 Cet O 6
@@ -1456,7 +1460,7 @@ Condition O 1
 Condom I-LOC 1
 Confederation I-ORG 1
 Confédération I-ORG 2
-Congo I-LOC 1
+Congo I-LOC 4
 Congrès I-ORG 1
 Conseil I-ORG 12
 Considérant O 1
@@ -1466,6 +1470,7 @@ Consul O 1
 Consultez O 1
 Conte I-PER 1
 Contemple O 1
+Contexte O 1
 Continent I-LOC 1
 Continuation O 1
 Contrairement O 1
@@ -1484,7 +1489,7 @@ Coste-cerdan I-PER 1
 Costé I-PER 4
 Coufitte I-PER 1
 Coumélie I-LOC 2
-Cour I-ORG 10
+Cour I-ORG 11
 Courcelles I-LOC 2
 Courcelles-lès-Montbéliard I-LOC 1
 Courir O 1
@@ -1557,7 +1562,7 @@ Deluchat I-PER 1
 Demain I-TIM 1
 Demange I-PER 1
 Deneuvre I-LOC 2
-Denis I-PER 1
+Denis I-PER 3
 Denise I-PER 10
 Depuis O 14
 Der I-LOC 1
@@ -1620,7 +1625,7 @@ Drew I-ORG 1
 Drian I-PER 3
 Droits I-LOC 2
 Drome I-LOC 1
-Du O 12
+Du O 13
 Duc O 1
 Dumas O 1
 Dumez I-PER 1
@@ -1699,7 +1704,7 @@ Emmanuel I-PER 1
 Emmanuelle I-PER 1
 Empire O 1
 Empruntez O 1
-En O 106
+En O 108
 Encore O 2
 Enders I-PER 1
 Enfer I-LOC 2
@@ -1860,7 +1865,7 @@ Fournissant O 1
 Fourquet I-PER 1
 Foussemagne I-LOC 1
 Fraises O 1
-France I-LOC 77
+France I-LOC 79
 France I-ORG 26
 France O 1
 France-Inter I-ORG 1
@@ -1871,7 +1876,7 @@ Franchissez O 1
 Franck I-PER 1
 Franqueville I-PER 1
 Frantzen I-PER 1
-Français O 17
+Français O 18
 François I-PER 16
 Françoise I-PER 2
 Frederick I-PER 1
@@ -2004,6 +2009,7 @@ Gérer O 2
 Gîtes O 1
 HAMAS I-ORG 1
 HBO I-ORG 1
+HCR I-ORG 2
 Haberer I-PER 1
 Haberler I-PER 1
 Hachette I-ORG 24
@@ -2048,7 +2054,7 @@ Hier I-TIM 4
 Hill I-ORG 1
 Hillary I-ORG 1
 Hillary I-PER 3
-Histoire O 2
+Histoire O 3
 Hleb I-PER 1
 Hoeffel I-PER 1
 Holding I-ORG 2
@@ -2118,7 +2124,7 @@ Ici O 8
 Ifop O 1
 Ignorant O 1
 Igon I-LOC 1
-Il O 187
+Il O 188
 Ile-de-France I-LOC 2
 Ileau O 1
 Ils O 38
@@ -2185,6 +2191,7 @@ James I-PER 1
 Jan I-PER 1
 Jane I-PER 4
 Jankowski I-PER 1
+Janvier I-TIM 1
 Japon I-LOC 9
 Japon I-ORG 2
 Japy I-ORG 1
@@ -2259,6 +2266,7 @@ Keynes I-PER 2
 Khiva I-LOC 1
 Ki-moon I-PER 1
 Kiev I-LOC 1
+Kinshasa I-LOC 1
 Kinston I-LOC 1
 Kirghiztan I-LOC 1
 Kissinger I-PER 1
@@ -2287,7 +2295,7 @@ Kuwait I-ORG 1
 L' I-LOC 1
 L' I-ORG 5
 L' I-TIM 11
-L' O 135
+L' O 136
 L. I-PER 1
 LA O 1
 LABORIEUX O 1
@@ -2342,7 +2350,7 @@ Le I-LOC 4
 Le I-ORG 23
 Le I-PER 5
 Le I-TIM 26
-Le O 274
+Le O 278
 Lechat I-PER 5
 Leclerc I-ORG 1
 Leclerc I-PER 2
@@ -2358,7 +2366,7 @@ Leroy O 2
 Les I-LOC 1
 Les I-ORG 1
 Les I-TIM 4
-Les O 208
+Les O 209
 Lescar I-LOC 1
 Lessons O 1
 Lettres O 1
@@ -2548,6 +2556,7 @@ Maxéville I-LOC 2
 Maxévillois O 1
 Mayenne I-LOC 1
 Mayer I-ORG 2
+Maître O 1
 Me O 8
 Mecklenbourg-Poméranie I-LOC 1
 Medef I-ORG 1
@@ -2803,7 +2812,7 @@ Officiellement O 1
 Ogeu I-LOC 1
 Olszewski I-PER 1
 Ominco I-ORG 2
-On O 31
+On O 32
 Onché I-LOC 1
 Oo I-LOC 5
 Operations I-ORG 1
@@ -2875,7 +2884,7 @@ Parcelles O 1
 Parfois O 1
 Paribas I-ORG 3
 Pariente I-PER 3
-Paris I-LOC 52
+Paris I-LOC 53
 Paris I-ORG 2
 Paris-Bordeaux O 1
 Paris-Lyon O 1
@@ -2992,6 +3001,7 @@ Porto I-LOC 1
 Post I-ORG 1
 Poste I-LOC 1
 Postes O 1
+Poto-Poto I-LOC 1
 Pouey-Aspé I-LOC 1
 Poulain O 1
 Pour O 63
@@ -3022,7 +3032,7 @@ Prises O 1
 Pritzel I-LOC 1
 Prix O 1
 Proche-Orient I-LOC 1
-Procès O 1
+Procès O 2
 Profiter O 1
 Programme O 1
 Progrès I-ORG 1
@@ -3032,6 +3042,7 @@ Prospérité O 1
 Provence I-LOC 2
 Près O 1
 Pré I-LOC 1
+Présidence O 1
 Président O 4
 Présidente O 1
 Prévert I-PER 1
@@ -3064,8 +3075,8 @@ Quatre O 4
 Que O 12
 Quel O 3
 Quelle O 3
-Quelques I-TIM 2
-Quelques O 4
+Quelques I-TIM 3
+Quelques O 5
 Quels O 1
 Questionné O 1
 Qui O 3
@@ -3195,7 +3206,7 @@ Rémy I-PER 1
 Réole I-LOC 1
 Répercussion O 1
 Républicain I-ORG 1
-République I-LOC 1
+République I-LOC 4
 République I-ORG 11
 Républiques O 8
 Réserve I-ORG 1
@@ -3286,6 +3297,8 @@ Sarrazins O 1
 Sarrelouis I-LOC 1
 Sarthe I-LOC 1
 Sartilly I-LOC 2
+Sassou I-PER 1
+Sassou-Nguesso I-PER 1
 Satisfaction O 1
 Sauf O 1
 Saulx I-ORG 1
@@ -3336,6 +3349,7 @@ Ses O 6
 Seul O 1
 Seule O 4
 Seulement O 1
+Seules O 1
 Seuls O 3
 Seychelles I-LOC 1
 Si O 28
@@ -3626,6 +3640,7 @@ Ventilo I-ORG 1
 Verdun I-LOC 2
 Verdunois O 1
 Vergez-Bellou O 1
+Vergès I-PER 1
 Vergèze I-LOC 1
 Verneau I-LOC 1
 Verneau I-PER 1
@@ -3695,7 +3710,7 @@ Warcholak I-PER 1
 Washington I-LOC 9
 Werner I-PER 2
 Wever I-PER 1
-Wikipédia I-ORG 1
+Wikipédia I-ORG 3
 William I-PER 1
 Willy I-PER 1
 Wim I-PER 1
@@ -3739,7 +3754,7 @@ Zénith I-LOC 1
 ^ O 4
 _ O 1
 a I-ORG 1
-a O 691
+a O 695
 abaissant O 1
 abaissement O 1
 abaisser O 1
@@ -3821,7 +3836,7 @@ accompagnait O 1
 accompagnant O 1
 accompagnement O 3
 accompagner O 1
-accompagné O 4
+accompagné O 5
 accompagnée O 2
 accompagnées O 1
 accompagnés O 1
@@ -3831,7 +3846,7 @@ accorda O 1
 accordant O 1
 accorde O 2
 accorder O 3
-accords O 5
+accords O 6
 accordé O 9
 accotement O 1
 accouché O 1
@@ -3875,6 +3890,7 @@ acharnée O 1
 achat O 1
 achats O 3
 acheminâmes O 1
+acheminées O 1
 achetant O 1
 acheter O 6
 acheteurs O 2
@@ -3915,7 +3931,7 @@ actions O 13
 active O 1
 activent O 1
 activiste O 1
-activité O 36
+activité O 37
 activités O 17
 actrice O 1
 actualités I-ORG 1
@@ -3985,7 +4001,7 @@ adressent O 3
 adresser O 1
 adressé O 2
 adressée O 4
-adultes O 2
+adultes O 3
 adversaire O 2
 adverse O 1
 adversité O 1
@@ -3994,7 +4010,7 @@ adéquation O 1
 affaibli O 1
 affaiblir O 1
 affaiblis O 1
-affaire O 24
+affaire O 25
 affaires O 21
 affaissée O 1
 affectent O 1
@@ -4290,7 +4306,7 @@ anneau O 1
 annexe O 1
 anniversaire O 2
 anniversaires O 1
-annonce O 13
+annonce O 14
 annoncer O 2
 annoncera O 1
 annoncerait O 1
@@ -4305,6 +4321,7 @@ annulation O 1
 annuler O 1
 annulerait O 1
 annulé O 1
+annulée O 1
 annulées O 1
 année I-TIM 88
 année O 6
@@ -4333,6 +4350,7 @@ antérieures O 1
 aout I-TIM 3
 août I-TIM 20
 apaise O 1
+apaisement O 1
 apaisés O 1
 apanage O 2
 apathique O 1
@@ -4366,7 +4384,7 @@ apparu O 1
 apparues O 1
 appauvrir O 1
 appauvrit O 1
-appel I-ORG 2
+appel I-ORG 3
 appel O 14
 appela O 1
 appelait O 2
@@ -4502,7 +4520,7 @@ arrivez O 1
 arrivons O 4
 arrivâmes O 3
 arrivé O 10
-arrivée O 11
+arrivée O 13
 arrivés O 3
 arrière O 1
 arrière-garde O 1
@@ -4650,7 +4668,7 @@ attendre O 9
 attendu O 3
 attendue O 3
 attentats O 2
-attente O 5
+attente O 6
 attentif O 2
 attentifs O 1
 attention O 5
@@ -4677,7 +4695,7 @@ atténue O 1
 atténuées O 1
 au I-ORG 1
 au I-TIM 7
-au O 530
+au O 531
 au-delà O 7
 au-dessous O 2
 au-dessus O 7
@@ -4714,14 +4732,14 @@ auprès O 14
 auquel O 5
 aura O 21
 aurai O 3
-auraient O 4
+auraient O 5
 aurais O 2
 aurait O 25
 aurez O 1
 aurons O 1
 auront O 13
 auréole O 2
-aussi O 103
+aussi O 104
 aussitôt O 5
 austral O 2
 australienne O 1
@@ -4754,14 +4772,14 @@ autorisant O 1
 autorisation O 6
 autorise O 3
 autoriser O 1
-autorisé O 3
+autorisé O 4
 autorité O 6
 autorités O 22
 autoroutes I-ORG 2
 autoroutes O 2
 autos O 1
 autour O 15
-autre O 59
+autre O 60
 autrefois O 8
 autres O 77
 autrichienne O 1
@@ -4770,7 +4788,7 @@ aux O 232
 auxiliaire O 1
 auxquelles O 2
 auxquels O 3
-avaient O 41
+avaient O 42
 avais O 17
 avait O 137
 aval O 2
@@ -4782,7 +4800,7 @@ avancent O 1
 avancez O 1
 avancé O 2
 avancées O 1
-avant I-TIM 2
+avant I-TIM 3
 avant O 64
 avant-première O 1
 avantage O 5
@@ -4790,7 +4808,7 @@ avantager O 1
 avantages O 2
 avantageusement O 1
 avatars O 1
-avec O 259
+avec O 260
 avenants O 2
 avenir O 11
 aventure O 2
@@ -4810,6 +4828,7 @@ avive O 1
 avivés O 1
 avocat O 4
 avocate O 1
+avocats O 1
 avoir O 77
 avoirs O 1
 avoisinants O 1
@@ -5215,6 +5234,7 @@ campagnes O 1
 campaign O 1
 campement O 2
 camper O 1
+camps O 1
 campée O 1
 canadien O 4
 canadienne O 1
@@ -5277,7 +5297,7 @@ carrées O 1
 cars O 1
 carte O 12
 cartes O 6
-cas O 33
+cas O 34
 casanier O 1
 cascade I-LOC 2
 cascade O 7
@@ -5316,7 +5336,7 @@ cavalerie O 1
 cavalier O 1
 cavernes O 2
 ce I-TIM 12
-ce O 262
+ce O 264
 ceinture O 2
 ceintures O 1
 cela O 24
@@ -5366,7 +5386,7 @@ certes O 2
 certificats O 1
 certifiés O 1
 ces I-TIM 7
-ces O 133
+ces O 134
 cessa O 1
 cessait O 1
 cessation O 3
@@ -5604,7 +5624,7 @@ citoyenne O 1
 citoyens O 1
 cité I-LOC 2
 cité O 4
-civile O 3
+civile O 4
 civilisations O 1
 civils O 1
 clair O 4
@@ -5827,7 +5847,7 @@ composite O 3
 composition O 3
 composée O 1
 comprenant O 2
-comprend O 2
+comprend O 3
 comprendraient O 1
 comprendre O 7
 comprends O 1
@@ -5895,10 +5915,11 @@ concurrentes O 1
 concurrents O 1
 concédé O 2
 condamnation O 1
+condamnations O 1
 condamnent O 1
 condamner O 1
 condamné O 3
-condamnée O 1
+condamnée O 2
 condamnés O 1
 condition O 4
 conditionnement O 1
@@ -5959,6 +5980,8 @@ confédérale O 1
 conférence O 3
 conférences O 2
 conglomérat O 2
+congolais O 1
+congolaise O 2
 congrue O 1
 congrès I-ORG 1
 congrès O 7
@@ -6095,6 +6118,7 @@ contact O 1
 contactait O 1
 contactée O 1
 contactés O 1
+containers O 1
 contemplé O 2
 contemporain O 1
 contemporaine O 2
@@ -6172,7 +6196,7 @@ contribué O 2
 contrits O 1
 contrées O 1
 contrôlait O 2
-contrôle O 15
+contrôle O 16
 contrôlent O 1
 contrôler O 1
 contrôles O 3
@@ -6196,6 +6220,7 @@ convivialité O 1
 conviés O 1
 convocation O 1
 convoi O 1
+convois O 1
 convoquer O 1
 conçue O 1
 conçues O 1
@@ -6255,7 +6280,7 @@ coulisses O 1
 couloirs O 2
 coup O 18
 coupable O 3
-coupables O 1
+coupables O 2
 coupe O 6
 couple O 6
 couples O 2
@@ -6264,7 +6289,7 @@ coups I-TIM 1
 coups O 3
 coupé O 2
 coupées O 1
-cour I-ORG 1
+cour I-ORG 2
 cour O 3
 courage O 4
 courageusement O 1
@@ -6454,15 +6479,15 @@ cône O 3
 côte O 1
 côtoie O 1
 côtoient O 1
-côté O 39
+côté O 40
 côtés O 5
 d' I-LOC 48
 d' I-MON 4
-d' I-ORG 23
+d' I-ORG 24
 d' I-PCT 1
 d' I-PER 15
 d' I-TIM 28
-d' O 1156
+d' O 1159
 dactylographiée O 1
 dame O 2
 dames O 2
@@ -6476,7 +6501,7 @@ dangereux O 4
 dangers O 3
 danois O 2
 danoise O 1
-dans O 559
+dans O 565
 danse O 1
 dansent O 1
 datant O 1
@@ -6490,10 +6515,10 @@ davantage O 7
 de B-TIM 1
 de I-LOC 183
 de I-MON 104
-de I-ORG 90
+de I-ORG 91
 de I-PER 38
 de I-TIM 53
-de O 4347
+de O 4361
 dedans O 1
 degré O 2
 dehors O 5
@@ -6541,7 +6566,7 @@ derrière O 12
 des I-LOC 22
 des I-ORG 61
 des I-TIM 7
-des O 1323
+des O 1332
 descendaient O 1
 descendait O 1
 descendant O 4
@@ -6551,7 +6576,7 @@ descendons O 1
 descendre O 5
 descendu O 3
 descendîmes O 1
-descente O 2
+descente O 3
 description O 4
 desmans O 1
 despote O 1
@@ -6562,7 +6587,7 @@ dessertes O 1
 dessins O 1
 dessous O 7
 dessus O 14
-destin O 2
+destin O 3
 destinataires O 1
 destination O 6
 destins O 1
@@ -6625,7 +6650,7 @@ diction O 1
 diffamation O 1
 difficile O 14
 difficulté O 3
-difficultés O 7
+difficultés O 8
 difforme O 1
 difformes O 1
 diffuser O 3
@@ -6638,7 +6663,7 @@ différence O 4
 différences O 3
 différens O 1
 différente O 1
-différentes O 11
+différentes O 12
 différentiel O 2
 différents O 15
 différé O 1
@@ -6677,7 +6702,7 @@ directrice O 2
 dirige O 2
 dirigeant O 2
 dirigeantes O 1
-dirigeants O 13
+dirigeants O 14
 diriger O 1
 dirigez O 1
 dirigé O 1
@@ -6705,13 +6730,14 @@ disparaissent O 1
 disparaissez O 1
 disparaît O 2
 disparaître O 2
-disparition O 10
+disparition O 11
 disparités O 2
 disparu O 5
 disparue O 2
 disparus I-ORG 1
-disparus O 1
+disparus O 3
 dispensait O 2
+dispensés O 1
 dispersion O 1
 disponible O 2
 disponibles O 1
@@ -6892,10 +6918,10 @@ droits I-ORG 2
 droits O 9
 drolatiques O 1
 drôle O 1
-du I-LOC 59
+du I-LOC 62
 du I-ORG 14
 du I-TIM 19
-du O 1002
+du O 1009
 duc O 6
 ducal I-LOC 1
 duchesse O 3
@@ -6926,7 +6952,7 @@ dus O 1
 dut O 1
 dynamiques O 1
 dynamiser O 2
-dès O 25
+dès O 27
 dé I-LOC 1
 débarquons O 1
 débarrasser O 1
@@ -7116,6 +7142,7 @@ démissionnait O 1
 démocrates O 1
 démocratie O 1
 démocraties O 1
+démocratique I-LOC 1
 démographique O 2
 démographiques O 1
 démolir O 1
@@ -7181,7 +7208,7 @@ déportés I-ORG 4
 déportés O 2
 déposent O 1
 déposition O 4
-déposées O 1
+déposées O 2
 dépouilles O 1
 dépouillé O 1
 dépourvu O 2
@@ -7205,7 +7232,7 @@ dérober O 1
 dérogations O 1
 déroulait O 1
 déroule O 1
-déroulement O 1
+déroulement O 2
 déroulent O 1
 déroulera O 4
 déroulée O 1
@@ -7316,7 +7343,7 @@ effective O 1
 effectivement O 1
 effectuaient O 1
 effectuant O 1
-effectue O 1
+effectue O 2
 effectuer O 3
 effectueront O 1
 effectué O 3
@@ -7324,7 +7351,7 @@ effectuée O 2
 effectuées O 2
 effectués O 3
 effervescence O 1
-effet O 26
+effet O 27
 effets O 5
 efficace O 5
 efficaces O 1
@@ -7402,7 +7429,7 @@ empêche O 3
 empêcher O 1
 empêché O 2
 en I-TIM 1
-en O 1154
+en O 1160
 en-dessous O 2
 en-tête O 1
 encadre O 1
@@ -7437,7 +7464,7 @@ endurci O 1
 enfance O 6
 enfant O 8
 enfantillage O 1
-enfants O 38
+enfants O 39
 enfer O 2
 enferma O 1
 enfermé O 1
@@ -7503,6 +7530,7 @@ entama O 1
 entamé O 2
 entamées O 1
 entassement O 1
+entassées O 1
 entend O 1
 entendaient O 1
 entendait O 1
@@ -7541,7 +7569,7 @@ entraînement O 5
 entraîner O 4
 entraîneur O 1
 entraîné O 1
-entre O 91
+entre O 92
 entre-temps O 1
 entrecoupée O 1
 entremise O 1
@@ -7573,7 +7601,7 @@ envergure O 3
 enverra O 1
 envie O 8
 environ I-TIM 1
-environ O 19
+environ O 20
 environnaient O 1
 environnantes O 1
 environnement O 9
@@ -7645,7 +7673,7 @@ essentiels O 2
 essor O 2
 essoufflement O 1
 essuie O 1
-est O 770
+est O 771
 est-à-dire O 11
 esthétique O 1
 estimant O 3
@@ -7663,7 +7691,7 @@ et I-LOC 3
 et I-MON 1
 et I-ORG 29
 et I-TIM 15
-et O 1617
+et O 1623
 etc O 4
 etc. O 1
 eu O 22
@@ -7692,7 +7720,7 @@ exact O 2
 exacte O 2
 exactement O 5
 exactes O 2
-exactions O 1
+exactions O 2
 exactitude O 2
 exagérées O 1
 exalter O 1
@@ -7886,7 +7914,7 @@ faillir O 1
 faillite O 2
 faillites O 2
 faim O 1
-faire O 82
+faire O 83
 fais O 1
 faisabilité O 2
 faisaient O 6
@@ -7912,7 +7940,7 @@ familier O 2
 familiers O 1
 famille O 30
 familles I-ORG 2
-familles O 5
+familles O 7
 fanfare O 2
 fantaisiste O 1
 fantasme O 1
@@ -7957,7 +7985,7 @@ faîte O 1
 feldspath O 2
 femme O 15
 femmes I-ORG 1
-femmes O 15
+femmes O 16
 fendait O 1
 fendit O 1
 fendues O 1
@@ -8015,7 +8043,7 @@ figurent O 2
 figures O 1
 fil O 4
 filature O 1
-file O 1
+file O 2
 filets O 2
 filiale O 9
 filiales O 5
@@ -8094,7 +8122,7 @@ fleur O 2
 fleurissement O 1
 fleurit O 1
 fleurs O 5
-fleuve O 2
+fleuve O 3
 flibustier O 1
 flirtant O 1
 floraison O 1
@@ -8106,6 +8134,7 @@ floue O 1
 fluctuaient O 1
 fluctuations O 6
 fluides O 1
+fluviale O 1
 flux O 1
 focalisez O 1
 foi O 5
@@ -8125,7 +8154,7 @@ fonctionnelles O 1
 fonctionnement O 6
 fonctionner O 1
 fonctionné O 2
-fonctions O 4
+fonctions O 5
 fond O 24
 fondamental O 1
 fondamentalement O 1
@@ -8162,7 +8191,7 @@ formant O 1
 format O 1
 formation O 15
 formations O 2
-forme O 18
+forme O 19
 formellement O 1
 forment O 4
 former O 4
@@ -8216,6 +8245,7 @@ fragments O 1
 frais O 7
 franc I-MON 2
 franc O 7
+francaise I-ORG 1
 france I-LOC 2
 france O 1
 franche O 1
@@ -8284,6 +8314,7 @@ fréquentable O 1
 fréquents O 1
 fréquenté O 3
 frôlé O 1
+fui O 1
 fuite O 1
 funk O 1
 funèbre O 2
@@ -8431,7 +8462,7 @@ gouffre O 3
 gourmand O 1
 gourmandise O 1
 gouvernement I-ORG 35
-gouvernement O 13
+gouvernement O 14
 gouvernemental O 1
 gouvernements O 1
 gouverneur O 1
@@ -8513,7 +8544,7 @@ grève O 6
 grèverait O 1
 grèves O 2
 guerre I-ORG 4
-guerre O 23
+guerre O 24
 guerres O 2
 guerrier O 1
 guette O 1
@@ -8640,13 +8671,13 @@ hercule O 1
 hertziennes O 1
 heure I-TIM 13
 heure O 16
-heures I-TIM 45
+heures I-TIM 46
 heures O 5
 heureuse O 1
 heureusement O 1
 heureux O 6
 heurte O 1
-heurtent O 1
+heurtent O 2
 heurter O 1
 heurté O 1
 heurtée O 1
@@ -8659,7 +8690,7 @@ himalayenne O 1
 hip-hop O 1
 hisord O 1
 hispaniser O 1
-histoire O 20
+histoire O 21
 histoires O 1
 historien O 1
 historique O 10
@@ -8670,6 +8701,7 @@ hiver I-TIM 3
 hiver O 2
 hivernale O 2
 hivers O 1
+hiérarchie O 1
 hiéroglyphes O 1
 holding O 2
 hollandaise O 1
@@ -9133,6 +9165,7 @@ institutionnels O 1
 institutions O 4
 institutrice O 2
 instituées O 1
+instruction O 1
 instruire O 1
 instruit O 1
 instruits O 1
@@ -9183,6 +9216,7 @@ internet O 1
 internées I-ORG 1
 internés I-ORG 3
 interpellé O 2
+interpellées O 1
 interpellés O 2
 interplanétaire O 1
 interposer O 1
@@ -9345,6 +9379,7 @@ jette O 1
 jetteront O 1
 jeté O 1
 jetées O 1
+jetés O 1
 jeu O 14
 jeudi I-TIM 20
 jeune O 36
@@ -9440,13 +9475,13 @@ kurde O 2
 l' I-LOC 15
 l' I-ORG 24
 l' I-TIM 60
-l' O 1602
+l' O 1603
 la B-LOC 1
 la I-LOC 26
 la I-ORG 18
 la I-PER 1
 la I-TIM 53
-la O 2401
+la O 2413
 labeur O 1
 laboratoire O 1
 laboratoires O 1
@@ -9514,8 +9549,8 @@ laxisme O 1
 laïque O 1
 le I-ORG 13
 le I-PER 1
-le I-TIM 72
-le O 1579
+le I-TIM 74
+le O 1587
 leader O 1
 lecteur O 1
 lecteurs O 3
@@ -9527,15 +9562,15 @@ lenticulaire O 1
 lequel O 9
 les I-ORG 1
 les I-TIM 26
-les O 1387
+les O 1391
 lesquelles O 6
 lesquels O 7
 lessives O 1
 lestement O 1
 lettre O 5
 lettres O 4
-leur O 131
-leurs O 99
+leur O 134
+leurs O 100
 levant O 3
 lever O 1
 levé O 2
@@ -9544,6 +9579,7 @@ leçons O 1
 lia O 1
 liaient O 1
 liaison O 3
+liaisons O 1
 libations O 1
 liberté O 10
 libraires O 1
@@ -9574,7 +9610,7 @@ liens O 3
 lier O 1
 lierre O 1
 lies O 1
-lieu O 31
+lieu O 33
 lieue O 3
 lieues O 5
 lieutenant O 2
@@ -9775,7 +9811,7 @@ maires O 3
 mairie I-LOC 1
 mairie I-ORG 1
 mairie O 1
-mais O 140
+mais O 141
 maison I-LOC 3
 maison O 11
 maisonnée O 1
@@ -9946,6 +9982,7 @@ membre O 8
 membres O 25
 memoria O 1
 menace O 3
+menacent O 1
 menacer O 1
 menaces O 1
 menacé O 2
@@ -10017,7 +10054,7 @@ milieu I-TIM 1
 milieu O 11
 milieux O 5
 militaire O 3
-militaires O 1
+militaires O 2
 militantes O 1
 militants O 2
 mille O 7
@@ -10128,7 +10165,7 @@ mois I-TIM 54
 mois O 14
 moitié O 9
 moment I-TIM 1
-moment O 30
+moment O 31
 moments O 6
 mon O 35
 monarchie O 1
@@ -10339,6 +10376,7 @@ méthode O 5
 méthodes O 3
 métier O 4
 métiers O 3
+métis O 1
 métropole I-LOC 6
 métropolitains O 2
 météorologie O 1
@@ -10369,7 +10407,7 @@ nation O 4
 national I-ORG 9
 national O 5
 nationale I-ORG 18
-nationale O 12
+nationale O 13
 nationales O 3
 nationaux O 1
 nations I-ORG 1
@@ -10385,6 +10423,7 @@ naturels O 1
 nautique O 2
 nautiques O 1
 navales O 1
+navette O 1
 navire O 3
 navires O 1
 navrée O 1
@@ -10456,7 +10495,7 @@ nord O 5
 nord-américain O 1
 nord-ouest O 1
 normal O 6
-normale O 1
+normale O 2
 normalement O 2
 normaux O 1
 nos O 43
@@ -10703,7 +10742,7 @@ ordinateur O 4
 ordinateurs O 2
 ordonna O 1
 ordonnateur O 1
-ordonné O 2
+ordonné O 3
 ordre O 16
 ordres O 1
 oreilles O 1
@@ -10740,11 +10779,12 @@ orphelins I-ORG 2
 orphelins O 3
 oscille O 1
 ose O 1
+oseront O 1
 ossature O 2
 osé O 1
 otages O 2
 ou I-TIM 2
-ou O 160
+ou O 161
 oublier O 8
 oublierai O 1
 oublié O 2
@@ -10776,7 +10816,7 @@ ouvriers O 3
 ouvrir O 4
 ouvrira O 1
 oxygène O 1
-où O 108
+où O 109
 pacheries O 2
 pacifique O 1
 pacte O 1
@@ -10812,7 +10852,7 @@ papier O 5
 papillon O 1
 paquebot O 1
 par I-TIM 1
-par O 543
+par O 547
 par-dessus O 1
 parachutage O 1
 parachutages O 1
@@ -10872,11 +10912,11 @@ parking O 3
 parlai O 1
 parlait O 1
 parlant O 1
-parle O 2
+parle O 3
 parlement O 1
 parlementaire O 1
 parlementaires O 1
-parlent O 1
+parlent O 2
 parler O 7
 parleront O 1
 parlions O 1
@@ -10924,7 +10964,7 @@ partie O 48
 partiel O 2
 partielle O 1
 parties O 10
-partir O 28
+partir O 29
 partis O 8
 partisans O 4
 partition O 1
@@ -11021,7 +11061,7 @@ payé O 2
 payée O 1
 payés O 1
 peau O 1
-peine O 22
+peine O 23
 peinture O 1
 pelage O 2
 pelotonnent O 1
@@ -11030,7 +11070,7 @@ pelouses O 1
 peluche O 1
 pelé O 1
 penchent O 1
-pendant O 24
+pendant O 25
 pensais O 3
 pense O 9
 pensent O 2
@@ -11060,6 +11100,7 @@ perdition O 1
 perdons O 1
 perdre O 6
 perdu O 11
+perdues O 1
 perdurer O 1
 performance O 1
 performances O 2
@@ -11093,7 +11134,7 @@ personnalités O 1
 personne O 15
 personnel O 10
 personnels O 4
-personnes O 28
+personnes O 33
 perspective O 5
 perspectives O 1
 persuader O 1
@@ -11224,7 +11265,8 @@ plaine I-LOC 2
 plaine O 5
 plaines O 1
 plaint O 2
-plainte O 4
+plainte O 5
+plaintes O 1
 plaisance O 2
 plaisant O 2
 plaisantes O 1
@@ -11280,7 +11322,7 @@ pluri- O 1
 plus I-TIM 4
 plus O 398
 plusieurs I-TIM 7
-plusieurs O 35
+plusieurs O 37
 plut O 1
 plutôt O 21
 pluviales O 1
@@ -11341,7 +11383,7 @@ porte-parole O 6
 portefeuille O 1
 portefeuilles O 2
 portent O 8
-porter O 8
+porter O 9
 portera O 2
 portes O 2
 porteurs O 2
@@ -11395,7 +11437,7 @@ poulailler O 2
 poules O 4
 poupin O 1
 pour I-ORG 7
-pour O 630
+pour O 633
 pourcentage O 3
 pourparlers O 2
 pourquoi O 7
@@ -11405,9 +11447,9 @@ pourrais O 1
 pourrait O 33
 pourrions O 1
 pourrons O 1
-pourront O 17
+pourront O 18
 poursuit O 7
-poursuite O 2
+poursuite O 3
 poursuites O 2
 poursuivi O 6
 poursuivra O 1
@@ -11428,7 +11470,7 @@ pouvais O 2
 pouvait O 6
 pouvant O 3
 pouvions O 1
-pouvoir O 17
+pouvoir O 18
 pouvoirs O 10
 pouvons O 3
 poète O 4
@@ -11442,7 +11484,7 @@ pratiques O 1
 pratiqués O 1
 precise O 1
 premier I-TIM 5
-premier O 68
+premier O 69
 premiers I-TIM 3
 premiers O 16
 première O 46
@@ -11545,7 +11587,7 @@ procureur O 1
 procuré O 1
 procurés O 1
 procède O 1
-procès O 7
+procès O 9
 procéder O 5
 procédera O 1
 procédure O 10
@@ -11982,7 +12024,7 @@ quarante-quatre O 1
 quarante-sept I-TIM 1
 quart I-TIM 1
 quart O 4
-quartier O 5
+quartier O 6
 quartzeux O 2
 quasi O 4
 quasi- O 2
@@ -12003,8 +12045,8 @@ quelqu'un O 2
 quelque I-TIM 1
 quelque O 10
 quelquefois O 1
-quelques I-TIM 28
-quelques O 42
+quelques I-TIM 29
+quelques O 43
 quelques-uns O 1
 querelle O 1
 question O 17
@@ -12012,7 +12054,7 @@ questionnent O 1
 questions O 5
 queue O 1
 qui I-TIM 1
-qui O 676
+qui O 680
 qui-vive O 1
 quinquennat O 1
 quinzaine I-TIM 1
@@ -12027,6 +12069,7 @@ quittes O 1
 quittons O 1
 quittâmes O 2
 quitté O 14
+quiétude O 1
 quoi O 16
 quoiqu' O 1
 quoique O 4
@@ -12166,11 +12209,13 @@ recherches O 5
 recherché O 2
 recherchée O 1
 reclasssement O 1
+reconciliation O 1
 reconduisent O 1
 reconduit O 1
 reconnaissance O 4
 reconnaissant O 1
 reconnaît O 6
+reconnaîtra O 1
 reconnaître O 2
 reconnu O 7
 reconstituait O 1
@@ -12433,7 +12478,7 @@ repoussé O 1
 reprenant O 2
 reprend O 3
 reprendre O 4
-reprendront O 1
+reprendront O 2
 repreneur O 2
 repreneurs O 1
 reprenne O 1
@@ -12468,7 +12513,7 @@ responsabilisation O 1
 responsabilité O 6
 responsabilités O 3
 responsable O 13
-responsables O 8
+responsables O 10
 ressaisir O 1
 ressassant O 1
 ressauts O 1
@@ -12522,7 +12567,7 @@ retirer O 2
 retirée O 1
 retombées O 1
 retombés O 1
-retour O 18
+retour O 20
 retournements O 2
 retourner O 2
 retourné O 3
@@ -12535,7 +12580,7 @@ retraité O 1
 retraitée O 1
 retraités I-ORG 2
 retraités O 2
-retransmis O 1
+retransmis O 2
 retransmise O 1
 retravaille O 1
 retrouvait O 1
@@ -12675,7 +12720,7 @@ ruinée O 1
 ruisseau O 1
 ruisseaux O 1
 ruisselle O 1
-rumeurs O 3
+rumeurs O 4
 rural O 3
 ruse O 1
 russe I-ORG 2
@@ -12759,14 +12804,15 @@ réfléchir O 1
 réformant O 1
 réforme O 17
 réformes O 6
-réfugiés O 1
+réfugiant O 1
+réfugiés O 2
 référence O 3
 référé O 1
 référés O 1
 régaler O 2
 régie O 1
 régies O 1
-régime O 6
+régime O 7
 régiment I-ORG 1
 régiment O 1
 régimes O 1
@@ -13073,7 +13119,7 @@ sculpté O 1
 scène O 8
 scénario O 1
 scénaristes O 1
-se O 335
+se O 337
 second I-TIM 1
 second O 12
 secondaire O 2
@@ -13100,14 +13146,14 @@ sections O 2
 sectorielles O 1
 seigneuries O 1
 seigneurs O 1
-sein O 21
+sein O 22
 seize O 3
 sel O 1
 selle O 1
-selon O 36
+selon O 37
 semaine I-TIM 16
 semaine O 5
-semaines I-TIM 13
+semaines I-TIM 14
 semaines O 6
 semblable O 1
 semblables O 1
@@ -13142,10 +13188,10 @@ septembre I-TIM 26
 septentrional O 2
 septicisme O 1
 ser O 1
-sera O 49
+sera O 50
 seraient O 4
 serais O 1
-serait O 24
+serait O 25
 seras O 1
 serbe O 1
 serbes O 2
@@ -13153,7 +13199,7 @@ sereine O 1
 serez O 1
 serge O 1
 serment O 1
-seront O 35
+seront O 38
 serpente O 3
 serrent O 1
 serré O 1
@@ -13195,7 +13241,7 @@ signalées O 1
 signataires O 1
 signature O 1
 signatures O 2
-signe O 7
+signe O 8
 signer O 4
 signes O 6
 signifiait O 2
@@ -13330,7 +13376,7 @@ sommet O 25
 sommets I-LOC 1
 sommets O 4
 somptueux O 1
-son O 250
+son O 251
 sondage O 3
 sondages O 1
 sondés O 4
@@ -13340,7 +13386,7 @@ songes O 1
 songeâmes O 1
 sonnette O 1
 sons I-ORG 1
-sont O 241
+sont O 242
 sophistiquée O 1
 sorcier O 1
 sort O 8
@@ -13352,17 +13398,18 @@ sortes O 1
 sorti O 4
 sortie O 8
 sorties O 2
-sortir O 6
+sortir O 7
 sortira O 1
 sortis O 2
 souci O 1
 soucie O 1
 soucier O 2
 soucieux O 2
-soucis O 1
+soucis O 2
 soudain O 1
 soudaine O 1
 soudainement O 3
+soudés O 1
 souffert O 2
 souffler O 1
 souffles O 1
@@ -13409,10 +13456,10 @@ soupé O 1
 source I-LOC 4
 source I-ORG 1
 source O 11
-sources O 14
+sources O 15
 sourcilleux O 1
 souriants O 1
-sous O 61
+sous O 63
 sous-consommation O 1
 sous-emploi O 1
 sous-estimé O 1
@@ -13426,7 +13473,7 @@ souscription O 2
 souscrit O 1
 souscrite O 1
 soutenir O 4
-soutenu O 1
+soutenu O 2
 soutenue O 2
 soutenues O 1
 soutenus O 1
@@ -13638,7 +13685,7 @@ supérieur O 5
 supérieure O 7
 supérieures O 4
 supérieurs O 6
-sur O 377
+sur O 378
 sur-investissement O 1
 sur-le-champ O 1
 surchauffe O 2
@@ -14025,14 +14072,14 @@ tous I-TIM 2
 tous O 66
 tout O 116
 toute I-TIM 2
-toute O 37
+toute O 38
 toutefois O 13
 toutes I-TIM 1
-toutes O 36
+toutes O 37
 toxiques O 1
 tracasseries O 1
 trace O 2
-traces O 2
+traces O 3
 trachytique O 1
 tracées O 1
 traders O 1
@@ -14048,6 +14095,7 @@ traduisant O 1
 traduit O 3
 traduites O 1
 trafic O 2
+tragique O 1
 tragiques O 1
 tragédies O 1
 trahissait O 1
@@ -14128,7 +14176,7 @@ traversons O 3
 traversâmes O 1
 traversèrent O 1
 traversé O 5
-traversée O 3
+traversée O 4
 traçant O 1
 traînent O 1
 traînée O 1
@@ -14257,7 +14305,7 @@ téléspectateur O 1
 téléspectateurs O 2
 téléviseur O 14
 téléviseurs O 2
-télévision O 38
+télévision O 39
 télévisions O 4
 télévisuelle O 1
 télévisé O 1
@@ -14267,7 +14315,7 @@ télévisés O 4
 témoignage O 8
 témoignages O 2
 témoigne O 4
-témoigner O 1
+témoigner O 2
 témoin O 2
 témoins O 1
 ténors O 1
@@ -14284,11 +14332,11 @@ ultramarines O 1
 ultérieurement O 1
 un I-MON 2
 un I-TIM 24
-un O 864
+un O 866
 unanimité O 3
 une I-MON 1
 une I-TIM 14
-une O 734
+une O 736
 unes O 2
 unie O 1
 unies I-ORG 2
@@ -14428,7 +14476,8 @@ ventre O 2
 venu O 6
 venue O 6
 venus O 9
-verdict O 1
+verdict I-TIM 1
+verdict O 2
 verdoyante O 1
 verdure O 5
 verger O 1
@@ -14439,7 +14488,7 @@ verrait O 1
 verre O 1
 verront O 3
 verrous O 1
-vers O 55
+vers O 56
 versant I-LOC 1
 versant O 4
 versants O 3
@@ -14475,6 +14524,7 @@ viande O 3
 viandes O 2
 vibrations O 1
 vicaire O 1
+vice O 1
 vice- O 4
 vice-président O 1
 vicomtes O 1
@@ -14500,7 +14550,7 @@ vieillissement O 1
 vieillit O 1
 viendra O 2
 viendraient O 1
-viendront O 1
+viendront O 2
 vienne O 1
 viennent I-TIM 1
 viennent O 5
@@ -14579,6 +14629,7 @@ viticulteurs O 3
 vitré O 1
 vivait O 1
 vivant O 2
+vivantes O 1
 vive O 5
 vivement O 2
 vivent O 1
@@ -14670,7 +14721,7 @@ vrai O 9
 vraiment O 13
 vrais O 4
 vraisemblablement O 1
-vu O 28
+vu O 29
 vue O 33
 vues O 2
 vulgaire O 3
@@ -14720,7 +14771,7 @@ zéros O 1
 ° O 3
 °C O 1
 À I-TIM 2
-À O 27
+À O 28
 Ça O 2
 ÉLÉGANCE O 1
 Économiste O 1
@@ -14738,7 +14789,7 @@ zéros O 1
 à I-MON 2
 à I-ORG 2
 à I-TIM 15
-à O 1848
+à O 1855
 âge I-TIM 2
 âge O 18
 âges O 1
@@ -14754,7 +14805,7 @@ zéros O 1
 ça O 8
 ère O 1
 ébahies O 1
-ébauche O 2
+ébauche O 4
 éblouissante O 1
 ébranlée O 1
 ébéniste O 1
@@ -14771,7 +14822,7 @@ zéros O 1
 échantillon O 3
 échappe O 2
 échappent O 1
-échapper O 1
+échapper O 2
 échappé O 1
 échauffement O 1
 échec O 12
@@ -15084,7 +15135,7 @@ zéros O 1
 étymologies O 1
 étymologiques O 1
 été I-TIM 9
-été O 169
+été O 171
 évacués O 1
 évaluation O 2
 évaluations O 1
