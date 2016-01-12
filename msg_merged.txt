@@ -1,0 +1,36 @@
+
+SENT: 1474 sentences, 304 correct (20.624%)
+WORD: 41351 words, 37400 correct (90.445%)
+NINT: 41351 words, 37400 correct (90.445%)
+TAGS: 41351 tags, 1.0 tags per word
+
+
+SENT: 1474 sentences, 677 correct (45.929%)
+WORD: 41351 words, 39836 correct (96.336%)
+NINT: 41351 words, 39836 correct (96.336%)
+TAGS: 56208 tags, 1.359 tags per word
+
+
+SENT: 1474 sentences, 793 correct (53.799%)
+WORD: 41351 words, 40177 correct (97.161%)
+NINT: 41351 words, 40177 correct (97.161%)
+TAGS: 64119 tags, 1.551 tags per word
+
+
+SENT: 1474 sentences, 1019 correct (69.132%)
+WORD: 41351 words, 40677 correct (98.37%)
+NINT: 41351 words, 40677 correct (98.37%)
+TAGS: 95729 tags, 2.315 tags per word
+
+
+SENT: 1474 sentences, 1049 correct (71.167%)
+WORD: 41351 words, 40745 correct (98.534%)
+NINT: 41351 words, 40745 correct (98.534%)
+TAGS: 115928 tags, 2.804 tags per word
+
+
+SENT: 1474 sentences, 1108 correct (75.17%)
+WORD: 41351 words, 40853 correct (98.796%)
+NINT: 41351 words, 40853 correct (98.796%)
+TAGS: 183673 tags, 4.442 tags per word
+
