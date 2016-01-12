@@ -1,0 +1,107 @@
+#!/usr/bin/tclsh
+
+set melt 1
+set treetagger 1
+
+if {$argc > 0} {
+    set fs [open [lindex $argv 0] r]
+} else {
+    set fs [open "mb.txt" r]
+}
+set ff [open "formulas_raw.txt" w]
+set ferr [open "error_log_split_me.txt" w]
+
+
+set melttags [lsort [list ADJ ADJWH ADV ADVWH CC CLO CLR CLS CS DET DETWH ET I NC NPP P P+D P+PRO PONCT PREF PRO PROREL PROWH V VIMP VINF VPP VPR VS]]
+set tttags [lsort [list ABR ADJ ADV DET:ART DET:POS INT KON NAM NOM NUM PRO PRO:DEM PRO:IND PRO:PER PRO:POS PRO:REL PRP PRP:det PUN PUN:cit SENT SYM VER:cond VER:futu VER:impe VER:impf VER:infi VER:pper VER:ppre VER:pres VER:simp VER:subi VER:subp]]
+
+if {$melt == 0} {
+    set postags $tttags
+} elseif {$treetagger == 0} {
+    set postags $melttags
+} else {
+    set postags [lsort -unique [lappend $melttags $tttags]]
+}
+
+set sent 0
+set num_line 0
+
+while {[gets $fs line] >= 0} {
+
+    incr num_line
+    if {[string equal " " [string index $line end]]} {
+        puts stderr "Line $num_line: ends with whitespace!"
+        puts $ferr "Line $num_line: ends with whitespace!"
+	set line [string trimright $line]
+    }
+    set dbl_spc [string first "  " $line]
+    if {$dbl_spc != -1} {
+        puts stderr "Line $num_line: multiple whitespace!"
+        puts $ferr "Line $num_line: multiple whitespace!"
+    }
+    set tab [string first "\t" $line]
+    if {$tab != -1} {
+        puts stderr "Line $num_line: contains tabs!"
+        puts $ferr "Line $num_line: contains tabs!"
+    }	
+    set num_item 0
+    set list [split $line]
+    foreach i $list {
+	set item [split $i "|"]
+	set len [llength $item]
+	if {$len == 0} {
+	    puts stderr "Line $num_line: empty item $item ($num_item)"
+	    puts stderr "! $line"
+	    puts $ferr "Line $num_line: empty item $item ($num_item)"
+	    puts $ferr "! $line"
+	} elseif {$len < 3} {
+	    puts stderr "Line $num_line: incomplete item (missing POS or supertag?) $i"
+	    puts stderr "! $line"
+	    puts $ferr "Line $num_line: incomplete item (missing POS or supertag?) $i"
+	    puts $ferr "! $line"
+        } elseif {$len > 3} {
+	    puts stderr "Line $num_line: too many fields (merge of multiple items?) $i"
+	    puts stderr "! $line"
+	    puts $ferr "Line $num_line: too many fields (merge of multiple items?) $i"
+	    puts $ferr "! $line"
+        }
+	set word [lindex $item 0]
+	set pos  [lindex $item 1]
+	set form [lindex $item 2]
+
+	if {[string length $word] == 0} {
+	    puts stderr "Line $num_line: empty word tag $i"
+	    puts $ferr "Line $num_line: empty word tag $i"
+	}
+	if {[string length $pos] == 0} {
+	    puts stderr "Line $num_line: empty POS tag $i"
+	    puts $ferr "Line $num_line: empty POS tag $i"
+	}
+	if {[string length $form] == 0} {
+	    puts stderr "Line $num_line: empty formula tag $i"
+	    puts $ferr "Line $num_line: empty formula tag $i"
+	}
+	if {[regexp {(.+)-(.+)} $pos all melt_tag tt_tag]} {
+	    if {[lsearch $melttags $melt_tag] == -1} {
+	    puts stderr "Line $num_line: unknown MElt POS tag $melt_tag"
+	    puts $ferr "Line $num_line: unknown MElt POS tag $melt_tag"
+	    }
+	    if {[lsearch $tttags $tt_tag] == -1} {
+	    puts stderr "Line $num_line: unknown Treetagger POS tag $tt_tag"
+	    puts $ferr "Line $num_line: unknown Treetagger POS tag $tt_tag"
+	    }
+	} elseif {[lsearch $postags $pos] == -1} {
+	    puts stderr "Line $num_line: unknown POS tag $pos"
+	    puts $ferr "Line $num_line: unknown POS tag $pos"
+        }
+	
+	puts $ff "$form"
+	incr num_item
+    }
+}
+
+close $ff
+
+close $ferr
+
+exec /usr/bin/sort formulas_raw.txt | /usr/bin/uniq -c | /usr/bin/sort -nr >> bootstrap_formulas.txt
