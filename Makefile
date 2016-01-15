@@ -30,6 +30,7 @@ uni: uni.tcl
 
 all: compare big direct_msg.txt integrate_messages
 	./integrate_messages > overview.txt
+	cp -f overview.txt $(best_prefix)/overview.txt
 	/usr/bin/less overview.txt
 
 bootstrap: maxentdata.txt
