@@ -4,10 +4,10 @@
 # the number of tags in the tagset
 nclasses = 11
 # the number of instances in the training data
-nevents = 98731
+nevents = 99993
 # the number of unique instances in the training data
-ncontexts = 97871
+ncontexts = 99078
 # the number of features in the model
-nfeatures = 127915
+nfeatures = 128756
 # the number of attributes in the model
-nattributes = 105131
+nattributes = 105730
