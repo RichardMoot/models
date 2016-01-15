@@ -2,19 +2,19 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_pos --input m3_melt.txt --ifmt %w|%p|%s \n --model all_pos_melt --solver bfgs --niterations 10000 --verbose --comment Training and tagging the POS tagger on the complete set of data using the MElt POS tag set
 
 ! PONCT 166
-" PONCT 5382
+" PONCT 5388
 $ NC 1
 % NC 2392
 & PONCT 8
 ' PONCT 1
 'm ET 1
-( PONCT 2713
+( PONCT 2723
 (...) PONCT 36
-) PONCT 2717
+) PONCT 2727
 * NC 8
 + PONCT 102
-, PONCT 24498
-- PONCT 1510
+, PONCT 24561
+- PONCT 1526
 -6 DET 1
 -T-IL CLS 1
 -ce CLS 29
@@ -41,10 +41,10 @@ $ NC 1
 -vous CLR 9
 -vous CLS 15
 -y CLO 2
-. PONCT 13503
-.. PONCT 1
+. PONCT 13542
+.. PONCT 5
 ... PONCT 301
-/ PONCT 62
+/ PONCT 64
 0 ADJ 1
 0 DET 1
 0 PRO 1
@@ -86,7 +86,7 @@ $ NC 1
 1 ADJ 161
 1 DET 100
 1 NC 1
-1 PRO 38
+1 PRO 39
 1,04 DET 1
 1,09 DET 1
 1,1 ADJ 1
@@ -193,7 +193,7 @@ $ NC 1
 1.939,64 DET 1
 1.974,55 DET 2
 1/4 NC 1
-10 ADJ 35
+10 ADJ 36
 10 DET 137
 10 PRO 1
 10,1 DET 5
@@ -447,7 +447,7 @@ $ NC 1
 150 PRO 5
 150.000 DET 5
 150.000 PRO 1
-1500 DET 3
+1500 DET 4
 1500 PRO 1
 15000 DET 1
 150000 DET 1
@@ -488,8 +488,10 @@ $ NC 1
 1622 PRO 1
 163 DET 1
 163 PRO 1
+1630 ADJ 1
 1630 PRO 2
 1633 PRO 1
+1634 PRO 1
 164 PRO 1
 1640 PRO 1
 1642 PRO 1
@@ -705,7 +707,7 @@ $ NC 1
 1950 PRO 4
 1950-1970 PRO 1
 1951 PRO 4
-1952 PRO 1
+1952 PRO 2
 1952-1953 PRO 1
 1953 PRO 3
 1954 PRO 3
@@ -737,8 +739,8 @@ $ NC 1
 1968 PRO 8
 1969 ADJ 2
 1970 ADJ 2
-1970 PRO 12
-1971 PRO 4
+1970 PRO 13
+1971 PRO 5
 1971-1975 PRO 1
 1971-1979 PRO 1
 1972 PRO 6
@@ -750,7 +752,7 @@ $ NC 1
 1975 ADJ 3
 1975 PRO 15
 1976 ADJ 4
-1976 PRO 10
+1976 PRO 11
 1977 PRO 6
 1978 PRO 5
 1979 ADJ 3
@@ -805,7 +807,7 @@ $ NC 1
 1992 PRO 273
 1992-1993 ADJ 1
 1992-1995 ADJ 1
-1993 ADJ 69
+1993 ADJ 70
 1993 PRO 139
 1993-1997 PRO 2
 1994 ADJ 20
@@ -817,9 +819,9 @@ $ NC 1
 1997 PRO 14
 1998 ADJ 6
 1998 PRO 8
-1999 ADJ 4
-1999 PRO 5
-1er ADJ 49
+1999 ADJ 6
+1999 PRO 6
+1er ADJ 50
 1er DET 2
 2 ADJ 129
 2 DET 94
@@ -921,13 +923,14 @@ $ NC 1
 2001 ADJ 2
 2001 PRO 4
 2002 ADJ 2
-2002 PRO 8
+2002 PRO 9
 2003 ADJ 1
 2003 PRO 5
-2004 PRO 2
-2005 PRO 1
+2004 ADJ 2
+2004 PRO 3
+2005 PRO 3
 2006 ADJ 1
-2007 ADJ 2
+2007 ADJ 3
 2007 PRO 1
 2008 ADJ 3
 2009 PRO 3
@@ -1200,8 +1203,8 @@ $ NC 1
 3.800 DET 1
 3.800 PRO 1
 3.809 DET 1
-30 ADJ 117
-30 DET 99
+30 ADJ 118
+30 DET 100
 30 NC 1
 30 PRO 1
 30,3 DET 1
@@ -1297,6 +1300,7 @@ $ NC 1
 350 PRO 2
 350.000 DET 2
 35000 DET 2
+353 DET 1
 354300 DET 1
 355 DET 1
 358 DET 1
@@ -2072,14 +2076,14 @@ $ NC 1
 99 DET 2
 99,8 DET 1
 997 DET 1
-: PONCT 1205
+: PONCT 1214
 ; PONCT 341
 = PONCT 8
 ? PONCT 328
 A ET 1
 A NC 5
 A NPP 9
-A P 338
+A P 339
 A V 5
 A-26 NPP 1
 A-6 NPP 1
@@ -2228,7 +2232,7 @@ Adversaires NC 1
 Aegon NPP 2
 Aeritalia NPP 1
 Aerospace NPP 4
-Affaire NC 8
+Affaire NC 17
 Affaires NC 3
 Affecté VPP 1
 Affectés VPP 1
@@ -2280,7 +2284,7 @@ Akishima NPP 2
 Aktyubinsk NPP 1
 Alahadji NPP 1
 Alahaji NPP 1
-Alain NPP 32
+Alain NPP 34
 Alan NPP 2
 Alassane NPP 1
 Alban NPP 1
@@ -2293,6 +2297,7 @@ Alcara NPP 2
 Alcatel NPP 13
 Alcatel-Alsthom NPP 4
 Alcoa NPP 1
+Aldous NPP 1
 Alduy NPP 1
 Alenia NPP 8
 Alerté VPP 1
@@ -2325,7 +2330,7 @@ Allen NPP 1
 Allensbach NPP 1
 Allez VIMP 1
 Allgemeine NPP 3
-Alliance NPP 2
+Alliance NPP 3
 Allianz NPP 2
 Alligator NPP 1
 Allocation NC 1
@@ -2424,6 +2429,7 @@ Apep NPP 1
 Apollon NPP 2
 Apollonies NPP 2
 Apparemment ADV 5
+Appel NC 1
 Appeler VINF 1
 Appelé VPP 2
 Apple NPP 1
@@ -2764,6 +2770,7 @@ Bayeux NPP 1
 Baylet NPP 3
 Bayonne NPP 1
 Baïkonour NPP 1
+Beach NPP 3
 Beatty NPP 2
 Beaucoup ADV 3
 Beaucoup PRO 1
@@ -2927,6 +2934,7 @@ Bosphore NPP 1
 Bosson NPP 1
 Bossons NC 1
 Boston NPP 4
+Bot NPP 1
 Botts NPP 1
 Boublil NPP 1
 Boucher NC 1
@@ -2982,6 +2990,8 @@ Bratislava NPP 3
 Brauvilliers NPP 1
 Bravo I 1
 Brazil NPP 2
+Brazzaville NPP 4
+Brazzaville-Kinshasa NPP 1
 Brecht NPP 1
 Breda NPP 1
 Bref ADV 20
@@ -3049,6 +3059,7 @@ Bundesrat NPP 2
 Bundestag NPP 3
 Bunuel NPP 1
 Bureau NC 5
+Burgelin NPP 1
 Burget NPP 1
 Burlington NPP 1
 Burnham NPP 1
@@ -3320,17 +3331,18 @@ Casadevall NPP 1
 Casquette NC 1
 Cassandre NC 1
 Cassani NPP 2
-Cassation NC 1
+Cassation NC 2
 Castaneda NPP 1
 Castelo NPP 1
 Castelsarrasin NPP 1
 Castille NPP 1
 Castro NPP 2
 Catherine NPP 6
+Catholicisme NC 1
 Catia NPP 2
 Catteau NPP 1
 Catégorie NC 1
-Catégories NC 3
+Catégories NC 6
 Caucase NPP 2
 Cauterets NPP 13
 Cauteretz NPP 5
@@ -3338,7 +3350,7 @@ Cavaillon NPP 1
 Cazalet NPP 1
 Ccas NPP 1
 Ce CLS 36
-Ce DET 164
+Ce DET 165
 Ce PRO 47
 Ceausescu NPP 2
 Ceci PRO 5
@@ -3361,18 +3373,19 @@ Centre-Ouest NPP 1
 Centres NC 1
 Centrest NPP 1
 Centro NPP 1
-Cependant ADV 27
+Cependant ADV 29
 Cernay NPP 1
 Cerro NPP 2
 Certainement ADV 2
-Certaines DET 5
+Certaines DET 6
 Certaines PRO 1
 Certains DET 8
 Certains PRO 19
 Certano NPP 1
+Certeau NPP 1
 Certes ADV 30
 Cerus NPP 9
-Ces DET 113
+Ces DET 114
 Cesano NPP 1
 Cessez VIMP 1
 Cet DET 34
@@ -3436,6 +3449,7 @@ Chaumet NPP 1
 Chausson NC 1
 Chauvinière NPP 1
 Chavannes-sur-l'Etang NPP 1
+Chef NC 1
 Chefresne NPP 1
 Chegrouche NPP 1
 Chekland NPP 1
@@ -3456,7 +3470,7 @@ Chines NPP 1
 Chinois NC 4
 Chinon NPP 1
 Chipie NPP 4
-Chirac NPP 6
+Chirac NPP 11
 Chivasso NPP 1
 Choc NC 1
 Choisi VPP 1
@@ -3468,6 +3482,7 @@ Christiane NPP 2
 Christophe NPP 2
 Christopher NPP 1
 Christophersen NPP 2
+Chronologie NC 1
 Chronopost NPP 1
 Chrysler NPP 5
 Chubu NPP 1
@@ -3621,7 +3636,7 @@ Confrontés VPP 1
 Confédération NC 17
 Conférence NC 4
 Conférence NPP 1
-Congo NPP 1
+Congo NPP 4
 Congrès NC 1
 Congrès NPP 16
 Conjoncture NC 2
@@ -3652,6 +3667,7 @@ Consultez VIMP 1
 Consumer NPP 3
 Conséquence NC 7
 Conte NPP 1
+Contexte NC 1
 Continent NPP 10
 Continental NPP 2
 Contingentement NC 1
@@ -3702,7 +3718,7 @@ Coudanne NPP 1
 Coumélie NPP 1
 Council NPP 1
 County NPP 1
-Cour NPP 23
+Cour NPP 25
 Courau NPP 1
 Courcelles NPP 2
 Courcelles-lès-Montbéliard NPP 1
@@ -3833,7 +3849,7 @@ Dannemarie NPP 2
 Danny NPP 1
 Danois NPP 2
 Danone NPP 1
-Dans P 256
+Dans P 258
 Danske NPP 1
 Dantin NPP 1
 Danube NPP 1
@@ -3898,12 +3914,12 @@ Den NPP 1
 Deneuvre NPP 2
 Denfert-Rochereau NPP 1
 Deng NPP 3
-Denis NPP 5
+Denis NPP 7
 Denise NPP 10
 Denormandie NPP 2
 Denrées NPP 1
 Denvers NPP 8
-Depuis ADV 11
+Depuis ADV 12
 Depuis P 66
 Der NPP 1
 Dernier ADJ 4
@@ -3920,6 +3936,7 @@ Designe NC 1
 Desktop NPP 4
 Desktop-IV NPP 2
 Desmukh NPP 1
+Desmure NPP 2
 Destiné VPP 1
 Detroit NPP 1
 Dettwiller NPP 1
@@ -3948,6 +3965,7 @@ Dewavrin NPP 3
 Dhabi NPP 3
 Di NPP 4
 Diable NC 1
+Diables NC 1
 Diane NPP 1
 Diberder NPP 1
 Diderot NPP 1
@@ -3966,7 +3984,7 @@ Diffusés VPP 1
 Digital NPP 4
 Digne NC 1
 Dijon NPP 4
-Dimanche NC 9
+Dimanche NC 10
 Dimanche NPP 2
 Dimitrievitch NPP 2
 Dire VINF 2
@@ -4055,7 +4073,7 @@ Droits NC 2
 Drome NPP 1
 Drug NPP 1
 Du DET 1
-Du P+D 46
+Du P+D 47
 Duane NPP 1
 Dubaï NPP 1
 Duboucher NPP 1
@@ -4274,6 +4292,7 @@ Elf-Atochem NPP 2
 Elf-Sanofi NPP 1
 Elfi NPP 6
 Elie NPP 2
+Elifas NPP 1
 Elio NPP 1
 Elisa NPP 1
 Elizabeth NPP 1
@@ -4299,7 +4318,7 @@ Employer VINF 1
 Emprunt NC 2
 Empruntez VIMP 1
 En CLO 4
-En P 520
+En P 523
 Enagas NPP 1
 Enchaîné NPP 2
 Encore ADV 12
@@ -4535,6 +4554,7 @@ Fanchon NPP 1
 Fares NPP 1
 Farinet NPP 1
 Farnoux NPP 1
+Farrad NPP 1
 Fasciné VPP 1
 Fauchers ADJ 1
 Faudra V 1
@@ -4583,12 +4603,14 @@ Filipacchi NPP 1
 Filippot NPP 1
 Fillioud NPP 1
 Fillon NPP 1
+Film NC 1
 Filofax NPP 1
 Fimalac NPP 1
 Fin NC 19
 Finalement ADV 4
 Finalisation NC 1
 Finance NPP 4
+Financement NC 1
 Finances NC 1
 Finances NPP 2
 Financial NPP 13
@@ -4631,6 +4653,7 @@ Flying NPP 1
 Flégny NPP 1
 Fokker NPP 2
 Fokker-100 NPP 1
+Folio NPP 1
 Foncier NPP 1
 Fondateurs NC 1
 Fondation NC 4
@@ -4685,7 +4708,7 @@ Fragilisée VPP 1
 Fragonard NPP 3
 Fraises NC 1
 Framatome NPP 2
-France NPP 525
+France NPP 529
 France-Antilles NPP 1
 France-Inter NPP 1
 France-Maîtrise NPP 1
@@ -4704,7 +4727,7 @@ Frankfurter NPP 3
 Franqueville NPP 1
 Frantzen NPP 3
 Franz NPP 1
-Français NC 59
+Français NC 60
 Français NPP 4
 Française NPP 1
 François NPP 50
@@ -4809,6 +4832,7 @@ Galien NPP 1
 Galilée NPP 1
 Galland NPP 1
 Galles NPP 3
+Gallimard NPP 1
 Gallo NPP 1
 Gallois NPP 2
 Galotte NPP 1
@@ -4953,6 +4977,7 @@ Grand-Duché NPP 3
 Grand-Prairie NPP 1
 Grande ADJ 4
 Grande-Bretagne NPP 62
+Grandier NPP 3
 Grandin NPP 1
 Grands ADJ 3
 Grands NC 1
@@ -5045,7 +5070,7 @@ Génération NPP 1
 Généreusement ADV 1
 Généval NPP 1
 Géorgique NC 1
-Gérard NPP 15
+Gérard NPP 16
 Gérer VINF 2
 Günter NPP 1
 Günther NPP 1
@@ -5056,9 +5081,10 @@ HAMAS NPP 1
 HANS NPP 1
 HARCOURT NPP 1
 HBO NPP 1
+HCR NPP 2
 HEC NPP 1
 HENRI NPP 1
-HLM NC 13
+HLM NC 14
 HN NPP 1
 HOMMES NC 1
 HP NPP 2
@@ -5163,7 +5189,7 @@ Hilmar NPP 1
 Hirel NPP 1
 Hirson NPP 1
 Hislaire NPP 1
-Histoire NC 4
+Histoire NC 8
 Historiquement ADV 1
 Hitler NPP 2
 Hleb NPP 1
@@ -5207,6 +5233,7 @@ Humanité NC 2
 Humanité NPP 1
 Humboldt NPP 1
 Hussein NPP 3
+Huxley NPP 1
 Hygena NPP 1
 Hypotheken NPP 1
 Hyundai NPP 11
@@ -5283,7 +5310,7 @@ Ieoh NPP 1
 Ier ADJ 3
 Ifop NPP 1
 Ikea NPP 1
-Il CLS 574
+Il CLS 575
 Il NPP 1
 Ile-de-France NPP 10
 Ileau NPP 1
@@ -5438,7 +5465,7 @@ Jacobs NPP 2
 Jacomet NPP 1
 Jacou NPP 2
 Jacqueline NPP 3
-Jacques NPP 62
+Jacques NPP 67
 Jacques-Bailleurs NPP 1
 Jacquin NPP 4
 Jacquot NPP 1
@@ -5451,6 +5478,7 @@ Jan NPP 4
 Jane NPP 4
 Janeiro NPP 1
 Jankowski NPP 1
+Janvier NPP 1
 Japan NPP 1
 Japon NPP 96
 Japonais NC 6
@@ -5472,7 +5500,7 @@ Jean-Christophe NPP 1
 Jean-Claude NPP 24
 Jean-Cyrille NPP 1
 Jean-Daniel NPP 1
-Jean-François NPP 10
+Jean-François NPP 11
 Jean-Jacques NPP 7
 Jean-Louis NPP 8
 Jean-Luc NPP 10
@@ -5556,7 +5584,7 @@ Jules-Romains NPP 2
 Julia NPP 1
 Julien NPP 3
 Junior NPP 1
-Juppé NPP 2
+Juppé NPP 4
 Juriste NC 1
 Jury NPP 1
 Jusqu' P 24
@@ -5601,6 +5629,7 @@ Keizai NPP 2
 Keller NPP 1
 Kelley NPP 1
 Kembs NPP 1
+Ken NPP 1
 Kennedy NPP 1
 Kentucky NPP 1
 Kevin NPP 1
@@ -5618,6 +5647,7 @@ Kiev NPP 5
 Kimberly-Clark NPP 7
 King NPP 1
 Kinki NPP 1
+Kinshasa NPP 1
 Kinston NPP 1
 Kippour NPP 1
 Kirch NPP 1
@@ -5666,6 +5696,7 @@ Kreditinstitut NPP 1
 Kremlin NPP 2
 Krezdorn NPP 1
 Kristal NPP 1
+Krzysztof NPP 1
 Kuala-Lumpur NPP 1
 Kubrick NPP 1
 Kuhn NPP 1
@@ -5678,7 +5709,7 @@ Kyubin NPP 1
 Kélian NPP 2
 Kéloglanian NPP 1
 Köhler NPP 1
-L' DET 622
+L' DET 627
 L. NPP 5
 LA DET 8
 LA NC 1
@@ -5708,7 +5739,7 @@ LUNDI NC 3
 LUXEMBOURG NPP 2
 LYON NPP 2
 La CLO 1
-La DET 1087
+La DET 1088
 Labarde NPP 1
 Labeyrie NPP 1
 Labinal NPP 1
@@ -5785,7 +5816,7 @@ Lavinia NPP 1
 Lazard NPP 1
 Lazare NPP 1
 Lazaro NPP 1
-Le DET 1230
+Le DET 1238
 Lebaube NPP 1
 Lebel NPP 1
 Leblé NPP 2
@@ -5816,7 +5847,7 @@ Lepicard NPP 1
 Lequel PROREL 1
 Leroy NPP 3
 Les CLO 3
-Les DET 910
+Les DET 916
 Leser NPP 1
 Lesieur NPP 4
 Lessons ET 1
@@ -5848,7 +5879,7 @@ Libération NC 1
 Libération NPP 8
 Libéraux NC 1
 Licences NC 1
-Lien NC 1
+Lien NC 2
 Lienemann NPP 6
 Lies ET 1
 Life NPP 6
@@ -5880,6 +5911,7 @@ Lituanie NPP 3
 Lituaniens NPP 2
 Liverpool NPP 1
 Livre NC 5
+Livres NC 2
 Liège NPP 1
 Liée VPP 1
 Lloris NPP 1
@@ -5927,6 +5959,7 @@ Los NPP 3
 Lot NPP 3
 Lotharingie NPP 1
 Louanges NC 1
+Loudun NPP 12
 Louis NPP 39
 Louis-Pascal NPP 1
 Louise NPP 1
@@ -6034,7 +6067,7 @@ Maceo NPP 4
 Macmillan NPP 1
 Madagascar NPP 4
 Madame NC 1
-Madeleine NPP 2
+Madeleine NPP 3
 Madelin NPP 1
 Madine NPP 1
 Madinier NPP 1
@@ -6056,7 +6089,7 @@ Maintenant ADV 2
 Maintenue VPP 1
 Maintes ADJ 1
 Maire NPP 1
-Mairie NPP 1
+Mairie NC 3
 Mais CC 374
 Maison NC 3
 Maison NPP 7
@@ -6199,6 +6232,7 @@ Mayotte NPP 1
 Mazda NPP 3
 Mazeaud NPP 1
 Mazowiecki NPP 1
+Maître NC 1
 Maîtres NC 1
 Maîtrise NC 1
 Mc NPP 1
@@ -6270,7 +6304,7 @@ Mezrahi NPP 1
 Mezzogiorno NPP 1
 Miami NPP 1
 Michael NPP 9
-Michel NPP 99
+Michel NPP 100
 Michel-Edouard NPP 1
 Michelin NPP 6
 Michigan NPP 3
@@ -6513,7 +6547,7 @@ Naf-Naf NPP 1
 Nallet NPP 2
 Nam NPP 2
 Nancy NPP 11
-Nanterre NPP 2
+Nanterre NPP 5
 Nantes NPP 5
 Naples NPP 2
 Napoléon NPP 1
@@ -6684,6 +6718,7 @@ OAT NPP 19
 OCDE NPP 46
 OEA NPP 1
 OEUVRE NC 1
+OEil NC 1
 OFCE NPP 15
 OFCE-CEPII NPP 1
 OFP NPP 3
@@ -6717,6 +6752,7 @@ Objectif NC 3
 Objet NC 1
 Obligeant VPR 1
 Obnubilées VPP 1
+Obscure NPP 1
 Observateur NPP 2
 Observatoire NC 9
 Observer NPP 1
@@ -6754,7 +6790,7 @@ Olszewski NPP 3
 Oman NPP 5
 Ominco NPP 4
 Omnium NPP 1
-On CLS 140
+On CLS 141
 Onché NPP 1
 Oncle NC 1
 Onze DET 1
@@ -6764,6 +6800,7 @@ Oparine NPP 2
 Operations NPP 1
 Optim'hommes NPP 1
 Option-finance NPP 1
+Opéra NC 1
 Opéra NPP 1
 Opération NC 1
 Opération NPP 1
@@ -6932,7 +6969,7 @@ Pareillement ADV 1
 Parfois ADV 4
 Paribas NPP 24
 Pariente NPP 3
-Paris NPP 222
+Paris NPP 234
 Paris-Bordeaux NPP 1
 Paris-Bâle NPP 1
 Paris-Dakar NPP 1
@@ -6978,7 +7015,7 @@ Pasumot NPP 3
 Pat NPP 1
 Patrice NPP 7
 Patricio NPP 1
-Patrick NPP 11
+Patrick NPP 12
 Patron NC 1
 Patten NPP 2
 Pau NPP 13
@@ -7007,6 +7044,7 @@ Pellerin NPP 11
 Pelège NPP 11
 Pen NPP 1
 Pendant P 24
+Penderecki NPP 1
 Peng NPP 2
 Pensez V 2
 Pentagone NPP 5
@@ -7170,6 +7208,7 @@ Portée VPP 1
 Post NPP 3
 Poste NPP 24
 Potentiellement ADV 1
+Poto-Poto NPP 1
 Poul NPP 2
 Poulain NPP 1
 Pour P 297
@@ -7220,7 +7259,8 @@ Proche ADJ 1
 Proche-Orient NPP 3
 Proches ADJ 1
 Procopio NPP 5
-Procès NC 1
+Procureur NC 1
+Procès NC 2
 Producteur NC 2
 Production NC 1
 Products NPP 1
@@ -7263,7 +7303,8 @@ Présentation NC 1
 Présente ADJ 2
 Présenté VPP 1
 Présentées VPP 1
-Président NC 11
+Présidence NC 1
+Président NC 13
 Présidente NC 1
 Prévert NC 1
 Prévu VPP 1
@@ -7334,7 +7375,7 @@ Quelle ADJWH 4
 Quelle DETWH 4
 Quelles ADJWH 2
 Quelque DET 2
-Quelques DET 12
+Quelques DET 14
 Quels PROWH 1
 Quesnot NPP 2
 Questiaux NPP 1
@@ -7397,7 +7438,7 @@ ROSY NPP 1
 ROUTIERS NC 1
 ROUTIÈRE ADJ 1
 ROYALTIES NC 1
-RPR NPP 22
+RPR NPP 28
 RPR-UDF-UDC NPP 1
 RSF NPP 3
 RTL NPP 6
@@ -7541,7 +7582,7 @@ Ribéry NPP 1
 Ricard NPP 1
 Rich NPP 1
 Richard NPP 4
-Richelieu NPP 2
+Richelieu NPP 5
 Richier NPP 2
 Rien PRO 5
 Rigueur NC 1
@@ -7632,7 +7673,7 @@ Rungis NPP 1
 Rupo NPP 4
 Rural NPP 1
 Ruset NPP 1
-Russell NPP 2
+Russell NPP 3
 Russes NC 6
 Russie NPP 48
 Rythmes NC 1
@@ -7664,7 +7705,7 @@ Rémy-Cointreau NPP 1
 Réole NPP 1
 Répondant VPR 1
 Républicain NPP 2
-République NPP 43
+République NPP 48
 Républiques NC 18
 Réputée VPP 1
 Réserve NC 10
@@ -7721,6 +7762,7 @@ SED NPP 8
 SEITA NPP 1
 SELCUK NPP 2
 SEM NPP 5
+SEMPAP NPP 2
 SEPT NPP 1
 SEPTEMBRE NC 2
 SERGUEI NPP 1
@@ -7908,8 +7950,11 @@ Sarrelouis NPP 1
 Sarthe NPP 2
 Sartilly NPP 2
 Sartrouville NPP 1
+Sassou NPP 1
+Sassou-Nguesso NPP 1
 Sat NPP 1
 Satam NPP 1
+Satanisme NC 1
 Satisfaction NC 1
 Satory NPP 2
 Saturn NPP 4
@@ -8022,7 +8067,7 @@ Seul PRO 1
 Seule ADJ 3
 Seule ADV 9
 Seulement ADV 3
-Seules ADV 3
+Seules ADV 4
 Seuls ADV 10
 Seveso NPP 2
 Seychelles NPP 1
@@ -8134,6 +8179,7 @@ Sopalin NPP 4
 Sopharga NPP 1
 Sophie NPP 2
 Sorbonne NPP 1
+Sorcière NC 1
 Sorcy-Saint-Martin NPP 1
 Sorepark NPP 3
 Soros NPP 3
@@ -8256,7 +8302,7 @@ Super NPP 1
 Superphénix NPP 1
 Supposons VIMP 4
 Suppressions NC 2
-Sur P 84
+Sur P 85
 Surprise NC 1
 Surtout ADV 8
 Susie NPP 1
@@ -8437,7 +8483,7 @@ Thames NPP 2
 Thapar NPP 1
 Thatcher NPP 4
 Thaïlande NPP 8
-The ET 13
+The ET 16
 Theo NPP 7
 Thiaucourt NPP 1
 Thibault NPP 3
@@ -8655,7 +8701,7 @@ Uhrenbetrieb NPP 1
 Ukraine NPP 14
 Ukraine-Sud NPP 1
 Ultrafertile NPP 1
-Un DET 239
+Un DET 240
 Un PRO 5
 Une DET 232
 Une NPP 2
@@ -8673,9 +8719,11 @@ Universités NC 1
 Unzen NPP 1
 Up NPP 1
 Upomami NPP 1
+Urbain NPP 3
 Urbina NPP 1
 Urgences NC 1
 Ursul NPP 1
+Ursulines NPP 1
 Uruguay NPP 18
 Uruguayen NPP 2
 Usant VPR 1
@@ -8771,7 +8819,7 @@ Veil NPP 5
 Velasquez NPP 1
 Venasque NPP 1
 Vendre VINF 1
-Vendredi NC 8
+Vendredi NC 9
 Vendôme NPP 1
 Venezuela NPP 5
 Vent NC 1
@@ -8782,6 +8830,8 @@ Vercken NPP 1
 Verdome NPP 2
 Verdun NPP 3
 Verdunois NPP 1
+Vergez NPP 1
+Vergès NPP 1
 Vergèze NPP 3
 Verilog NPP 5
 Verneau NPP 2
@@ -8870,7 +8920,7 @@ Void-Vacon NPP 2
 Voies NC 2
 Voila VIMP 1
 Voilà VIMP 9
-Voir VINF 4
+Voir VINF 6
 Volatiles ADJ 1
 Volkswagen NPP 12
 Volontairement ADV 1
@@ -8938,7 +8988,7 @@ Wever NPP 1
 Whitehall NPP 1
 Who's NPP 1
 Wiesbaden NPP 1
-Wikipédia NPP 1
+Wikipédia NPP 4
 Wild NPP 1
 Wildlife NPP 1
 Wilhelm NPP 1
@@ -9001,7 +9051,7 @@ Yougoslavie NPP 11
 Youpi I 2
 Youppie I 1
 Yvelines NPP 5
-Yves NPP 22
+Yves NPP 23
 Yvon NPP 1
 Z NC 1
 Z NPP 1
@@ -9036,12 +9086,12 @@ Zuccarelli NPP 2
 Zurich NPP 2
 Zygomusic NPP 1
 Zénith NPP 1
-[ PONCT 32
-] PONCT 32
+[ PONCT 33
+] PONCT 33
 ^ PONCT 5
 _ PONCT 1
 a ET 15
-a V 2882
+a V 2892
 abaissa V 1
 abaissant VPR 5
 abaissement NC 10
@@ -9142,7 +9192,7 @@ abstraction NC 2
 abstraire VINF 1
 absurde ADJ 3
 absurde NC 2
-abus NC 8
+abus NC 9
 abuser VINF 2
 abusif ADJ 1
 abusifs ADJ 2
@@ -9206,7 +9256,7 @@ accompagnent V 2
 accompagner VINF 8
 accompagnera V 3
 accompagneront V 1
-accompagné VPP 6
+accompagné VPP 7
 accompagnée VPP 9
 accompagnées VPP 4
 accompagnés VPP 1
@@ -9224,8 +9274,8 @@ accordait V 2
 accordant VPR 2
 accorde V 8
 accordent V 3
-accorder VINF 14
-accords NC 34
+accorder VINF 15
+accords NC 35
 accordé VPP 25
 accordée VPP 5
 accordées VPP 4
@@ -9316,6 +9366,7 @@ acheminer VINF 2
 acheminâmes V 1
 acheminé VPP 2
 acheminée VPP 1
+acheminées VPP 1
 acheminés VPP 1
 achetait V 2
 achetant VPR 3
@@ -9391,8 +9442,8 @@ activent V 1
 actives ADJ 2
 activisme NC 1
 activiste ADJ 1
-activité NC 146
-activités NC 95
+activité NC 147
+activités NC 96
 actrice NC 1
 actualisé VPP 1
 actualité NC 17
@@ -9450,7 +9501,7 @@ administrateur NC 28
 administrateurs NC 3
 administratif ADJ 8
 administratifs ADJ 7
-administration NC 80
+administration NC 81
 administrations NC 9
 administrative ADJ 10
 administratives ADJ 4
@@ -9509,7 +9560,7 @@ adressées VPP 1
 adulte ADJ 3
 adulte NC 1
 adultes ADJ 1
-adultes NC 8
+adultes NC 9
 adversaire NC 2
 adversaires NC 6
 adverse ADJ 1
@@ -9525,7 +9576,7 @@ affaiblir VINF 2
 affaiblis VPP 1
 affaiblissement NC 1
 affaiblit V 2
-affaire NC 64
+affaire NC 73
 affaires NC 220
 affairé ADJ 1
 affaisse V 1
@@ -9571,6 +9622,7 @@ affirmations NC 1
 affirme V 29
 affirment V 12
 affirmer VINF 5
+affirmèrent V 1
 affirmé VPP 25
 affirmée VPP 2
 affirmés VPP 1
@@ -9702,7 +9754,7 @@ aiguë ADJ 1
 aiguës ADJ 1
 ailes NC 1
 aille VS 1
-ailleurs ADV 122
+ailleurs ADV 123
 aimaient V 1
 aimais V 1
 aimait V 3
@@ -9865,7 +9917,7 @@ allégé VPP 1
 allégée VPP 2
 allés VPP 4
 aloi NC 1
-alors ADV 282
+alors ADV 283
 alourdir VINF 5
 alourdirait V 1
 alourdis VPP 1
@@ -10116,7 +10168,7 @@ annihilé VPP 1
 anniversaire NC 8
 anniversaires NC 1
 annonce NC 28
-annonce V 33
+annonce V 34
 annoncent V 1
 annoncer VINF 8
 annoncera V 3
@@ -10144,12 +10196,12 @@ annule V 3
 annuler VINF 5
 annulerait V 1
 annulé VPP 4
-annulée VPP 1
+annulée VPP 2
 annulées VPP 1
 annulés VPP 2
 année NC 560
 année-record NC 2
-années NC 287
+années NC 288
 anodine ADJ 1
 anodins ADJ 1
 anomalie NC 1
@@ -10200,9 +10252,10 @@ anéanti VPP 1
 anémies NC 1
 anémiée VPP 1
 aout NC 3
-août NC 70
+août NC 71
 apaisante ADJ 1
 apaise V 1
+apaisement NC 1
 apaiser VINF 3
 apaisées VPP 1
 apaisés VPP 1
@@ -10266,7 +10319,7 @@ appauvri VPP 1
 appauvrir VINF 2
 appauvrissement NC 1
 appauvrit V 2
-appel NC 70
+appel NC 71
 appelaient V 3
 appelant VPR 2
 appelations NC 1
@@ -10280,7 +10333,7 @@ appellerait V 1
 appelons V 1
 appels NC 12
 appelé VPP 14
-appelée VPP 2
+appelée VPP 3
 appelées VPP 3
 appelés VPP 4
 appendice NC 2
@@ -10290,7 +10343,7 @@ applaudissements NC 2
 apple-pie NC 1
 applicable ADJ 6
 applicables ADJ 3
-application NC 39
+application NC 40
 applications NC 1
 appliquait V 2
 appliquant VPR 2
@@ -10525,7 +10578,7 @@ arrivez V 1
 arrivons V 3
 arrivâmes V 3
 arrivé VPP 22
-arrivée NC 39
+arrivée NC 41
 arrivée VPP 1
 arrivées VPP 1
 arrivés VPP 4
@@ -10798,7 +10851,7 @@ attendus NC 3
 attendus VPP 5
 attentat NC 1
 attentats NC 2
-attente NC 24
+attente NC 25
 attente VS 1
 attentes NC 5
 attentif ADJ 3
@@ -10849,7 +10902,7 @@ atténué VPP 4
 atténuées VPP 1
 atypique ADJ 2
 atypiques ADJ 1
-au P+D 2199
+au P+D 2204
 au-dehors ADV 1
 au-delà ADV 4
 au-delà P 31
@@ -10908,7 +10961,7 @@ auquel P+PRO 23
 aura NC 1
 aura V 118
 aurai V 3
-auraient V 19
+auraient V 21
 aurais V 4
 aurait V 106
 aurez V 1
@@ -10916,7 +10969,7 @@ aurons V 1
 auront V 38
 auréolés VPP 1
 auspices NC 3
-aussi ADV 445
+aussi ADV 449
 aussitôt ADV 9
 austral ADJ 3
 austral NC 2
@@ -10982,7 +11035,7 @@ autoriser VINF 2
 autorisera V 1
 autoriserait V 2
 autorisèrent V 1
-autorisé VPP 11
+autorisé VPP 12
 autorisée VPP 5
 autorisées VPP 4
 autorisés VPP 1
@@ -10999,23 +11052,23 @@ autosubsistance NC 1
 autosuffisance NC 4
 autour P 54
 autre ADJ 171
-autre PRO 73
+autre PRO 74
 autrefois ADV 8
 autrement ADV 11
 autres ADJ 325
 autres PRO 20
 autrichienne ADJ 1
 autrui PRO 1
-aux P+D 1076
+aux P+D 1078
 auxiliaire ADJ 1
 auxiliaire NC 1
 auxiliaires ADJ 1
 auxiliaires NC 1
 auxquelles P+PRO 8
 auxquels P+PRO 19
-avaient V 136
+avaient V 137
 avais V 20
-avait V 474
+avait V 475
 aval NC 6
 avalanche NC 1
 avaliser VINF 2
@@ -11035,7 +11088,7 @@ avancées VPP 2
 avancés VPP 2
 avant ADV 7
 avant NC 11
-avant P 216
+avant P 217
 avant PREF 1
 avant-dernier ADJ 1
 avant-dernière ADJ 1
@@ -11055,7 +11108,7 @@ avantageux ADJ 1
 avantagé VPP 1
 avares ADJ 1
 avatars NC 1
-avec P 1013
+avec P 1014
 avenant NC 2
 avenants NC 2
 avenir NC 68
@@ -11090,16 +11143,16 @@ avive V 1
 avivés VPP 1
 avocat NC 5
 avocate NC 1
-avocats NC 4
+avocats NC 5
 avoir NC 1
-avoir VINF 282
+avoir VINF 283
 avoirs NC 5
 avoisinait V 2
 avoisinant VPR 1
 avoisinantes VPR 2
 avoisinants VPR 1
 avoisine V 2
-avoisinent V 1
+avoisinent V 2
 avoisiner VINF 1
 avoisinerait V 1
 avoisiné VPP 2
@@ -11107,7 +11160,7 @@ avons V 82
 avorté VPP 1
 avoue V 6
 avoué VPP 4
-avril NC 89
+avril NC 90
 avènement NC 2
 avère V 4
 avèrent V 1
@@ -11118,7 +11171,7 @@ axes NC 4
 axiome NC 1
 axé VPP 1
 axée VPP 2
-ayant VPR 81
+ayant VPR 82
 ayatollah NC 1
 ayez VS 1
 azimuts NC 4
@@ -11346,7 +11399,7 @@ bibliothèque-médiathèque NC 1
 biche NC 1
 bidons NC 1
 bidonvilles NC 2
-bien ADV 388
+bien ADV 389
 bien NC 11
 bien-fondé NC 7
 bien-être NC 5
@@ -11354,7 +11407,7 @@ bienfaisance NC 1
 bienfaisants ADJ 1
 bienfait NC 2
 bienfaits NC 3
-biens NC 63
+biens NC 64
 bientôt ADV 30
 bienveillant ADJ 2
 bienveillante ADJ 1
@@ -11699,7 +11752,7 @@ brûlantes ADJ 2
 brûlent V 2
 brûler VINF 2
 brûleront V 1
-brûlé VPP 1
+brûlé VPP 2
 bucolique ADJ 1
 budget NC 83
 budgets NC 10
@@ -11879,7 +11932,7 @@ camper VINF 2
 camping NC 2
 campings NC 1
 campo ET 1
-camps NC 1
+camps NC 2
 campus NC 2
 camélias NC 1
 caméra NC 1
@@ -11963,7 +12016,7 @@ carbure V 1
 carcasses NC 2
 cardiaque ADJ 1
 cardiaques ADJ 1
-cardinal NC 2
+cardinal NC 3
 carence NC 3
 carences NC 1
 caresse NC 1
@@ -11993,7 +12046,7 @@ cartes NC 7
 cartons NC 2
 cartoon V 1
 cartésienne ADJ 1
-cas NC 183
+cas NC 184
 casanier ADJ 1
 casaque NC 1
 cascade NC 7
@@ -12010,7 +12063,7 @@ casques NC 1
 casquette NC 1
 cassa ET 2
 cassant VPR 1
-cassation NC 3
+cassation NC 4
 casse V 1
 casse-tête NC 1
 cassent V 1
@@ -12041,7 +12094,7 @@ catastrophique ADJ 4
 catastrophiques ADJ 4
 cathodique ADJ 3
 cathodiques ADJ 2
-catholique ADJ 2
+catholique ADJ 3
 catholique NC 1
 catholiques ADJ 2
 cathédrale NC 3
@@ -12065,8 +12118,8 @@ cavalerie NC 1
 cavalier NC 1
 cavernes NC 1
 ce CLS 94
-ce DET 652
-ce PRO 315
+ce DET 655
+ce PRO 317
 ceci PRO 3
 ceindre VINF 1
 ceinte VPP 1
@@ -12145,7 +12198,7 @@ certifier VINF 2
 certifiés VPP 1
 certitude NC 1
 cerveau NC 1
-ces DET 474
+ces DET 475
 cessa V 1
 cessait V 2
 cessant VPR 1
@@ -12163,7 +12216,7 @@ cession NC 32
 cessions NC 4
 cessé VPP 20
 cet DET 130
-cette DET 725
+cette DET 727
 ceux PRO 140
 ceux-ci PRO 10
 chacun PRO 65
@@ -12194,7 +12247,7 @@ champion NC 3
 championnat NC 1
 championne NC 2
 champions NC 1
-champs NC 5
+champs NC 6
 champs-Elysées NPP 1
 chance NC 20
 chancelante ADJ 1
@@ -12259,6 +12312,7 @@ chargé NC 2
 chargé VPP 36
 chargée VPP 18
 chargées VPP 7
+chargés NC 2
 chargés VPP 8
 chariots NC 2
 charismatique ADJ 1
@@ -12281,7 +12335,7 @@ charriés VPP 2
 chars NC 4
 charte NC 11
 charter ET 1
-chasse NC 10
+chasse NC 11
 chasse V 1
 chassent V 1
 chasser VINF 1
@@ -12321,7 +12375,7 @@ chaut V 1
 chaîne NC 105
 chaînes NC 50
 check-list NC 1
-chef NC 47
+chef NC 48
 chef-d'oeuvre NC 2
 chef-lieu NC 1
 chefs NC 41
@@ -12542,7 +12596,7 @@ citées VPP 1
 cités NC 1
 cités VPP 2
 civil ADJ 7
-civile ADJ 10
+civile ADJ 11
 civiles ADJ 5
 civilisations NC 1
 civiliser VINF 1
@@ -12679,7 +12733,7 @@ colis NC 1
 coll. NC 1
 collabora V 1
 collaborateur NC 4
-collaborateurs NC 6
+collaborateurs NC 7
 collaboration NC 5
 collaborer VINF 1
 collaboré VPP 2
@@ -12688,7 +12742,7 @@ collecte NC 10
 collectif ADJ 6
 collectif NC 4
 collectifs ADJ 8
-collection NC 7
+collection NC 8
 collectionneur NC 1
 collectionneurs NC 1
 collections NC 5
@@ -12778,7 +12832,7 @@ commandité NC 1
 commando NC 1
 commandé VPP 2
 commandée VPP 1
-comme ADV 447
+comme ADV 449
 comme CS 155
 commence V 30
 commencent V 14
@@ -12830,7 +12884,7 @@ commises VPP 4
 commissaire NC 16
 commissaires NC 5
 commissariat NC 5
-commission NC 53
+commission NC 54
 commissionnaires NC 1
 commissions NC 3
 commode ADJ 3
@@ -12923,7 +12977,7 @@ complexe NC 6
 complexes ADJ 3
 complexes NC 3
 complexité NC 3
-complice NC 1
+complice NC 2
 complices NC 2
 complicité NC 4
 compliment NC 1
@@ -12973,7 +13027,7 @@ composée VPP 3
 comprenaient V 1
 comprenait V 2
 comprenant VPR 9
-comprend V 15
+comprend V 16
 comprendra V 2
 comprendraient V 1
 comprendrait V 1
@@ -12987,7 +13041,7 @@ compressions NC 2
 compriment V 1
 comprimer VINF 3
 comprimées VPP 1
-compris VPP 61
+compris VPP 62
 comprise VPP 6
 comprises VPP 5
 compromettent V 1
@@ -13056,9 +13110,9 @@ concepteur NC 1
 conception NC 16
 conceptions NC 2
 concepts NC 1
-concernant VPR 29
+concernant VPR 30
 concernante ADJ 1
-concerne V 35
+concerne V 36
 concernent V 6
 concerner VINF 1
 concernera V 1
@@ -13139,12 +13193,12 @@ concèderont V 1
 concédé VPP 2
 concédés VPP 1
 condamnation NC 6
-condamnations NC 5
+condamnations NC 6
 condamne V 3
 condamnent V 2
 condamner VINF 1
-condamné VPP 13
-condamnée VPP 6
+condamné VPP 14
+condamnée VPP 7
 condamnés VPP 4
 condensats NC 2
 condition NC 26
@@ -13256,6 +13310,8 @@ conférences NC 1
 conférée VPP 1
 congelées VPP 1
 conglomérat NC 6
+congolais ADJ 1
+congolaise ADJ 2
 congratulaient V 1
 congressistes NC 1
 congrue ADJ 1
@@ -13499,7 +13555,7 @@ contactés VPP 2
 contagieuse ADJ 1
 contagion NC 2
 contagions NC 1
-containers NC 1
+containers NC 2
 contaminé VPP 1
 contemplation NC 1
 contemplé VPP 1
@@ -13626,7 +13682,7 @@ contraventionnelles ADJ 1
 contraventions NC 1
 contre ADV 4
 contre NC 4
-contre P 331
+contre P 334
 contre PREF 1
 contre-attaque NC 2
 contre-choc NC 2
@@ -13686,7 +13742,7 @@ contructions NC 1
 contrées NC 1
 contrôlait V 2
 contrôlant VPR 2
-contrôle NC 80
+contrôle NC 82
 contrôle V 8
 contrôlent V 3
 contrôler VINF 8
@@ -13745,7 +13801,7 @@ convié VPP 1
 conviés VPP 1
 convocation NC 3
 convoi NC 2
-convois NC 3
+convois NC 4
 convoquant VPR 1
 convoquer VINF 3
 convoqué VPP 2
@@ -13814,7 +13870,7 @@ correct ADJ 1
 correctement ADV 1
 correcteur ADJ 1
 correction NC 3
-correctionnel ADJ 6
+correctionnel ADJ 7
 correctionnelles ADJ 1
 corrects ADJ 1
 corresp. NC 1
@@ -13885,7 +13941,7 @@ couloirs NC 6
 coup NC 81
 coupable ADJ 3
 coupable NC 1
-coupables ADJ 3
+coupables ADJ 4
 coupe NC 7
 coupe V 2
 couperet NC 1
@@ -13903,7 +13959,7 @@ coupé NC 2
 coupé VPP 1
 coupées VPP 2
 coupés VPP 2
-cour NC 33
+cour NC 34
 courage NC 5
 courageuse ADJ 2
 courageusement ADV 2
@@ -13962,6 +14018,7 @@ coutumier NC 1
 coutumière ADJ 1
 couture NC 2
 couturier NC 1
+couvent NC 1
 couvert NC 2
 couvert VPP 3
 couverte VPP 1
@@ -14132,7 +14189,7 @@ créateurs NC 3
 créatif ADJ 1
 créatifs ADJ 1
 créatifs NC 1
-création NC 88
+création NC 89
 créations NC 11
 créatrice ADJ 2
 créatrice NC 1
@@ -14156,7 +14213,7 @@ créneau NC 3
 créneaux NC 5
 crénelés VPP 1
 créole ADJ 1
-créé VPP 32
+créé VPP 33
 créée VPP 11
 créées VPP 5
 créés VPP 15
@@ -14196,7 +14253,7 @@ culminé VPP 3
 culot NC 1
 culottes NC 1
 culpa ET 1
-culpabilité NC 2
+culpabilité NC 3
 culte NC 1
 cultivable ADJ 1
 cultivables ADJ 2
@@ -14233,6 +14290,7 @@ curieux ADJ 7
 curiosité NC 4
 cursif ADJ 1
 cursus NC 3
+curé NC 1
 custom ET 1
 cuvée NC 1
 cycle NC 19
@@ -14292,11 +14350,11 @@ côtières ADJ 3
 côtoie V 2
 côtoient V 2
 côtoyant VPR 1
-côté NC 116
+côté NC 117
 côté VPP 1
 côtés NC 15
 d' DET 158
-d' P 5683
+d' P 5697
 dactylographiée VPP 1
 dalles NC 1
 dam NC 1
@@ -14314,7 +14372,7 @@ danois ADJ 21
 danois NC 1
 danoise ADJ 10
 danoises ADJ 1
-dans P 2364
+dans P 2375
 danse NC 2
 dansent V 1
 danseuse NC 1
@@ -14326,13 +14384,14 @@ datent V 3
 dater VINF 1
 dates NC 1
 daté VPP 18
+datée VPP 1
 datés VPP 1
 dauphin NC 1
 dauphins NC 1
 davantage ADV 48
-de DET 363
+de DET 365
 de ET 4
-de P 21294
+de P 21368
 debout ADJ 1
 debt ET 1
 dedans ADV 1
@@ -14348,8 +14407,8 @@ demain ADV 22
 demandaient V 3
 demandait V 3
 demandant VPR 10
-demande NC 78
-demande V 20
+demande NC 79
+demande V 22
 demandent V 13
 demander VINF 30
 demandera V 1
@@ -14393,7 +14452,7 @@ depuis P 481
 der ET 1
 derechef ADV 2
 dernier ADJ 191
-dernier NC 44
+dernier NC 45
 derniers ADJ 76
 derniers NC 22
 dernière ADJ 84
@@ -14402,8 +14461,8 @@ dernièrement ADV 1
 dernières ADJ 69
 dernières NC 9
 derrière P 26
-des DET 1801
-des P+D 5075
+des DET 1808
+des P+D 5091
 descend V 1
 descendaient V 1
 descendait V 1
@@ -14418,7 +14477,7 @@ descendons V 1
 descendre VINF 9
 descendu VPP 3
 descendîmes V 1
-descente NC 7
+descente NC 8
 description NC 6
 desdits ADJ 1
 design NC 6
@@ -14450,7 +14509,7 @@ dessinées VPP 2
 dessinés VPP 1
 dessous ADV 12
 dessus ADV 16
-destin NC 3
+destin NC 4
 destinait V 1
 destinataire NC 1
 destinataires NC 1
@@ -14463,7 +14522,7 @@ destinées VPP 12
 destinés VPP 18
 destitution NC 2
 destructeur ADJ 1
-destruction NC 3
+destruction NC 4
 destructions NC 1
 destructurantes ADJ 1
 dette NC 61
@@ -14501,6 +14560,7 @@ deviendrait V 5
 devienne VS 2
 deviennent V 5
 devient V 41
+devils ET 3
 devint V 1
 devions V 1
 devis NC 2
@@ -14521,7 +14581,7 @@ deçà ADV 7
 di NPP 1
 diable I 2
 diable NC 5
-diables NC 1
+diables NC 2
 diabolicum ET 1
 diabolique ADJ 1
 diaboliques ADJ 1
@@ -14553,7 +14613,7 @@ difficile ADJ 74
 difficilement ADV 10
 difficiles ADJ 13
 difficulté NC 31
-difficultés NC 90
+difficultés NC 91
 diffus ADJ 1
 diffuse V 2
 diffuser VINF 6
@@ -14571,7 +14631,7 @@ différend NC 4
 différens ADJ 1
 différent ADJ 5
 différente ADJ 6
-différentes ADJ 34
+différentes ADJ 35
 différentiel NC 5
 différentiels NC 1
 différents ADJ 45
@@ -14642,7 +14702,7 @@ directoire NC 19
 directrice ADJ 1
 directrice NC 4
 directrices ADJ 1
-directs ADJ 3
+directs ADJ 4
 direz V 1
 dirham NC 1
 dirhams NC 1
@@ -14651,7 +14711,7 @@ dirigeant NC 9
 dirigeante ADJ 1
 dirigeantes ADJ 1
 dirigeants ADJ 1
-dirigeants NC 65
+dirigeants NC 66
 diriger VINF 4
 dirigez VIMP 1
 dirigisme NC 3
@@ -14710,18 +14770,18 @@ disparaît V 3
 disparaîtra V 1
 disparaîtrait V 1
 disparaître VINF 12
-disparition NC 27
+disparition NC 28
 disparités NC 7
 disparu VPP 19
 disparue VPP 3
-disparus NC 2
+disparus NC 4
 disparus VPP 1
 dispensait V 2
 dispense NC 1
 dispensé VPP 1
 dispensée VPP 1
 dispensées VPP 2
-dispensés VPP 2
+dispensés VPP 3
 disperser VINF 1
 dispersion NC 2
 dispersé VPP 1
@@ -14941,7 +15001,7 @@ données NC 44
 données VPP 5
 donnés VPP 2
 dons NC 1
-dont PROREL 485
+dont PROREL 488
 dopa V 1
 doper VINF 2
 dopé VPP 1
@@ -14957,7 +15017,7 @@ dos NC 7
 dose NC 4
 doser VINF 2
 doses NC 1
-dossier NC 39
+dossier NC 41
 dossiers NC 16
 dotation NC 2
 dotations NC 2
@@ -15045,7 +15105,7 @@ drolatiques ADJ 1
 drôle ADJ 1
 drôlerie NC 1
 du DET 73
-du P+D 4712
+du P+D 4727
 du VPP 1
 dualité NC 1
 duc NC 1
@@ -15092,7 +15152,7 @@ dynamiques ADJ 5
 dynamiques NC 1
 dynamiser VINF 4
 dynamisme NC 5
-dès P 108
+dès P 110
 débandade NC 1
 débandades NC 1
 débarquement NC 1
@@ -15151,7 +15211,7 @@ décalage NC 12
 décalages NC 1
 décalé VPP 1
 décapitalisation NC 1
-décembre NC 420
+décembre NC 421
 décemment ADV 1
 décennie NC 14
 décennies NC 8
@@ -15194,7 +15254,7 @@ décidai V 1
 décidaient V 1
 décidait V 3
 décidant VPR 1
-décide V 13
+décide V 14
 décident V 2
 décider VINF 10
 décidera V 1
@@ -15216,7 +15276,7 @@ déclarait V 4
 déclarant VPR 5
 déclaration NC 13
 déclarations NC 29
-déclare V 12
+déclare V 13
 déclarent V 4
 déclarer VINF 4
 déclarera V 1
@@ -15479,7 +15539,7 @@ délibéré VPP 1
 délibérée VPP 1
 délibérées VPP 2
 délibérément ADV 1
-délicat ADJ 8
+délicat ADJ 9
 délicate ADJ 10
 délicates ADJ 2
 délices NC 1
@@ -15551,7 +15611,7 @@ démocrates ADJ 2
 démocrates NC 1
 démocratie NC 7
 démocraties NC 2
-démocratique ADJ 2
+démocratique ADJ 3
 démocratisation NC 3
 démodée VPP 1
 démographie NC 1
@@ -15560,7 +15620,7 @@ démographiques ADJ 1
 démolir VINF 1
 démolition NC 1
 démolitions NC 2
-démons NC 2
+démons NC 5
 démontrant VPR 2
 démontre V 2
 démontrent V 5
@@ -15680,7 +15740,7 @@ déposition NC 4
 dépossédées VPP 2
 déposé VPP 5
 déposée VPP 5
-déposées VPP 4
+déposées VPP 5
 déposés VPP 1
 dépouilles NC 1
 dépouillé VPP 1
@@ -15729,7 +15789,7 @@ dérogation NC 5
 dérogations NC 5
 déroulait V 1
 déroule V 6
-déroulement NC 2
+déroulement NC 3
 déroulements NC 1
 dérouler VINF 2
 déroulera V 5
@@ -15830,7 +15890,7 @@ désorganisé VPP 2
 désorganisés VPP 1
 désoriente V 1
 désorienté VPP 1
-désormais ADV 98
+désormais ADV 99
 déstabilisant VPR 1
 déstabilisé VPP 1
 déséquilibre NC 9
@@ -15979,7 +16039,7 @@ effectua V 1
 effectuaient V 1
 effectuait V 1
 effectuant VPR 2
-effectue V 4
+effectue V 5
 effectuent V 4
 effectuer VINF 7
 effectueront V 1
@@ -15988,7 +16048,7 @@ effectuée VPP 10
 effectuées VPP 10
 effectués VPP 11
 effervescence NC 2
-effet NC 162
+effet NC 163
 effets NC 42
 efficace ADJ 19
 efficacement ADV 1
@@ -16011,6 +16071,7 @@ efforts NC 32
 efforçaient V 1
 efforçait V 1
 efforçant VPR 1
+effractions NC 1
 effrayant VPR 1
 effrayent V 1
 effrayé VPP 1
@@ -16028,8 +16089,8 @@ ejidos ET 8
 elle CLS 422
 elle PRO 44
 elle-même PRO 23
-elles CLS 114
-elles PRO 29
+elles CLS 113
+elles PRO 30
 elles-mêmes PRO 3
 emballage NC 3
 emballages NC 1
@@ -16088,12 +16149,12 @@ empiriquement ADV 1
 empirisme NC 1
 empiètement NC 1
 emplacement NC 6
-emploi NC 193
+emploi NC 194
 emploi-solidarité NC 12
 emploie V 27
 emploient V 6
 emploiera V 1
-emplois NC 141
+emplois NC 147
 employaient V 1
 employait V 3
 employant VPR 4
@@ -16102,10 +16163,10 @@ employeur NC 16
 employeurs NC 30
 employé NC 7
 employé VPP 3
-employée NC 3
+employée NC 4
 employée VPP 4
 employées VPP 2
-employés NC 34
+employés NC 35
 employés VPP 2
 empoche V 1
 empocher VINF 1
@@ -16150,7 +16211,7 @@ empêtrée VPP 1
 empêtrés VPP 2
 en CLO 443
 en NC 5
-en P 5104
+en P 5118
 en-dessous P 2
 en-tête NC 2
 encablures NC 1
@@ -16187,7 +16248,7 @@ encombrants VPR 1
 encombrent V 2
 encombrer VINF 1
 encombré VPP 2
-encontre NC 16
+encontre NC 17
 encore ADV 361
 encourage V 6
 encourageant VPR 2
@@ -16221,7 +16282,7 @@ enfance NC 8
 enfant NC 15
 enfantillage NC 1
 enfantine ADJ 2
-enfants NC 70
+enfants NC 71
 enfer NC 3
 enfermer VINF 1
 enfermé VPP 1
@@ -16297,7 +16358,7 @@ ennui NC 1
 ennuie V 3
 ennuis NC 3
 enorgueillir VINF 1
-enquête NC 61
+enquête NC 62
 enquête V 3
 enquêter VINF 1
 enquêtes NC 9
@@ -16340,6 +16401,7 @@ ensemble NC 141
 ensembles NC 2
 enserrée VPP 1
 ensorceler VINF 1
+ensorcelées VPP 1
 ensuit V 1
 ensuite ADV 40
 ensuivie VPP 1
@@ -16355,6 +16417,7 @@ entamées VPP 2
 entamés VPP 1
 entassement NC 1
 entasser VINF 1
+entassées VPP 1
 entassés VPP 2
 entend V 21
 entendaient V 4
@@ -16419,7 +16482,7 @@ entraînerait V 4
 entraîneur NC 1
 entraîné VPP 12
 entraînés VPP 2
-entre P 499
+entre P 500
 entre V 11
 entre-temps ADV 1
 entrecoupée VPP 1
@@ -16487,7 +16550,7 @@ enviable ADJ 2
 enviables ADJ 1
 envie NC 11
 envier VINF 1
-environ ADV 147
+environ ADV 148
 environnant VPR 1
 environnantes VPR 1
 environnement NC 40
@@ -16632,7 +16695,7 @@ essuie-tout NC 2
 essuyé VPP 1
 est ET 1
 est NC 19
-est V 2959
+est V 2963
 est-allemand ADJ 5
 est-allemande ADJ 3
 est-européen ADJ 1
@@ -16656,7 +16719,7 @@ estiment V 36
 estimer VINF 6
 estimez V 1
 estimons V 2
-estimé VPP 33
+estimé VPP 34
 estimée VPP 10
 estimées VPP 4
 estimés VPP 3
@@ -16668,13 +16731,13 @@ estompent V 1
 estomper VINF 1
 estrade NC 1
 estuaire NC 1
-et CC 6510
+et CC 6527
 etc ADV 4
 etc. ADV 32
 ethnies NC 1
 ethnique ADJ 1
 ethniques ADJ 1
-eu VPP 87
+eu VPP 89
 eue VPP 1
 euphorie NC 6
 eurent V 3
@@ -16717,7 +16780,7 @@ exact ADJ 3
 exacte ADJ 4
 exactement ADV 20
 exactes ADJ 2
-exactions NC 1
+exactions NC 2
 exactitude NC 1
 exagérer VINF 1
 exagérons VIMP 1
@@ -16814,6 +16877,7 @@ exercé VPP 6
 exercée VPP 2
 exercées VPP 1
 exergue NC 1
+exerçait V 1
 exerçant VPR 3
 exhaustif ADJ 1
 exhaustifs ADJ 1
@@ -16843,7 +16907,7 @@ existant VPR 3
 existantes VPR 4
 existants VPR 7
 existe V 31
-existence NC 26
+existence NC 27
 existent V 11
 exister VINF 4
 existé VPP 1
@@ -16857,6 +16921,7 @@ exonérer VINF 2
 exonéré VPP 2
 exonérés VPP 3
 exorbitante ADJ 1
+exorcismes NC 1
 exorcisons V 1
 exotique ADJ 1
 expansion NC 23
@@ -16879,7 +16944,7 @@ explications NC 4
 explicitement ADV 3
 expliquait V 8
 expliquant VPR 9
-explique V 83
+explique V 84
 expliquent V 15
 expliquer VINF 17
 expliquera V 1
@@ -16987,7 +17052,7 @@ extensions NC 1
 extensive ADJ 1
 extermination NC 1
 externalisent V 1
-externe ADJ 2
+externe ADJ 3
 externes ADJ 1
 extra- PREF 2
 extracommunautaires ADJ 1
@@ -17091,7 +17156,7 @@ faillit V 1
 faillite NC 8
 faillites NC 13
 faim NC 5
-faire VINF 332
+faire VINF 333
 fais V 2
 faisabilité NC 3
 faisaient V 9
@@ -17100,13 +17165,13 @@ faisant VPR 34
 faisceaux NC 1
 faisions V 1
 faisons V 1
-fait NC 162
-fait V 145
+fait NC 163
+fait V 146
 fait VPP 188
 faite VPP 26
 faites VIMP 2
 faites VPP 16
-faits NC 16
+faits NC 18
 faits VPP 9
 fallait V 19
 falloir VINF 3
@@ -17121,7 +17186,7 @@ familiariser VINF 1
 familiaux ADJ 5
 familier ADJ 2
 famille NC 53
-familles NC 32
+familles NC 34
 fanfare NC 5
 fans NC 1
 fantaisie NC 2
@@ -17170,7 +17235,7 @@ faut V 143
 faute NC 35
 fauteuil NC 1
 fauteuils NC 2
-faux ADJ 10
+faux ADJ 12
 faux NC 3
 faux-semblant NC 1
 faveur NC 55
@@ -17206,7 +17271,7 @@ feint V 1
 feldspath NC 2
 femelles NC 1
 femme NC 21
-femmes NC 33
+femmes NC 34
 fendait V 1
 fendit V 1
 fendues VPP 1
@@ -17225,7 +17290,7 @@ ferme ADJ 6
 ferme ADV 1
 ferme NC 4
 ferme V 2
-fermement ADV 6
+fermement ADV 7
 ferment V 2
 fermer VINF 9
 fermera V 1
@@ -17276,6 +17341,7 @@ ficelé VPP 1
 fiche V 1
 fiches NC 3
 fichiers NC 1
+fictifs ADJ 5
 fiction NC 5
 fictions NC 1
 fictive ADJ 1
@@ -17309,7 +17375,7 @@ figuré VPP 1
 figés VPP 1
 fil NC 18
 filature NC 1
-file NC 1
+file NC 2
 filent V 1
 filer VINF 2
 files NC 1
@@ -17328,12 +17394,12 @@ filles NC 5
 film NC 9
 filme V 1
 filmer VINF 2
-films NC 16
+films NC 17
 filon NC 2
 fils NC 11
 fimes V 1
 fin ADJ 3
-fin NC 300
+fin NC 301
 final ADJ 6
 final NC 1
 finale ADJ 6
@@ -17452,7 +17518,7 @@ fleurissement NC 1
 fleuron NC 4
 fleurons NC 2
 fleurs NC 6
-fleuve NC 2
+fleuve NC 3
 flexibilité NC 5
 flexible ADJ 4
 flexibles ADJ 1
@@ -17488,6 +17554,7 @@ fluctuent V 2
 fluides ADJ 1
 fluidité NC 1
 fluidités NC 1
+fluviale ADJ 1
 fluviales ADJ 1
 fluviaux ADJ 1
 flux NC 16
@@ -17522,7 +17589,7 @@ fonctionnent V 7
 fonctionner VINF 9
 fonctionnera V 1
 fonctionné VPP 4
-fonctions NC 24
+fonctions NC 25
 fond NC 47
 fond V 1
 fondait V 1
@@ -17549,9 +17616,10 @@ fondu VPP 1
 fondé VPP 6
 fondée VPP 19
 fondées VPP 5
-font V 77
+font V 78
 fontaine NC 2
 fonte NC 2
+fontion NC 1
 fonts NC 1
 foods ET 2
 foot NC 1
@@ -17596,7 +17664,7 @@ formation-reclassement NC 3
 formations NC 16
 formatrice ADJ 1
 formats NC 1
-forme NC 68
+forme NC 69
 forme V 7
 formel ADJ 2
 formelle ADJ 1
@@ -17627,7 +17695,7 @@ fort NC 2
 forte ADJ 88
 fortement ADV 31
 forteresse NC 3
-fortes ADJ 31
+fortes ADJ 32
 fortification NC 1
 fortifient V 1
 fortifier VINF 1
@@ -17712,6 +17780,7 @@ frais NC 32
 franc ADJ 2
 franc NC 120
 franc-mark NC 7
+francaise ADJ 1
 france NC 3
 franche ADJ 2
 franche-comté NC 2
@@ -17744,7 +17813,7 @@ francophobie NC 1
 francophone ADJ 6
 francophones ADJ 2
 francophones NC 2
-francs NC 944
+francs NC 945
 frange NC 1
 franglais NC 1
 français ADJ 287
@@ -17846,6 +17915,7 @@ frôlait V 2
 frôlant VPR 1
 frôlé VPP 1
 fugace ADJ 1
+fui VPP 1
 fuir VINF 2
 fuite NC 6
 fuites NC 1
@@ -17884,7 +17954,7 @@ fustiger VINF 1
 fustigé VPP 1
 fusée NC 2
 fusées NC 1
-fut V 82
+fut V 84
 futur ADJ 16
 futur NC 10
 future ADJ 13
@@ -17930,7 +18000,7 @@ féroce ADJ 2
 fétiche ADJ 2
 fétiches ADJ 1
 fétus NC 1
-février NC 44
+février NC 45
 fêtaient V 1
 fête NC 19
 fête V 1
@@ -18135,7 +18205,7 @@ gourmandise NC 1
 gourmets NC 1
 goutte NC 1
 gouvernants NC 5
-gouvernement NC 303
+gouvernement NC 304
 gouvernemental ADJ 6
 gouvernementale ADJ 5
 gouvernementales ADJ 7
@@ -18289,7 +18359,7 @@ grèvent V 1
 grèverait V 2
 grèves NC 11
 gré NC 5
-guerre NC 94
+guerre NC 95
 guerres NC 5
 guerrier NC 1
 guette V 2
@@ -18342,7 +18412,7 @@ génie NC 4
 génies NC 1
 génisses NC 1
 génère V 2
-général ADJ 161
+général ADJ 162
 général NC 36
 générale ADJ 86
 généralement ADV 22
@@ -18527,13 +18597,13 @@ hercule NC 1
 hermétiques ADJ 1
 hertziennes ADJ 1
 heure NC 82
-heures NC 130
+heures NC 131
 heureuse ADJ 3
 heureusement ADV 4
 heureux ADJ 9
 heurt NC 1
 heurte V 7
-heurtent V 4
+heurtent V 5
 heurter VINF 2
 heurteront V 1
 heurts NC 2
@@ -18560,7 +18630,7 @@ hispano-Suiza NPP 1
 hisse V 1
 hissé VPP 1
 hissée VPP 1
-histoire NC 47
+histoire NC 49
 histoires NC 4
 histologie NC 1
 historien NC 1
@@ -18571,8 +18641,8 @@ historiques ADJ 9
 hiver NC 14
 hivernale ADJ 2
 hivers NC 1
-hiérarchie NC 6
-hiérarchique ADJ 6
+hiérarchie NC 7
+hiérarchique ADJ 7
 hiérarchiques ADJ 2
 hoc ET 2
 holding NC 47
@@ -18789,7 +18859,7 @@ ignorent V 3
 ignorer VINF 6
 ignoré VPP 1
 ignorés VPP 1
-il CLS 1360
+il CLS 1362
 illettrisme NC 1
 illicite ADJ 1
 illimitée ADJ 1
@@ -18808,7 +18878,8 @@ illustres ADJ 3
 illustré VPP 1
 illustrées VPP 1
 illustrés ADJ 1
-illégale ADJ 1
+illégal ADJ 1
+illégale ADJ 2
 illégalement ADV 2
 illégitime ADJ 1
 ils CLS 367
@@ -18907,7 +18978,7 @@ impliquait V 3
 impliquant VPR 5
 implique V 13
 impliquerait V 1
-impliqué VPP 2
+impliqué VPP 3
 impliquée VPP 1
 impliquées VPP 2
 impliqués VPP 4
@@ -19105,6 +19176,7 @@ incompatibles ADJ 3
 incomplètement ADV 1
 incompréhensible ADJ 2
 incompétence NC 3
+incompétent ADJ 1
 incompétents ADJ 1
 inconciliables ADJ 1
 inconditionnel ADJ 1
@@ -19498,6 +19570,7 @@ instauration NC 11
 instaurer VINF 7
 instauré VPP 2
 instaurée VPP 1
+instigateur NC 1
 instigation NC 1
 instituant VPR 2
 instituer VINF 1
@@ -19513,11 +19586,12 @@ institutions NC 16
 institutrice NC 2
 instituts NC 2
 institué VPP 1
-instruction NC 4
+instruction NC 6
 instructions NC 1
-instruire VINF 1
+instruire VINF 2
 instruit V 1
-instruit VPP 1
+instruit VPP 2
+instruite VPP 1
 instrument NC 7
 instrumentale ADJ 1
 instruments NC 6
@@ -19587,6 +19661,7 @@ interdépendances NC 1
 interfaces NC 1
 interférométrique ADJ 2
 intergroupe NC 1
+interjeté VPP 1
 interlocuteur NC 6
 interlocuteurs NC 10
 interloquée VPP 1
@@ -19618,6 +19693,7 @@ interpellait V 1
 interpeller VINF 1
 interpellez V 1
 interpellé VPP 2
+interpellées VPP 1
 interpellés VPP 2
 interplanétaire ADJ 1
 interposer VINF 1
@@ -19742,7 +19818,7 @@ intérieurs ADJ 1
 intérim NC 3
 intérimaire ADJ 2
 intérimaires NC 1
-intérêt NC 162
+intérêt NC 163
 intérêts NC 55
 inutile ADJ 7
 inutiles ADJ 3
@@ -19923,7 +19999,7 @@ jaloux ADJ 1
 jamais ADV 98
 jambe NC 1
 jambes NC 3
-janvier NC 336
+janvier NC 337
 japonais ADJ 47
 japonais NC 8
 japonaise ADJ 15
@@ -19952,7 +20028,7 @@ jeté VPP 3
 jetée NC 1
 jetée VPP 1
 jetées VPP 1
-jetés VPP 2
+jetés VPP 3
 jeu NC 54
 jeudi NC 92
 jeune ADJ 44
@@ -20032,19 +20108,19 @@ judicieux ADJ 2
 judo NC 2
 judoka NC 1
 judokas NC 2
-juge NC 8
+juge NC 10
 juge V 12
 jugeaient V 1
 jugeait V 3
 jugeant VPR 4
-jugement NC 10
+jugement NC 11
 jugements NC 2
 jugent V 14
 juger VINF 10
 juges NC 7
 juguler VINF 1
 jugulée VPP 1
-jugé VPP 18
+jugé VPP 19
 jugée VPP 12
 jugées VPP 6
 jugés VPP 9
@@ -20061,7 +20137,7 @@ juniors NC 3
 junk ADJ 2
 jure V 1
 jurent V 1
-juridiction NC 8
+juridiction NC 9
 juridictions NC 1
 juridique ADJ 15
 juridiquement ADV 1
@@ -20110,9 +20186,9 @@ krach NC 4
 kurde ADJ 2
 kérosène NC 1
 l' CLO 211
-l' DET 7641
+l' DET 7653
 la CLO 72
-la DET 10546
+la DET 10579
 la NC 1
 label NC 5
 labeur NC 1
@@ -20175,7 +20251,7 @@ lancera V 2
 lanceur NC 1
 lanceurs NC 1
 lancinant ADJ 2
-lancé VPP 28
+lancé VPP 29
 lancée NC 4
 lancée VPP 14
 lancées VPP 4
@@ -20238,7 +20314,7 @@ laxisme NC 2
 laxiste NC 1
 laïcs NC 2
 le CLO 239
-le DET 6807
+le DET 6828
 leader NC 14
 leader-ship NC 1
 leaders NC 3
@@ -20260,9 +20336,9 @@ lenteur NC 1
 lenticulaire ADJ 1
 lentilles NC 1
 lents ADJ 1
-lequel PROREL 33
+lequel PROREL 34
 les CLO 126
-les DET 6517
+les DET 6533
 lesdites DET 2
 lesdits DET 3
 lesquelles PROREL 19
@@ -20270,12 +20346,12 @@ lesquels PROREL 31
 lessive NC 2
 lessives NC 2
 lestement ADV 1
-lettre NC 18
+lettre NC 20
 lettres NC 6
 leur CLO 86
-leur DET 543
+leur DET 546
 leur PRO 2
-leurs DET 473
+leurs DET 474
 leurs PRO 2
 levant VPR 1
 lever VINF 6
@@ -20287,7 +20363,7 @@ leçon NC 8
 leçons NC 4
 liaient V 1
 liaison NC 13
-liaisons NC 8
+liaisons NC 9
 libellé VPP 1
 libellées VPP 3
 libellés VPP 4
@@ -20336,7 +20412,7 @@ lien NC 7
 liens NC 14
 lier VINF 2
 lies ET 1
-lieu NC 96
+lieu NC 98
 lieue NC 2
 lieues NC 4
 lieutenant NC 1
@@ -20475,7 +20551,7 @@ logistique NC 1
 logo NC 2
 logosphère NC 1
 logés VPP 4
-loi NC 135
+loi NC 136
 loi-programme NC 1
 loin ADV 66
 lointain ADJ 3
@@ -20612,7 +20688,7 @@ légale ADJ 1
 légalement ADV 1
 légales ADJ 2
 légalité NC 1
-légaux ADJ 2
+légaux ADJ 3
 légendaire ADJ 2
 légende NC 3
 léger ADJ 13
@@ -20621,7 +20697,7 @@ légiférer VINF 1
 légion NC 1
 législateur NC 5
 législatif ADJ 3
-législation NC 11
+législation NC 12
 législations NC 4
 législative ADJ 3
 législatives ADJ 7
@@ -20676,7 +20752,7 @@ magie NC 1
 magique ADJ 2
 magistral ADJ 2
 magistrat NC 3
-magistrats NC 9
+magistrats NC 10
 magistère NC 1
 magistères NC 1
 magnat NC 2
@@ -20720,10 +20796,10 @@ maintes DET 3
 maintien NC 38
 maintiennent V 3
 maintient V 9
-maire NC 34
-maires NC 8
-mairie NC 6
-mais CC 585
+maire NC 37
+maires NC 9
+mairie NC 9
+mais CC 586
 mais NC 1
 maison NC 39
 maison-mère NC 2
@@ -20939,7 +21015,7 @@ marquée VPP 16
 marquées VPP 4
 marqués VPP 1
 marron ADJ 1
-mars NC 97
+mars NC 98
 marseillais ADJ 4
 marseillaise ADJ 4
 martagon NC 1
@@ -21042,6 +21118,7 @@ memoria ET 1
 memory ET 1
 menace NC 14
 menace V 3
+menacent V 1
 menacer VINF 2
 menaceront V 1
 menaces NC 7
@@ -21164,7 +21241,7 @@ milieu NC 32
 milieux NC 33
 militaire ADJ 25
 militaires ADJ 10
-militaires NC 3
+militaires NC 4
 militant NC 4
 militant VPR 1
 militante ADJ 1
@@ -21188,7 +21265,7 @@ milliers NC 14
 millimètre NC 1
 millimètres NC 1
 million NC 61
-millions NC 590
+millions NC 591
 millénaire NC 1
 millésime NC 2
 mimétisme NC 1
@@ -21271,7 +21348,7 @@ miser VINF 1
 mises NC 6
 mises VPP 14
 missiles NC 6
-mission NC 25
+mission NC 27
 missions NC 11
 missive NC 1
 mistigri NC 2
@@ -21334,7 +21411,7 @@ modifient V 1
 modifier VINF 16
 modifiera V 1
 modifié VPP 10
-modifiée VPP 4
+modifiée VPP 5
 modifiées VPP 3
 modifiés VPP 1
 modique ADJ 1
@@ -21372,7 +21449,7 @@ moitié-moitié NC 1
 molle ADJ 1
 mollesse NC 2
 mollétiste ADJ 1
-moment NC 114
+moment NC 115
 momentanément ADV 3
 moments NC 13
 mon DET 41
@@ -21481,7 +21558,7 @@ morne ADJ 1
 morose ADJ 7
 morosité NC 6
 mort ADJ 6
-mort NC 21
+mort NC 22
 mort VPP 4
 mortalité NC 1
 morte ADJ 1
@@ -21585,7 +21662,7 @@ multitude NC 2
 muni VPP 2
 munichois NC 1
 municipal ADJ 15
-municipale ADJ 3
+municipale ADJ 4
 municipales ADJ 1
 municipales NC 1
 municipalité NC 11
@@ -21595,7 +21672,7 @@ munies VPP 1
 munis VPP 1
 mur NC 8
 muraille NC 3
-murailles NC 1
+murailles NC 2
 muré VPP 1
 muscler VINF 1
 musclé VPP 2
@@ -21624,7 +21701,7 @@ mutuellement ADV 2
 mutuelles ADJ 1
 mutuels ADJ 1
 muté VPP 1
-mystères NC 2
+mystères NC 3
 mystérieuse ADJ 1
 mystérieux ADJ 2
 mythe NC 5
@@ -21756,6 +21833,7 @@ méthodologiques ADJ 2
 méticulosité NC 1
 métier NC 24
 métiers NC 23
+métis NC 1
 métro NC 12
 métropole NC 11
 métropoles NC 3
@@ -21775,7 +21853,7 @@ mêler VINF 1
 mêlé VPP 1
 mêlée VPP 1
 mêlés VPP 2
-même ADJ 310
+même ADJ 311
 même ADV 227
 mêmes ADJ 44
 mômes NC 2
@@ -21808,7 +21886,7 @@ natalité NC 2
 natation-triathlon-club NC 1
 nation NC 8
 national ADJ 89
-nationale ADJ 148
+nationale ADJ 149
 nationalement ADV 1
 nationales ADJ 26
 nationalisations NC 2
@@ -21839,7 +21917,7 @@ naval ADJ 1
 navale ADJ 3
 navales ADJ 1
 navals ADJ 1
-navette NC 1
+navette NC 2
 navigables ADJ 2
 navigation NC 1
 navigue V 1
@@ -21852,7 +21930,7 @@ naître VINF 2
 naïf ADJ 1
 naïve ADJ 1
 naïveté NC 1
-ne ADV 1236
+ne ADV 1238
 neige NC 9
 neiges NC 7
 nerveuse ADJ 1
@@ -21930,7 +22008,7 @@ nomade ADJ 2
 nombre NC 162
 nombreuse ADJ 4
 nombreuses ADJ 30
-nombreux ADJ 52
+nombreux ADJ 53
 nominal ADJ 2
 nominal NC 1
 nominale ADJ 2
@@ -21965,7 +22043,7 @@ nordique ADJ 1
 nordiques ADJ 2
 norias NC 1
 normal ADJ 13
-normale ADJ 6
+normale ADJ 7
 normale NC 10
 normalement ADV 13
 normales ADJ 2
@@ -22271,7 +22349,7 @@ oeuvrant VPR 1
 oeuvre NC 56
 oeuvre V 2
 oeuvres NC 8
-of ET 17
+of ET 19
 off ET 1
 off-shore ADJ 1
 off-shore NC 1
@@ -22334,7 +22412,7 @@ omnipotence NC 1
 omnipotent ADJ 1
 omniprésent ADJ 1
 omnipuissante ADJ 1
-on CLS 569
+on CLS 570
 on ET 1
 once NC 5
 onces NC 2
@@ -22344,7 +22422,7 @@ ondes NC 2
 ondulations NC 1
 ondulés VPP 1
 ongles NC 1
-ont V 1166
+ont V 1167
 onuso-américaine ADJ 1
 onze ADJ 11
 onze DET 10
@@ -22368,7 +22446,7 @@ opportunité NC 1
 opportunités NC 1
 opportunément ADV 1
 opposaient V 1
-opposait V 4
+opposait V 5
 opposant VPR 2
 opposants NC 2
 oppose V 10
@@ -22402,7 +22480,7 @@ opté VPP 7
 opulentes ADJ 1
 opère V 2
 opèrent V 2
-opéra NC 1
+opéra NC 2
 opérait V 1
 opérant VPR 3
 opérateur NC 20
@@ -22437,10 +22515,10 @@ ordinaire NC 4
 ordinaires ADJ 2
 ordinateur NC 11
 ordinateurs NC 17
-ordonnance NC 1
+ordonnance NC 2
 ordonnateur NC 2
 ordonne V 2
-ordonné VPP 7
+ordonné VPP 8
 ordre NC 72
 ordres NC 8
 ordures NC 1
@@ -22450,6 +22528,7 @@ organe NC 3
 organes NC 2
 organique ADJ 2
 organisant VPR 1
+organisateur NC 1
 organisateurs NC 1
 organisation NC 69
 organisations NC 30
@@ -22502,13 +22581,14 @@ oscille V 1
 oscillent V 1
 oscuro ET 1
 ose V 2
+oseront V 1
 ossature NC 2
 osselets NC 1
 ostensiblement ADV 1
 osé VPP 2
 otage NC 1
 otages NC 2
-ou CC 794
+ou CC 797
 oubli NC 1
 oubliait V 1
 oublie V 2
@@ -22570,7 +22650,7 @@ over ET 1
 oxygène NC 1
 ozone NC 2
 où ADVWH 10
-où PROREL 394
+où PROREL 395
 p. NC 3
 pacifique ADJ 2
 pack NC 2
@@ -22610,6 +22690,7 @@ pallier VINF 1
 palmarès NC 4
 palme NC 1
 palétuviers NC 1
+pamphlet NC 1
 pamplemousse NC 1
 panache NC 1
 panacée NC 2
@@ -22642,7 +22723,7 @@ papillon NC 1
 paquebot NC 1
 paquebots NC 4
 paquet NC 2
-par P 2549
+par P 2565
 par-delà P 1
 par-dessus P 1
 para- PREF 1
@@ -22751,12 +22832,12 @@ parlai V 1
 parlaient V 2
 parlait V 2
 parlant VPR 2
-parle V 22
+parle V 23
 parlement NC 4
 parlementaire ADJ 10
 parlementaires ADJ 1
 parlementaires NC 11
-parlent V 5
+parlent V 6
 parler NC 1
 parler VINF 39
 parles V 1
@@ -22803,7 +22884,7 @@ partenaires NC 85
 partenariat NC 15
 partenariats NC 3
 partent V 3
-parti NC 29
+parti NC 30
 parti VPP 11
 partial ADJ 2
 partiaux ADJ 1
@@ -22815,7 +22896,7 @@ participantes ADJ 1
 participants ADJ 1
 participants NC 10
 participatif ADJ 1
-participation NC 93
+participation NC 94
 participations NC 15
 participative ADJ 1
 participe V 3
@@ -22844,7 +22925,7 @@ partiellement ADV 12
 partielles ADJ 2
 partiels ADJ 1
 parties NC 21
-partir VINF 111
+partir VINF 112
 partiront V 1
 partis NC 14
 partis V 1
@@ -22874,7 +22955,7 @@ parviennent V 5
 parvient V 3
 parvins V 1
 paré ADJ 1
-pas ADV 1479
+pas ADV 1481
 pas NC 20
 passa V 3
 passablement ADV 2
@@ -22987,7 +23068,7 @@ paysannerie NC 1
 paysannes ADJ 5
 paysans ADJ 3
 paysans NC 30
-payé VPP 13
+payé VPP 14
 payée VPP 4
 payés VPP 12
 pc NC 1
@@ -22995,7 +23076,7 @@ peau NC 1
 peaufine V 1
 peaux NC 3
 peindre VINF 1
-peine NC 62
+peine NC 63
 peines NC 7
 peinture NC 3
 peintures NC 1
@@ -23009,10 +23090,11 @@ penchaient V 1
 penche V 2
 penchent V 1
 pencher VINF 2
+penchera V 1
 pencheront V 1
 penchés VPP 1
 pendant NC 2
-pendant P 98
+pendant P 99
 pensaient V 1
 pensais V 3
 pensait V 4
@@ -23063,7 +23145,7 @@ perdront V 2
 perds V 1
 perdu VPP 51
 perdue VPP 4
-perdues VPP 3
+perdues VPP 4
 perdurer VINF 3
 perdus VPP 3
 perestroika ET 1
@@ -23083,7 +23165,7 @@ permanent ADJ 9
 permanent NC 1
 permanente ADJ 10
 permanentes ADJ 1
-permanents ADJ 6
+permanents ADJ 7
 permanents NC 1
 permet V 53
 permettaient V 3
@@ -23137,7 +23219,7 @@ personnellement ADV 4
 personnelles ADJ 4
 personnels ADJ 4
 personnels NC 13
-personnes NC 150
+personnes NC 155
 perspective NC 28
 perspectives ADJ 1
 perspectives NC 28
@@ -23179,7 +23261,7 @@ pesant ADJ 1
 pesant VPR 5
 pesante ADJ 3
 pesanteurs NC 2
-peser VINF 7
+peser VINF 8
 peseta NC 9
 pesetas NC 1
 peso NC 5
@@ -23358,8 +23440,8 @@ plaindre VINF 2
 plaine NC 5
 plaines NC 1
 plaint V 3
-plainte NC 15
-plaintes NC 3
+plainte NC 16
+plaintes NC 4
 plaints VPP 1
 plaisance NC 2
 plaisant ADJ 1
@@ -23451,7 +23533,7 @@ plurifonctionnalité NC 1
 plus ADV 1823
 plus-value NC 12
 plus-values NC 12
-plusieurs DET 122
+plusieurs DET 124
 plusieurs PRO 4
 plut VPP 1
 plutôt ADV 69
@@ -23493,7 +23575,7 @@ poissons NC 5
 poker NC 1
 polaire ADJ 1
 polar NC 1
-police NC 14
+police NC 15
 policier ADJ 1
 policiers NC 4
 policière ADJ 1
@@ -23504,10 +23586,10 @@ politesse NC 1
 politiciens NC 1
 politico- PREF 1
 politico-financiers ADJ 1
-politique ADJ 73
+politique ADJ 74
 politique NC 229
 politiquement ADV 6
-politiques ADJ 53
+politiques ADJ 54
 politiques NC 33
 politologue NC 1
 polka NC 1
@@ -23580,7 +23662,7 @@ porte-parole NC 23
 portefeuille NC 11
 portefeuilles NC 6
 portent V 15
-porter VINF 29
+porter VINF 30
 portera V 5
 porterait V 1
 porteront V 2
@@ -23625,7 +23707,7 @@ positions NC 18
 positive ADJ 15
 positivement ADV 3
 positives ADJ 3
-possession NC 5
+possession NC 6
 possibilité NC 32
 possibilités NC 18
 possible ADJ 57
@@ -23637,6 +23719,7 @@ possédaient V 1
 possédait V 5
 posséder VINF 8
 possédera V 1
+possédées NC 1
 post- PREF 3
 postal ADJ 5
 postale ADJ 6
@@ -23687,7 +23770,7 @@ poulet NC 2
 poulets NC 1
 poupe NC 2
 poupin ADJ 1
-pour P 2678
+pour P 2684
 pourcentage NC 21
 pourfendre VINF 1
 pourparlers NC 8
@@ -23700,10 +23783,10 @@ pourri VPP 1
 pourrions V 2
 pourris VPP 1
 pourrons V 3
-pourront V 35
+pourront V 36
 poursuit V 22
-poursuite NC 23
-poursuites NC 4
+poursuite NC 24
+poursuites NC 6
 poursuivaient V 1
 poursuivait V 1
 poursuivant VPR 3
@@ -23747,7 +23830,7 @@ pouvait V 28
 pouvant VPR 11
 pouviez V 1
 pouvions V 2
-pouvoir NC 87
+pouvoir NC 88
 pouvoir VINF 40
 pouvoirs NC 64
 pouvons V 4
@@ -23763,7 +23846,7 @@ praticiens NC 1
 pratiqua V 1
 pratiquait V 1
 pratique ADJ 4
-pratique NC 15
+pratique NC 16
 pratique V 5
 pratiquement ADV 29
 pratiquent V 4
@@ -23774,7 +23857,7 @@ pratiqué VPP 5
 pratiquée VPP 3
 pratiqués VPP 10
 precise ET 1
-premier ADJ 295
+premier ADJ 296
 premier DET 33
 premier NC 25
 premiers ADJ 89
@@ -23821,7 +23904,7 @@ presser VINF 1
 presseraient V 1
 presses NC 1
 pression NC 29
-pressions NC 19
+pressions NC 20
 pressurisée VPP 1
 pressurées VPP 1
 pressé VPP 1
@@ -23874,7 +23957,7 @@ prioritaires ADJ 6
 priorité NC 21
 priorités NC 10
 pris VPP 100
-prise NC 37
+prise NC 38
 prise VPP 22
 prises NC 13
 prises VPP 27
@@ -23942,7 +24025,7 @@ prochaine ADJ 40
 prochainement ADV 11
 prochaines ADJ 28
 prochains ADJ 26
-proche ADJ 32
+proche ADJ 33
 proche NC 2
 proches ADJ 8
 proches NC 6
@@ -23958,13 +24041,14 @@ procure V 2
 procurent V 1
 procurer VINF 9
 procureront V 1
-procureur NC 4
+procureur NC 5
 procuré VPP 2
 procurée VPP 1
 procurés VPP 1
 procède V 4
 procèdent V 1
-procès NC 8
+procès NC 11
+procéda V 1
 procédaient V 1
 procédant VPR 1
 procéder VINF 20
@@ -24024,7 +24108,7 @@ profile V 1
 profilent VS 1
 profils NC 1
 profilé NC 1
-profit NC 49
+profit NC 50
 profitabilité NC 1
 profitable ADJ 1
 profitait V 2
@@ -24118,7 +24202,7 @@ promise VPP 1
 promises VPP 1
 promoteur NC 7
 promoteurs NC 11
-promotion NC 34
+promotion NC 35
 promotionnel ADJ 3
 promotionnelle ADJ 1
 promotionnelles ADJ 1
@@ -24136,7 +24220,7 @@ prononcer VINF 1
 prononcera V 2
 prononceraient V 1
 prononceront V 1
-prononcé VPP 14
+prononcé VPP 15
 prononcée VPP 4
 prononcées VPP 3
 prononcés VPP 3
@@ -24203,7 +24287,7 @@ prospèrent V 1
 prospères ADJ 3
 prospérer VINF 1
 prospérité NC 10
-protagonistes NC 5
+protagonistes NC 6
 protection NC 32
 protectionnisme NC 7
 protectionniste ADJ 1
@@ -24476,7 +24560,7 @@ préservés VPP 3
 présidaient V 1
 préside V 10
 présidence NC 39
-président NC 314
+président NC 316
 président-secrétaire NC 1
 présidente NC 4
 présidentiel ADJ 1
@@ -24489,6 +24573,7 @@ présidé VPP 9
 présidée VPP 9
 présidées VPP 1
 présomption NC 3
+présomptions NC 1
 présumé VPP 1
 présupposés NC 1
 prétend V 3
@@ -24552,7 +24637,7 @@ prêtes ADJ 4
 prêteurs ADJ 2
 prêteurs NC 3
 prêteuses ADJ 1
-prêtre NC 1
+prêtre NC 2
 prêtres NC 2
 prêts ADJ 13
 prêts NC 23
@@ -24593,7 +24678,7 @@ publipostage NC 1
 publique ADJ 96
 publiquement ADV 2
 publiques ADJ 51
-publié VPP 40
+publié VPP 41
 publiée VPP 12
 publiées VPP 10
 publiés VPP 12
@@ -24745,7 +24830,7 @@ pôle NC 2
 pôles NC 4
 qatarie ADJ 1
 qu' ADV 138
-qu' CS 795
+qu' CS 797
 qu' PROREL 290
 qu' PROWH 2
 qua ET 2
@@ -24771,7 +24856,7 @@ qualifiés VPP 13
 qualitatif ADJ 3
 qualitatifs ADJ 2
 qualitative ADJ 4
-qualité NC 83
+qualité NC 84
 qualité-prix NC 2
 qualités NC 9
 quand ADVWH 3
@@ -24798,7 +24883,7 @@ quarante-trois ADJ 1
 quarante-trois DET 2
 quart NC 16
 quart-monde NC 1
-quartier NC 11
+quartier NC 12
 quartiers NC 4
 quarts NC 15
 quartzeux ADJ 2
@@ -24822,7 +24907,7 @@ quatre-vingts DET 5
 quatrième ADJ 23
 quatrième NC 2
 que ADV 243
-que CS 2035
+que CS 2039
 que PROREL 350
 que PROWH 11
 quel ADJWH 6
@@ -24838,7 +24923,7 @@ quelque ADJ 5
 quelque DET 74
 quelquefois ADV 2
 quelques ADJ 7
-quelques DET 185
+quelques DET 187
 quelques-uns PRO 1
 quels ADJWH 5
 quels DETWH 5
@@ -24850,7 +24935,7 @@ questionnent V 1
 questions NC 19
 questions-clés NC 1
 queue NC 2
-qui PROREL 2590
+qui PROREL 2598
 qui PROWH 6
 qui-vive NC 1
 quiconque PRO 1
@@ -24877,6 +24962,7 @@ quittes NC 1
 quittons V 1
 quittâmes V 2
 quitté VPP 19
+quiétude NC 1
 quo ET 1
 quoi PROREL 8
 quoi PROWH 43
@@ -24960,7 +25046,7 @@ rail NC 1
 rails NC 3
 raisin NC 1
 raisins NC 1
-raison NC 118
+raison NC 119
 raisonnable ADJ 6
 raisonnablement ADV 1
 raisonnables ADJ 4
@@ -25042,7 +25128,7 @@ rappels NC 1
 rappelé VPP 12
 rappelée VPP 1
 rappelés VPP 1
-rapport NC 213
+rapport NC 214
 rapportai V 1
 rapportant VPR 1
 rapporte V 10
@@ -25154,6 +25240,7 @@ rebâtie VPP 1
 recapitalisation NC 5
 recapitaliser VINF 2
 recapitalisé VPP 1
+recel NC 1
 receler VINF 1
 receleur NC 1
 recels NC 1
@@ -25216,6 +25303,7 @@ recommencé VPP 2
 recommençaient V 1
 recompte V 1
 recomptent V 1
+reconciliation NC 1
 reconcourir VINF 1
 reconduction NC 4
 reconductions NC 1
@@ -25230,6 +25318,7 @@ reconnaissance NC 8
 reconnaissant VPR 3
 reconnaissent V 3
 reconnaît V 18
+reconnaîtra V 1
 reconnaître VINF 10
 reconnu VPP 12
 reconnue VPP 1
@@ -25613,7 +25702,7 @@ rendre VINF 43
 rendront V 3
 rends V 1
 rendu VPP 31
-rendue VPP 7
+rendue VPP 8
 rendues VPP 4
 rendus VPP 6
 renfermant VPR 1
@@ -25736,7 +25825,7 @@ reprenant VPR 5
 reprend V 15
 reprendra V 6
 reprendre VINF 34
-reprendront V 3
+reprendront V 4
 repreneur NC 11
 repreneurs NC 4
 reprenne VS 1
@@ -25810,12 +25899,12 @@ respiration NC 1
 respiratoires ADJ 1
 respire V 1
 responsabilisation NC 2
-responsabilité NC 40
+responsabilité NC 41
 responsabilités NC 20
 responsable ADJ 14
 responsable NC 34
 responsables ADJ 5
-responsables NC 65
+responsables NC 67
 ressaisie VPP 1
 ressaisies VPP 1
 ressaisir VINF 2
@@ -25910,7 +25999,7 @@ retirait V 1
 retire V 4
 retirent V 2
 retirer VINF 9
-retiré VPP 2
+retiré VPP 3
 retirée VPP 1
 retombant VPR 1
 retombe V 1
@@ -25920,7 +26009,7 @@ retombée NC 1
 retombée VPP 2
 retombées NC 3
 retombés VPP 1
-retour NC 63
+retour NC 65
 retournant VPR 1
 retourne V 2
 retournement NC 5
@@ -25941,7 +26030,7 @@ retraitée VPP 1
 retraités NC 15
 retraités VPP 1
 retranchent V 1
-retransmis VPP 1
+retransmis VPP 2
 retransmise VPP 1
 retravaille V 1
 retrouvaient V 2
@@ -26196,7 +26285,7 @@ ruisseau NC 1
 ruisseaux NC 1
 ruisselle V 1
 rumeur NC 10
-rumeurs NC 17
+rumeurs NC 18
 running NC 1
 rupiahs NC 1
 rupture NC 13
@@ -26377,12 +26466,13 @@ réformiste ADJ 1
 réformé VPP 3
 réfrigérateur NC 3
 réfrigération NC 2
+réfugiant VPR 1
 réfugié VPP 1
-réfugiés NC 2
+réfugiés NC 3
 réfère V 1
 réfèrent V 1
 référant VPR 1
-référence NC 31
+référence NC 32
 références NC 4
 référencés VPP 1
 référendaire ADJ 2
@@ -26396,7 +26486,7 @@ régie NC 3
 régie VPP 1
 régies NC 2
 régies VPP 1
-régime NC 48
+régime NC 49
 régiment NC 5
 régiments NC 1
 régimes NC 15
@@ -26480,7 +26570,7 @@ rémunérations NC 11
 rémunératrices ADJ 1
 rémunérer VINF 4
 rémunéré VPP 6
-rémunérée VPP 2
+rémunérée VPP 3
 rémunérées VPP 1
 rémunérés VPP 4
 rénales ADJ 1
@@ -26727,7 +26817,7 @@ révélatrice ADJ 3
 révéler VINF 8
 révélera V 1
 révéleront V 1
-révélé VPP 13
+révélé VPP 14
 révélée VPP 5
 révélées VPP 2
 révélés VPP 1
@@ -26736,7 +26826,7 @@ rééchelonnement NC 7
 rééchelonnements NC 1
 rééchelonnés VPP 1
 réédition NC 3
-réédité VPP 1
+réédité VPP 2
 réélection NC 2
 réélu VPP 1
 rééquilibrage NC 7
@@ -26763,11 +26853,11 @@ rêveur ADJ 1
 rêveurs NC 1
 rêvé VPP 2
 rôdage NC 1
-rôle NC 67
+rôle NC 68
 rôles NC 5
-s' CLR 1447
+s' CLR 1448
 s' CS 60
-sa DET 532
+sa DET 535
 sable NC 2
 sabler VINF 1
 sabords NC 1
@@ -26833,8 +26923,8 @@ saisonnière ADJ 2
 saisonnières ADJ 4
 saisons NC 2
 sait V 46
-salaire NC 55
-salaires NC 98
+salaire NC 56
+salaires NC 99
 salamandre NC 1
 salarial ADJ 12
 salariale ADJ 26
@@ -27012,7 +27102,7 @@ scène NC 15
 scénario NC 7
 scénarios NC 5
 scénaristes NC 1
-se CLR 1295
+se CLR 1299
 second ADJ 49
 second NC 11
 second PRO 1
@@ -27059,7 +27149,7 @@ sectoriel ADJ 1
 sectorielles ADJ 1
 secundo ADV 2
 segment NC 3
-sein NC 78
+sein NC 79
 seize ADJ 3
 seize DET 6
 seize PRO 1
@@ -27069,10 +27159,10 @@ selette NC 1
 self-made-men NC 1
 sellerie NC 1
 sellette NC 1
-selon P 224
+selon P 225
 semailles NC 1
 semaine NC 106
-semaines NC 85
+semaines NC 86
 sembla V 1
 semblable ADJ 3
 semblables ADJ 3
@@ -27116,7 +27206,7 @@ sentiments NC 3
 sentir VINF 12
 sentiront V 1
 sept ADJ 25
-sept DET 36
+sept DET 37
 sept NC 2
 sept PRO 2
 septembre NC 125
@@ -27124,11 +27214,11 @@ septennat NC 2
 septentrional ADJ 2
 septicisme NC 1
 septième ADJ 3
-sera V 282
+sera V 283
 serai V 1
 seraient V 32
 serais V 2
-serait V 120
+serait V 121
 seras V 1
 serbe ADJ 1
 serbes ADJ 2
@@ -27140,7 +27230,7 @@ serge NC 1
 serment NC 1
 sermon NC 1
 serons V 3
-seront V 132
+seront V 135
 serpente V 3
 serpents NC 1
 serre NC 1
@@ -27228,7 +27318,7 @@ signature NC 17
 signatures NC 6
 signaux NC 4
 signe NC 17
-signe V 6
+signe V 7
 signent V 2
 signer VINF 13
 signes NC 21
@@ -27239,12 +27329,12 @@ significatifs ADJ 1
 signification NC 2
 significative ADJ 9
 significativement ADV 2
-signifie V 18
+signifie V 19
 signifient V 1
 signifierait V 5
 signifié VPP 4
 signé VPP 53
-signée VPP 1
+signée VPP 2
 signées VPP 3
 signés VPP 5
 silence NC 10
@@ -27317,7 +27407,7 @@ six PRO 5
 sixième ADJ 5
 siècle NC 55
 siècles NC 9
-siège NC 44
+siège NC 45
 siège V 1
 siègent V 1
 sièges NC 4
@@ -27348,7 +27438,7 @@ socialiste ADJ 25
 socialiste NC 1
 socialistes ADJ 6
 socialistes NC 15
-sociaux ADJ 62
+sociaux ADJ 63
 sociaux-démocrates NC 3
 society ET 1
 socio-culturel ADJ 1
@@ -27366,6 +27456,7 @@ société-holding NC 1
 sociétés NC 108
 socle NC 1
 soeur NC 3
+soeurs NC 2
 soft ADJ 2
 soi PRO 10
 soi-disant ADV 1
@@ -27456,7 +27547,7 @@ sommets NC 5
 sommé VPP 1
 somptuaires ADJ 1
 somptueux ADJ 1
-son DET 1029
+son DET 1033
 son NC 3
 sondage NC 11
 sondages NC 5
@@ -27474,15 +27565,16 @@ sonner VINF 1
 sonnette NC 3
 sons ET 1
 sons NC 1
-sont V 989
+sont V 991
 sophistication NC 2
 sophistiqué VPP 1
 sophistiquée VPP 1
 sophistiquées VPP 1
 sophistiqués VPP 2
+sorcellerie NC 1
 sorcier NC 1
 sorcière NC 1
-sorcières NC 1
+sorcières NC 2
 sort NC 9
 sort V 10
 sortaient V 4
@@ -27497,7 +27589,7 @@ sorti VPP 8
 sortie NC 31
 sortie VPP 1
 sorties NC 12
-sortir VINF 27
+sortir VINF 28
 sortira V 3
 sortiront V 2
 sortis VPP 4
@@ -27514,12 +27606,13 @@ soucier VINF 2
 soucieuse ADJ 4
 soucieuses ADJ 3
 soucieux ADJ 8
-soucis NC 5
+soucis NC 6
 soucié VPP 1
 soudain ADJ 1
 soudaine ADJ 3
 soudainement ADV 5
 soudure NC 1
+soudés VPP 1
 souffert VPP 12
 souffle NC 5
 souffler VINF 2
@@ -27591,7 +27684,7 @@ soupçonné VPP 2
 soupçonnés VPP 1
 soupé VPP 1
 source NC 37
-sources NC 22
+sources NC 23
 sources NPP 1
 sourcilleuse ADJ 1
 sourd NC 1
@@ -27607,7 +27700,7 @@ sournois ADJ 1
 sournoisement ADV 1
 sournoises ADJ 1
 sous NC 2
-sous P 197
+sous P 199
 sous-consommation NC 1
 sous-direction NC 1
 sous-emploi NC 6
@@ -27656,7 +27749,7 @@ souscrivant VPR 1
 souscrivent V 2
 soutenable ADJ 1
 soutenir VINF 17
-soutenu VPP 10
+soutenu VPP 11
 soutenue VPP 10
 soutenus VPP 1
 souterraine ADJ 1
@@ -27879,7 +27972,7 @@ subi VPP 8
 subie VPP 1
 subies ADJ 1
 subies VPP 1
-subir VINF 16
+subir VINF 17
 subira V 1
 subirait V 2
 subis VPP 1
@@ -28007,7 +28100,7 @@ suivis VPP 3
 suivit V 1
 suivra V 1
 suivrait V 1
-suivre VINF 39
+suivre VINF 40
 suivront V 3
 sujet NC 38
 sujets NC 11
@@ -28079,13 +28172,13 @@ suprématie NC 2
 suprême ADJ 2
 supérette NC 1
 supérieur ADJ 38
-supérieur NC 7
+supérieur NC 8
 supérieure ADJ 27
 supérieures ADJ 10
 supérieurs ADJ 22
 supérieurs NC 1
 supériorité NC 2
-sur P 1879
+sur P 1886
 sur-investissement NC 1
 sur-le-champ ADV 2
 surcapacité NC 2
@@ -28185,11 +28278,13 @@ suscité VPP 3
 suspectes ADJ 1
 suspects ADJ 1
 suspectés VPP 2
+suspend V 1
 suspendait V 2
 suspendrait V 1
 suspendre VINF 5
 suspendu VPP 5
 suspendue VPP 6
+suspendues VPP 1
 suspendus VPP 3
 suspens NC 1
 suspense NC 4
@@ -28467,7 +28562,7 @@ temporairement ADV 4
 temporaires ADJ 4
 temporelle ADJ 1
 temporis ET 1
-temps NC 306
+temps NC 307
 tempère V 1
 tempérament NC 2
 tempérance NC 1
@@ -28730,9 +28825,9 @@ tortue NC 1
 tortues NC 1
 torture NC 2
 tortures NC 1
-torturé VPP 2
+torturé VPP 3
 total ADJ 21
-total NC 78
+total NC 79
 totale ADJ 30
 totalement ADV 30
 totales ADJ 4
@@ -28796,7 +28891,7 @@ tournés VPP 3
 tours NC 11
 tourteaux NC 1
 tous ADV 208
-tous DET 17
+tous DET 18
 tous PRO 20
 tout ADV 235
 tout DET 82
@@ -28807,10 +28902,10 @@ tout-petits NC 1
 tout-publicité NC 1
 tout-tourisme NC 1
 toute ADV 71
-toute DET 69
+toute DET 70
 toute-puissance NC 1
 toutefois ADV 65
-toutes ADV 109
+toutes ADV 110
 toutes DET 20
 toutes PRO 5
 toxique ADJ 1
@@ -28819,7 +28914,7 @@ toyotisme NC 1
 trac NC 1
 tracasseries NC 1
 trace NC 5
-traces NC 2
+traces NC 3
 trachytique ADJ 1
 tractations NC 4
 tracteur NC 1
@@ -28855,7 +28950,7 @@ traduits VPP 1
 trafic NC 17
 trafics NC 2
 tragi-comique ADJ 1
-tragique ADJ 1
+tragique ADJ 2
 tragédie NC 1
 tragédies NC 2
 trahissait V 1
@@ -28972,7 +29067,7 @@ travailla V 1
 travaillaient V 3
 travaillait V 2
 travaillant VPR 5
-travaille V 9
+travaille V 10
 travaillent V 9
 travailler VINF 21
 travaillera V 2
@@ -28995,7 +29090,7 @@ traverser VINF 1
 traversons V 2
 traversâmes V 1
 traversé VPP 7
-traversée NC 2
+traversée NC 3
 traversée VPP 2
 traversées VPP 1
 traçant VPR 1
@@ -29035,7 +29130,7 @@ triage NC 1
 triangle NC 1
 triangulation NC 1
 tribulations NC 2
-tribunal NC 54
+tribunal NC 55
 tribunaux NC 6
 tribune NC 2
 tribut NC 4
@@ -29196,7 +29291,7 @@ tués NC 2
 tués VPP 2
 tympanon NC 1
 type NC 27
-types NC 16
+types NC 17
 typé VPP 1
 tâche NC 19
 tâches NC 15
@@ -29215,6 +29310,7 @@ télécoms NC 1
 télécopie NC 1
 télécopies NC 1
 télédiffusion NC 2
+téléfilm NC 1
 téléfilms NC 1
 télégraphique ADJ 1
 télématique NC 1
@@ -29233,7 +29329,7 @@ téléspectateur NC 2
 téléspectateurs NC 5
 téléviseur NC 16
 téléviseurs NC 5
-télévision NC 75
+télévision NC 76
 télévisions NC 10
 télévisuel ADJ 1
 télévisuelle ADJ 2
@@ -29246,7 +29342,7 @@ témoignages NC 2
 témoignait V 1
 témoigne V 16
 témoignent V 10
-témoigner VINF 3
+témoigner VINF 4
 témoin ADJ 1
 témoin NC 2
 témoins NC 3
@@ -29278,7 +29374,7 @@ ultérieur ADJ 1
 ultérieurement ADV 4
 ultérieurs ADJ 1
 un ADJ 22
-un DET 3391
+un DET 3399
 un NC 105
 un PRO 52
 unanimement ADV 1
@@ -29287,7 +29383,7 @@ unanimiste ADJ 1
 unanimité NC 12
 und ET 4
 une ADJ 1
-une DET 3374
+une DET 3382
 une NC 44
 une PRO 41
 unes NC 1
@@ -29534,7 +29630,7 @@ venus NC 5
 venus VPP 14
 verbale ADJ 1
 verbe NC 1
-verdict NC 3
+verdict NC 5
 verdoyante ADJ 1
 verdure NC 2
 verger NC 1
@@ -29553,7 +29649,7 @@ verront V 5
 verrou NC 1
 verrouiller VINF 2
 verrouillé VPP 1
-vers P 143
+vers P 144
 versa ET 1
 versaient V 2
 versaillais ADJ 1
@@ -29570,7 +29666,7 @@ version NC 6
 versé VPP 9
 versée VPP 5
 versées VPP 13
-versés VPP 7
+versés VPP 8
 vert ADJ 18
 vert NC 2
 verte ADJ 4
@@ -29610,7 +29706,7 @@ vibrant ADJ 1
 vibrations NC 1
 vicaire NC 1
 vice ET 1
-vice NC 1
+vice NC 2
 vice PREF 2
 vice- PREF 22
 vice-président NC 1
@@ -29644,7 +29740,7 @@ vieillit V 1
 viendra V 5
 viendraient V 1
 viendrait V 1
-viendront V 3
+viendront V 4
 vienne VS 4
 viennent V 32
 viens V 2
@@ -29671,7 +29767,7 @@ vigueur NC 40
 vilain ADJ 1
 village NC 20
 villages NC 3
-ville NC 72
+ville NC 76
 ville-campagne NC 1
 villes NC 33
 villégiature NC 1
@@ -29712,7 +29808,7 @@ violations NC 3
 violemment ADV 2
 violence NC 8
 violences NC 3
-violent ADJ 4
+violent ADJ 5
 violente ADJ 3
 violentes ADJ 2
 violette NC 1
@@ -29735,7 +29831,7 @@ visage NC 6
 visages NC 2
 visaient V 1
 visait V 2
-visant VPR 16
+visant VPR 17
 viscéralement ADV 2
 vise V 14
 visent V 4
@@ -29782,6 +29878,7 @@ vivace ADJ 1
 vivait V 3
 vivant VPR 1
 vivante VPR 2
+vivantes ADJ 1
 vivants VPR 1
 vive ADJ 19
 vive VS 1
@@ -29930,7 +30027,7 @@ vraisemblable ADJ 3
 vraisemblablement ADV 18
 vraisemblance NC 3
 vu NC 12
-vu VPP 83
+vu VPP 84
 vue NC 72
 vue VPP 6
 vues NC 4
@@ -29991,7 +30088,7 @@ world NPP 1
 worsred ET 1
 x NC 1
 xénophobe ADJ 1
-y CLO 523
+y CLO 524
 yankees ET 1
 yaourts NC 3
 yards NC 2
@@ -30022,7 +30119,7 @@ zéros NC 2
 ° NC 3
 °C NC 7
 °c NC 8
-À P 50
+À P 51
 Ça PRO 8
 ÉCONOMIE NC 1
 ÉLÉGANCE NC 1
@@ -30035,13 +30132,13 @@ zéros NC 2
 Élysée NC 1
 Épaulement NC 1
 Ériger VINF 1
-État NC 6
+État NC 8
 États NC 1
 États-UNIS NPP 1
 États-Unis NPP 1
 Évaluées VPP 1
 Évènement NC 1
-à P 7790
+à P 7811
 à-coups NC 1
 âge NC 37
 âges NC 4
@@ -30064,7 +30161,7 @@ zéros NC 2
 ébahies VPP 1
 ébahis VPP 1
 ébahit V 1
-ébauche NC 4
+ébauche NC 7
 ébauchent V 1
 ébauché VPP 1
 ébauchée VPP 1
@@ -30098,7 +30195,7 @@ zéros NC 2
 échappant VPR 3
 échappe V 6
 échappent V 2
-échapper VINF 8
+échapper VINF 9
 échapperont V 1
 échappé VPP 4
 échappées VPP 1
@@ -30231,7 +30328,7 @@ zéros NC 2
 éditeur NC 6
 éditeurs NC 4
 édition NC 16
-éditions NC 14
+éditions NC 15
 éditorial NC 1
 éditoriale ADJ 3
 éditorialiste NC 2
@@ -30464,7 +30561,7 @@ zéros NC 2
 éponger VINF 1
 épongés VPP 1
 épopée NC 1
-époque NC 48
+époque NC 50
 époumonés VPP 1
 épousa V 1
 épousaient V 1
@@ -30565,7 +30662,7 @@ zéros NC 2
 étaient V 153
 étain NC 3
 étais V 8
-était V 425
+était V 427
 étale V 1
 étalent V 2
 étaler VINF 1
@@ -30670,7 +30767,7 @@ zéros NC 2
 étudiées VPP 1
 étudiés VPP 1
 été NC 64
-été VPP 886
+été VPP 893
 évacués VPP 1
 évaluait V 2
 évaluation NC 13

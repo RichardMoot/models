@@ -1,0 +1,17 @@
+#!/usr/bin/sed -f
+
+# add space at end of each line to facilitate matching
+
+s/$/ /g
+
+# keep only word, POS-tag and supertag 
+
+s/\([^| ]*\)|\([^| ]*\)|\([^| ]*\)|[^ ]* /\1|\2|\3 /g
+
+# remove spaces at end of lines
+
+s/ *$//g
+
+# delete commentary lines
+
+/^#/d
