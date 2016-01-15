@@ -4,7 +4,6 @@ This repository contains the model directories for French Part-of-Speech (POS) a
 [C&C supertagger
   and part-of-speech tagger](http://svn.ask.it.usyd.edu.au/trac/candc/wiki).
 
- | beta = 1 || beta = 0.1 || beta = 0.05 || beta = 0.01 || beta = 0.005 || beta = 0.001
 Model | Correct | Tags/word |Correct | Tags/word | Correct | Tags/word | Correct | Tags/word | Correct | Tags/word | Correct | Tags/word
 ------|---------|-----------|--------|-----------|---------|-----------|---------|-----------|---------|-----------|---------|----------
 Mrgd | 90.43 | 1.0 | 96.31  | 1.4 | 97.17 | 1.6 | 98.37 | 2.3 | 98.53 | 2.8 | 98.79 | 4.5
