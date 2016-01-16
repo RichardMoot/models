@@ -6,6 +6,8 @@ This repository contains the model directories for French Part-of-Speech (POS) a
 
 ### Performance overview of the different models
 
+The performance overview for c572192846b9c2169ec5ee9198c94d67c3b94adf. 
+
 ##### Supertag models with gold POS tags
 
 Model | Correct (beta=1) | F/w |Correct (beta=0.1) | F/w | Correct (beta=0.05) | F/w | Correct (beta=0.01) | F/w | Correct (beta=0.005)| F/w | Correct (beta=0.001) | F/w
