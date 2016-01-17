@@ -2,18 +2,18 @@
 #   train_ner --input ner.train --ifmt %w|%p|%s|%n \n --model ner --solver bfgs --comment Training NER --verbose
 
 ! 40
-" 1261
+" 1271
 $ 1
 % 260
 & 3
 ' 2
 'm 1
-( 492
+( 493
 (...) 13
-) 492
+) 493
 + 4
-, 5983
-- 327
+, 6028
+- 332
 -6 1
 -ce 14
 -ci 11
@@ -24,12 +24,12 @@ $ 1
 -je 4
 -là 10
 -nous 5
--on 4
+-on 5
 -t-elle 11
--t-il 28
+-t-il 29
 -t-on 9
 -vous 11
-. 3475
+. 3485
 .. 5
 ... 64
 / 14
@@ -217,6 +217,7 @@ $ 1
 19,9 1
 190 2
 1900 1
+1900-1904 1
 19000 1
 1902 1
 1903 2
@@ -225,6 +226,7 @@ $ 1
 1907 1
 191 1
 1912 1
+1914 1
 1914-1915 1
 1914-1918 1
 1915 4
@@ -274,7 +276,7 @@ $ 1
 1986 10
 1987 6
 1988 7
-1989 27
+1989 28
 1990 27
 1990-1991 1
 1991 64
@@ -300,6 +302,7 @@ $ 1
 2,90 1
 2,96 1
 2-1 1
+2-7113-0389-6 1
 2.000 3
 2.032.100 1
 2.184,79 1
@@ -364,6 +367,7 @@ $ 1
 283 1
 287 1
 29 12
+2ème 1
 3 46
 3,13 1
 3,2 3
@@ -592,7 +596,7 @@ $ 1
 96 2
 97 1
 98 1
-: 268
+: 270
 ; 192
 = 2
 ? 80
@@ -635,7 +639,7 @@ Adouci 1
 Adour 2
 Adversaires 1
 Aegon 2
-Affaire 20
+Affaire 22
 Affaires 3
 Afin 2
 Afrique 10
@@ -691,6 +695,7 @@ Alomar 1
 Alors 9
 Alpes 7
 Alsace 2
+Alsace-Lorraine 1
 Altus 1
 Alègre 1
 Amadeus 1
@@ -714,7 +719,7 @@ Andersen 1
 Andes 1
 Andiamo 1
 Andreuzza 2
-André 11
+André 13
 Anglais 3
 Angleterre 1
 Angoulème 2
@@ -725,6 +730,7 @@ Annette 1
 Ans 1
 Antenne 1
 Anticipations 1
+Anticléricalisme 1
 Antilles 2
 Août 2
 Apep 1
@@ -1039,6 +1045,7 @@ Bulletin 1
 Bulls 1
 Bund 1
 Bundesbank 2
+Bureau 1
 Burgelin 1
 Burget 1
 Bush 3
@@ -1145,7 +1152,7 @@ Castelo 1
 Catherine 3
 Catholicisme 1
 Catégorie 1
-Catégories 8
+Catégories 9
 Cau 1
 Cauterets 15
 Cauteretz 5
@@ -1169,7 +1176,7 @@ Centre-Ouest 1
 Cependant 7
 Cernay 1
 Certaines 2
-Certains 4
+Certains 5
 Certeau 1
 Certes 3
 Ces 27
@@ -1256,6 +1263,7 @@ Col 2
 Colbert 1
 Colette 1
 Collectif 1
+Collection 1
 Collet 1
 Collier 1
 Collin 1
@@ -1330,6 +1338,7 @@ Crabioules 1
 Credit 1
 Crescent 1
 Cresson 2
+Crise 1
 Croisades 1
 Croix 2
 Croix-Rouge 1
@@ -1429,6 +1438,7 @@ Dix 3
 Diétrich 3
 Docteur 1
 Documentaires 1
+Documents 1
 Dodd-Frank 1
 Dolomieu 1
 Dominati 13
@@ -1449,6 +1459,7 @@ Dr 3
 Dracula 1
 Dresde 1
 Drew 1
+Dreyfus 2
 Drian 3
 Droits 2
 Drome 1
@@ -1505,6 +1516,7 @@ Ecosystème 1
 Ecurey 1
 Eddie 1
 Edith 1
+Edition 1
 Edmond 1
 Edouard 3
 Education 1
@@ -1531,7 +1543,7 @@ Emmanuel 1
 Emmanuelle 1
 Empire 1
 Empruntez 1
-En 110
+En 111
 Encore 2
 Enders 1
 Enfer 3
@@ -1644,6 +1656,7 @@ Ferme 1
 Fernsehfunk 1
 Ferrari 1
 Ferrer 1
+Ferry 1
 Ferré 2
 Festival 1
 Fiat 1
@@ -1688,7 +1701,8 @@ Fournissant 1
 Fourquet 1
 Foussemagne 1
 Fraises 1
-France 112
+Franc-maçonnerie 1
+France 113
 France-Inter 1
 France-Télécom 1
 Francfort 9
@@ -1697,7 +1711,7 @@ Franck 1
 Franqueville 1
 Frantzen 1
 Français 18
-François 17
+François 18
 Françoise 2
 Frederick 1
 Free 1
@@ -1721,7 +1735,7 @@ GATT 13
 GEC-Alsthom 1
 GFD 1
 GILLIAM 1
-GO 1
+GO 2
 GRAND 1
 GRANDE 1
 GTI 1
@@ -1803,12 +1817,12 @@ Grum 1
 Grâce 2
 Guadeloupe 1
 Guardian 2
-Guerre 9
+Guerre 10
 Guerry 1
 Guestier 1
 Guide 3
 Guides 1
-Guillaume 2
+Guillaume 3
 Guillen 7
 Gulf 1
 Gulliver 1
@@ -1917,7 +1931,7 @@ IBM 7
 IDC 1
 IFIL 1
 IFOP 3
-II 3
+II 4
 III 3
 IIIème 1
 IME 1
@@ -1928,6 +1942,7 @@ INSEE 2
 INTÉGRALITÉ 1
 IRA 1
 IRC 1
+ISBN 1
 IV 6
 IX 1
 Iacocca 2
@@ -1941,7 +1956,7 @@ Ici 8
 Ifop 1
 Ignorant 1
 Igon 1
-Il 188
+Il 189
 Ile-de-France 2
 Ileau 1
 Ils 39
@@ -2044,6 +2059,7 @@ Jo 1
 Joanne 1
 Jockey 1
 Joeuf 2
+Joffre 2
 Johannesburg 1
 Johannès 1
 John 4
@@ -2060,6 +2076,7 @@ Journée 1
 Joyot 1
 Jugement 1
 Juillet 2
+Jules 1
 Jules-Romains 2
 Julia 1
 Julien 3
@@ -2110,7 +2127,7 @@ Kubrick 1
 Kursaal 1
 Kutuzov 2
 Kuwait 1
-L' 162
+L' 163
 L. 1
 LA 1
 LABORIEUX 1
@@ -2166,7 +2183,7 @@ Leigh-Pemberton 1
 Lens 1
 Lequeutre 1
 Leroy 3
-Les 235
+Les 237
 Lescar 1
 Lessons 1
 Lettres 1
@@ -2749,7 +2766,7 @@ Plan-des-Etangs 1
 Plantade 3
 Plantes 1
 Planétarium 1
-Plus 11
+Plus 12
 Plusieurs 4
 Pléiade 1
 Plût 1
@@ -2778,7 +2795,7 @@ Postes 1
 Poto-Poto 1
 Pouey-Aspé 1
 Poulain 1
-Pour 64
+Pour 65
 Pourquoi 7
 Pourtant 4
 Pouvoir 2
@@ -2788,7 +2805,7 @@ Prado 1
 Pragnères 2
 Prague 3
 Premier 7
-Première 3
+Première 4
 Prendre 1
 Prenez 1
 Prenons 1
@@ -2834,6 +2851,7 @@ Pèna-Blanca 2
 Périgueux 1
 Pérou 1
 Pérouse 1
+Pétain 1
 Pétriat 1
 Pêne 1
 QU' 1
@@ -2970,7 +2988,7 @@ RÉMY 1
 RÉSULTATS 1
 Réau 1
 Réformistes 1
-Références 3
+Références 4
 Régie 2
 Régionalement 1
 Régis 1
@@ -2978,11 +2996,12 @@ Rémy 1
 Réole 1
 Répercussion 1
 Républicain 1
-République 20
+République 21
 Républiques 8
 Réserve 1
 Résistance 5
 Résultat 1
+Rétrospectivement 1
 Réunion 12
 Réunionnais 1
 Réunis 1
@@ -3019,6 +3038,7 @@ Saddam 2
 Saha 1
 Saint 12
 Saint-Amans 8
+Saint-Cyr 1
 Saint-Dizier 3
 Saint-Dominique 1
 Saint-Etienne 2
@@ -3147,7 +3167,7 @@ Solana 1
 Soleuvre 3
 Solférino 1
 Solidarité 1
-Son 6
+Son 7
 Sorcière 1
 Sorcy-Saint-Martin 1
 Souain 10
@@ -3244,6 +3264,7 @@ Tchécoslovaquie 1
 Tels 1
 Templiers 1
 Tempêtes 3
+Tentative 1
 Terres 1
 Terreur 1
 Territoire 3
@@ -3312,7 +3333,7 @@ Triboulottes 1
 Tribunal 2
 Triste 1
 Trois 7
-Troisième 1
+Troisième 2
 Trop 1
 Troumouse 1
 Très 3
@@ -3346,11 +3367,12 @@ USGS 4
 USPA 3
 UUP 1
 Ukraine 3
-Un 61
+Un 62
 Une 69
 Uni-Régions 1
 Union 19
 Unionistes 1
+Universitaires 1
 Unzen 1
 Urbain 3
 Urbina 1
@@ -3435,6 +3457,7 @@ Villeurbanne 1
 Villiers 1
 Vincenne 1
 Vincent 1
+Vindé 1
 Vingt 1
 Vingt-six 1
 Virgile 1
@@ -3489,7 +3512,7 @@ XIIe 1
 XIV 3
 XIVe 1
 XIX 2
-XIXe 2
+XIXe 3
 XV 1
 XVIII 2
 XVIIe 1
@@ -3520,7 +3543,7 @@ Zénith 1
 ] 16
 ^ 4
 _ 1
-a 715
+a 718
 abaissant 1
 abaissement 1
 abaisser 1
@@ -3546,7 +3569,7 @@ abord 17
 abordable 1
 aborde 1
 abords 3
-abordé 2
+abordé 3
 about 1
 abouti 4
 aboutir 2
@@ -3693,7 +3716,7 @@ actionnaires 12
 actionnariat 1
 actionner 1
 actions 14
-active 1
+active 2
 activent 1
 activiste 1
 activité 37
@@ -3715,7 +3738,7 @@ adducteurs 1
 adepte 1
 adhèrent 1
 adhérentes 1
-adhérents 7
+adhérents 8
 adhérer 1
 adhésion 4
 adieu 1
@@ -3774,7 +3797,7 @@ adéquation 1
 affaibli 1
 affaiblir 1
 affaiblis 1
-affaire 51
+affaire 56
 affaires 23
 affaissée 1
 affectent 1
@@ -3861,7 +3884,7 @@ aigles 4
 aiguilles 1
 ailes 1
 aille 2
-ailleurs 25
+ailleurs 26
 aimable 2
 aimaient 1
 aimait 1
@@ -3905,10 +3928,10 @@ alimenté 1
 allaient 2
 allait 4
 allant 7
-allemand 15
-allemande 6
+allemand 16
+allemande 7
 allemandes 2
-allemands 5
+allemands 6
 aller 20
 allers 1
 allez 1
@@ -3962,6 +3985,7 @@ amant 1
 amants 2
 amas 3
 amateur 2
+amateurisme 1
 amateurs 3
 ambassade 2
 ambassadeur 5
@@ -4029,7 +4053,7 @@ américano-japonais 1
 an 49
 anachroniques 1
 analogique 1
-analyse 5
+analyse 6
 analyser 1
 analystes 3
 analytique 1
@@ -4041,6 +4065,7 @@ anciennes 4
 anciens 10
 ancêtres 3
 and 5
+anecdote 1
 ange 1
 anglais 1
 anglaise 4
@@ -4080,6 +4105,7 @@ annulées 1
 année 95
 années 38
 anomalie 1
+anonymat 1
 anormal 1
 ans 128
 antenne 5
@@ -4124,15 +4150,17 @@ apparaît 4
 apparaître 2
 appareil 1
 appareils 1
-apparemment 7
+apparemment 8
+apparent 1
 apparition 4
 appartement 1
 appartements 1
-appartenance 1
+appartenance 2
 appartenant 1
-appartenu 1
+appartenu 2
 appartenue 1
 appartiendra 1
+appartiennent 1
 appartient 4
 apparu 1
 apparues 1
@@ -4250,7 +4278,7 @@ arme 7
 armes 2
 armistice 1
 armures 1
-armée 7
+armée 9
 armées 4
 armés 1
 arpentant 1
@@ -4296,7 +4324,7 @@ arrêté 8
 arrêtée 2
 arrêtées 3
 arsenal 1
-art 1
+art 2
 article 6
 articles 1
 articulation 1
@@ -4327,7 +4355,7 @@ assauts 1
 assemblée 9
 assemblées 1
 assemblés 1
-assez 28
+assez 29
 assiette 2
 assignation 1
 assigner 1
@@ -4343,7 +4371,7 @@ assister 1
 assisté 4
 assiégée 1
 associant 1
-association 16
+association 18
 associations 11
 associative 1
 associe 1
@@ -4380,6 +4408,7 @@ astronomique 1
 astrophysique 1
 atelier 3
 ateliers 3
+athéisme 1
 atmosphère 1
 atouts 3
 attache 1
@@ -4423,6 +4452,7 @@ attentif 2
 attentifs 1
 attention 5
 attentivement 1
+atterrir 1
 attestant 1
 attira 1
 attirer 5
@@ -4443,7 +4473,7 @@ attribuée 1
 atténuation 1
 atténue 1
 atténuées 1
-au 557
+au 559
 au-delà 7
 au-dessous 2
 au-dessus 7
@@ -4485,7 +4515,7 @@ aurez 1
 aurons 1
 auront 14
 auréole 2
-aussi 109
+aussi 110
 aussitôt 5
 austral 2
 australienne 1
@@ -4527,19 +4557,19 @@ autre 61
 autrefois 8
 autres 80
 autrichienne 1
-aux 253
+aux 255
 auxiliaire 1
 auxquelles 3
 auxquels 3
 avaient 43
 avais 17
-avait 140
+avait 142
 aval 2
 avalanche 1
 avalanches 1
 avaleur 1
 avaloirs 2
-avance 3
+avance 4
 avancement 1
 avancent 1
 avances 1
@@ -4581,6 +4611,7 @@ avoisinent 1
 avoisiner 1
 avons 25
 avril 16
+avènement 1
 avère 1
 avéra 1
 avéré 1
@@ -4700,7 +4731,7 @@ biais 1
 bible 2
 bibliothèque 1
 biche 1
-bien 117
+bien 118
 bien-fondé 1
 bien-être 1
 bienfait 1
@@ -4769,11 +4800,11 @@ bondir 1
 bondés 1
 bonheur 6
 bonjour 1
-bonne 20
+bonne 21
 bonnement 1
 bonnes 8
 bonnet 2
-bons 4
+bons 5
 bord 6
 bords 1
 bordure 1
@@ -4864,6 +4895,7 @@ brun 1
 brusquement 2
 brusquerie 1
 brut 7
+brutal 1
 brutale 1
 brutalement 2
 brutales 2
@@ -5029,8 +5061,9 @@ cardinal 7
 carence 1
 caresse 1
 caritatives 1
-carrière 4
+carrière 5
 carrières 1
+carriéristes 1
 carrossable 1
 carré 2
 carrée 2
@@ -5077,7 +5110,7 @@ causé 2
 cavalerie 1
 cavalier 1
 cavernes 2
-ce 280
+ce 282
 ceinture 2
 ceintures 1
 cela 25
@@ -5112,7 +5145,7 @@ cents 9
 cependant 14
 cercle 5
 cercles 2
-certain 6
+certain 7
 certaine 3
 certainement 6
 certaines 18
@@ -5120,7 +5153,7 @@ certains 24
 certes 2
 certificats 1
 certifiés 1
-ces 143
+ces 144
 cessa 1
 cessait 1
 cessation 3
@@ -5133,7 +5166,7 @@ cessible 1
 cession 2
 cessé 5
 cet 41
-cette 218
+cette 220
 ceux 39
 ceux-ci 1
 chacun 10
@@ -5158,7 +5191,7 @@ champs 1
 champs-Elysées 1
 chance 8
 chancelier 4
-chances 7
+chances 8
 chanceux 1
 chandelles 1
 change 5
@@ -5282,13 +5315,14 @@ chocolatiers 1
 chocolats 1
 chocs 1
 choeur 1
-choisi 6
+choisi 7
 choisir 2
 choisis 3
 choix 9
 choqués 1
 chose 13
 choses 8
+chronique 1
 chroniqueur 1
 chronophage 1
 chrétien-démocrate 1
@@ -5341,7 +5375,7 @@ citerne 1
 citernes 1
 citoyen 2
 citoyenne 1
-citoyens 1
+citoyens 2
 cité 6
 civil 1
 civile 5
@@ -5365,7 +5399,7 @@ clergé 1
 clichés 1
 client 3
 clients 7
-clientèle 3
+clientèle 4
 climat 4
 climatiques 2
 clins 1
@@ -5383,6 +5417,7 @@ cléricafard 1
 clérical 1
 cléricalisant 1
 cléricanaille 1
+cléricaux 1
 clôture 1
 clôturer 1
 coalition 2
@@ -5393,7 +5428,7 @@ coeur 10
 coeurs 1
 cohérences 1
 cohérent 1
-cohésion 1
+cohésion 2
 coiffeuse 1
 coiffure 1
 coiffé 1
@@ -5404,7 +5439,7 @@ col 5
 collaborateur 1
 collaborateurs 4
 collaboration 2
-collaborer 1
+collaborer 2
 collaboré 1
 collecte 2
 collectif 2
@@ -5425,6 +5460,8 @@ collègues 4
 colmaté 1
 colombien 1
 colombophilie 1
+colonel 1
+colonial 1
 colonie 2
 colonisation 6
 colons 1
@@ -5455,7 +5492,7 @@ commandera 1
 commandes 4
 commandé 1
 commandés 1
-comme 164
+comme 169
 commence 9
 commencent 3
 commencer 2
@@ -5543,7 +5580,7 @@ compliquer 1
 compliqué 1
 compliquée 1
 complète 4
-complètement 7
+complètement 8
 complément 2
 complémentaires 3
 complémentarité 1
@@ -5562,7 +5599,7 @@ composent 1
 composera 1
 composite 3
 composition 3
-composée 1
+composée 2
 comprenant 2
 comprend 3
 comprendraient 1
@@ -5618,6 +5655,7 @@ concilier 1
 conclu 7
 concluait 1
 conclure 4
+conclusion 1
 conclusions 3
 concocter 1
 concocté 1
@@ -5660,7 +5698,7 @@ confiance 10
 confiants 1
 confident 1
 confidentielles 1
-confie 1
+confie 2
 confier 2
 configurations 1
 confirmation 2
@@ -5726,7 +5764,7 @@ connaît 6
 connaîtra 1
 connaître 10
 connexe 1
-connu 13
+connu 14
 connue 4
 connues 1
 connus 5
@@ -5773,10 +5811,11 @@ considérablement 2
 considérables 3
 considérations 1
 considérer 2
-considéré 5
+considérera 1
+considéré 6
 considérée 4
 considérées 1
-considérés 1
+considérés 2
 consignations 2
 consistent 1
 consister 1
@@ -5959,7 +5998,7 @@ coriace 1
 corners 1
 corniches 1
 coroné 1
-corps 7
+corps 8
 correctement 2
 correctionnel 6
 correspond 2
@@ -6143,7 +6182,7 @@ culminant 1
 culmine 1
 culminé 2
 culpabilité 2
-culte 1
+culte 2
 cultiver 1
 cultivées 1
 culture 6
@@ -6193,7 +6232,7 @@ côtoie 1
 côtoient 1
 côté 40
 côtés 5
-d' 1334
+d' 1342
 dactylographiée 1
 dame 2
 dames 2
@@ -6207,7 +6246,7 @@ dangereux 4
 dangers 3
 danois 2
 danoise 1
-dans 593
+dans 594
 danse 1
 dansent 1
 datant 1
@@ -6220,7 +6259,7 @@ datée 1
 datés 1
 dauphins 1
 davantage 7
-de 5057
+de 5098
 dedans 1
 degré 2
 dehors 5
@@ -6260,7 +6299,7 @@ derniers 23
 dernière 18
 dernières 9
 derrière 12
-des 1501
+des 1511
 descendaient 1
 descendait 1
 descendant 4
@@ -6367,7 +6406,7 @@ digne 6
 digérer 3
 dilemme 1
 diligence 5
-dimanche 16
+dimanche 17
 dimanches 1
 dimension 1
 diminuent 1
@@ -6383,12 +6422,12 @@ diplomates 1
 diplomatique 1
 diplomatiques 5
 diplôme 2
-dire 14
+dire 15
 direct 8
 directe 2
 directement 9
 directes 1
-directeur 20
+directeur 21
 directeurs 2
 direction 22
 directionnelles 1
@@ -6412,6 +6451,7 @@ discours 4
 discriminant 1
 discrètes 2
 discréditer 1
+discrédités 1
 discrétion 2
 discussion 1
 discussions 8
@@ -6433,7 +6473,7 @@ disparue 2
 disparus 4
 dispensait 2
 dispensés 1
-dispersion 1
+dispersion 2
 disponible 2
 disponibles 1
 disposait 1
@@ -6443,7 +6483,7 @@ disposer 2
 disposeront 2
 dispositif 6
 dispositifs 1
-disposition 5
+disposition 6
 dispositions 6
 disposé 1
 disposée 2
@@ -6502,7 +6542,7 @@ dix-sept 2
 dix-septième 1
 dixième 1
 dizaine 7
-dizaines 3
+dizaines 4
 do 1
 dockers 7
 docks 1
@@ -6519,7 +6559,7 @@ doivent 12
 dollar 7
 dollars 24
 doléances 1
-domaine 7
+domaine 8
 domaines 6
 domestique 7
 domestiques 1
@@ -6542,14 +6582,14 @@ donnant-donnant 1
 donne 16
 donnent 3
 donner 11
-donnera 1
+donnera 2
 donneront 1
 donné 16
 donnée 6
 données 5
 donnés 1
 dons 1
-dont 138
+dont 139
 dopés 1
 dormi 2
 dormir 2
@@ -6583,9 +6623,11 @@ douloureuse 1
 douloureusement 1
 douloureuses 3
 douloureux 3
-doute 18
+doutant 1
+doute 19
 douter 4
 douteuses 2
+douteux 1
 doux 4
 douzaine 2
 douze 12
@@ -6598,13 +6640,14 @@ dressait 1
 dresse 3
 dresser 1
 dressé 3
+dreyfusardes 1
 droguerie 1
 droit 22
 droite 17
 droits 11
 drolatiques 1
 drôle 1
-du 1159
+du 1166
 duc 6
 ducal 1
 duchesse 3
@@ -6616,9 +6659,9 @@ duquel 4
 dur 2
 dura 2
 durable 1
-durablement 1
+durablement 2
 durables 2
-durant 16
+durant 17
 durcir 1
 durcit 1
 dure 3
@@ -6635,7 +6678,7 @@ dus 1
 dut 1
 dynamiques 1
 dynamiser 2
-dès 27
+dès 28
 dé 1
 débarquons 1
 débarrasser 1
@@ -6791,7 +6834,7 @@ déiour 1
 déjeune 1
 déjeuner 3
 déjeunâmes 1
-déjà 36
+déjà 37
 délai 5
 délassement 1
 délibérant 1
@@ -6950,8 +6993,9 @@ désolée 1
 désordre 1
 désorganisation 1
 désorganiserait 1
+désorganisé 1
 désorienté 1
-désormais 11
+désormais 12
 déséquilibre 1
 détacher 1
 détachées 2
@@ -6993,7 +7037,7 @@ dévalorisation 1
 dévaluation 4
 dévaluer 2
 développait 1
-développement 14
+développement 16
 développements 1
 développer 2
 développé 3
@@ -7011,7 +7055,7 @@ dévouées 1
 déçu 1
 dîner 2
 dîné 3
-dû 8
+dû 9
 eau 16
 eaux 28
 effacer 1
@@ -7074,7 +7118,7 @@ emmener 1
 emmêlé 1
 empaillés 1
 empaqueté 1
-empereur 2
+empereur 3
 empire 3
 emplacement 6
 emplissent 1
@@ -7109,7 +7153,7 @@ empêche 3
 empêcher 1
 empêchera 1
 empêché 2
-en 1200
+en 1204
 en-dessous 2
 en-tête 1
 encadre 1
@@ -7209,6 +7253,7 @@ ensorcelées 1
 ensuite 16
 entailles 1
 entama 1
+entamera 1
 entamé 2
 entamées 1
 entassement 1
@@ -7251,7 +7296,7 @@ entraînement 5
 entraîner 4
 entraîneur 1
 entraîné 1
-entre 96
+entre 97
 entre-temps 1
 entrecoupée 1
 entremise 1
@@ -7290,7 +7335,7 @@ environs 4
 envisage 3
 envisageait 2
 envisagent 1
-envisager 5
+envisager 6
 envisagées 3
 envié 1
 envoi 2
@@ -7348,12 +7393,12 @@ essayer 3
 essayé 2
 essentiel 4
 essentielle 1
-essentiellement 6
+essentiellement 7
 essentiels 2
 essor 2
 essoufflement 1
 essuie 1
-est 791
+est 793
 est-à-dire 11
 esthétique 1
 estimant 3
@@ -7367,7 +7412,7 @@ estimées 1
 estoient 1
 estomac 1
 estompent 2
-et 1740
+et 1757
 etc 4
 etc. 1
 eu 25
@@ -7384,7 +7429,7 @@ euros 11
 eus 1
 eussions 1
 eut 5
-eux 23
+eux 25
 eux-mêmes 2
 ex- 19
 ex-officio 1
@@ -7612,7 +7657,8 @@ familiaux 3
 familier 2
 familiers 1
 famille 31
-familles 9
+familles 10
+fanatiques 1
 fanfare 2
 fantaisiste 1
 fantasme 1
@@ -7696,8 +7742,8 @@ festons 1
 feu 12
 feuilles 2
 fiable 1
-fichage 2
-fiches 9
+fichage 3
+fiches 11
 fichiers 1
 fictifs 9
 fiction 4
@@ -7797,6 +7843,7 @@ fleurit 1
 fleurs 5
 fleuve 3
 flibustier 1
+flicage 1
 flirtant 1
 floraison 1
 flore 3
@@ -7920,7 +7967,7 @@ fragilité 1
 fragments 1
 frais 7
 franc 9
-franc-maçon 1
+franc-maçon 2
 francaise 1
 france 3
 franche 1
@@ -7940,8 +7987,8 @@ francophobie 1
 francophone 4
 francophones 1
 francs 128
-français 40
-française 22
+français 41
+française 23
 françaises 8
 frappante 1
 frappe 3
@@ -7998,7 +8045,7 @@ fus 2
 fusillé 2
 fusillés 7
 fusion 4
-fut 52
+fut 53
 futur 8
 future 3
 futures 2
@@ -8074,7 +8121,7 @@ garnisons 1
 garçon 1
 garçons 1
 gastronome 1
-gauche 16
+gauche 17
 gauches 2
 gaule 1
 gave 7
@@ -8132,7 +8179,7 @@ gospel 1
 gouffre 5
 gourmand 1
 gourmandise 1
-gouvernement 52
+gouvernement 53
 gouvernemental 1
 gouvernements 1
 gouverneur 1
@@ -8166,7 +8213,7 @@ grasses 1
 gratuit 1
 gratuité 1
 grave 4
-gravement 4
+gravement 5
 graver 1
 graves 3
 gravi 3
@@ -8207,7 +8254,7 @@ grâces 1
 grève 6
 grèverait 1
 grèves 2
-guerre 29
+guerre 31
 guerres 2
 guerrier 1
 guette 1
@@ -8229,9 +8276,9 @@ gèrent 1
 géant 8
 génial 1
 génie 4
-général 53
+général 56
 générale 19
-généralement 4
+généralement 5
 généralisation 2
 généraliste 2
 généralistes 2
@@ -8245,7 +8292,7 @@ générosité 2
 géo-politico-stratégiques 1
 géographe 1
 géographie 1
-géographique 2
+géographique 3
 géographiques 1
 géologie 2
 géologique 2
@@ -8469,7 +8516,7 @@ idéologues 1
 ignorance 1
 ignorent 1
 ignorés 1
-il 436
+il 439
 illettrisme 1
 illisibles 1
 illuminations 1
@@ -8533,10 +8580,10 @@ impliqué 2
 impliqués 1
 implosion 1
 importance 8
-important 16
+important 17
 importante 9
 importantes 8
-importants 11
+importants 12
 importateurs 1
 importations 5
 importe 3
@@ -8621,7 +8668,7 @@ incommensurables 1
 incomparable 1
 incomparables 1
 incompréhensible 1
-incompétence 2
+incompétence 4
 incompétent 1
 inconciliables 1
 inconnu 2
@@ -8805,7 +8852,7 @@ installée 5
 installés 1
 instance 3
 instances 2
-instant 7
+instant 8
 instantanée 1
 instigateur 1
 instinct 1
@@ -8866,7 +8913,7 @@ internationale 6
 internationales 4
 internationaux 5
 interne 4
-internes 2
+internes 3
 internet 1
 internées 1
 internés 3
@@ -8916,7 +8963,7 @@ intrépides 1
 intuition 1
 intégralité 1
 intégration 3
-intégrer 2
+intégrer 3
 intégrera 1
 intégrée 1
 intéressant 3
@@ -8941,7 +8988,7 @@ inventaires 1
 inventait 1
 invente 1
 inventée 1
-inverse 8
+inverse 9
 inversement 1
 inverser 1
 inversion 4
@@ -8968,7 +9015,7 @@ invoquent 1
 invraisemblable 1
 inégalé 1
 inéligibilité 5
-inéluctable 2
+inéluctable 3
 inépuisable 1
 inévitable 2
 inévitables 2
@@ -9003,7 +9050,7 @@ israéliennes 1
 israéliens 1
 issue 13
 issues 1
-issus 2
+issus 4
 italien 5
 italienne 2
 italiens 1
@@ -9020,7 +9067,7 @@ jadis 1
 jaillissent 2
 jalousies 2
 jaloux 2
-jamais 29
+jamais 30
 jambe 1
 jambes 1
 janvier 115
@@ -9077,7 +9124,7 @@ jours 51
 joué 4
 jovial 1
 joyeux 1
-judiciaire 25
+judiciaire 26
 judiciaires 3
 judicieuse 1
 judicieusement 2
@@ -9114,7 +9161,7 @@ justes 1
 justice 11
 justifie 3
 justifier 5
-justifié 1
+justifié 2
 justifiée 1
 justifiées 1
 jésuitard 1
@@ -9125,8 +9172,8 @@ kilomètre 1
 kilomètres 7
 km 4
 kurde 2
-l' 1762
-la 2608
+l' 1780
+la 2623
 labeur 1
 laboratoire 1
 laboratoires 1
@@ -9169,7 +9216,7 @@ langueur 1
 lançant 1
 lapins 1
 laquais 1
-laquelle 15
+laquelle 16
 large 12
 largement 9
 larges 4
@@ -9193,7 +9240,7 @@ laxisme 1
 laïcisant 1
 laïque 1
 laïques 1
-le 1726
+le 1737
 leader 1
 lecteur 1
 lecteurs 4
@@ -9202,14 +9249,14 @@ lent 1
 lentement 2
 lenticulaire 1
 lequel 10
-les 1468
+les 1470
 lesquelles 6
 lesquels 7
 lessives 1
 lestement 1
 lettre 7
 lettres 4
-leur 138
+leur 141
 leurs 104
 levant 3
 lever 1
@@ -9263,6 +9310,7 @@ limiteront 1
 limites 4
 limité 1
 limitée 2
+limogée 1
 limpide 2
 linéen 1
 lion 5
@@ -9298,6 +9346,7 @@ lié 2
 liée 4
 liées 3
 liés 2
+lobbyistes 1
 local 11
 locale 1
 locales 7
@@ -9306,10 +9355,10 @@ localisée 1
 localisées 1
 locataires 1
 locaux 11
-loge 2
+loge 4
 logement 3
 logements 8
-loges 2
+loges 3
 logiciel 1
 logique 1
 logiquement 2
@@ -9333,7 +9382,7 @@ longtemps 10
 longue 20
 longuement 1
 longues 1
-longueur 3
+longueur 4
 longé 1
 lord 1
 lors 36
@@ -9351,6 +9400,7 @@ lous 1
 louvoyant 1
 loué 2
 loués 1
+loyauté 1
 loyer 1
 loyers 1
 lu 3
@@ -9358,7 +9408,7 @@ lucarnes 1
 ludique 1
 lue 1
 lui 88
-lui-même 7
+lui-même 8
 luminosité 1
 lumière 5
 lundi 21
@@ -9445,7 +9495,7 @@ maintient 3
 maire 21
 maires 5
 mairie 13
-mais 146
+mais 147
 maison 14
 maisonnée 1
 maisons 10
@@ -9598,6 +9648,7 @@ mauvaise 5
 mauvaises 4
 maux 2
 maximum 8
+maçonnerie 1
 maçonnique 2
 maçons 1
 maître 4
@@ -9613,7 +9664,7 @@ meilleure 3
 meilleures 1
 meilleurs 2
 membre 8
-membres 27
+membres 29
 memoria 1
 menace 3
 menacent 1
@@ -9629,7 +9680,7 @@ mener 3
 meneur 1
 mensuel 3
 mensuelle 4
-mentalité 1
+mentalité 2
 mentalités 1
 mentionnent 1
 mentionner 1
@@ -9687,7 +9738,7 @@ mieux 25
 migration 1
 milieu 12
 milieux 5
-militaire 3
+militaire 4
 militaires 4
 militant 1
 militantes 2
@@ -9697,7 +9748,7 @@ milliard 16
 milliardaire 1
 milliards 55
 millier 1
-milliers 2
+milliers 3
 millimètre 1
 million 8
 millions 66
@@ -9761,7 +9812,7 @@ mobilisés 2
 mobilité 3
 modalités 1
 mode 7
-moderne 1
+moderne 2
 modernes 4
 modernisation 3
 modernistes 1
@@ -9783,16 +9834,17 @@ modèle 2
 modèles 1
 modération 1
 modérer 1
+modérée 1
 modérées 1
-modérés 2
+modérés 3
 moeurs 2
 mogul 1
 moi 16
 moindre 4
 moines 1
-moins 74
+moins 75
 mois 71
-moitié 9
+moitié 10
 moment 32
 moments 6
 mon 35
@@ -9800,7 +9852,7 @@ monarchie 1
 monde 41
 mondes 1
 mondial 4
-mondiale 10
+mondiale 11
 mondiales 1
 mondiaux 2
 monnaie 11
@@ -9845,7 +9897,9 @@ monétaires 8
 monétique 1
 monétiques 1
 moraines 1
+moral 1
 morale 3
+morales 1
 moraux 2
 morceaux 1
 mordu 1
@@ -9961,6 +10015,7 @@ médical 1
 médicale 1
 médicaments 2
 médiocre 2
+médiocres 1
 méditera 1
 médium 1
 médiévale 1
@@ -9975,7 +10030,7 @@ ménagères 1
 ménagée 1
 ménétriers 1
 mépris 2
-méprisant 1
+méprisant 2
 méprisons 1
 méprisé 2
 méridional 1
@@ -9996,6 +10051,7 @@ métier 4
 métiers 3
 métis 1
 métropole 6
+métropolitain 1
 métropolitains 2
 météorologie 1
 météorologique 2
@@ -10024,7 +10080,7 @@ nation 4
 national 14
 nationale 31
 nationales 3
-nationaliste 1
+nationaliste 2
 nationaux 1
 nations 2
 naturaliste 1
@@ -10044,7 +10100,8 @@ navires 1
 navrée 1
 nazisme 1
 naïf 1
-ne 314
+naïveté 1
+ne 316
 neige 13
 neiges 10
 neigeuses 1
@@ -10090,7 +10147,7 @@ noires 2
 noirs 1
 nom 27
 nomade 2
-nombre 32
+nombre 33
 nombreuse 1
 nombreuses 11
 nombreux 17
@@ -10103,7 +10160,7 @@ nommé 15
 nommée 2
 nommées 1
 noms 8
-non 40
+non 41
 non- 9
 nord 6
 nord-américain 1
@@ -10115,11 +10172,12 @@ normaux 1
 nos 44
 nostalgique 2
 notable 1
+notables 1
 notamment 46
 notation 1
 note 11
 notent 3
-noter 1
+noter 2
 notes 4
 notifiée 1
 notion 2
@@ -10167,10 +10225,11 @@ nécessaire 12
 nécessairement 2
 nécessaires 14
 nécessite 2
-nécessité 6
+nécessité 7
 née 7
 néerlandaise 2
 néerlandophones 1
+néfaste 1
 négatif 1
 néglige 1
 négligent 1
@@ -10264,7 +10323,7 @@ oeuvre 11
 oeuvres 2
 of 5
 offensif 1
-offensive 5
+offensive 6
 offert 4
 offerte 1
 offertes 4
@@ -10277,7 +10336,7 @@ officiellement 6
 officielles 1
 officiels 2
 officier 1
-officiers 7
+officiers 10
 offrait 1
 offrant 1
 offre 8
@@ -10293,13 +10352,13 @@ olympiques 1
 ombre 1
 ombres 1
 ombreuse 1
-on 167
+on 168
 ondes 1
 ondulations 1
 ondule 1
 ondulés 1
 ongles 1
-ont 250
+ont 253
 onze 7
 onzième 1
 opacité 1
@@ -10331,7 +10390,7 @@ opéra 1
 opérant 2
 opérateur 2
 opérateurs 6
-opération 16
+opération 17
 opérationnel 3
 opérationnelle 1
 opérationnelles 2
@@ -10359,7 +10418,7 @@ oreilles 1
 ores 3
 organe 1
 organisateur 1
-organisation 11
+organisation 12
 organisations 6
 organisatrice 1
 organiser 1
@@ -10391,7 +10450,7 @@ oseront 1
 ossature 2
 osé 1
 otages 2
-ou 179
+ou 184
 oublier 8
 oublierai 1
 oublié 2
@@ -10402,7 +10461,7 @@ ours 3
 ourson 1
 outil 1
 outils 1
-outre 12
+outre 13
 outre-Atlantique 1
 outre-Rhin 3
 outre-mer 7
@@ -10423,7 +10482,7 @@ ouvrir 4
 ouvrira 1
 ouvrière 1
 oxygène 1
-où 110
+où 111
 pacheries 2
 pacifique 1
 pacte 1
@@ -10457,7 +10516,7 @@ papetier 2
 papier 5
 papillon 1
 paquebot 1
-par 576
+par 580
 par-dessus 1
 parachutage 1
 parachutages 1
@@ -10571,7 +10630,7 @@ partiel 2
 partielle 1
 parties 10
 partir 29
-partis 8
+partis 9
 partisans 4
 partition 1
 partons 1
@@ -10601,7 +10660,7 @@ passait 2
 passant 7
 passe 12
 passent 2
-passer 27
+passer 28
 passera 3
 passeraient 1
 passerait 1
@@ -10654,7 +10713,7 @@ payant 1
 paye 1
 payer 2
 payeraient 1
-pays 104
+pays 105
 paysage 10
 paysages 1
 paysans 1
@@ -10673,7 +10732,7 @@ peluche 1
 pelé 1
 penchent 1
 penchera 1
-pendant 25
+pendant 26
 pensais 3
 pense 9
 pensent 2
@@ -10741,6 +10800,7 @@ personnels 4
 personnes 36
 perspective 5
 perspectives 1
+persuade 1
 persuader 1
 persécution 1
 persécutions 1
@@ -10775,8 +10835,8 @@ peuplé 1
 peuplée 1
 peuplés 1
 peur 4
-peut 61
-peut-être 22
+peut 62
+peut-être 23
 peuvent 19
 peux 2
 phare 3
@@ -10836,7 +10896,7 @@ pièges 1
 piètre 1
 piéger 1
 piégé 1
-place 51
+place 52
 placement 1
 placements 1
 placent 1
@@ -10890,7 +10950,7 @@ plateaux 1
 plats 5
 plausible 3
 plaît 2
-plein 10
+plein 11
 plein-air 1
 pleine 6
 pleinement 2
@@ -10913,12 +10973,12 @@ plongés 1
 ployé 1
 pluie 4
 plume 1
-plupart 17
+plupart 18
 pluri- 1
-plus 411
-plusieurs 45
+plus 414
+plusieurs 46
 plut 1
-plutôt 21
+plutôt 22
 pluviales 1
 pluvieuse 1
 plébiscite 1
@@ -10935,14 +10995,14 @@ points 22
 poissons 1
 polaire 1
 polar 1
-police 10
-policiers 4
+police 12
+policiers 5
 policières 1
 policé 1
 polis 2
 politesse 1
 politico- 2
-politique 47
+politique 51
 politiques 25
 polyvalente 2
 polémique 2
@@ -11010,7 +11070,7 @@ possédait 1
 posséder 4
 possédées 1
 poste 9
-postes 2
+postes 3
 posé 1
 posée 4
 posées 1
@@ -11028,14 +11088,14 @@ poudre 1
 poulailler 2
 poules 4
 poupin 1
-pour 658
+pour 666
 pourcentage 3
 pourparlers 2
 pourquoi 7
 pourra 12
 pourraient 6
 pourrais 1
-pourrait 33
+pourrait 34
 pourrions 1
 pourrons 1
 pourront 18
@@ -11046,7 +11106,7 @@ poursuivi 7
 poursuivis 1
 poursuivra 1
 poursuivre 4
-pourtant 9
+pourtant 10
 pourvu 6
 pourvues 2
 poussait 1
@@ -11073,11 +11133,11 @@ prairies 4
 pratiqua 1
 pratique 4
 pratiquement 1
-pratiques 2
+pratiques 3
 pratiqués 1
 precise 1
 premier 75
-premiers 19
+premiers 20
 première 49
 premières 12
 prenait 1
@@ -11098,6 +11158,7 @@ pression 4
 pressions 3
 prestataires 4
 prestations 2
+prestige 1
 preuve 4
 prie 1
 primaire 3
@@ -11118,7 +11179,7 @@ principale 4
 principalement 3
 principales 11
 principaux 14
-principe 6
+principe 7
 principes 4
 printemps 9
 prions 2
@@ -11207,12 +11268,12 @@ professionnalisme 1
 professionnel 2
 professionnelle 7
 professionnelles 2
-professionnels 4
+professionnels 5
 professions 2
 profil 3
 profile 1
 profilé 1
-profit 8
+profit 9
 profitabilité 1
 profitable 1
 profitait 1
@@ -11224,7 +11285,7 @@ profond 1
 profonde 3
 profondes 2
 profondeur 5
-profondément 2
+profondément 3
 programmation 1
 programme 11
 programmer 1
@@ -11297,7 +11358,7 @@ proposé 2
 proposés 1
 propre 12
 proprement 1
-propres 4
+propres 5
 propreté 1
 propriétaire 3
 propriétaires 1
@@ -11306,7 +11367,7 @@ prose 1
 prospecter 1
 prospections 1
 prospectus 1
-prospérité 4
+prospérité 5
 protagonistes 4
 protecteur 1
 protection 4
@@ -11349,7 +11410,7 @@ provoqué 3
 proximité 5
 prudence 7
 prudente 2
-près 46
+près 47
 pré-formateur 1
 préalable 2
 préambule 1
@@ -11480,6 +11541,7 @@ prêteurs 1
 prêtre 2
 prêts 9
 prêtée 1
+psychologiquement 1
 psychologiques 1
 pu 35
 pub-info 1
@@ -11495,7 +11557,7 @@ publics 11
 publie 3
 publient 1
 publier 2
-publique 15
+publique 16
 publiquement 1
 publiques 6
 publié 10
@@ -11587,7 +11649,7 @@ pêché 1
 pêle-mêle 1
 pêne 1
 pôles 2
-qu' 362
+qu' 368
 quadrangulaire 1
 quadruple 1
 quai 1
@@ -11621,14 +11683,14 @@ quatre 34
 quatre-vingt-deux 1
 quatre-vingt-quinze 1
 quatrième 4
-que 669
+que 672
 quel 7
 quelle 5
 quelles 1
 quelqu' 1
 quelqu'un 2
 quelque 14
-quelquefois 1
+quelquefois 2
 quelques 74
 quelques-uns 1
 querelle 1
@@ -11636,7 +11698,7 @@ question 17
 questionnent 1
 questions 5
 queue 1
-qui 699
+qui 701
 qui-vive 1
 quinquennat 1
 quinzaine 3
@@ -11686,7 +11748,7 @@ rafraîchissement 1
 raisin 1
 raison 20
 raisonnables 1
-raisons 6
+raisons 7
 ralentie 1
 ralenties 1
 ralentissement 3
@@ -11753,6 +11815,7 @@ rater 2
 ratio 1
 rationalisation 1
 ratissage 1
+rattache 1
 rattachée 1
 rattrapage 2
 rattraper 1
@@ -11857,7 +11920,7 @@ refroidie 1
 refroidissaient 1
 refroidissante 1
 refuge 1
-refus 4
+refus 5
 refusa 1
 refusait 1
 refuse 1
@@ -12026,7 +12089,7 @@ renouvelle 1
 renouvellement 4
 renouvelé 4
 renouvelée 2
-renseignement 1
+renseignement 2
 renseignements 1
 renseigner 1
 renseignera 1
@@ -12079,6 +12142,7 @@ repris 6
 reprise 29
 reprises 4
 reproche 1
+reprochera 1
 reprochés 3
 reproduire 1
 représentant 7
@@ -12130,7 +12194,7 @@ restants 1
 restaurant 1
 restaurateurs 1
 restauration 1
-reste 30
+reste 31
 restent 3
 rester 5
 restera 5
@@ -12275,6 +12339,7 @@ rois 2
 roman 1
 romans 1
 romantique 2
+romantisme 1
 ronde 4
 rondes 1
 rosaires 1
@@ -12327,6 +12392,7 @@ règles 4
 règne 1
 ré-inhumé 2
 réaction 4
+réactionnaires 2
 réaffirmé 3
 réagi 2
 réagir 1
@@ -12462,9 +12528,9 @@ répondre 4
 répondu 4
 réponse 3
 républicain 1
-républicaine 1
-républicaines 1
-républicains 2
+républicaine 2
+républicaines 2
+républicains 4
 républicanisation 1
 républicaniser 1
 république 1
@@ -12578,7 +12644,7 @@ rôdage 1
 rôle 14
 rôles 2
 s' 351
-sa 169
+sa 170
 sabler 1
 sac 2
 saccagée 1
@@ -12633,11 +12699,12 @@ samedi 10
 sanction 1
 sanctionne 1
 sanctionner 1
+sanctionné 1
 sanctionnée 1
 sanctions 3
 sanctuaire 1
 sang 4
-sans 99
+sans 101
 santé 11
 saoudite 2
 sapeurs-pompiers 2
@@ -12677,7 +12744,7 @@ saxifrages 1
 saxophone 1
 saxophoniste 1
 scabreux 1
-scandale 2
+scandale 3
 scandales 1
 scandaleuse 1
 scandaleux 2
@@ -12712,7 +12779,7 @@ sculpté 1
 scène 8
 scénario 1
 scénaristes 1
-se 349
+se 352
 second 13
 secondaire 2
 seconde 13
@@ -12727,7 +12794,10 @@ secourue 1
 secousse 1
 secoué 1
 secouée 1
+secret 2
 secrets 1
+secrète 1
+secrètes 1
 secrétaire 22
 secrétaire-général 2
 secrétariat 3
@@ -12749,7 +12819,7 @@ semblable 1
 semblables 1
 semblaient 2
 semblait 3
-semble 25
+semble 26
 semblent 8
 semestre 3
 semi- 2
@@ -12775,7 +12845,7 @@ septembre 29
 septentrional 2
 septicisme 1
 ser 1
-sera 53
+sera 55
 seraient 4
 serais 1
 serait 25
@@ -12798,17 +12868,17 @@ serveurs 1
 serveuse 1
 serveuses 1
 servi 3
-service 14
-services 23
+service 15
+services 25
 servies 3
 servir 2
 serviront 3
 servit 1
-ses 195
+ses 199
 session 4
 seuil 2
 seuils 1
-seul 22
+seul 23
 seule 18
 seulement 19
 seules 3
@@ -12849,9 +12919,9 @@ sillage 2
 silos 1
 similaire 2
 similaires 1
-simple 10
+simple 11
 simplement 10
-simples 1
+simples 2
 simplicité 1
 simplifiant 1
 simplifiée 1
@@ -12878,7 +12948,7 @@ situé 6
 située 5
 situées 2
 six 20
-siècle 17
+siècle 18
 siècles 3
 siège 13
 sièges 3
@@ -12896,7 +12966,7 @@ sociaux 3
 socio-économiques 1
 sociologue 1
 société 53
-sociétés 18
+sociétés 19
 socle 1
 soeur 5
 soeurs 2
@@ -12954,7 +13024,7 @@ sommes 22
 sommet 29
 sommets 5
 somptueux 1
-son 261
+son 264
 sondage 3
 sondages 1
 sondés 4
@@ -12973,7 +13043,7 @@ sort 8
 sortaient 1
 sortante 1
 sortants 2
-sorte 8
+sorte 9
 sortes 1
 sorti 4
 sortie 8
@@ -13040,6 +13110,7 @@ source 16
 sources 15
 sourcilleux 1
 souriants 1
+sourire 1
 sous 66
 sous-chef 1
 sous-consommation 1
@@ -13066,7 +13137,7 @@ soutiennent 2
 soutiens 2
 souvenir 5
 souvenirs 6
-souvent 18
+souvent 19
 souveraine 1
 souveraineté 1
 souvient 2
@@ -13121,6 +13192,7 @@ staff 2
 stages 1
 stagiaires 2
 stagnait 1
+stagnation 1
 stalactiques 1
 stalagmites 1
 standards 1
@@ -13176,7 +13248,7 @@ subit 1
 subite 1
 subitement 2
 sublime 4
-subordonnés 1
+subordonnés 2
 subsiste 1
 substance 1
 substantiellement 1
@@ -13186,6 +13258,7 @@ substituer 1
 subvention 4
 subventionné 1
 subventions 3
+subversif 1
 successeur 1
 successifs 1
 succession 1
@@ -13195,7 +13268,7 @@ succombé 1
 succursale 1
 succursales 1
 succèdent 1
-succès 19
+succès 20
 succéder 2
 succédera 1
 succédé 3
@@ -13214,8 +13287,8 @@ suicidé 2
 suis 35
 suisses 2
 suit 6
-suite 22
-suites 2
+suite 23
+suites 3
 suivant 4
 suivante 3
 suivantes 1
@@ -13264,7 +13337,7 @@ supérieur 10
 supérieure 7
 supérieures 4
 supérieurs 6
-sur 398
+sur 400
 sur-investissement 1
 sur-le-champ 1
 surchauffe 2
@@ -13294,7 +13367,7 @@ surprise 4
 surprises 2
 surproduction 1
 sursis 4
-surtout 36
+surtout 37
 surveiller 1
 survenait 1
 survenus 1
@@ -13327,6 +13400,7 @@ symboliquement 1
 symboliques 2
 sympa 1
 sympathie 1
+sympathies 1
 sympathique 1
 sympathisants 3
 symétries 1
@@ -13378,13 +13452,13 @@ séries 1
 sérieuse 2
 sérieusement 1
 sérieuses 4
-sérieux 2
+sérieux 3
 sérénité 1
 sévissant 1
 sévère 6
 sévèrement 1
 sévères 1
-sûr 7
+sûr 8
 sûres 1
 sûrs 1
 table 4
@@ -13407,7 +13481,7 @@ tandis 11
 tangible 1
 tangibles 1
 tangos 1
-tant 14
+tant 15
 tante 2
 tantôt 2
 tapant 1
@@ -13448,14 +13522,14 @@ teigneux 1
 teinte 1
 teintes 1
 teintée 1
-tel 15
+tel 16
 telle 13
 telles 3
 tels 6
 templiers 1
 temporaire 3
 temporairement 1
-temps 85
+temps 86
 tempérament 1
 température 7
 températures 2
@@ -13466,7 +13540,7 @@ tenaille 1
 tenait 3
 tenant 1
 tenants 1
-tendance 4
+tendance 5
 tendances 2
 tendre 1
 tendresse 1
@@ -13488,7 +13562,7 @@ tentés 1
 tenu 6
 tenue 4
 tenus 3
-terme 32
+terme 33
 termes 5
 terminal 1
 terminale 1
@@ -13508,7 +13582,7 @@ terreur 1
 terreurs 1
 terrible 3
 terribles 2
-territoire 12
+territoire 13
 territoires 1
 terrorisme 1
 terroriste 2
@@ -13641,10 +13715,10 @@ tournée 1
 tournés 1
 tours 9
 tous 69
-tout 118
+tout 120
 toute 40
 toutefois 13
-toutes 38
+toutes 39
 toxiques 1
 tracasseries 1
 trace 2
@@ -13653,7 +13727,7 @@ trachytique 1
 tracées 1
 traders 1
 tradition 1
-traditionalistes 1
+traditionalistes 2
 traditionnel 2
 traditionnellement 1
 traditionnelles 1
@@ -13721,7 +13795,7 @@ transporté 2
 transportée 1
 transportés 1
 transposées 1
-travail 58
+travail 59
 travailla 1
 travaillaient 1
 travaillant 2
@@ -13791,7 +13865,7 @@ tromper 1
 trompeuse 1
 tronc 1
 tronquée 1
-trop 36
+trop 37
 trop-plein 2
 tropicaux 2
 trouait 1
@@ -13820,7 +13894,7 @@ trouvés 2
 truchement 2
 truites 1
 trust 1
-très 126
+très 127
 très-considérable 1
 trébuché 1
 trépassa 1
@@ -13890,9 +13964,9 @@ ultra 1
 ultra- 2
 ultramarines 1
 ultérieurement 1
-un 916
+un 921
 unanimité 3
-une 780
+une 788
 unes 2
 unie 1
 unies 3
@@ -14300,7 +14374,7 @@ y 178
 yards 2
 yen 2
 yens 8
-yeux 14
+yeux 15
 yougoslave 7
 yougoslaves 1
 zigzags 1
@@ -14327,7 +14401,7 @@ zéros 1
 États 1
 États-Unis 1
 Évènement 1
-à 1933
+à 1945
 âge 20
 âges 1
 âgé 4
@@ -14351,6 +14425,7 @@ zéros 1
 écarte 1
 écarter 2
 écarts 2
+écartés 1
 échafaudent 1
 échafaudées 1
 échange 11
@@ -14389,13 +14464,13 @@ zéros 1
 éclater 1
 éclipse 6
 éclipsé 1
-école 24
+école 25
 écoles 1
 écologiques 1
 écologistes 1
 économie 30
 économies 4
-économique 30
+économique 31
 économiquement 1
 économiques 16
 économiser 1
@@ -14547,7 +14622,7 @@ zéros 1
 épisodes 2
 épitaphe 3
 éponge 3
-époque 25
+époque 28
 époques 1
 épousa 1
 épouse 4
@@ -14566,6 +14641,7 @@ zéros 1
 épuisement 1
 épuisé 1
 épuisés 1
+épuré 1
 épée 3
 éqjarré 1
 équilibre 5
@@ -14654,7 +14730,7 @@ zéros 1
 études 9
 étudiait 1
 étudiant 2
-étudiants 2
+étudiants 3
 étudie 2
 étudient 1
 étudier 2
@@ -14665,7 +14741,7 @@ zéros 1
 étymologie 4
 étymologies 1
 étymologiques 1
-été 190
+été 193
 évacués 1
 évaluation 2
 évaluations 1

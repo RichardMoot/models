@@ -6,7 +6,7 @@ This repository contains the model directories for French Part-of-Speech (POS) a
 
 ### Performance overview of the different models
 
-Performance overview for RichardMoot/models@c572192846b9c2169ec5ee9198c94d67c3b94adf
+Performance overview for commit [c572192846b9c2169ec5ee9198c94d67c3b94adf](https://github.com/RichardMoot/models/commit/c572192846b9c2169ec5ee9198c94d67c3b94adf).
 
 ##### Supertag models with gold POS tags
 

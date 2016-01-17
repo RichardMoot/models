@@ -1,0 +1,204 @@
+#!/usr/bin/tclsh
+
+set filelist [list "msg.txt" "msg_melt.txt" "msg_tt.txt" "msg_simple.txt"]
+set psfilelist [list "msg_p_s.txt" "msg_melt_p_s.txt" "msg_tt_p_s.txt" "msg_simple_p_s.txt"]
+
+set directlist [list "direct_msg.txt"]
+
+set poslist [list "eval_pos.txt" "eval_pos_melt.txt" "eval_pos_tt.txt" "eval_pos_simple.txt"]
+
+proc get_data {filename} {
+
+    if [catch {open $filename r} f1] {
+	return [list [list "??.??" "??.??" "??.??" "??.??" "??.??" "??.??"] [list "?.?" "?.?" "?.?" "?.?" "?.?" "?.?"]]
+    } else {
+	set p_list {}
+	set n_list {}
+
+	while {[gets $f1 line] >= 0} {
+
+	    if {[regexp {^WORD.+\((.+)\%\)$} $line all pct]} {
+		lappend p_list $pct
+	    }
+	    if {[regexp {^TAGS.+tags\, (.+) tags} $line all avgtags]} {
+		lappend n_list $avgtags
+	    }
+
+	}
+    
+	close $f1
+
+	return [list $p_list $n_list]
+    }
+}
+
+proc get_pos_data {filename} {
+
+     if [catch {open $filename r} f1] {
+	 return "??.??"
+     } else {
+
+	 while {[gets $f1 line] >= 0} {
+
+	     if {[regexp {^.+word.+\((.+)\%\)$} $line all pct]} {
+		 return $pct
+	     }
+	 }
+     }
+}
+
+
+proc print_data {filename p_list n_list} {
+
+    print_file_indicator $filename
+    for {set i 0} {$i < [llength $p_list]} {incr i} {
+
+	set pi [lindex $p_list $i]
+	if {[string is double -strict $pi]} {
+	    set p [format "%5.2f" $pi]
+	} else {
+	    set p "??.??"
+	}
+	set ni [lindex $n_list $i]
+	if {[string is double -strict $ni]} {
+	    set n [format "%4.1f" $ni]
+	} else {
+	    set n " ?.?"
+	}
+
+	puts -nonewline "$p | $n"
+	if {$i < [expr [llength $p_list]-1]} {
+	    puts -nonewline " | "
+	}
+
+    }
+
+    puts ""
+
+}
+
+proc print_pos_data {flist} {
+
+    for {set i 0} {$i < [llength $flist]} {incr i} {
+	set filename [lindex $flist $i]
+	print_file_indicator $filename
+	set p [get_pos_data $filename]
+	if {[string is double -strict $p]} {
+	    set pos [format "%5.2f" $p]
+	} else {
+	    set pos " ??.??"
+	}
+	puts " | $pos"
+    }
+
+    puts ""
+
+}
+
+
+proc print_file_indicator {filename} {
+
+    if {[string equal $filename "msg.txt"]||[string equal $filename "eval_pos.txt"]||[string equal $filename "msg_p_s.txt"]} {
+	puts -nonewline "Merged "
+    } elseif {[string equal $filename "msg_melt.txt"]||[string equal $filename "eval_pos_melt.txt"]||[string equal $filename "msg_melt_p_s.txt"]} {
+	puts -nonewline "Melt "
+    } elseif {[string equal $filename "msg_tt.txt"]||[string equal $filename "eval_pos_tt.txt"]||[string equal $filename "msg_tt_p_s.txt"]} {
+	puts -nonewline "Tt   "
+    } elseif {[string equal $filename "msg_simple.txt"]||[string equal $filename "eval_pos_simple.txt"]||[string equal $filename "msg_simple_p_s.txt"]} {
+	puts -nonewline "Simple "
+    } elseif {[string equal $filename "direct_msg.txt"]} {
+	puts -nonewline "Direct "
+    } else {
+	puts -nonewline "???? "
+    }
+}
+
+proc print_file_time {filename} {
+
+    if {[file exists $filename]} {
+	set m [file mtime $filename]
+    } else {
+	set m 0
+    }
+
+    return [clock format $m -format "%Y%m%d %H:%M:%S"]
+
+}
+
+proc print_file_times {list} {
+
+    for {set i 0} {$i < [llength $list]} {incr i} {
+
+
+	if {$i == 0} {
+	} elseif {[expr $i & 1] == 0} {
+	    puts ""
+	} else { 
+	    puts -nonewline "       "
+	}
+
+	set f [lindex $list $i]
+	set s [print_file_time $f]
+	puts -nonewline "T-"
+	print_file_indicator $f
+	puts -nonewline " = "
+	puts -nonewline $s
+	
+    }
+    puts ""
+
+}
+
+puts "##### Supertag models with gold POS tags"
+print_file_times $filelist
+puts ""
+
+puts "Model | Correct (beta=1) | F/w |Correct (beta=0.1) | F/w | Correct (beta=0.05) | F/w | Correct (beta=0.01) | F/w | Correct (beta=0.005)| F/w | Correct (beta=0.001) | F/w"
+puts "------|---------:|-----------:|-------:|----------:|--------:|----------:|--------:|----------:|--------:|----------:|--------:|---------:"
+
+foreach f $filelist {
+
+    set l [get_data $f]
+    print_data $f [lindex $l 0] [lindex $l 1]
+
+}
+
+puts ""
+puts "##### Combined POS- and supertagger"
+print_file_times $psfilelist
+puts ""
+
+puts "Model | Correct (beta=1) | F/w |Correct (beta=0.1) | F/w | Correct (beta=0.05) | F/w | Correct (beta=0.01) | F/w | Correct (beta=0.005)| F/w | Correct (beta=0.001) | F/w"
+puts "------|---------:|-----------:|-------:|----------:|--------:|----------:|--------:|----------:|--------:|----------:|--------:|---------:"
+
+
+foreach f $psfilelist {
+
+    set l [get_data $f]
+    print_data $f [lindex $l 0] [lindex $l 1]
+
+}
+
+puts ""
+puts "# Direct"
+print_file_times "direct_msg.txt"
+puts ""
+
+foreach f $directlist {
+
+    set l [get_data $f]
+    print_data $f [lindex $l 0] [lindex $l 1]
+
+}
+
+
+puts ""
+puts "##### POS models"
+print_file_times $poslist
+puts ""
+
+puts "Model | Correct |"
+puts "-----|-----:|"
+
+
+print_pos_data $poslist
