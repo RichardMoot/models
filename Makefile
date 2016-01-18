@@ -531,7 +531,7 @@ maxent_simple500.tagged: simple_french_eval/weights maxent_simple.test maxent_si
 maxent_simple1000.tagged: simple_french_eval/weights maxent_simple.test maxent_simple.train
 	/Users/moot/Corpus/WSJ/candc-1.00/bin/msuper --beta 0.001 --input maxent_simple.test --model simple_french_eval --ifmt "%w|%p|%s \n" --ofmt "%w|%p|%S \n" > maxent_simple1000.tagged
 
-# The targets in the section test the combination of the part-of-speech tagger and the supertagger for evaluation their combined performance
+# The targets in the section test the combination of the part-of-speech tagger and the supertagger for evaluating their combined performance
 
 maxent_p_s.tagged: french_eval/weights pos.tagged
 	/Users/moot/Corpus/WSJ/candc-1.00/bin/super --input pos.tagged --model french_eval --ifmt "%w|%p \n" > maxent_p_s.tagged

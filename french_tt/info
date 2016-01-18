@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input m2_tt.txt --model french_tt --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words in order to find errors in assigned supertags, using the Treetagger POS tag set
 
 # the number of tags in the tagset
-nclasses = 390
+nclasses = 392
 # the number of instances in the training data
-nevents = 419323
+nevents = 424750
 # the number of unique instances in the training data
-ncontexts = 402617
+ncontexts = 407791
 # the number of features in the model
-nfeatures = 490085
+nfeatures = 495448
 # the number of attributes in the model
-nattributes = 150012
+nattributes = 151523

@@ -88,7 +88,7 @@ proc print_pos_data {flist} {
 	} else {
 	    set pos " ??.??"
 	}
-	puts " | $pos"
+	puts " $pos"
     }
 
     puts ""
@@ -99,15 +99,15 @@ proc print_pos_data {flist} {
 proc print_file_indicator {filename} {
 
     if {[string equal $filename "msg.txt"]||[string equal $filename "eval_pos.txt"]||[string equal $filename "msg_p_s.txt"]} {
-	puts -nonewline "Merged "
+	puts -nonewline "Merged | "
     } elseif {[string equal $filename "msg_melt.txt"]||[string equal $filename "eval_pos_melt.txt"]||[string equal $filename "msg_melt_p_s.txt"]} {
-	puts -nonewline "Melt "
+	puts -nonewline "Melt | "
     } elseif {[string equal $filename "msg_tt.txt"]||[string equal $filename "eval_pos_tt.txt"]||[string equal $filename "msg_tt_p_s.txt"]} {
-	puts -nonewline "Tt   "
+	puts -nonewline "Tt  | "
     } elseif {[string equal $filename "msg_simple.txt"]||[string equal $filename "eval_pos_simple.txt"]||[string equal $filename "msg_simple_p_s.txt"]} {
-	puts -nonewline "Simple "
+	puts -nonewline "Simple | "
     } elseif {[string equal $filename "direct_msg.txt"]} {
-	puts -nonewline "Direct "
+	puts -nonewline "Direct | "
     } else {
 	puts -nonewline "???? "
     }
@@ -127,6 +127,8 @@ proc print_file_time {filename} {
 
 proc print_file_times {list} {
 
+    puts "File | Time"
+    puts "-----|-----:"
     for {set i 0} {$i < [llength $list]} {incr i} {
 
 
@@ -139,9 +141,7 @@ proc print_file_times {list} {
 
 	set f [lindex $list $i]
 	set s [print_file_time $f]
-	puts -nonewline "T-"
 	print_file_indicator $f
-	puts -nonewline " = "
 	puts -nonewline $s
 	
     }
@@ -180,9 +180,13 @@ foreach f $psfilelist {
 }
 
 puts ""
-puts "# Direct"
+puts "##### Direct supertagger (no part-of-speech tagging)"
 print_file_times "direct_msg.txt"
 puts ""
+
+puts "Model | Correct (beta=1) | F/w |Correct (beta=0.1) | F/w | Correct (beta=0.05) | F/w | Correct (beta=0.01) | F/w | Correct (beta=0.005)| F/w | Correct (beta=0.001) | F/w"
+puts "------|---------:|-----------:|-------:|----------:|--------:|----------:|--------:|----------:|--------:|----------:|--------:|---------:"
+
 
 foreach f $directlist {
 

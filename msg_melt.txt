@@ -1,36 +1,36 @@
 
-SENT: 1481 sentences, 303 correct (20.459%)
-WORD: 41512 words, 37494 correct (90.321%)
-NINT: 41512 words, 37494 correct (90.321%)
-TAGS: 41512 tags, 1.0 tags per word
+SENT: 1500 sentences, 317 correct (21.133%)
+WORD: 41952 words, 37910 correct (90.365%)
+NINT: 41952 words, 37910 correct (90.365%)
+TAGS: 41952 tags, 1.0 tags per word
 
 
-SENT: 1481 sentences, 698 correct (47.13%)
-WORD: 41512 words, 40022 correct (96.411%)
-NINT: 41512 words, 40022 correct (96.411%)
-TAGS: 56778 tags, 1.368 tags per word
+SENT: 1500 sentences, 711 correct (47.4%)
+WORD: 41952 words, 40452 correct (96.424%)
+NINT: 41952 words, 40452 correct (96.424%)
+TAGS: 57370 tags, 1.368 tags per word
 
 
-SENT: 1481 sentences, 815 correct (55.03%)
-WORD: 41512 words, 40362 correct (97.23%)
-NINT: 41512 words, 40362 correct (97.23%)
-TAGS: 65163 tags, 1.57 tags per word
+SENT: 1500 sentences, 822 correct (54.8%)
+WORD: 41952 words, 40798 correct (97.249%)
+NINT: 41952 words, 40798 correct (97.249%)
+TAGS: 65890 tags, 1.571 tags per word
 
 
-SENT: 1481 sentences, 1031 correct (69.615%)
-WORD: 41512 words, 40859 correct (98.427%)
-NINT: 41512 words, 40859 correct (98.427%)
-TAGS: 97870 tags, 2.358 tags per word
+SENT: 1500 sentences, 1044 correct (69.6%)
+WORD: 41952 words, 41295 correct (98.434%)
+NINT: 41952 words, 41295 correct (98.434%)
+TAGS: 99073 tags, 2.362 tags per word
 
 
-SENT: 1481 sentences, 1072 correct (72.384%)
-WORD: 41512 words, 40933 correct (98.605%)
-NINT: 41512 words, 40933 correct (98.605%)
-TAGS: 118948 tags, 2.865 tags per word
+SENT: 1500 sentences, 1088 correct (72.533%)
+WORD: 41952 words, 41373 correct (98.62%)
+NINT: 41952 words, 41373 correct (98.62%)
+TAGS: 120380 tags, 2.869 tags per word
 
 
-SENT: 1481 sentences, 1129 correct (76.232%)
-WORD: 41512 words, 41043 correct (98.87%)
-NINT: 41512 words, 41043 correct (98.87%)
-TAGS: 186540 tags, 4.494 tags per word
+SENT: 1500 sentences, 1149 correct (76.6%)
+WORD: 41952 words, 41484 correct (98.884%)
+NINT: 41952 words, 41484 correct (98.884%)
+TAGS: 189135 tags, 4.508 tags per word
 
