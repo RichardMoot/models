@@ -14,7 +14,7 @@ w , 25069
 pw , 25069
 ppw , 25060
 nnw , 24300
-pt ADJ-ADJ 23667
+pt ADJ-ADJ 23661
 w de 22256
 pw de 22256
 nw de 22255
@@ -31,10 +31,10 @@ pw __SENTINEL__ 15206
 ppt P-PRP NC-NOM 15088
 w . 13829
 nw . 13828
-pt VPP-VER:pper 13802
+pt VPP-VER:pper 13808
 nnw . 13768
 pt P+D-PRP:det 13728
-ppt NC-NOM ADJ-ADJ 12530
+ppt NC-NOM ADJ-ADJ 12527
 ppt NC-NOM PONCT-PUN 12472
 pw la 10850
 w la 10850
@@ -89,7 +89,7 @@ w en 5664
 nw en 5659
 ppw en 5656
 ppt PONCT-PUN DET-DET:ART 5656
-ppt VPP-VER:pper P-PRP 5646
+ppt VPP-VER:pper P-PRP 5647
 w " 5598
 nnw en 5550
 pt PONCT-PUN:cit 5462
@@ -109,10 +109,10 @@ ppt PONCT-PUN P-PRP 4859
 ppw " 4825
 pt ADJ-NUM 4479
 ppt P-PRP VINF-VER:infi 4367
-ppt ADJ-ADJ PONCT-PUN 4362
+ppt ADJ-ADJ PONCT-PUN 4360
 pt PROREL-PRO:REL 4346
 ppt V-VER:pres VPP-VER:pper 4319
-ppt ADJ-ADJ P-PRP 4105
+ppt ADJ-ADJ P-PRP 4104
 ppt P-PRP NPP-NAM 4041
 pt CS-KON 4007
 ppt __SENTINEL__ DET-DET:ART 3994
@@ -185,7 +185,7 @@ ppt DET-DET:ART NPP-NAM 2594
 nnw que 2570
 ppt __SENTINEL__ P-PRP 2501
 ppt DET-DET:ART ADJ-ADJ 2495
-ppt NC-NOM VPP-VER:pper 2481
+ppt NC-NOM VPP-VER:pper 2484
 pref a 2476
 suff r 2457
 ppt VINF-VER:infi DET-DET:ART 2449
@@ -212,14 +212,14 @@ pw au 2261
 nw au 2260
 ppt PONCT-PUN NC-NOM 2258
 ppw au 2257
-ppt ADV-ADV VPP-VER:pper 2235
+ppt ADV-ADV VPP-VER:pper 2236
 nnw au 2208
 ppt V-VER:pres DET-DET:ART 2175
 ppw % 2164
 ppt PONCT-PUN V-VER:pres 2147
 pt CLO-PRO:PER 2080
 dig __NONE__ 2070
-ppt ADV-ADV ADJ-ADJ 2061
+ppt ADV-ADV ADJ-ADJ 2060
 pt VPR-VER:ppre 2013
 ppt NC-NOM ADV-ADV 2009
 ppw ) 2003
@@ -278,7 +278,7 @@ pt NC-NAM 1471
 pref i 1451
 ppt PONCT-PUN PROREL-PRO:REL 1446
 nnw s' 1432
-ppt VPP-VER:pper PONCT-PUN 1408
+ppt VPP-VER:pper PONCT-PUN 1410
 ppt NC-NOM PROREL-PRO:REL 1396
 pw il 1384
 w il 1384
@@ -401,7 +401,7 @@ nw francs 961
 pw francs 960
 nnw francs 959
 ppt DET-DET:ART NPP-ABR 957
-ppt PONCT-PUN VPP-VER:pper 953
+ppt PONCT-PUN VPP-VER:pper 954
 pw Les 953
 w Les 953
 ppt ADJ-ADJ V-VER:pres 953
@@ -440,7 +440,7 @@ w ses 779
 nw ses 779
 pw ses 779
 ppw ses 779
-ppt ADJ-ADJ ADJ-ADJ 777
+ppt ADJ-ADJ ADJ-ADJ 776
 pref 1 765
 ppt V-VER:pres VINF-VER:infi 759
 nnw ses 757
@@ -450,7 +450,7 @@ ppw cette 745
 pw cette 745
 w cette 745
 ppt CC-KON ADV-ADV 740
-ppt ADJ-ADJ PONCT-PUN:cit 727
+ppt ADJ-ADJ PONCT-PUN:cit 724
 suff sno 716
 ppt VPP-VER:pper ADV-ADV 712
 pt CLS-PRO:DEM 709
@@ -604,12 +604,12 @@ pw groupe 500
 nw groupe 500
 ppt PONCT-PUN:cit DET-DET:ART 499
 ppt P-PRP DET-PRO:IND 498
-ppt PONCT-PUN ADJ-ADJ 497
 pw depuis 497
 w depuis 497
 nw depuis 497
 ppw fait 496
 pref D 496
+ppt PONCT-PUN ADJ-ADJ 496
 nnw dont 495
 nw dont 495
 w dont 495
@@ -776,9 +776,9 @@ pref L 377
 pt PRO-PRO:PER 375
 w Mais 375
 pw Mais 375
+ppt ADJ-ADJ VPP-VER:pper 374
 ppt NPP-NAM ADJ-ADJ 373
 ppw Mais 373
-ppt ADJ-ADJ VPP-VER:pper 373
 pref E 372
 ppt PONCT-PUN PONCT-PUN:cit 372
 ppt NC-NAM ADJ-ADJ 371
@@ -1245,6 +1245,7 @@ ppw dollars 216
 suff seuq 216
 w donc 216
 nw donc 216
+ppt VPP-VER:pper PONCT-PUN:cit 216
 ppw 30 215
 pw rapport 215
 w rapport 215
@@ -1264,7 +1265,6 @@ nw chômage 213
 w chômage 213
 pw 1993 213
 pw général 213
-ppt VPP-VER:pper PONCT-PUN:cit 213
 ppw affaires 212
 ppt VINF-VER:infi NC-NOM 212
 nw 1993 212
