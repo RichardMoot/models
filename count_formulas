@@ -104,4 +104,4 @@ close $ff
 
 close $ferr
 
-exec /usr/bin/sort formulas_raw.txt | /usr/bin/uniq -c | /usr/bin/sort -nr >> bootstrap_formulas.txt
+exec /usr/bin/sort formulas_raw.txt | /usr/bin/uniq -c | /usr/bin/sort -nr > bootstrap_formulas.txt
