@@ -16,7 +16,7 @@
 " dl(0,dr(0,s,s),txt) 4
 " dl(0,n,txt) 4
 " dl(0,np,txt) 7
-" dl(0,s,txt) 95
+" dl(0,s,txt) 96
 " dr(0,dl(0,n,n),n) 29
 " dr(0,dl(0,n,n),np) 4
 " dr(0,dl(0,n,n),s) 1
@@ -31,7 +31,7 @@
 " dr(0,s_q,dl(0,n,n)) 1
 " dr(0,s_q,np) 2
 " dr(0,s_q,s) 4
-" let 5423
+" let 5428
 $ dl(0,n,n) 1
 % n 2399
 & dl(0,np,np) 1
@@ -51,7 +51,7 @@ $ dl(0,n,n) 1
 ( dr(0,dl(0,np,np),dl(0,n,n)) 25
 ( dr(0,dl(0,np,np),dl(0,np,s)) 2
 ( dr(0,dl(0,np,np),dr(0,s,s)) 1
-( dr(0,dl(0,np,np),n) 300
+( dr(0,dl(0,np,np),n) 301
 ( dr(0,dl(0,np,np),np) 692
 ( dr(0,dl(0,np,np),s) 41
 ( dr(0,dl(0,pp,pp),pp) 1
@@ -75,7 +75,7 @@ $ dl(0,n,n) 1
 ) dr(0,dl(0,n,n),n) 1
 ) dr(0,dl(0,np,np),dl(0,n,n)) 2
 ) dr(0,dl(0,np,np),np) 3
-) let 2783
+) let 2784
 * dr(0,n,n) 1
 * let 7
 + dr(0,dl(0,n,n),n) 1
@@ -126,14 +126,14 @@ $ dl(0,n,n) 1
 , dr(0,dl(0,n,dl(1,s,s)),n) 1
 , dr(0,dl(0,n,n),dl(0,n,n)) 2
 , dr(0,dl(0,n,n),n) 779
-, dr(0,dl(0,n,n),np) 121
+, dr(0,dl(0,n,n),np) 123
 , dr(0,dl(0,n,n),passm) 1
 , dr(0,dl(0,n,n),s) 5
 , dr(0,dl(0,n,s),s) 50
-, dr(0,dl(0,np,np),dl(0,n,n)) 601
+, dr(0,dl(0,np,np),dl(0,n,n)) 607
 , dr(0,dl(0,np,np),dl(0,np,s)) 10
-, dr(0,dl(0,np,np),n) 783
-, dr(0,dl(0,np,np),np) 2226
+, dr(0,dl(0,np,np),n) 791
+, dr(0,dl(0,np,np),np) 2232
 , dr(0,dl(0,np,np),passm) 2
 , dr(0,dl(0,np,np),s) 9
 , dr(0,dl(0,np,s),s) 101
@@ -148,7 +148,7 @@ $ dl(0,n,n) 1
 , dr(0,dl(0,passm,passm),passm) 11
 , dr(0,dl(0,passm,s),s) 2
 , dr(0,dl(0,pour_infm,pour_infm),pour_infm) 1
-, dr(0,dl(0,pp,pp),pp) 123
+, dr(0,dl(0,pp,pp),pp) 124
 , dr(0,dl(0,s,s),dl(0,n,n)) 22
 , dr(0,dl(0,s,s),dl(0,np,s)) 10
 , dr(0,dl(0,s,s),n) 23
@@ -171,7 +171,7 @@ $ dl(0,n,n) 1
 , dr(0,dr(0,s,np),s) 1
 , dr(0,passa,n) 1
 , dr(0,s_q,s) 1
-, let 18034
+, let 18059
 - dr(0,dl(0,dl(0,n,n),dl(0,n,n)),dl(0,n,n)) 34
 - dr(0,dl(0,dl(0,n,n),dl(0,n,n)),np) 1
 - dr(0,dl(0,dl(0,n,n),dl(0,n,n)),s) 1
@@ -210,7 +210,7 @@ $ dl(0,n,n) 1
 - dr(0,n,n) 1
 - dr(0,np,np) 81
 - dr(0,passa,s) 1
-- let 1118
+- let 1125
 -6 dr(0,np,n) 1
 -T-IL dl(1,s,s) 1
 -ce np 29
@@ -253,11 +253,11 @@ $ dl(0,n,n) 1
 . dl(0,dl(0,np,s),txt) 48
 . dl(0,dr(0,s,s),txt) 163
 . dl(0,n,txt) 288
-. dl(0,np,txt) 596
+. dl(0,np,txt) 600
 . dl(0,passm,txt) 2
-. dl(0,s,txt) 12548
+. dl(0,s,txt) 12576
 . dr(0,dl(0,n,n),n) 2
-. let 147
+. let 148
 .. dl(0,np,txt) 1
 .. let 4
 ... dl(0,dl(0,np,s),txt) 3
@@ -493,6 +493,7 @@ $ dl(0,n,n) 1
 108 dr(0,np,n) 2
 108 np 2
 108,20 np 1
+108.000 dr(0,np,n) 1
 108.500 dr(0,np,n) 1
 109 dr(0,np,n) 1
 109,70 np 1
@@ -595,8 +596,9 @@ $ dl(0,n,n) 1
 129 dr(0,np,n) 1
 129,5 dr(0,np,n) 1
 13 dl(0,n,n) 1
+13 dr(0,dr(0,s,s),n) 1
 13 dr(0,n,n) 17
-13 dr(0,np,n) 34
+13 dr(0,np,n) 35
 13 np 1
 13,1 dr(0,np,n) 1
 13,2 dr(0,np,n) 2
@@ -640,6 +642,7 @@ $ dl(0,n,n) 1
 1366672 dr(0,np,n) 1
 138000 dr(0,np,n) 1
 14 dr(0,dr(0,pp,pp),n) 1
+14 dr(0,dr(0,s,s),n) 1
 14 dr(0,n,n) 34
 14 dr(0,np,n) 33
 14 n 2
@@ -681,7 +684,7 @@ $ dl(0,n,n) 1
 149 dr(0,np,n) 1
 1493 dl(0,n,n) 1
 15 dl(0,n,n) 4
-15 dr(0,dr(0,s,s),n) 2
+15 dr(0,dr(0,s,s),n) 3
 15 dr(0,n,n) 56
 15 dr(0,np,n) 87
 15 n 2
@@ -906,6 +909,7 @@ $ dl(0,n,n) 1
 190 dr(0,n,n) 1
 190 dr(0,np,n) 4
 190.000 dr(0,np,n) 1
+190.500 np 1
 1900 np 3
 1900-1904 dr(0,n,n) 1
 19000 np 1
@@ -1079,7 +1083,7 @@ $ dl(0,n,n) 1
 1991 np 309
 1991-1992 dl(0,n,n) 1
 1991-1992 np 2
-1992 dl(0,n,n) 191
+1992 dl(0,n,n) 192
 1992 dl(0,np,np) 2
 1992 dr(0,s,s) 1
 1992 n 1
@@ -1089,11 +1093,11 @@ $ dl(0,n,n) 1
 1993 dl(0,n,n) 72
 1993 np 142
 1993-1997 np 2
-1994 dl(0,n,n) 25
+1994 dl(0,n,n) 32
 1994 dr(0,s,s) 1
 1994 n 2
 1994 np 47
-1995 dl(0,n,n) 7
+1995 dl(0,n,n) 8
 1995 np 38
 1996 dl(0,n,n) 2
 1996 np 9
@@ -1228,7 +1232,7 @@ $ dl(0,n,n) 1
 2005 dl(0,n,n) 5
 2005 n 1
 2005 np 3
-2006 dl(0,n,n) 21
+2006 dl(0,n,n) 22
 2006 np 1
 2007 dl(0,n,n) 4
 2007 np 1
@@ -1277,6 +1281,7 @@ $ dl(0,n,n) 1
 21e n 1
 22 dl(0,n,n) 1
 22 dl(0,np,np) 1
+22 dr(0,dr(0,s,s),n) 1
 22 dr(0,n,n) 46
 22 dr(0,np,n) 16
 22 n 1
@@ -1349,7 +1354,7 @@ $ dl(0,n,n) 1
 248000 np 1
 25 dr(0,dl(0,np,np),n) 1
 25 dr(0,dr(0,s,s),n) 1
-25 dr(0,n,n) 25
+25 dr(0,n,n) 26
 25 dr(0,np,n) 66
 25 np 2
 25,2 dr(0,np,n) 1
@@ -1385,6 +1390,7 @@ $ dl(0,n,n) 1
 26,8 dr(0,np,n) 1
 260 dr(0,np,n) 4
 260.000 dr(0,np,n) 5
+260.000 np 1
 262 np 1
 265 dr(0,np,n) 1
 266 dr(0,np,n) 1
@@ -1433,7 +1439,7 @@ $ dl(0,n,n) 1
 289,80 dr(0,np,n) 1
 29 dr(0,dl(0,np,np),n) 1
 29 dr(0,n,n) 50
-29 dr(0,np,n) 14
+29 dr(0,np,n) 15
 29,2 dr(0,np,n) 1
 29,5 dr(0,np,n) 1
 29,7 dr(0,np,n) 1
@@ -1733,7 +1739,7 @@ $ dl(0,n,n) 1
 40 dr(0,dl(0,n,n),n) 1
 40 dr(0,dr(0,pp,pp),n) 1
 40 dr(0,n,n) 6
-40 dr(0,np,n) 74
+40 dr(0,np,n) 75
 40 np 1
 40,1 dr(0,np,n) 1
 40,13 dr(0,np,n) 1
@@ -2253,7 +2259,7 @@ $ dl(0,n,n) 1
 791.667 dr(0,np,n) 1
 796 dr(0,np,n) 1
 8 appe 1
-8 dr(0,dr(0,s,s),n) 1
+8 dr(0,dr(0,s,s),n) 2
 8 dr(0,n,n) 42
 8 dr(0,np,n) 52
 8 np 3
@@ -2462,8 +2468,8 @@ $ dl(0,n,n) 1
 : dr(0,dl(0,np,np),dl(0,n,n)) 5
 : dr(0,dl(0,np,np),dl(0,np,s)) 33
 : dr(0,dl(0,np,np),dr(0,s,s)) 1
-: dr(0,dl(0,np,np),n) 54
-: dr(0,dl(0,np,np),np) 156
+: dr(0,dl(0,np,np),n) 56
+: dr(0,dl(0,np,np),np) 158
 : dr(0,dl(0,np,np),s) 24
 : dr(0,dl(0,np,np),s_q) 2
 : dr(0,dl(0,np,s),s) 55
@@ -2477,9 +2483,9 @@ $ dl(0,n,n) 1
 : dr(0,n,s_q) 1
 : dr(0,s_q,np) 2
 : dr(0,s_q,s) 41
-: let 110
+: let 116
 ; dl(0,n,txt) 6
-; dl(0,np,txt) 17
+; dl(0,np,txt) 19
 ; dl(0,s,txt) 12
 ; dr(0,dl(0,dl(0,n,n),dl(0,n,n)),dl(0,n,n)) 1
 ; dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s)) 10
@@ -2718,7 +2724,7 @@ Afia np 1
 Afin dr(0,dr(0,dr(0,s,dl(0,np,s)),np),dl(0,np,s_deinf)) 7
 Afin dr(0,dr(0,s,s),dl(0,np,s_deinf)) 1
 Africains n 1
-Afrique n 52
+Afrique n 53
 Aga dr(0,np,np) 1
 Agassi np 1
 Agenais n 1
@@ -3295,7 +3301,7 @@ Balcerowicz np 2
 Balfour dr(0,n,n) 1
 Balfour dr(0,np,np) 1
 Balkans n 2
-Balkany np 6
+Balkany np 8
 Balladur appe 1
 Balladur dl(0,n,n) 4
 Balladur np 23
@@ -3792,7 +3798,7 @@ Béthune np 1
 C dl(0,n,n) 4
 C dr(0,np,np) 1
 C n 1
-C' np 219
+C' np 220
 C. dl(0,n,n) 1
 C. dr(0,np,np) 3
 CAC appb 1
@@ -4116,7 +4122,7 @@ Cazalet np 1
 Ccas n 1
 Ce dr(0,dr(0,np,np),n) 1
 Ce dr(0,dr(0,s,s),n) 4
-Ce dr(0,np,n) 161
+Ce dr(0,np,n) 162
 Ce np 84
 Ceausescu dl(0,n,n) 1
 Ceausescu np 1
@@ -4158,7 +4164,7 @@ Certes dr(0,dr(0,s,s),dr(0,s,s)) 1
 Certes dr(0,s,s) 29
 Cerus np 9
 Ces dr(0,dr(0,s,s),n) 6
-Ces dr(0,np,n) 112
+Ces dr(0,np,n) 114
 Cesano np 1
 Cessez dr(0,s,np) 1
 Cet dr(0,dr(0,s,s),n) 3
@@ -4211,7 +4217,7 @@ Chargeurs dl(0,n,n) 2
 Chargeurs dr(0,np,np) 2
 Chargé dr(0,pass,dl(0,np,s_deinf)) 1
 Charles dl(0,n,n) 2
-Charles dr(0,np,np) 8
+Charles dr(0,np,np) 11
 Charles np 2
 Charles-Emile dr(0,np,np) 1
 Charlie-hebdo np 1
@@ -4268,7 +4274,7 @@ Chipie dl(0,n,n) 1
 Chipie np 3
 Chirac appe 1
 Chirac dl(0,n,n) 1
-Chirac np 16
+Chirac np 17
 Chivasso np 1
 Choc n 1
 Choisi dr(0,pass,dl(0,n,n)) 1
@@ -4339,7 +4345,8 @@ Clearstream dl(0,n,n) 4
 Clergerie np 1
 Clermont-Ferrand dl(0,n,n) 1
 Clermont-Ferrand np 2
-Clichois n 1
+Clichois n 3
+Clichy np 1
 Clients n 1
 Clinger np 1
 Clinton dl(0,n,n) 10
@@ -4540,7 +4547,7 @@ Convaincue dr(0,pass,pp_de) 1
 Convention n 2
 Conçues pass 1
 Cooke dl(0,n,n) 3
-Coopération n 1
+Coopération n 2
 Coordination n 1
 Copenhague np 5
 Copperman np 2
@@ -4756,6 +4763,7 @@ Danois n 2
 Danone dl(0,np,np) 1
 Dans dr(0,dl(0,n,n),np) 2
 Dans dr(0,dr(0,np,np),np) 2
+Dans dr(0,dr(0,s,dr(0,s,dia(1,box(1,pp)))),np) 1
 Dans dr(0,dr(0,s,s),np) 263
 Dans dr(0,pp_dans,np) 1
 Danske appm 1
@@ -4933,7 +4941,7 @@ Diables n 1
 Diane dr(0,np,np) 1
 Diberder n 1
 Diderot np 1
-Didier dr(0,np,np) 13
+Didier dr(0,np,np) 16
 Die dl(0,n,n) 1
 Dieppe np 1
 Dieter np 3
@@ -5051,7 +5059,7 @@ Dow dr(0,n,n) 1
 Dow dr(0,np,np) 1
 Doyen np 1
 Dr dr(0,n,n) 3
-Dr n 1
+Dr n 2
 Drabu appe 1
 Dracula np 1
 Dragages np 1
@@ -5372,8 +5380,8 @@ Empruntez dr(0,s,np) 1
 En dr(0,dr(0,dr(0,s,dl(0,np,s)),np),dl(0,np,s_ppres)) 36
 En dr(0,dr(0,np,np),n) 2
 En dr(0,dr(0,s,s),dl(0,np,s_ppres)) 21
-En dr(0,dr(0,s,s),n) 339
-En dr(0,dr(0,s,s),np) 140
+En dr(0,dr(0,s,s),n) 340
+En dr(0,dr(0,s,s),np) 141
 En dr(0,pp,np) 1
 En dr(0,s,dr(0,s,dia(1,box(1,pp_de)))) 2
 En dr(0,s,s) 2
@@ -5440,7 +5448,7 @@ Equivalent np 1
 Eramet dl(0,n,n) 1
 Eric appb 3
 Eric dl(0,n,n) 1
-Eric dr(0,np,np) 19
+Eric dr(0,np,np) 20
 Eric np 1
 Ericsson dl(0,n,n) 2
 Ericsson dr(0,np,np) 1
@@ -5832,6 +5840,7 @@ Forte dr(0,n,n) 1
 Fortech dl(0,n,n) 1
 Fortune-France np 1
 Forum n 2
+Forum np 1
 Fosse np 1
 Fossés n 1
 Fottorino np 1
@@ -5855,7 +5864,7 @@ Framatome np 2
 Franc-maçonnerie n 1
 France dl(0,n,n) 6
 France dr(0,np,np) 18
-France n 482
+France n 483
 France np 37
 France-Antilles dl(0,n,n) 1
 France-Inter np 1
@@ -5871,7 +5880,7 @@ Francfort n 1
 Francfort np 28
 Franchissez dr(0,s,np) 1
 Francis appb 1
-Francis dr(0,np,np) 17
+Francis dr(0,np,np) 25
 Franck dr(0,np,np) 3
 Franco dl(0,n,n) 1
 Franco dr(0,np,np) 1
@@ -6121,7 +6130,7 @@ Giorgio dr(0,np,np) 1
 Girard np 6
 Girardin dl(0,n,n) 1
 Girardin n 2
-Giraud np 9
+Giraud np 12
 Giromagny np 3
 Gironde n 3
 Giroud np 1
@@ -6311,8 +6320,8 @@ HBO np 1
 HCR n 2
 HEC dl(0,n,n) 1
 HENRI dl(0,n,n) 1
-HLM dl(0,n,n) 7
-HLM n 19
+HLM dl(0,n,n) 9
+HLM n 21
 HN dl(0,np,np) 1
 HOMMES n 1
 HP dr(0,np,np) 2
@@ -6337,11 +6346,12 @@ Hafnia np 8
 Hagetmau np 6
 Hagondange np 1
 Haironville np 1
+Halbwax np 5
 Halfon np 1
 Hall np 6
-Halphen appe 7
+Halphen appe 11
 Halphen dl(0,n,n) 1
-Halphen np 1
+Halphen np 3
 Hamas n 2
 Hambourg np 1
 Hamelin dl(0,n,n) 1
@@ -6387,7 +6397,7 @@ Haute-Savoie n 2
 Haute-Saône n 1
 Hautes dr(0,n,n) 1
 Hauts-de-Seine dl(0,n,n) 1
-Hauts-de-Seine n 16
+Hauts-de-Seine n 21
 Havas np 4
 Havel appe 1
 Havel np 2
@@ -6594,7 +6604,7 @@ Ier dl(0,np,np) 3
 Ifop n 1
 Ikea np 1
 Il dl(0,n,n) 1
-Il np 595
+Il np 596
 Ile-de-France dl(0,n,n) 2
 Ile-de-France n 8
 Ileau n 1
@@ -6697,6 +6707,7 @@ Interrogés dr(0,pass,pp_sur) 1
 Intervenant dr(0,dl(0,np,s_ppres),pp) 1
 Interview np 1
 Introduction n 1
+Intérieur n 1
 Intérim n 4
 Inutile dr(0,dl(0,n,n),dl(0,np,s_deinf)) 1
 Investissement n 1
@@ -6780,7 +6791,7 @@ Jacou np 1
 Jacqueline dr(0,np,np) 3
 Jacques appb 4
 Jacques dl(0,n,n) 3
-Jacques dr(0,np,np) 65
+Jacques dr(0,np,np) 66
 Jacques np 8
 Jacques-Bailleurs dl(0,n,n) 1
 Jacquin np 4
@@ -6823,7 +6834,7 @@ Jean-Benoit appb 1
 Jean-Charles dr(0,np,np) 2
 Jean-Christophe dr(0,np,np) 1
 Jean-Claude dl(0,n,n) 1
-Jean-Claude dr(0,np,np) 34
+Jean-Claude dr(0,np,np) 37
 Jean-Cyrille dr(0,np,np) 1
 Jean-Daniel dr(0,np,np) 1
 Jean-François appb 1
@@ -7089,7 +7100,7 @@ Köhler np 1
 L' dr(0,dl(0,n,n),n) 3
 L' dr(0,dr(0,np,np),n) 1
 L' dr(0,dr(0,s,s),n) 13
-L' dr(0,np,n) 640
+L' dr(0,np,n) 641
 L' dr(0,np,np) 1
 L. dl(0,n,n) 3
 L. dr(0,np,np) 1
@@ -7223,9 +7234,9 @@ Le dr(0,dl(0,n,n),n) 8
 Le dr(0,dl(0,n,n),np) 1
 Le dr(0,dl(0,np,np),np) 1
 Le dr(0,dr(0,np,np),n) 1
-Le dr(0,dr(0,s,s),n) 52
+Le dr(0,dr(0,s,s),n) 54
 Le dr(0,np,dl(0,n,n)) 6
-Le dr(0,np,n) 1209
+Le dr(0,np,n) 1212
 Lebaube np 1
 Lebel np 1
 Leblé dl(0,n,n) 2
@@ -7534,6 +7545,7 @@ MORT n 1
 MOSCOU np 1
 MPCS n 2
 MPG n 2
+MR np 2
 MS-DOS np 1
 MSF n 1
 MSF np 1
@@ -7706,7 +7718,7 @@ Marubeni np 1
 Marvin dr(0,np,np) 1
 Marx np 1
 Maréchal appe 1
-Maréchal dl(0,n,n) 1
+Maréchal dl(0,n,n) 2
 Maréchal np 1
 Massachusetts n 1
 Massif n 1
@@ -7857,7 +7869,7 @@ Michael dl(0,n,n) 2
 Michael dr(0,np,np) 7
 Michel appb 3
 Michel dl(0,n,n) 3
-Michel dr(0,np,np) 96
+Michel dr(0,np,np) 103
 Michel n 1
 Michel np 5
 Michel-Edouard dr(0,np,np) 1
@@ -7924,7 +7936,7 @@ Mis dr(0,dr(0,dr(0,s,s),np),pp) 2
 Mis dr(0,dr(0,pass,pp_par),pp) 1
 Mis dr(0,pass,pp) 2
 Mise dr(0,pass,pp) 1
-Mise n 2
+Mise n 3
 Mises n 1
 Mismanagement n 1
 Mission n 1
@@ -7969,7 +7981,7 @@ Monaco n 1
 Monaco np 2
 Monark dl(0,n,n) 1
 Monclain np 1
-Monde n 189
+Monde n 190
 Monde-Economie n 1
 Monde-l'économie n 1
 Mondes dl(0,n,n) 1
@@ -8104,7 +8116,7 @@ Méridien dl(0,n,n) 3
 Méridien n 6
 Méridien np 1
 Mérieux np 1
-Méry np 4
+Méry np 7
 Métamorphose n 1
 Météo dr(0,np,np) 1
 Météo-France np 1
@@ -8373,7 +8385,7 @@ ONT dr(0,dl(0,np,s),dl(0,np,s_ppart)) 1
 ONU n 8
 OP n 1
 OPA n 33
-OPAC n 3
+OPAC n 4
 OPCVM n 3
 OPE n 6
 OPEP dl(0,n,n) 1
@@ -8560,6 +8572,7 @@ PIB n 42
 PIBOR n 2
 PII dl(0,n,n) 1
 PII np 1
+PJ n 1
 PKK n 1
 PLA n 1
 PLA np 1
@@ -8629,7 +8642,7 @@ Palomar dl(0,n,n) 1
 Pan dr(0,n,n) 1
 Panda n 1
 Pandore np 1
-Pandraud np 2
+Pandraud np 4
 Panouse n 1
 Paolo np 1
 Papon dl(0,n,n) 2
@@ -8662,7 +8675,7 @@ Pariente dl(0,n,n) 2
 Pariente np 1
 Paris dl(0,n,n) 4
 Paris n 1
-Paris np 262
+Paris np 263
 Paris-Bordeaux np 1
 Paris-Bâle dl(0,n,n) 1
 Paris-Dakar n 1
@@ -8710,7 +8723,7 @@ Pas-de-Calais n 3
 Pascal dr(0,np,np) 2
 Pascal np 1
 Pascaline dr(0,np,np) 1
-Pasqua np 15
+Pasqua np 18
 Passera np 2
 Passons s 1
 Passy np 1
@@ -8726,7 +8739,7 @@ Patrice np 4
 Patricio dr(0,np,np) 1
 Patrick appb 1
 Patrick dl(0,n,n) 2
-Patrick dr(0,np,np) 14
+Patrick dr(0,np,np) 16
 Patron np 1
 Patten np 2
 Pau np 13
@@ -8833,7 +8846,7 @@ Pharmaceuticals np 1
 Phase np 1
 Phelan np 1
 Philip dr(0,np,np) 3
-Philippe appb 5
+Philippe appb 6
 Philippe dl(0,n,n) 1
 Philippe dr(0,np,np) 15
 Philippe np 3
@@ -8929,7 +8942,7 @@ Plus dr(0,np,pp_de) 10
 Plus dr(0,np,s_q) 1
 Plus dr(0,s,s) 2
 Plus np 5
-Plusieurs dr(0,np,n) 12
+Plusieurs dr(0,np,n) 13
 Plût dr(0,dr(0,dl(0,np,s),s_q),pp_a) 1
 Po dl(0,n,n) 1
 Pocket np 1
@@ -8983,6 +8996,7 @@ Port-Harcourt np 2
 Port-Louis np 1
 Port-Salut np 1
 Portelli appe 3
+Portelli dl(0,n,n) 1
 Portici np 1
 Portieux np 1
 Portillo dl(0,n,n) 1
@@ -8998,7 +9012,7 @@ Potentiellement dr(0,s,s) 1
 Poto-Poto np 1
 Poul dr(0,np,np) 2
 Poulain np 1
-Poullain np 5
+Poullain np 13
 Pour dr(0,dl(0,n,n),np) 1
 Pour dr(0,dl(0,np,np),n) 1
 Pour dr(0,dr(0,dl(0,np,s),dl(0,np,s)),np) 1
@@ -9007,7 +9021,7 @@ Pour dr(0,dr(0,np,np),dl(0,np,s_inf)) 2
 Pour dr(0,dr(0,np,np),np) 3
 Pour dr(0,dr(0,s,s),dl(0,np,s_inf)) 87
 Pour dr(0,dr(0,s,s),n) 4
-Pour dr(0,dr(0,s,s),np) 187
+Pour dr(0,dr(0,s,s),np) 188
 Pour dr(0,dr(0,s,s),s_q) 2
 Pour dr(0,pour_inf,dl(0,np,s_inf)) 1
 Pour dr(0,pp,np) 1
@@ -9190,6 +9204,7 @@ Quand dr(0,s_q,s) 1
 Quant dr(0,dr(0,s,s),pp_a) 68
 Quantas dl(0,n,n) 1
 Quarante-deux np 1
+Quarante-huit dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 1
 Quartier n 1
 Quatre dr(0,np,n) 9
 Quatre-vingt-quatorze dr(0,np,n) 1
@@ -9271,6 +9286,7 @@ RETRAIT n 2
 RFA n 5
 RFA np 1
 RFP np 3
+RH np 2
 RI n 1
 RM n 1
 RMC np 1
@@ -9285,8 +9301,8 @@ ROSY np 1
 ROUTIERS n 1
 ROUTIÈRE dl(0,n,n) 1
 ROYALTIES n 1
-RPR dl(0,n,n) 12
-RPR n 26
+RPR dl(0,n,n) 13
+RPR n 29
 RPR-UDF dl(0,n,n) 1
 RPR-UDF-UDC dl(0,n,n) 1
 RSF np 3
@@ -9499,7 +9515,7 @@ Rmistes n 3
 Roanne np 2
 Robelin np 2
 Robert dl(0,n,n) 2
-Robert dr(0,np,np) 22
+Robert dr(0,np,np) 24
 Robert-Schuman dl(0,n,n) 1
 Roberto dr(0,np,np) 5
 Robes n 1
@@ -9557,7 +9573,7 @@ Round n 1
 Roussel-Uclaf np 1
 Rousselot np 3
 Rousset np 2
-Roussin np 2
+Roussin np 6
 Roux dl(0,n,n) 1
 Roux np 1
 Rovno np 2
@@ -9625,7 +9641,7 @@ Régis dr(0,np,np) 1
 Régnier np 1
 Régniere np 1
 Régulièrement dr(0,s,s) 2
-Rémy dr(0,np,np) 2
+Rémy dr(0,np,np) 7
 Rémy np 1
 Rémy-Cointreau np 1
 Réole n 1
@@ -9682,7 +9698,7 @@ SANTÉ n 1
 SAP dl(0,n,n) 1
 SAP n 1
 SAR dl(0,n,n) 1
-SAR n 4
+SAR n 6
 SARI n 1
 SAS dl(0,n,n) 1
 SAS np 1
@@ -9972,8 +9988,8 @@ Schreiner np 1
 Schroders np 1
 Schtroumpfs dl(0,n,n) 1
 Schtroumpfs n 1
-Schuller np 12
-Schuller-Maréchal dl(0,n,n) 1
+Schuller np 15
+Schuller-Maréchal dl(0,n,n) 2
 Schumacher np 1
 Schumpeter np 1
 Schwartz np 4
@@ -10013,7 +10029,7 @@ Seine-et-Marne n 1
 Seiters np 2
 Selenia np 1
 Sellier n 3
-Selon dr(0,dr(0,s,s),np) 81
+Selon dr(0,dr(0,s,s),np) 82
 Selon dr(0,pp,np) 1
 Sema dr(0,np,np) 2
 Sema np 5
@@ -10055,7 +10071,7 @@ Service np 1
 Services dl(0,n,n) 1
 Services dr(0,n,n) 2
 Services np 1
-Ses dr(0,np,n) 14
+Ses dr(0,np,n) 15
 Sesa n 1
 Session n 1
 Setubal np 1
@@ -10347,7 +10363,7 @@ Suez np 15
 Suffit dr(0,s,dl(0,np,s_deinf)) 1
 Suffit s 1
 Suicide n 1
-Suisse n 18
+Suisse n 19
 Suisses n 1
 Suit dr(0,dl(0,np,s),np) 1
 Suite dr(0,dr(0,s,s),pp_a) 2
@@ -10879,7 +10895,7 @@ Un dr(0,dr(0,dr(0,dr(0,s,dl(0,np,s)),np),dr(0,dr(0,s,dl(0,np,s)),np)),n) 2
 Un dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 7
 Un dr(0,dr(0,passm,passm),n) 1
 Un dr(0,dr(0,s,s),n) 3
-Un dr(0,np,n) 232
+Un dr(0,np,n) 233
 Un np 5
 Une dr(0,dr(0,dl(0,n,n),dl(0,n,n)),n) 1
 Une dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 3
@@ -11006,7 +11022,7 @@ Van appm 4
 Van dr(0,dl(0,n,n),np) 1
 Van dr(0,dl(0,np,np),np) 3
 Vanden dr(0,np,np) 1
-Vandingenen appe 3
+Vandingenen appe 4
 Vandoeuvre np 1
 Vannes-le-Châtel np 1
 Var dr(0,np,np) 1
@@ -11407,7 +11423,7 @@ a dr(0,dl(0,dl(0,np,s_inf),s),np) 1
 a dr(0,dl(0,n,n),n) 3
 a dr(0,dl(0,np,s),dl(0,np,s_ainf)) 1
 a dr(0,dl(0,np,s),dl(0,np,s_inf)) 1
-a dr(0,dl(0,np,s),dl(0,np,s_ppart)) 2332
+a dr(0,dl(0,np,s),dl(0,np,s_ppart)) 2335
 a dr(0,dl(0,np,s),np) 140
 a dr(0,dl(0,np,s),pp) 1
 a dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 1
@@ -12178,7 +12194,7 @@ affaiblis dl(0,n,n) 1
 affaiblissement n 1
 affaiblit dl(0,cl_r,dl(0,np,s)) 1
 affaiblit dr(0,dl(0,np,s),np) 1
-affaire n 122
+affaire n 124
 affaire np 2
 affaires n 230
 affaires np 1
@@ -12310,7 +12326,7 @@ agaves n 1
 agence n 26
 agences n 18
 agencée dl(0,n,n) 1
-agenda n 4
+agenda n 5
 agendas n 1
 agent n 11
 agent np 1
@@ -12364,7 +12380,7 @@ agit dl(0,np,s) 3
 agit dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,np,s_deinf)) 17
 agit dr(0,dl(0,cl_r,dl(0,np,s)),np) 1
 agit dr(0,dl(0,cl_r,dl(0,np,s)),pp) 1
-agit dr(0,dl(0,cl_r,dl(0,np,s)),pp_de) 35
+agit dr(0,dl(0,cl_r,dl(0,np,s)),pp_de) 36
 agitation n 5
 agiter dl(0,cl_r,dl(0,np,s_inf)) 1
 agité dl(0,cl_r,dl(0,np,s_ppart)) 1
@@ -12649,6 +12665,7 @@ aller dr(0,dl(0,np,s_inf),dl(0,np,s_inf)) 13
 aller dr(0,dl(0,np,s_inf),np) 1
 aller dr(0,dl(0,np,s_inf),pp) 10
 aller dr(0,dl(0,np,s_inf),pp_a) 11
+aller n 1
 allergique dr(0,dl(0,n,n),pp_a) 2
 allers n 2
 allez dr(0,s,pp) 1
@@ -12983,7 +13000,7 @@ anarchiques dl(0,n,n) 1
 anathèmes n 1
 ancestrale dl(0,n,n) 1
 anchois n 1
-ancien dr(0,n,n) 95
+ancien dr(0,n,n) 98
 ancien dr(0,np,n) 1
 ancien n 3
 ancienne dl(0,n,n) 2
@@ -13139,13 +13156,13 @@ anodine dl(0,n,n) 1
 anodins dl(0,n,n) 1
 anomalie n 1
 anomalies n 2
-anonymat n 3
+anonymat n 4
 anonyme dl(0,n,n) 3
 anonymement dr(0,passm,passm) 1
 anonymes dl(0,n,n) 2
 anonymes n 1
 anormal dl(0,n,n) 3
-ans n 543
+ans n 544
 anser-anser dl(0,n,n) 1
 antan n 3
 antarctique n 1
@@ -13264,7 +13281,7 @@ apparentent dr(0,dl(0,cl_r,dl(0,np,s)),pp_a) 1
 apparenté dl(0,n,n) 1
 apparition n 16
 apparitions n 1
-appartement n 6
+appartement n 7
 appartements n 6
 appartenaient dr(0,dl(0,np,s),pp_a) 1
 appartenait dr(0,dl(0,np,s),pp_a) 2
@@ -13325,7 +13342,7 @@ appellent dr(0,dr(0,dl(0,np,s),np),np) 6
 appellerait dr(0,dr(0,s,np),np) 1
 appelons dr(0,dr(0,dl(0,np,s),np),np) 1
 appels n 13
-appelé dr(0,dl(0,n,n),np) 3
+appelé dr(0,dl(0,n,n),np) 4
 appelé dr(0,dl(0,np,s_ppart),np) 1
 appelé dr(0,dl(0,np,s_ppart),pp_a) 6
 appelé dr(0,dr(0,dl(0,n,n),pp_par),np) 1
@@ -13559,7 +13576,7 @@ après dr(0,dl(1,s,s),s_q) 6
 après dr(0,dr(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s_inf)) 10
 après dr(0,dr(0,dr(0,s,dl(0,np,s)),np),dl(0,np,s_inf)) 16
 après dr(0,dr(0,s,s),n) 2
-après dr(0,dr(0,s,s),np) 48
+après dr(0,dr(0,s,s),np) 49
 après dr(0,dr(0,s,s),s_q) 2
 après dr(0,passa,n) 1
 après dr(0,passa,np) 10
@@ -13626,7 +13643,7 @@ ardeur n 1
 ardoise n 5
 ardoisières n 1
 ardues dl(0,n,n) 1
-argent n 78
+argent n 80
 argentier n 1
 argentiers n 4
 argentin dl(0,n,n) 1
@@ -14215,6 +14232,7 @@ attribuent dr(0,dr(0,dl(0,np,s),pp_a),np) 2
 attribuer dr(0,dl(0,np,s_inf),np) 1
 attribuer dr(0,dr(0,dl(0,np,s_inf),np),pp_a) 1
 attribuer dr(0,dr(0,dl(0,np,s_inf),pp_a),np) 2
+attributaire n 1
 attribution n 11
 attributions n 1
 attributs n 2
@@ -14247,7 +14265,7 @@ atypiques dl(0,n,n) 1
 au dr(0,dl(0,dr(0,n,dia(0,box(0,n))),dr(0,n,n)),dr(0,n,dia(0,box(0,n)))) 1
 au dr(0,dl(0,dr(0,n,n),dr(0,n,n)),dr(0,n,n)) 22
 au dr(0,dl(0,n,n),dl(0,n,n)) 3
-au dr(0,dl(0,n,n),n) 586
+au dr(0,dl(0,n,n),n) 588
 au dr(0,dl(0,np,np),n) 68
 au dr(0,dl(0,np,s_ainf),dl(0,np,s_inf)) 1
 au dr(0,dl(0,pp_de,dl(0,n,n)),n) 1
@@ -14258,7 +14276,7 @@ au dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 71
 au dr(0,dl(1,dl(0,np,np),dl(0,np,np)),n) 3
 au dr(0,dl(1,s,s),dl(0,n,n)) 7
 au dr(0,dl(1,s,s),dl(1,s,s)) 1
-au dr(0,dl(1,s,s),n) 527
+au dr(0,dl(1,s,s),n) 528
 au dr(0,dr(0,dl(0,n,n),dl(0,n,n)),n) 8
 au dr(0,dr(0,dl(0,np,s),dl(0,np,s)),n) 1
 au dr(0,dr(0,dl(1,s,s),dl(1,s,s)),dl(0,n,n)) 2
@@ -14294,7 +14312,7 @@ aube n 3
 auberge n 2
 aubergiste n 1
 aubergistes np 1
-aucun dr(0,np,n) 50
+aucun dr(0,np,n) 51
 aucun np 3
 aucune dl(0,n,n) 1
 aucune dr(0,np,n) 47
@@ -14314,7 +14332,7 @@ audiovisuels dl(0,n,n) 3
 audit n 4
 auditeur n 1
 auditeurs n 4
-audition n 3
+audition n 4
 auditionner dr(0,dl(0,np,s_inf),np) 1
 auditionné dl(0,np,s_pass) 1
 auditionné dr(0,pass,pp_par) 1
@@ -14387,7 +14405,7 @@ auparavant dr(0,s,s) 1
 auprès dr(0,dl(0,n,n),pp_de) 20
 auprès dr(0,dl(0,np,np),pp_de) 1
 auprès dr(0,dl(1,dl(0,n,n),dl(0,n,n)),pp_de) 8
-auprès dr(0,dl(1,s,s),pp_de) 37
+auprès dr(0,dl(1,s,s),pp_de) 38
 auprès dr(0,passa,pp_de) 1
 auprès dr(0,pp,pp_de) 9
 auquel dr(0,dl(0,n,n),dr(0,s,dia(1,box(1,pp_a)))) 19
@@ -14404,14 +14422,14 @@ aura dr(0,dr(0,dl(0,np,s),pp_de),np) 2
 aura n 1
 aurai dr(0,dl(0,np,s),dl(0,np,s_ppart)) 1
 aurai dr(0,dl(0,np,s),np) 2
-auraient dr(0,dl(0,np,s),dl(0,np,s_ppart)) 23
+auraient dr(0,dl(0,np,s),dl(0,np,s_ppart)) 26
 auraient dr(0,dl(0,np,s),np) 3
 auraient dr(0,dr(0,s,np),dl(0,np,s_ppart)) 1
 aurais dr(0,dl(0,np,s),dl(0,np,s_ppart)) 4
 aurait dr(0,dl(0,cl_y,dl(0,np,s)),dl(0,cl_y,dl(0,np,s_ppart))) 1
 aurait dr(0,dl(0,cl_y,dl(0,np,s)),np) 2
 aurait dr(0,dl(0,dl(0,np,s_inf),s),np) 1
-aurait dr(0,dl(0,np,s),dl(0,np,s_ppart)) 85
+aurait dr(0,dl(0,np,s),dl(0,np,s_ppart)) 87
 aurait dr(0,dl(0,np,s),np) 15
 aurait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),np) 2
 aurait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp) 1
@@ -14599,7 +14617,7 @@ autrement dr(0,dr(0,np,np),dr(0,np,np)) 1
 autres dl(0,n,n) 1
 autres dr(0,dl(0,n,n),s_q) 3
 autres dr(0,dr(0,n,s_q),n) 1
-autres dr(0,n,n) 225
+autres dr(0,n,n) 226
 autres dr(0,np,n) 1
 autres n 100
 autres np 20
@@ -14616,7 +14634,7 @@ aux dr(0,dr(0,s,dr(0,s,dia(1,box(1,pp_a)))),n) 2
 aux dr(0,dr(0,s,s),n) 7
 aux dr(0,passa,n) 3
 aux dr(0,pp_a,dl(0,n,n)) 3
-aux dr(0,pp_a,n) 749
+aux dr(0,pp_a,n) 751
 auxiliaire dl(0,n,n) 1
 auxiliaire n 1
 auxiliaires dl(0,n,n) 1
@@ -14640,7 +14658,7 @@ avait dr(0,dl(0,cl_y,dl(0,np,s)),dl(0,cl_y,dl(0,np,s_ppart))) 1
 avait dr(0,dl(0,cl_y,dl(0,np,s)),np) 12
 avait dr(0,dl(0,dl(0,np,s_inf),s),dl(0,np,s_ppart)) 1
 avait dr(0,dl(0,np,s),dl(0,np,s_ainf)) 1
-avait dr(0,dl(0,np,s),dl(0,np,s_ppart)) 423
+avait dr(0,dl(0,np,s),dl(0,np,s_ppart)) 424
 avait dr(0,dl(0,np,s),np) 26
 avait dr(0,dr(0,dl(0,cl_y,dl(0,np,s)),dl(0,np,s_ainf)),dl(0,n,n)) 1
 avait dr(0,dr(0,dl(0,np,s),dl(0,n,n)),np) 1
@@ -14683,9 +14701,9 @@ avancés dr(0,dl(0,n,n),pp_par) 1
 avant dl(0,n,n) 4
 avant dl(1,s,s) 4
 avant dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s_deinf)) 56
-avant dr(0,dl(0,dr(0,s,np),dr(0,s,np)),dl(0,np,s_deinf)) 1
 avant dr(0,dl(0,n,n),n) 3
 avant dr(0,dl(0,n,n),np) 14
+avant dr(0,dl(0,np,dl(0,dr(0,s,np),s)),dl(0,np,s_deinf)) 1
 avant dr(0,dl(0,np,np),dl(0,np,s_deinf)) 1
 avant dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 7
 avant dr(0,dl(1,dl(0,n,n),dl(0,n,n)),s_q) 1
@@ -14725,14 +14743,14 @@ avares dr(0,dl(0,n,n),pp_de) 1
 avatars n 1
 avec dl(1,s,s) 2
 avec dr(0,dl(0,n,n),n) 19
-avec dr(0,dl(0,n,n),np) 302
+avec dr(0,dl(0,n,n),np) 304
 avec dr(0,dl(0,np,np),n) 6
 avec dr(0,dl(0,np,np),np) 28
 avec dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 3
 avec dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 37
 avec dr(0,dl(1,dl(0,np,np),dl(0,np,np)),np) 1
 avec dr(0,dl(1,s,s),n) 59
-avec dr(0,dl(1,s,s),np) 405
+avec dr(0,dl(1,s,s),np) 406
 avec dr(0,dl(1,s,s),pp) 2
 avec dr(0,dr(0,dl(0,np,s),dl(0,np,s)),np) 1
 avec dr(0,dr(0,dr(0,s,dl(0,np,s)),np),np) 1
@@ -14789,8 +14807,8 @@ avocate n 1
 avocats n 5
 avoir dr(0,dl(0,cl_y,dl(0,np,s_inf)),np) 3
 avoir dr(0,dl(0,np,s_inf),dl(0,np,s_ainf)) 6
-avoir dr(0,dl(0,np,s_inf),dl(0,np,s_ppart)) 216
-avoir dr(0,dl(0,np,s_inf),np) 59
+avoir dr(0,dl(0,np,s_inf),dl(0,np,s_ppart)) 219
+avoir dr(0,dl(0,np,s_inf),np) 60
 avoir dr(0,dl(0,np,s_inf),pp) 1
 avoir dr(0,dr(0,dl(0,np,s_inf),dl(0,n,n)),np) 1
 avoir dr(0,dr(0,dl(0,np,s_inf),dl(0,np,s_ainf)),np) 1
@@ -14968,7 +14986,7 @@ bannir dr(0,dl(0,np,s_inf),np) 1
 bannis pass 1
 bannière n 2
 banquaires dl(0,n,n) 1
-banque n 155
+banque n 156
 banqueroute n 1
 banques n 130
 banques np 2
@@ -15074,7 +15092,7 @@ beau dl(1,s,s) 1
 beau dr(0,dl(0,n,n),dl(0,np,s_deinf)) 1
 beau dr(0,n,n) 9
 beau dr(0,np,n) 1
-beau-père n 1
+beau-père n 2
 beaucoup dl(1,s,s) 19
 beaucoup dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s))) 2
 beaucoup dr(0,dl(0,n,n),dl(0,n,n)) 19
@@ -15177,6 +15195,7 @@ bienvenu n 2
 bienvenues dl(0,n,n) 1
 bienvenues n 1
 bienvenus n 1
+bifurcation n 1
 bifurcations n 1
 big dr(0,n,n) 4
 bijouterie n 5
@@ -15594,7 +15613,7 @@ bureau n 29
 bureaucrates n 1
 bureaucratie n 2
 bureaucratiques dl(0,n,n) 3
-bureaux n 10
+bureaux n 11
 bus n 6
 but n 32
 butane n 1
@@ -15634,7 +15653,7 @@ bénéfice n 53
 bénéfices n 26
 bénéficiaient dr(0,dl(0,np,s),pp_de) 3
 bénéficiaire dl(0,n,n) 3
-bénéficiaire n 3
+bénéficiaire n 4
 bénéficiaires dl(0,n,n) 6
 bénéficiaires dr(0,dl(0,n,n),pp_de) 1
 bénéficiaires n 17
@@ -15655,7 +15674,8 @@ bénéficier dr(0,dl(0,np,s_inf),pp_de) 18
 bénéficiera dr(0,dl(0,np,s),pp_de) 7
 bénéficieront dr(0,dl(0,np,s),pp_de) 6
 bénéficièrent dr(0,dl(0,np,s),pp_de) 1
-bénéficié dr(0,dl(0,np,s_ppart),pp_de) 11
+bénéficié dr(0,dl(0,np,s_ppart),pp_a) 1
+bénéficié dr(0,dl(0,np,s_ppart),pp_de) 12
 bénéfique dl(0,n,n) 1
 bénéfiques dl(0,n,n) 2
 bénévolement dl(1,dl(0,n,n),dl(0,n,n)) 1
@@ -15677,7 +15697,7 @@ cabane n 4
 cabillaud n 1
 cabine n 3
 cabines n 2
-cabinet n 33
+cabinet n 34
 cabinets n 3
 cacao n 6
 cachait dr(0,dl(0,np,s),np) 1
@@ -16014,9 +16034,9 @@ ce dr(0,dl(0,n,n),n) 1
 ce dr(0,dl(0,np,s),dr(0,dl(0,np,s),np)) 2
 ce dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 1
 ce dr(0,dl(1,s,s),n) 17
-ce dr(0,np,n) 646
+ce dr(0,np,n) 647
 ce dr(0,passa,n) 2
-ce np 414
+ce np 416
 ceci np 3
 ceindre dr(0,dl(0,np,s_inf),np) 1
 ceinte dr(0,pass,pp_de) 1
@@ -16031,7 +16051,7 @@ cellier n 1
 cellule n 10
 cellules n 4
 celui np 174
-celui-ci np 21
+celui-ci np 22
 cendres n 1
 censure n 4
 censé dr(0,dl(0,n,n),dl(0,np,s_inf)) 5
@@ -16644,7 +16664,7 @@ citerne n 1
 citernes n 1
 citizen's dr(0,n,n) 1
 citons dr(0,s,np) 1
-citoyen n 2
+citoyen n 3
 citoyenne dl(0,n,n) 1
 citoyens n 7
 cité dl(0,n,n) 1
@@ -16795,7 +16815,7 @@ codée dr(0,pass,np) 1
 codés dl(0,n,n) 1
 coefficient n 2
 coercition dl(0,n,n) 1
-coeur n 32
+coeur n 33
 coeurs n 2
 coexistence n 1
 coexister dl(0,np,s_inf) 1
@@ -16926,7 +16946,7 @@ comblée pass 1
 combustible n 2
 combustibles n 1
 come-back n 1
-comité n 67
+comité n 68
 comités n 2
 commandant n 3
 commande dr(0,dl(0,np,s),np) 1
@@ -16956,7 +16976,7 @@ comme dr(0,dl(0,n,n),np) 159
 comme dr(0,dl(0,n,n),pp) 3
 comme dr(0,dl(0,n,n),s) 11
 comme dr(0,dl(0,np,np),n) 1
-comme dr(0,dl(0,np,np),np) 27
+comme dr(0,dl(0,np,np),np) 29
 comme dr(0,dl(0,np,np),s) 8
 comme dr(0,dl(0,pp,pp),pp) 2
 comme dr(0,dl(0,pp,pp),s) 1
@@ -17336,7 +17356,7 @@ compte dr(0,dl(0,np,s),pp_pour) 1
 compte dr(0,dl(0,np,s),pp_sur) 4
 compte dr(0,dr(0,s,np),dl(0,np,s_inf)) 1
 compte dr(0,dr(0,s,np),np) 2
-compte n 72
+compte n 74
 compte np 65
 comptent dr(0,dl(0,np,s),np) 2
 comptent dr(0,dl(0,np,s),pp_pour) 2
@@ -17402,7 +17422,7 @@ concernant dr(0,dl(0,np,np),np) 2
 concernant dr(0,dl(0,np,s_ppres),np) 2
 concernant dr(0,dl(1,s,s),np) 1
 concernante dl(0,n,n) 1
-concerne dr(0,dl(0,np,s),np) 39
+concerne dr(0,dl(0,np,s),np) 40
 concernent dr(0,dl(0,np,s),np) 6
 concerner dr(0,dl(0,np,s_inf),np) 1
 concernera dr(0,dl(0,np,s),np) 1
@@ -17611,7 +17631,7 @@ confiant dr(0,dr(0,dl(0,np,s_ppres),pp_a),np) 1
 confiante dl(0,n,n) 1
 confiants dl(0,n,n) 1
 confiants dr(0,dl(0,n,n),pp) 3
-confidences n 2
+confidences n 3
 confident n 1
 confidentialité n 1
 confidentiel dl(0,n,n) 2
@@ -17656,7 +17676,7 @@ confirmées pass 1
 confiserie n 2
 confiseurs n 3
 confiturier dl(0,n,n) 1
-confié dr(0,dl(0,n,n),pp_a) 1
+confié dr(0,dl(0,n,n),pp_a) 2
 confié dr(0,dr(0,dl(0,np,s_ppart),np),pp_a) 2
 confié dr(0,dr(0,dl(0,np,s_ppart),pp_a),np) 2
 confié dr(0,pass,pp_a) 1
@@ -17860,7 +17880,7 @@ conseillait dr(0,dl(0,np,s),dl(0,np,s_deinf)) 1
 conseillait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 1
 conseille dr(0,dl(1,s,s),np) 1
 conseiller dr(0,dl(0,np,s_inf),np) 2
-conseiller n 16
+conseiller n 17
 conseiller np 2
 conseillers n 6
 conseillé dr(0,dl(0,np,s_ppart),np) 1
@@ -18310,15 +18330,15 @@ contraventions n 1
 contre dl(0,n,n) 2
 contre dl(1,s,s) 3
 contre dr(0,dl(0,n,n),n) 4
-contre dr(0,dl(0,n,n),np) 110
+contre dr(0,dl(0,n,n),np) 109
 contre dr(0,dl(0,np,np),np) 43
 contre dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 1
 contre dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 4
 contre dr(0,dl(1,s,s),n) 1
-contre dr(0,dl(1,s,s),np) 97
+contre dr(0,dl(1,s,s),np) 98
 contre dr(0,dr(0,s,s),np) 2
 contre dr(0,n,n) 1
-contre dr(0,pp_contre,np) 79
+contre dr(0,pp_contre,np) 80
 contre n 5
 contre pp 1
 contre pp_contre 1
@@ -18565,8 +18585,8 @@ correspond dr(0,dl(0,np,s),pp_a) 17
 correspond dr(0,dr(0,s,pp_a),np) 1
 correspondait dr(0,dl(0,np,s),pp_a) 3
 correspondance dl(0,np,np) 2
-correspondance n 3
-correspondant dr(0,dl(0,n,n),pp_a) 7
+correspondance n 4
+correspondant dr(0,dl(0,n,n),pp_a) 8
 correspondant n 40
 correspondante dl(0,n,n) 4
 correspondante n 2
@@ -19200,15 +19220,15 @@ côtés n 17
 d' appm 1
 d' dr(0,dl(0,n,n),dl(0,n,n)) 2
 d' dr(0,dl(0,n,n),dl(0,np,s_inf)) 146
-d' dr(0,dl(0,n,n),n) 2665
+d' dr(0,dl(0,n,n),n) 2669
 d' dr(0,dl(0,n,n),np) 1130
 d' dr(0,dl(0,n,n),pp) 26
 d' dr(0,dl(0,np,np),dl(0,n,n)) 3
 d' dr(0,dl(0,np,np),dl(0,np,s_inf)) 6
 d' dr(0,dl(0,np,np),n) 113
-d' dr(0,dl(0,np,np),np) 64
+d' dr(0,dl(0,np,np),np) 65
 d' dr(0,dl(0,np,np),pp) 12
-d' dr(0,dl(0,np,s_deinf),dl(0,np,s_inf)) 565
+d' dr(0,dl(0,np,s_deinf),dl(0,np,s_inf)) 569
 d' dr(0,dl(1,dl(0,n,n),dl(0,n,n)),dl(0,np,s_inf)) 1
 d' dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 8
 d' dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 3
@@ -19238,7 +19258,7 @@ d' dr(0,np,n) 163
 d' dr(0,passa,n) 5
 d' dr(0,pp_de,dl(0,n,n)) 3
 d' dr(0,pp_de,n) 248
-d' dr(0,pp_de,np) 509
+d' dr(0,pp_de,np) 510
 d' dr(0,pp_de,pp) 5
 dactylographiée dl(0,n,n) 1
 dalles n 1
@@ -19271,7 +19291,7 @@ dans dr(0,dl(0,np,np),np) 34
 dans dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 142
 dans dr(0,dl(1,dl(0,np,np),dl(0,np,np)),np) 8
 dans dr(0,dl(1,s,s),n) 3
-dans dr(0,dl(1,s,s),np) 845
+dans dr(0,dl(1,s,s),np) 846
 dans dr(0,dr(0,dl(1,s,s),dl(1,s,s)),np) 2
 dans dr(0,dr(0,np,np),np) 6
 dans dr(0,dr(0,s,s),np) 97
@@ -19316,18 +19336,18 @@ de appm 1
 de dl(0,n,n) 3
 de dr(0,dl(0,n,n),dl(0,n,n)) 2
 de dr(0,dl(0,n,n),dl(0,np,s_inf)) 400
-de dr(0,dl(0,n,n),n) 5806
-de dr(0,dl(0,n,n),np) 9176
+de dr(0,dl(0,n,n),n) 5811
+de dr(0,dl(0,n,n),np) 9194
 de dr(0,dl(0,n,n),pp) 2
 de dr(0,dl(0,np,dl(1,dl(0,n,n),dl(0,n,n))),np) 1
 de dr(0,dl(0,np,dl(1,s,s)),np) 1
 de dr(0,dl(0,np,np),dl(0,n,n)) 10
 de dr(0,dl(0,np,np),dl(0,np,s_inf)) 27
-de dr(0,dl(0,np,np),n) 1238
+de dr(0,dl(0,np,np),n) 1239
 de dr(0,dl(0,np,np),np) 462
 de dr(0,dl(0,np,np),pp) 1
 de dr(0,dl(0,np,pp_de),np) 1
-de dr(0,dl(0,np,s_deinf),dl(0,np,s_inf)) 1361
+de dr(0,dl(0,np,s_deinf),dl(0,np,s_inf)) 1363
 de dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 16
 de dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 33
 de dr(0,dl(1,dl(0,np,np),dl(0,np,np)),np) 1
@@ -19355,8 +19375,8 @@ de dr(0,np,np) 64
 de dr(0,passa,n) 8
 de dr(0,passa,np) 3
 de dr(0,pp_de,dl(0,n,n)) 8
-de dr(0,pp_de,n) 686
-de dr(0,pp_de,np) 2229
+de dr(0,pp_de,n) 688
+de dr(0,pp_de,np) 2232
 de dr(0,pp_de,pp) 1
 debout dl(0,n,n) 1
 debt n 1
@@ -19388,7 +19408,7 @@ demande dr(0,dl(0,cl_r,dl(0,np,s)),s_whq) 5
 demande dr(0,dl(0,np,s),dl(0,np,s_ainf)) 1
 demande dr(0,dl(0,np,s),np) 6
 demande dr(0,dl(0,np,s),s_q) 2
-demande dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 4
+demande dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 5
 demande dr(0,dr(0,dl(0,np,s),pp),np) 1
 demande dr(0,dr(0,dl(0,np,s),pp_a),np) 1
 demande dr(0,dr(0,dl(0,np,s),pp_de),np) 1
@@ -19522,7 +19542,7 @@ derrière dr(0,dr(0,pp,pp),np) 1
 derrière dr(0,dr(0,s,s),np) 1
 derrière dr(0,pp,np) 9
 des dr(0,dl(0,n,n),dl(0,n,n)) 23
-des dr(0,dl(0,n,n),n) 4340
+des dr(0,dl(0,n,n),n) 4344
 des dr(0,dl(0,np,np),dl(0,n,n)) 2
 des dr(0,dl(0,np,np),n) 339
 des dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 6
@@ -19530,9 +19550,9 @@ des dr(0,dl(1,s,s),n) 8
 des dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 1
 des dr(0,dr(0,s,s),n) 1
 des dr(0,np,dl(0,n,n)) 2
-des dr(0,np,n) 1851
+des dr(0,np,n) 1856
 des dr(0,passa,n) 1
-des dr(0,pp_de,n) 508
+des dr(0,pp_de,n) 509
 descend dr(0,dl(0,np,s),np) 1
 descendaient dl(0,np,s) 1
 descendait dr(0,dl(0,np,s),dl(0,np,s_inf)) 1
@@ -19647,7 +19667,7 @@ deux dr(0,dr(0,dl(1,s,s),dl(1,s,s)),n) 10
 deux dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 1
 deux dr(0,dr(0,np,np),n) 5
 deux dr(0,n,n) 247
-deux dr(0,np,n) 311
+deux dr(0,np,n) 314
 deux dr(0,passa,n) 2
 deux n 9
 deux np 34
@@ -19821,7 +19841,7 @@ différé n 2
 différée dl(0,n,n) 1
 digest dl(0,n,n) 1
 digne dl(0,n,n) 1
-digne dr(0,dl(0,n,n),pp_de) 6
+digne dr(0,dl(0,n,n),pp_de) 7
 digne dr(0,n,n) 1
 dignité n 3
 dignité np 1
@@ -19838,7 +19858,7 @@ dimanche dr(0,n,n) 3
 dimanche dr(0,passa,n) 1
 dimanche n 16
 dimanches n 1
-dimension n 8
+dimension n 9
 dimension np 1
 dimensions n 2
 diminua dr(0,dl(0,np,s),np) 1
@@ -19920,7 +19940,7 @@ directement passa 1
 directes dl(0,n,n) 7
 directeur dl(0,n,n) 3
 directeur dl(0,np,np) 1
-directeur n 138
+directeur n 140
 directeur np 22
 directeur-fondateur n 1
 directeurs dl(0,n,n) 16
@@ -20035,6 +20055,7 @@ disent dr(0,dr(0,s,s),np) 1
 disent dr(0,s,np) 3
 disette n 1
 disinformation dr(0,n,n) 1
+disjoint dl(0,n,n) 1
 dislocation n 1
 disons dr(0,s,s_q) 1
 disparaisse dl(0,np,s) 1
@@ -20341,7 +20362,7 @@ domestique n 1
 domestiques dl(0,n,n) 4
 domestiques n 1
 domicile dl(0,n,n) 1
-domicile n 16
+domicile n 17
 domicile np 1
 domiciles n 1
 domicilié dr(0,dl(0,n,n),pp) 1
@@ -20414,7 +20435,7 @@ donner dr(0,dl(0,cl_r,dl(0,np,s_inf)),np) 3
 donner dr(0,dl(0,np,s_inf),np) 13
 donner dr(0,dl(0,np,s_inf),pp_a) 1
 donner dr(0,dl(0,np,s_inf),pp_de) 1
-donner dr(0,dr(0,dl(0,np,s_inf),np),pp_a) 4
+donner dr(0,dr(0,dl(0,np,s_inf),np),pp_a) 5
 donner dr(0,dr(0,dl(0,np,s_inf),pp),np) 1
 donner dr(0,dr(0,dl(0,np,s_inf),pp_a),np) 31
 donnera dr(0,dl(0,np,s),np) 1
@@ -20455,7 +20476,7 @@ dons n 1
 dont dr(0,dl(0,dl(0,np,s),dl(0,np,s)),np) 5
 dont dr(0,dl(0,n,n),dr(0,s,dia(1,box(1,pp_de)))) 69
 dont dr(0,dl(0,n,n),np) 76
-dont dr(0,dl(0,n,n),s) 53
+dont dr(0,dl(0,n,n),s) 55
 dont dr(0,dl(0,np,np),dr(0,s,dia(1,box(1,pp_de)))) 6
 dont dr(0,dl(0,np,np),np) 8
 dont dr(0,dl(0,np,np),s) 4
@@ -20603,10 +20624,10 @@ drolatiques dl(0,n,n) 1
 drôle dl(0,n,n) 1
 drôlerie n 1
 du dr(0,dl(0,n,n),dl(0,n,n)) 1
-du dr(0,dl(0,n,n),n) 4180
+du dr(0,dl(0,n,n),n) 4188
 du dr(0,dl(0,n,n),np) 1
 du dr(0,dl(0,n,n),s) 1
-du dr(0,dl(0,np,np),n) 141
+du dr(0,dl(0,np,np),n) 142
 du dr(0,dl(0,np,s_ppart),dl(0,np,s_inf)) 1
 du dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 4
 du dr(0,dl(1,s,s),n) 60
@@ -20618,7 +20639,7 @@ du dr(0,dr(0,np,np),n) 3
 du dr(0,dr(0,s,s),n) 8
 du dr(0,np,n) 73
 du dr(0,passa,n) 5
-du dr(0,pp_de,n) 448
+du dr(0,pp_de,n) 449
 dualité n 1
 duc n 1
 ducal dl(0,n,n) 1
@@ -20767,7 +20788,7 @@ début dr(0,dr(0,s,s),n) 1
 début dr(0,n,n) 3
 début dr(0,passa,n) 1
 début dr(0,passa,np) 1
-début n 159
+début n 160
 débuter dl(0,np,s_inf) 2
 débuter dr(0,dl(0,np,s_inf),np) 1
 débutera dl(0,np,s) 1
@@ -20783,7 +20804,7 @@ décalages n 1
 décalé dr(0,dl(0,np,s_ppart),pp_a) 1
 décapitalisation n 1
 décembre dl(0,n,n) 1
-décembre n 425
+décembre n 428
 décembre np 1
 décemment dl(1,s,s) 1
 décennie n 14
@@ -20991,7 +21012,7 @@ découragé dl(0,n,n) 1
 découragé dr(0,pass,dl(0,np,s_deinf)) 1
 découragés pass 1
 découvert dr(0,dl(0,np,s_ppart),np) 6
-découvert dr(0,dl(0,np,s_ppart),s_q) 2
+découvert dr(0,dl(0,np,s_ppart),s_q) 3
 découvert dr(0,dr(0,dl(0,np,s_ppart),pp),np) 2
 découvert n 14
 découverte dl(0,n,n) 1
@@ -21002,7 +21023,7 @@ découvertes n 5
 découverts n 1
 découvre dr(0,dl(0,np,s),np) 5
 découvre dr(0,dl(0,np,s),s_q) 3
-découvre dr(0,dr(0,dl(0,np,s),pp),np) 1
+découvre dr(0,dr(0,dl(0,np,s),pp),np) 2
 découvreur n 1
 découvrimes dr(0,dl(0,np,s),np) 1
 découvrir dr(0,dl(0,np,s_inf),np) 13
@@ -21225,7 +21246,7 @@ déjà dl(1,s,s) 98
 déjà dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s))) 5
 déjà dr(0,dl(0,n,n),dl(0,n,n)) 41
 déjà dr(0,dl(0,np,np),dl(0,n,n)) 3
-déjà dr(0,dl(0,np,s),dl(0,np,s)) 54
+déjà dr(0,dl(0,np,s),dl(0,np,s)) 55
 déjà dr(0,dl(1,s,s),dl(1,s,s)) 2
 déjà dr(0,dr(0,np,np),dr(0,np,np)) 1
 déjà dr(0,n,n) 3
@@ -21548,13 +21569,13 @@ déprécié dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_de) 1
 dépréciée dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_de) 1
 dépréciées dl(0,cl_r,dl(0,np,s_ppart)) 1
 député dl(0,np,np) 1
-député n 18
+député n 19
 députée n 2
 députés n 22
 dépèce dr(0,dl(0,np,s),np) 1
 dépêcher dl(0,np,s_inf) 1
 dépêché dr(0,dl(0,cl_r,dl(0,np,s_ppart)),dl(0,np,s_deinf)) 1
-dépôt n 30
+dépôt n 31
 dépôts n 39
 déqualification-surqualification n 1
 déracinés dr(0,dl(0,np,s_ppart),np) 1
@@ -21676,7 +21697,7 @@ désirait dr(0,dl(0,np,s),dl(0,np,s_inf)) 1
 désirant dr(0,dl(0,n,n),dl(0,np,s_inf)) 1
 désire dr(0,dl(0,np,s),np) 2
 désirer dl(0,np,s_inf) 2
-désireuse dr(0,dl(0,n,n),dl(0,np,s_deinf)) 2
+désireuse dr(0,dl(0,n,n),dl(0,np,s_deinf)) 3
 désireuse dr(0,dl(0,np,np),dl(0,np,s_deinf)) 1
 désireux dr(0,dl(0,n,n),dl(0,np,s_deinf)) 5
 désirs n 1
@@ -21895,7 +21916,7 @@ dîné dl(0,np,s_ppart) 3
 dû dr(0,dl(0,n,n),pp_a) 5
 dû dr(0,dl(0,np,s_ppart),dl(0,np,s_inf)) 58
 dû dr(0,pass,pp_a) 5
-dûment dr(0,dl(0,n,n),dl(0,n,n)) 1
+dûment dr(0,dl(0,n,n),dl(0,n,n)) 2
 dûment dr(0,dl(0,np,s),dl(0,np,s)) 1
 dûment dr(0,passm,passm) 2
 eau n 51
@@ -21907,7 +21928,7 @@ effacer dr(0,dl(0,np,s_inf),np) 3
 effacé dr(0,dl(0,np,s_ppart),np) 2
 effacé pass 1
 effarouchera dr(0,dl(0,np,s),np) 1
-effectif dl(0,n,n) 3
+effectif dl(0,n,n) 4
 effectif n 12
 effectifs n 50
 effective dl(0,n,n) 8
@@ -21948,7 +21969,7 @@ effectués dr(0,dl(0,n,n),pp_par) 3
 effectués dr(0,pass,pp_par) 2
 effectués pass 4
 effervescence n 3
-effet n 165
+effet n 166
 effets n 42
 efficace dl(0,n,n) 18
 efficace dr(0,dl(0,n,n),pp) 1
@@ -22087,7 +22108,7 @@ employeur n 16
 employeurs n 30
 employeurs np 1
 employé dl(0,n,n) 1
-employé dr(0,dl(0,np,s_ppart),np) 1
+employé dr(0,dl(0,np,s_ppart),np) 2
 employé n 7
 employé pass 1
 employée dl(0,n,n) 1
@@ -22170,12 +22191,12 @@ en dr(0,dl(0,dl(1,s,s),dl(1,s,s)),n) 1
 en dr(0,dl(0,dr(0,s,np),dr(0,s,np)),dl(0,np,s_ppres)) 2
 en dr(0,dl(0,n,n),dl(0,n,n)) 1
 en dr(0,dl(0,n,n),dl(0,np,s_ppres)) 17
-en dr(0,dl(0,n,n),n) 1234
-en dr(0,dl(0,n,n),np) 338
+en dr(0,dl(0,n,n),n) 1235
+en dr(0,dl(0,n,n),np) 337
 en dr(0,dl(0,np,dl(0,dr(0,s,np),s)),dl(0,np,s_ppres)) 18
 en dr(0,dl(0,np,np),n) 132
-en dr(0,dl(0,np,np),np) 162
-en dr(0,dl(0,np,s),dl(0,np,s)) 205
+en dr(0,dl(0,np,np),np) 163
+en dr(0,dl(0,np,s),dl(0,np,s)) 206
 en dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,np)))) 8
 en dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,pp_de)))) 135
 en dr(0,dl(0,passm,passm),dl(0,np,s_ppres)) 1
@@ -22194,8 +22215,8 @@ en dr(0,dl(1,dl(0,np,s),dl(0,np,s)),dl(0,np,s_ppres)) 8
 en dr(0,dl(1,dl(0,np,s),dl(0,np,s)),n) 1
 en dr(0,dl(1,passm,passm),np) 1
 en dr(0,dl(1,s,s),dl(0,np,s_ppres)) 17
-en dr(0,dl(1,s,s),n) 1015
-en dr(0,dl(1,s,s),np) 416
+en dr(0,dl(1,s,s),n) 1017
+en dr(0,dl(1,s,s),np) 417
 en dr(0,dr(0,dl(0,n,n),dl(0,n,n)),n) 17
 en dr(0,dr(0,dl(0,n,n),dl(0,n,n)),np) 4
 en dr(0,dr(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s_ppres)) 19
@@ -22203,7 +22224,7 @@ en dr(0,dr(0,dl(0,np,s),dl(0,np,s)),np) 1
 en dr(0,dr(0,dl(1,s,s),dl(1,s,s)),n) 5
 en dr(0,dr(0,dr(0,s,dl(0,np,s)),np),dl(0,np,s_ppres)) 5
 en dr(0,dr(0,np,np),dl(0,np,s_ppres)) 1
-en dr(0,dr(0,np,np),n) 28
+en dr(0,dr(0,np,np),n) 29
 en dr(0,dr(0,np,np),np) 6
 en dr(0,dr(0,passm,passm),n) 2
 en dr(0,dr(0,pp,pp),n) 7
@@ -22213,10 +22234,10 @@ en dr(0,dr(0,s,s),np) 63
 en dr(0,np,n) 1
 en dr(0,np,np) 5
 en dr(0,passa,dl(0,np,s_ppres)) 3
-en dr(0,passa,n) 80
+en dr(0,passa,n) 81
 en dr(0,passa,np) 47
 en dr(0,pp,n) 1
-en dr(0,pp_en,n) 677
+en dr(0,pp_en,n) 679
 en dr(0,pp_en,np) 102
 en dr(0,s,dr(0,s,dia(1,box(1,pp_de)))) 14
 en dr(0,s,s) 4
@@ -22454,7 +22475,7 @@ ennuie dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 1
 ennuis n 3
 enorgueillir dr(0,dl(0,cl_r,dl(0,np,s_inf)),dl(0,np,s_deinf)) 1
 enquête dr(0,dl(0,np,s),pp_sur) 5
-enquête n 79
+enquête n 80
 enquêter dl(0,np,s_inf) 1
 enquêtes n 9
 enquêteur dl(0,n,n) 1
@@ -22483,7 +22504,7 @@ enregistré pass 2
 enregistrée dl(0,n,n) 2
 enregistrée dr(0,dl(0,n,n),pp) 3
 enregistrée pass 4
-enregistrées dl(0,n,n) 4
+enregistrées dl(0,n,n) 5
 enregistrées dr(0,dl(0,n,n),pp) 1
 enregistrées dr(0,dl(0,n,n),pp_par) 1
 enregistrés dl(0,n,n) 4
@@ -22645,7 +22666,7 @@ entraînés dr(0,dl(0,n,n),pp_par) 1
 entraînés pass 1
 entre dl(0,np,s) 1
 entre dr(0,dl(0,n,n),n) 58
-entre dr(0,dl(0,n,n),np) 215
+entre dr(0,dl(0,n,n),np) 216
 entre dr(0,dl(0,np,np),n) 1
 entre dr(0,dl(0,np,np),np) 12
 entre dr(0,dl(0,np,s),pp) 9
@@ -22683,12 +22704,12 @@ entrepris dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)) 1
 entrepris dr(0,dl(0,np,s_ppart),np) 2
 entrepris pass 2
 entreprise dl(0,n,n) 1
-entreprise n 230
+entreprise n 231
 entreprise np 1
 entreprises dl(0,n,n) 1
 entreprises dr(0,dl(0,n,n),pp) 1
 entreprises dr(0,dl(0,n,n),pp_par) 3
-entreprises n 334
+entreprises n 335
 entreprises-phares n 1
 entrepôt n 3
 entrepôts n 5
@@ -22963,9 +22984,9 @@ est dr(0,dl(0,np,s),dl(0,np,s_ainf)) 18
 est dr(0,dl(0,np,s),dl(0,np,s_deinf)) 56
 est dr(0,dl(0,np,s),dl(0,np,s_inf)) 9
 est dr(0,dl(0,np,s),dl(0,np,s_ppart)) 188
-est dr(0,dl(0,np,s),np) 700
-est dr(0,dl(0,np,s),pass) 541
-est dr(0,dl(0,np,s),pp) 241
+est dr(0,dl(0,np,s),np) 702
+est dr(0,dl(0,np,s),pass) 544
+est dr(0,dl(0,np,s),pp) 242
 est dr(0,dl(0,np,s),s_q) 49
 est dr(0,dl(0,np,s),s_whq) 11
 est dr(0,dr(0,dl(0,cl_r,s),dl(0,cl_r,dl(0,np,s_ppart))),np) 1
@@ -23081,15 +23102,15 @@ estomper dl(0,cl_r,dl(0,np,s_inf)) 1
 estrade n 1
 estuaire n 1
 et dr(0,dl(0,appb,appb),appb) 2
-et dr(0,dl(0,appc,dl(0,n,n)),appc) 9
+et dr(0,dl(0,appc,dl(0,n,n)),appc) 10
 et dr(0,dl(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s))),dl(0,cl_r,dl(0,np,s))) 2
 et dr(0,dl(0,dl(0,dia(0,box(0,n)),n),dl(0,n,n)),dl(0,dia(0,box(0,n)),n)) 2
 et dr(0,dl(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,dl(0,np,s),dl(0,np,s))),dl(0,dl(0,np,s),dl(0,np,s))) 14
-et dr(0,dl(0,dl(0,n,n),dl(0,n,n)),dl(0,n,n)) 1636
+et dr(0,dl(0,dl(0,n,n),dl(0,n,n)),dl(0,n,n)) 1638
 et dr(0,dl(0,dl(0,n,n),n),n) 1
 et dr(0,dl(0,dl(0,n,n),s),s) 1
 et dr(0,dl(0,dl(0,np,np),dl(0,np,np)),dl(0,n,n)) 28
-et dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s)) 773
+et dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s)) 774
 et dr(0,dl(0,dl(0,np,s),dl(0,np,s)),np) 4
 et dr(0,dl(0,dl(0,np,s),dl(0,np,s)),passm) 2
 et dr(0,dl(0,dl(0,np,s),np),np) 1
@@ -23146,7 +23167,7 @@ et dr(0,dl(0,dr(0,s,s),dr(0,s,s)),dr(0,dr(0,s,dl(0,np,s)),np)) 1
 et dr(0,dl(0,dr(0,s,s),dr(0,s,s)),dr(0,s,s)) 50
 et dr(0,dl(0,n,dl(1,s,s)),n) 1
 et dr(0,dl(0,n,n),dl(0,n,n)) 4
-et dr(0,dl(0,n,n),n) 468
+et dr(0,dl(0,n,n),n) 472
 et dr(0,dl(0,n,n),np) 56
 et dr(0,dl(0,n,n),s) 1
 et dr(0,dl(0,np,dl(0,np,np)),np) 1
@@ -23155,7 +23176,7 @@ et dr(0,dl(0,np,dl(1,s,s)),np) 1
 et dr(0,dl(0,np,np),dl(0,n,n)) 5
 et dr(0,dl(0,np,np),dl(0,np,s)) 1
 et dr(0,dl(0,np,np),n) 95
-et dr(0,dl(0,np,np),np) 2069
+et dr(0,dl(0,np,np),np) 2071
 et dr(0,dl(0,np,np),s) 3
 et dr(0,dl(0,np,s),dl(0,np,s)) 1
 et dr(0,dl(0,np,s),s) 3
@@ -23173,7 +23194,7 @@ et dr(0,dl(0,passa,passa),passa) 6
 et dr(0,dl(0,passm,passm),dl(0,n,n)) 1
 et dr(0,dl(0,passm,passm),passm) 19
 et dr(0,dl(0,pour_infm,pour_infm),pour_infm) 1
-et dr(0,dl(0,pp,pp),pp) 400
+et dr(0,dl(0,pp,pp),pp) 401
 et dr(0,dl(0,s,s),np) 11
 et dr(0,dl(0,s,s),s) 565
 et dr(0,dl(1,dl(0,np,s),dl(0,np,s)),np) 1
@@ -23279,7 +23300,7 @@ exagérées pass 1
 exagérément dr(0,dl(0,n,n),dl(0,n,n)) 1
 exalte dr(0,dl(0,np,s),np) 1
 exalter dl(0,cl_r,dl(0,np,s_inf)) 1
-examen n 30
+examen n 33
 examens n 2
 examina dr(0,dl(0,np,s),np) 2
 examinant dr(0,dl(0,np,s_ppres),np) 1
@@ -23711,7 +23732,7 @@ extérioriser dr(0,dl(0,np,s_inf),np) 1
 exutoire n 1
 exécrable dl(0,n,n) 2
 exécuter dl(0,cl_r,dl(0,np,s_inf)) 1
-exécutif dl(0,n,n) 3
+exécutif dl(0,n,n) 4
 exécutif n 3
 exécution n 10
 exécutive dl(0,n,n) 4
@@ -23751,7 +23772,7 @@ face dr(0,dl(1,dl(0,n,n),dl(0,n,n)),pp_a) 2
 face dr(0,dl(1,s,s),pp_a) 27
 face dr(0,dr(0,s,s),pp_a) 3
 face dr(0,pp,pp_a) 1
-face n 7
+face n 8
 face np 25
 face-à-face n 2
 facettes n 1
@@ -23791,7 +23812,7 @@ facturation n 1
 facturations n 1
 facture dl(0,n,n) 1
 facture n 4
-factures n 8
+factures n 10
 faculté n 5
 facultés n 1
 fahr. n 1
@@ -23878,17 +23899,17 @@ fait dr(0,dl(0,cl_r,dl(0,np,s_ppart)),dr(0,dl(0,np,s_inf),dia(1,box(1,np)))) 8
 fait dr(0,dl(0,cl_r,dl(0,np,s_ppart)),np) 1
 fait dr(0,dl(0,n,n),pp) 1
 fait dr(0,dl(0,n,n),pp_par) 1
-fait dr(0,dl(0,np,s),dl(0,np,s_inf)) 15
+fait dr(0,dl(0,np,s),dl(0,np,s_inf)) 16
 fait dr(0,dl(0,np,s),np) 37
 fait dr(0,dl(0,np,s),s_q) 6
 fait dr(0,dl(0,np,s_ppart),dl(0,n,n)) 4
 fait dr(0,dl(0,np,s_ppart),dl(0,np,s_inf)) 24
-fait dr(0,dl(0,np,s_ppart),np) 74
+fait dr(0,dl(0,np,s_ppart),np) 75
 fait dr(0,dl(0,np,s_ppart),s_q) 1
 fait dr(0,dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_de),np) 1
 fait dr(0,dr(0,dl(0,cl_r,s),np),np) 1
 fait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),np) 1
-fait dr(0,dr(0,dl(0,np,s),np),dl(0,np,s_inf)) 12
+fait dr(0,dr(0,dl(0,np,s),np),dl(0,np,s_inf)) 11
 fait dr(0,dr(0,dl(0,np,s),np),pp_a) 1
 fait dr(0,dr(0,dl(0,np,s),np),pp_de) 6
 fait dr(0,dr(0,dl(0,np,s),pp_a),dl(0,np,s_inf)) 3
@@ -24027,7 +24048,7 @@ fausse dr(0,np,n) 1
 faussement dr(0,dl(0,n,n),dl(0,n,n)) 1
 fausser dr(0,dl(0,np,s_inf),np) 2
 fausses dl(0,n,n) 1
-fausses dr(0,n,n) 7
+fausses dr(0,n,n) 9
 faussé dr(0,pass,pp_par) 1
 faussée pass 1
 faussées pass 1
@@ -24222,6 +24243,7 @@ fidèles n 1
 fidélisation n 1
 fidélise dr(0,dl(0,np,s),np) 1
 fidéliser dl(0,np,s_inf) 1
+fief n 1
 fiente n 1
 fier dr(0,dl(0,n,n),dl(0,np,s_deinf)) 1
 fierté n 5
@@ -24254,7 +24276,7 @@ fil n 18
 filature n 1
 file n 2
 filent dl(0,np,s) 1
-filer dr(0,dl(0,np,s_inf),np) 2
+filer dr(0,dl(0,np,s_inf),np) 3
 files n 1
 filets n 3
 filiale dr(0,dl(0,n,n),pp_de) 1
@@ -24295,7 +24317,7 @@ fin dr(0,passa,n) 3
 fin dr(0,passa,np) 1
 fin n 212
 fin np 16
-final dl(0,n,n) 6
+final dl(0,n,n) 7
 final n 1
 finale dl(0,n,n) 8
 finale n 3
@@ -24317,7 +24339,7 @@ finance dl(0,n,n) 2
 finance dr(0,dl(0,np,s),np) 1
 finance n 4
 finance np 4
-financement n 72
+financement n 73
 financements n 2
 financent dr(0,dl(0,np,s),np) 4
 financer dl(0,cl_r,dl(0,np,s_inf)) 1
@@ -24533,7 +24555,7 @@ fléchissement n 5
 fléchit dl(0,np,s) 1
 focal dl(0,n,n) 1
 focalisez dr(0,dr(0,s,pp),cl_r) 1
-foi n 7
+foi n 8
 foie n 24
 foies-gras n 1
 foire n 2
@@ -24589,7 +24611,7 @@ fonder dr(0,dl(0,np,s_inf),np) 1
 fonderie n 3
 fonderies n 1
 fondre dl(0,np,s_inf) 2
-fonds n 120
+fonds n 122
 fondu dl(0,np,s_ppart) 1
 fondé dr(0,dl(0,n,n),pp_par) 1
 fondé dr(0,dl(0,n,n),pp_sur) 1
@@ -24885,7 +24907,7 @@ francophobie n 1
 francophone dl(0,n,n) 6
 francophones dl(0,n,n) 2
 francophones n 2
-francs n 961
+francs n 963
 frange n 1
 franglais n 1
 français dl(0,n,n) 300
@@ -25217,7 +25239,7 @@ garden np 1
 gardent dr(0,dl(0,np,s),np) 2
 garder dl(0,cl_r,dl(0,np,s_inf)) 2
 garder dr(0,dl(0,cl_r,dl(0,np,s_inf)),dl(0,np,s_deinf)) 1
-garder dr(0,dl(0,np,s_inf),np) 10
+garder dr(0,dl(0,np,s_inf),np) 11
 garder dr(0,dr(0,dl(0,np,s_inf),pp),np) 2
 garderait dr(0,dl(0,np,s),np) 1
 garderons dr(0,dl(0,np,s),np) 1
@@ -25560,7 +25582,7 @@ groupée dl(0,n,n) 1
 grue n 1
 grues n 1
 grâce dr(0,dl(0,n,n),pp_a) 2
-grâce dr(0,dl(1,dl(0,n,n),dl(0,n,n)),pp_a) 6
+grâce dr(0,dl(1,dl(0,n,n),dl(0,n,n)),pp_a) 7
 grâce dr(0,dl(1,s,s),pp_a) 52
 grâce dr(0,dr(0,s,s),pp_a) 7
 grâce dr(0,passa,pp_a) 1
@@ -25636,7 +25658,7 @@ génie n 4
 génies n 1
 génisses n 1
 génère dr(0,dl(0,np,s),np) 2
-général dl(0,n,n) 155
+général dl(0,n,n) 157
 général dl(0,np,np) 15
 général n 43
 générale appe 1
@@ -25862,7 +25884,7 @@ hermétiques dl(0,n,n) 1
 hertziennes dl(0,n,n) 1
 heure dl(0,n,n) 1
 heure n 81
-heures n 131
+heures n 132
 heureuse dl(0,n,n) 1
 heureuse dr(0,n,n) 2
 heureusement dl(1,s,s) 3
@@ -25947,7 +25969,7 @@ homme dl(0,n,n) 2
 homme n 63
 homme-terminal n 1
 hommes dl(0,n,n) 1
-hommes n 64
+hommes n 67
 hommes np 2
 homographe dl(0,n,n) 1
 homogène dl(0,n,n) 1
@@ -26199,7 +26221,7 @@ ignorer dr(0,dl(0,np,s_inf),np) 6
 ignoré dr(0,dl(0,n,n),pp_de) 1
 ignorés pass 1
 il dr(0,s,s) 4
-il np 1380
+il np 1384
 illettrisme n 1
 illicite dl(0,n,n) 1
 illimitée dl(0,n,n) 1
@@ -26220,7 +26242,7 @@ illustres dl(0,n,n) 3
 illustré dr(0,dl(0,np,s_ppart),np) 1
 illustrées dl(0,n,n) 1
 illustrés dl(0,n,n) 1
-illégal dl(0,n,n) 6
+illégal dl(0,n,n) 7
 illégale dl(0,n,n) 2
 illégalement dl(1,s,s) 1
 illégalement dr(0,dl(0,n,n),dl(0,n,n)) 1
@@ -26557,6 +26579,7 @@ incapable dr(0,dl(0,n,n),dl(0,np,s_deinf)) 8
 incapables dl(0,n,n) 1
 incapables dr(0,dl(0,n,n),dl(0,np,s_deinf)) 1
 incapacité n 8
+incarcération n 1
 incarcéré pass 2
 incarcérés pass 1
 incarnant dr(0,dl(0,np,s_ppres),np) 1
@@ -26908,7 +26931,7 @@ informant dr(0,dl(0,np,s_ppres),np) 1
 informant dr(0,dr(0,dl(0,n,n),s_q),np) 1
 informaticiens n 1
 information n 54
-informations n 38
+informations n 39
 informatique dl(0,n,n) 14
 informatique n 11
 informatiques dl(0,n,n) 11
@@ -26973,11 +26996,12 @@ initialement dr(0,dl(0,np,np),dl(0,np,np)) 1
 initialement dr(0,dl(0,np,s),dl(0,np,s)) 2
 initialement dr(0,passm,passm) 1
 initiales dl(0,n,n) 3
+initiales n 1
 initiateurs n 1
 initiation n 1
 initiatiques dl(0,n,n) 1
 initiative n 34
-initiatives n 11
+initiatives n 12
 initier dr(0,dl(0,cl_r,dl(0,np,s_inf)),pp_a) 1
 initier dr(0,dl(0,np,s_inf),np) 1
 initiée dl(0,n,n) 1
@@ -27063,6 +27087,7 @@ inscrite dr(0,pass,pp) 2
 inscrites dl(0,cl_r,dl(0,np,s_ppart)) 1
 inscrites dr(0,dl(0,n,n),pp) 2
 inscrites dr(0,pass,pp) 1
+inscrites pass 1
 inscrits dl(0,n,n) 3
 inscrits dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp) 1
 inscrits dr(0,dl(0,n,n),pp) 2
@@ -27191,7 +27216,7 @@ institutions n 17
 institutrice n 2
 instituts n 2
 institué dr(0,dl(0,np,s_ppart),np) 1
-instruction n 18
+instruction n 19
 instruction np 1
 instructions n 1
 instruire dr(0,dl(0,np,s_inf),np) 2
@@ -27310,7 +27335,7 @@ interministérielle dl(0,n,n) 4
 interministériels dl(0,n,n) 2
 intermède n 1
 intermédiaire dl(0,n,n) 3
-intermédiaire n 13
+intermédiaire n 14
 intermédiaires dl(0,n,n) 8
 intermédiaires n 19
 internat n 1
@@ -27354,13 +27379,14 @@ interroge dl(0,cl_r,dl(1,s,dr(0,s,np))) 4
 interroge dr(0,dl(0,cl_r,dl(0,np,s)),pp_sur) 3
 interroge dr(0,dl(0,np,s),np) 1
 interroge dr(0,dl(1,s,s),np) 2
+interroge dr(0,dr(0,dl(0,np,s),pp_sur),np) 1
 interrogea dr(0,dl(0,cl_r,dl(0,np,s)),pp_sur) 1
 interrogeait dr(0,dl(0,cl_r,dl(0,np,s)),pp_sur) 1
 interrogeant dr(0,dl(0,cl_r,dl(0,np,s_ppres)),pp_sur) 1
 interrogent dr(0,dl(0,cl_r,dl(0,np,s)),pp_sur) 2
 interroger dl(0,cl_r,dl(0,np,s_inf)) 1
 interroger dr(0,dl(0,cl_r,dl(0,np,s_inf)),pp_sur) 1
-interroger dr(0,dl(0,np,s_inf),np) 1
+interroger dr(0,dr(0,dl(0,np,s_inf),pp_sur),np) 1
 interrogé dl(0,n,n) 1
 interrogé dl(1,s,dl(0,cl_r,dl(0,np,s_ppart))) 1
 interrogé dr(0,dl(0,np,s_ppart),np) 1
@@ -27762,7 +27788,7 @@ jamais dr(0,s,s) 2
 jamais np 1
 jambe n 1
 jambes n 3
-janvier n 345
+janvier n 346
 japonais dl(0,n,n) 46
 japonais dl(0,np,np) 1
 japonais n 8
@@ -27864,9 +27890,9 @@ joue dr(0,dl(0,np,s),pp_de) 1
 joue dr(0,dl(0,np,s),pp_sur) 2
 jouent dr(0,dl(0,np,s),np) 7
 jouent dr(0,dl(0,np,s),pp_sur) 1
-jouer dl(0,np,s_inf) 9
+jouer dl(0,np,s_inf) 8
 jouer dr(0,dl(0,np,s_inf),dl(0,np,s_ainf)) 1
-jouer dr(0,dl(0,np,s_inf),np) 9
+jouer dr(0,dl(0,np,s_inf),np) 10
 jouer dr(0,dl(0,np,s_inf),pp) 5
 jouer dr(0,dl(0,np,s_inf),pp_a) 1
 jouer dr(0,dl(0,np,s_inf),pp_contre) 1
@@ -27886,9 +27912,9 @@ jouissance n 1
 jouissant dr(0,dl(0,n,n),pp_de) 1
 jouissent dr(0,dl(0,np,s),pp_de) 2
 jouit dr(0,dl(0,np,s),pp_de) 3
-jour n 157
+jour n 158
 jour np 4
-journal n 47
+journal n 48
 journalier dl(0,n,n) 1
 journaliers n 1
 journalisme n 1
@@ -27912,7 +27938,7 @@ jovial dl(0,n,n) 1
 joyau n 1
 joyeusement dr(0,passm,passm) 1
 jubile dr(0,dl(1,s,s),np) 1
-judiciaire dl(0,n,n) 49
+judiciaire dl(0,n,n) 50
 judiciaires dl(0,n,n) 4
 judiciaires dl(0,np,np) 1
 judicieuse dl(0,n,n) 1
@@ -27930,7 +27956,7 @@ juge dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),dl(0,n,n)) 1
 juge dr(0,dr(0,dl(0,np,s),np),dl(0,n,n)) 2
 juge dr(0,dr(0,dl(0,np,s),pp),np) 1
 juge dr(0,dr(0,dl(0,np,s),pp_par),pp_de) 1
-juge n 31
+juge n 36
 jugeaient dr(0,dr(0,dl(0,np,s),dl(0,n,n)),np) 1
 jugeait dr(0,dl(0,np,s),pp_sur) 1
 jugeait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),dl(0,n,n)) 1
@@ -27949,7 +27975,7 @@ juger dr(0,dl(0,np,s_inf),pp_sur) 1
 juger dr(0,dr(0,dl(0,np,s_inf),dl(0,n,n)),np) 1
 juger dr(0,dr(0,dl(0,np,s_inf),np),dl(0,n,n)) 1
 juger dr(0,dr(0,dl(0,np,s_inf),pp),np) 1
-juges n 27
+juges n 29
 juguler dr(0,dl(0,np,s_inf),np) 1
 jugulée dl(0,n,n) 1
 jugé dr(0,dl(0,n,n),dl(0,n,n)) 6
@@ -28017,7 +28043,7 @@ jusqu' dr(0,dr(0,s,s),pp) 11
 jusqu' dr(0,np,pp) 20
 jusqu' dr(0,passa,pp) 3
 jusqu' dr(0,pp,np) 1
-jusqu' dr(0,pp,pp) 29
+jusqu' dr(0,pp,pp) 30
 jusqu' dr(0,pp_a,dl(0,np,s_ainf)) 2
 jusque dr(0,dl(0,n,n),n) 1
 jusque dr(0,dl(0,n,n),pp) 1
@@ -28095,20 +28121,20 @@ l' dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,np)))) 188
 l' dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 13
 l' dr(0,dl(1,s,s),n) 55
 l' dr(0,dr(0,s,s),n) 2
-l' dr(0,np,n) 7579
+l' dr(0,np,n) 7592
 l' dr(0,np,np) 120
 l' dr(0,passa,n) 6
 l' dr(0,s,dr(0,s,dia(1,box(1,np)))) 24
 la dr(0,dl(0,n,n),dl(0,n,n)) 44
 la dr(0,dl(0,n,n),n) 32
-la dr(0,dl(0,np,np),n) 5
+la dr(0,dl(0,np,np),n) 6
 la dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,np)))) 73
 la dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 7
 la dr(0,dl(1,s,s),n) 23
 la dr(0,dr(0,pp,pp),n) 1
 la dr(0,dr(0,s,s),n) 1
 la dr(0,np,dl(0,n,n)) 21
-la dr(0,np,n) 10644
+la dr(0,np,n) 10653
 la dr(0,passa,n) 2
 la dr(0,s,dr(0,s,dia(1,box(1,np)))) 1
 la n 1
@@ -28346,7 +28372,7 @@ le dr(0,dr(0,dl(0,n,n),dl(0,n,n)),n) 3
 le dr(0,dr(0,np,np),n) 1
 le dr(0,dr(0,s,s),n) 18
 le dr(0,np,dl(0,n,n)) 29
-le dr(0,np,n) 6471
+le dr(0,np,n) 6480
 le dr(0,passa,n) 24
 le dr(0,passa,passa) 2
 le dr(0,s,dr(0,s,dia(1,box(1,np)))) 30
@@ -28364,7 +28390,7 @@ lectorat n 8
 lecture n 11
 ledit dr(0,np,n) 3
 leitender dr(0,n,n) 1
-lendemain n 32
+lendemain n 33
 lent dl(0,n,n) 2
 lent dr(0,n,n) 3
 lente dl(0,n,n) 4
@@ -28390,7 +28416,7 @@ les dr(0,dr(0,pp,pp),n) 1
 les dr(0,dr(0,s,s),n) 3
 les dr(0,n,n) 1
 les dr(0,np,dl(0,n,n)) 37
-les dr(0,np,n) 6467
+les dr(0,np,n) 6471
 les dr(0,s,dr(0,s,dia(1,box(1,np)))) 4
 lesdites dr(0,np,n) 2
 lesdits dr(0,np,n) 3
@@ -28489,11 +28515,11 @@ licenciés n 2
 lie dr(0,dl(0,np,s_inf),pp) 1
 lie dr(0,dr(0,dl(0,np,s),pp_a),np) 1
 lien n 7
-liens n 14
+liens n 15
 lier dr(0,dl(0,np,s_inf),np) 1
 lier dr(0,dr(0,dl(0,np,s_inf),pp_a),np) 1
 lies n 1
-lieu n 62
+lieu n 63
 lieu np 39
 lieue n 2
 lieues n 4
@@ -28633,6 +28659,7 @@ livrée dl(0,n,n) 1
 livrée dr(0,dl(0,cl_r,dl(0,np,s_ppart)),np) 1
 livrée dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_a) 1
 livrée dr(0,pass,pp) 1
+livrées dr(0,dl(0,n,n),pp_a) 1
 livrés dl(0,n,n) 1
 livrés dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_a) 1
 livrés dr(0,dl(0,n,n),pp_a) 1
@@ -28856,7 +28883,7 @@ lueurs n 2
 lugubre dl(0,n,n) 1
 lui dl(1,s,s) 7
 lui dr(0,dl(0,n,n),dr(0,dl(0,n,n),dia(1,box(1,pp_a)))) 3
-lui dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,pp_a)))) 174
+lui dr(0,dl(0,np,s),dr(0,dl(0,np,s),dia(1,box(1,pp_a)))) 176
 lui dr(0,s,dr(0,s,dia(1,box(1,pp_a)))) 5
 lui np 88
 lui-même dl(0,n,n) 1
@@ -28930,7 +28957,7 @@ léchée dr(0,pass,pp_par) 1
 légal dl(0,n,n) 8
 légale dl(0,n,n) 1
 légalement dr(0,passm,passm) 1
-légales dl(0,n,n) 3
+légales dl(0,n,n) 4
 légalité n 2
 légaux dl(0,n,n) 3
 légendaire dl(0,n,n) 1
@@ -29017,7 +29044,7 @@ magie n 1
 magique dl(0,n,n) 1
 magique dl(0,np,np) 1
 magistral dl(0,n,n) 2
-magistrat n 5
+magistrat n 6
 magistrats n 12
 magistrature n 1
 magistère n 1
@@ -29044,7 +29071,7 @@ maille n 1
 maillon n 1
 maillot n 1
 maillots n 1
-main n 37
+main n 38
 main-d'oeuvre n 29
 main-forte np 1
 maine-anjou n 1
@@ -29240,7 +29267,7 @@ managériales dl(0,n,n) 1
 mandant n 5
 mandants n 1
 mandants np 1
-mandat n 22
+mandat n 23
 mandataire dl(0,n,n) 1
 mandataires dl(0,n,n) 4
 mandataires n 6
@@ -29352,7 +29379,7 @@ marchepied n 1
 marché dl(0,np,s_ppart) 2
 marché dr(0,dl(0,np,s_ppart),pp) 7
 marché n 485
-marchés n 123
+marchés n 126
 mardi dl(0,n,n) 4
 mardi dl(0,np,np) 1
 mardi dl(1,dl(0,n,n),dl(0,n,n)) 1
@@ -29550,7 +29577,7 @@ meilleurs dl(0,n,n) 5
 meilleurs dr(0,dr(0,n,s_q),n) 1
 meilleurs dr(0,n,n) 10
 meilleurs n 4
-membre n 15
+membre n 16
 membre np 6
 membres dl(0,n,n) 18
 membres dr(0,dl(0,n,n),pp_de) 3
@@ -29688,8 +29715,8 @@ mesurée dr(0,pass,pp_par) 1
 mesurées pass 1
 met dr(0,dl(0,np,s),np) 3
 met dr(0,dr(0,dl(0,np,s),dl(0,np,s_ainf)),np) 1
-met dr(0,dr(0,dl(0,np,s),np),pp) 7
-met dr(0,dr(0,dl(0,np,s),pp),np) 11
+met dr(0,dr(0,dl(0,np,s),np),pp) 8
+met dr(0,dr(0,dl(0,np,s),pp),np) 13
 met dr(0,dr(0,dl(1,s,s),np),pp) 1
 mets dr(0,dr(0,dl(0,np,s),np),pp) 1
 mettaient dr(0,dl(0,np,s),np) 1
@@ -29817,7 +29844,7 @@ milliers n 15
 millimètre n 1
 millimètres n 1
 million n 63
-millions n 610
+millions n 611
 millénaire n 1
 millésime n 2
 mimétisme n 1
@@ -29856,7 +29883,7 @@ minimisé dr(0,dl(0,np,s_ppart),np) 1
 minimum dl(0,n,n) 18
 minimum n 24
 minimum-vieillesse n 1
-ministre n 295
+ministre n 297
 ministre np 7
 ministre-président n 1
 ministres n 66
@@ -29912,7 +29939,7 @@ mis dr(0,dr(0,dl(0,np,s_ppart),pour_inf),np) 3
 mis dr(0,dr(0,dl(0,np,s_ppart),pp),np) 10
 mis dr(0,dr(0,dl(1,s,s),np),pp) 1
 mis dr(0,dr(0,pass,pp_par),pp) 4
-mis dr(0,pass,pp) 34
+mis dr(0,pass,pp) 36
 mis dr(0,pass,pp_en) 1
 mise dr(0,dl(0,cl_r,dl(0,np,s_ppart)),dl(0,np,s_ainf)) 4
 mise dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp) 1
@@ -30297,7 +30324,7 @@ mouvance n 1
 mouvant dl(0,n,n) 1
 mouvante dl(0,n,n) 1
 mouvemens n 1
-mouvement n 53
+mouvement n 54
 mouvements n 22
 mouvementée dl(0,n,n) 2
 movie n 1
@@ -30583,7 +30610,7 @@ mêlée dr(0,dl(0,n,n),pp_de) 1
 mêlés dl(0,cl_r,dl(0,np,s_ppart)) 1
 mêlés dl(0,n,n) 1
 même dl(0,dl(1,s,s),dl(1,s,s)) 1
-même dl(0,n,n) 36
+même dl(0,n,n) 37
 même dl(0,np,np) 5
 même dl(1,s,s) 35
 même dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s))) 4
@@ -30701,7 +30728,7 @@ naïf dl(0,n,n) 1
 naïve dl(0,n,n) 1
 naïveté n 2
 ne dr(0,dl(0,dl(0,np,s),s),dl(0,dl(0,np,s),s)) 4
-ne dr(0,dl(0,n,n),dl(0,n,n)) 7
+ne dr(0,dl(0,n,n),dl(0,n,n)) 8
 ne dr(0,dl(0,np,dl(0,n,n)),dl(0,np,dl(0,n,n))) 1
 ne dr(0,dl(0,np,s),dl(0,np,s)) 1222
 ne dr(0,dl(1,s,s),dl(1,s,s)) 1
@@ -30712,7 +30739,7 @@ nerveuse dl(0,n,n) 1
 nerveusement dl(1,s,s) 1
 nerveux dl(0,n,n) 1
 nervosité n 2
-net dl(0,n,n) 37
+net dl(0,n,n) 38
 net dl(1,s,s) 2
 net dr(0,dl(0,n,n),pp) 1
 net dr(0,dl(0,n,n),pp_de) 1
@@ -30824,7 +30851,7 @@ nombreuses dl(0,n,n) 3
 nombreuses dr(0,n,n) 27
 nombreux dl(0,n,n) 11
 nombreux dr(0,dl(0,n,n),dl(0,np,s_ainf)) 4
-nombreux dr(0,n,n) 42
+nombreux dr(0,n,n) 43
 nominal dl(0,n,n) 1
 nominal n 2
 nominale dl(0,n,n) 2
@@ -30884,7 +30911,7 @@ non np 2
 non s 1
 non- dr(0,dl(0,n,n),dl(0,n,n)) 3
 non- dr(0,dr(0,s,s),dr(0,s,s)) 1
-non- dr(0,n,n) 41
+non- dr(0,n,n) 42
 non-dits n 1
 non-respect n 1
 nonchalance n 1
@@ -30942,12 +30969,12 @@ notamment dr(0,dl(0,n,n),pp_de) 1
 notamment dr(0,dl(0,np,np),dl(0,n,n)) 1
 notamment dr(0,dl(0,np,s),dl(0,np,s)) 8
 notamment dr(0,dl(1,dl(0,n,n),dl(0,n,n)),dl(1,dl(0,n,n),dl(0,n,n))) 2
-notamment dr(0,dl(1,s,s),dl(1,s,s)) 36
+notamment dr(0,dl(1,s,s),dl(1,s,s)) 35
 notamment dr(0,dr(0,s,s),dr(0,s,s)) 1
 notamment dr(0,np,np) 40
 notamment dr(0,passa,passa) 1
 notamment dr(0,passm,passm) 1
-notamment dr(0,pp,pp) 12
+notamment dr(0,pp,pp) 14
 notamment dr(0,s,s) 1
 notation n 7
 note dr(0,dl(0,np,s),np) 5
@@ -31032,7 +31059,7 @@ nouée dr(0,dl(0,n,n),pp) 1
 noués dr(0,dl(0,n,n),pp) 1
 novateur dl(0,n,n) 1
 novembre dl(0,n,n) 1
-novembre n 152
+novembre n 154
 novice n 1
 noyades n 1
 noyau n 6
@@ -31280,7 +31307,7 @@ obsédé dr(0,dl(0,n,n),pp_par) 1
 obtenait dr(0,dl(0,np,s),np) 3
 obtenait dr(0,dr(0,dl(0,np,s),s_q),pp_de) 1
 obtenant dr(0,dl(0,np,s_ppres),np) 1
-obtenir dr(0,dl(0,np,s_inf),np) 39
+obtenir dr(0,dl(0,np,s_inf),np) 40
 obtenir dr(0,dl(0,np,s_inf),s_q) 2
 obtenir dr(0,dr(0,dl(0,np,s_inf),np),pp_de) 3
 obtention n 4
@@ -31401,7 +31428,7 @@ offerts dl(0,n,n) 3
 offerts dr(0,dl(0,n,n),pp_a) 3
 offerts dr(0,dl(0,n,n),pp_par) 2
 offerts dr(0,pass,pp_a) 1
-office n 10
+office n 12
 office np 1
 offices n 2
 officialise dr(0,dl(0,np,s),np) 1
@@ -31475,7 +31502,7 @@ omnipotent dl(0,n,n) 1
 omniprésent dl(0,n,n) 1
 omnipuissante dr(0,n,n) 1
 on dr(0,dl(0,n,n),n) 1
-on np 575
+on np 576
 once n 5
 onces n 2
 onction n 1
@@ -31930,9 +31957,9 @@ pack n 2
 pacte n 6
 page dr(0,dl(0,np,np),np) 1
 page dr(0,dl(1,s,s),n) 3
-page n 7
+page n 8
 page np 3
-pages n 27
+pages n 28
 pagination n 1
 paie dl(0,np,s) 2
 paie dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,n,n)) 1
@@ -32017,7 +32044,7 @@ par dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 11
 par dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 21
 par dr(0,dl(1,dl(0,np,np),dl(0,np,np)),n) 1
 par dr(0,dl(1,s,s),n) 126
-par dr(0,dl(1,s,s),np) 134
+par dr(0,dl(1,s,s),np) 133
 par dr(0,dr(0,dl(0,n,n),dl(0,n,n)),n) 6
 par dr(0,dr(0,dl(0,n,n),dl(0,n,n)),np) 1
 par dr(0,dr(0,dl(1,s,s),dl(1,s,s)),n) 2
@@ -32030,7 +32057,7 @@ par dr(0,par_inf,dl(0,np,s_inf)) 20
 par dr(0,passa,n) 6
 par dr(0,passa,np) 4
 par dr(0,pp_par,n) 25
-par dr(0,pp_par,np) 1728
+par dr(0,pp_par,np) 1731
 par-delà dr(0,dl(0,n,n),np) 1
 par-dessus dr(0,dr(0,s,s),np) 1
 para- dr(0,dl(0,n,n),dl(0,n,n)) 1
@@ -32067,6 +32094,7 @@ parait dr(0,dl(0,np,s),pp_a) 1
 parallèle dl(0,n,n) 5
 parallèle n 3
 parallèlement dl(1,s,s) 2
+parallèlement dr(0,dl(0,np,s),dl(0,np,s)) 1
 parallèlement dr(0,s,s) 2
 parallèlement passa 1
 parallèles dl(0,n,n) 1
@@ -32150,7 +32178,7 @@ parfait dr(0,n,n) 4
 parfait n 1
 parfaite dr(0,n,n) 3
 parfaitement dl(1,s,s) 5
-parfaitement dr(0,dl(0,n,n),dl(0,n,n)) 1
+parfaitement dr(0,dl(0,n,n),dl(0,n,n)) 2
 parfaitement dr(0,passm,passm) 1
 parfois dl(0,n,n) 1
 parfois dl(0,np,np) 1
@@ -32243,7 +32271,7 @@ part dr(0,dl(0,n,n),pp_de) 1
 part dr(0,dl(0,np,s),pp) 2
 part dr(0,dl(0,np,s),pp_de) 2
 part dr(0,dl(0,np,s),pp_pour) 1
-part n 209
+part n 210
 part np 6
 partage dr(0,dl(0,cl_r,dl(0,np,s)),pp) 2
 partage dr(0,dl(0,np,s),np) 4
@@ -32534,7 +32562,7 @@ passé dl(0,np,s_ppart) 2
 passé dr(0,dl(0,cl_r,dl(0,np,s_ppart)),np) 2
 passé dr(0,dl(0,n,n),pp) 1
 passé dr(0,dl(0,n,n),pp_par) 1
-passé dr(0,dl(0,np,s_ppart),np) 10
+passé dr(0,dl(0,np,s_ppart),np) 11
 passé dr(0,dl(0,np,s_ppart),pp) 15
 passé dr(0,dl(0,np,s_ppart),pp_par) 1
 passé dr(0,dr(0,dl(0,np,s_ppart),pp),np) 3
@@ -32845,7 +32873,7 @@ permirent dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 1
 permis dl(0,n,n) 1
 permis dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)) 27
 permis dr(0,dl(0,np,s_ppart),np) 2
-permis dr(0,dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)),pp_a) 20
+permis dr(0,dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)),pp_a) 21
 permis n 26
 permis pass 2
 permissif dl(0,n,n) 1
@@ -32864,7 +32892,7 @@ perpétuel dl(0,n,n) 1
 perpétuent dr(0,dl(0,np,s),np) 1
 perpétuer dr(0,dl(0,np,s_inf),np) 3
 perpétuera dl(0,cl_r,dl(0,np,s)) 1
-perquisition n 1
+perquisition n 3
 perquisitionne dr(0,dl(0,np,s),np) 1
 perquisitionnent dr(0,dl(0,np,s),pp_a) 1
 perquisitionner dl(0,np,s_inf) 1
@@ -32885,7 +32913,7 @@ personnalisé dl(0,n,n) 1
 personnalité n 10
 personnalités n 6
 personne dl(0,n,n) 1
-personne n 33
+personne n 34
 personne np 23
 personnel dl(0,n,n) 4
 personnel n 60
@@ -32934,7 +32962,7 @@ perversions n 1
 pervertissent dr(0,dl(0,np,s),np) 1
 perçoit dr(0,dl(0,np,s),np) 1
 perçoivent dr(0,dl(0,np,s),np) 1
-perçu dr(0,dl(0,np,s_ppart),np) 1
+perçu dr(0,dl(0,np,s_ppart),np) 2
 perçu pass 1
 perçue dr(0,dl(0,n,n),dl(0,n,n)) 1
 perçue dr(0,dl(0,n,n),pp) 1
@@ -33132,7 +33160,7 @@ pirouette n 1
 piscine n 1
 piscines n 1
 piste dr(0,dl(0,np,s),np) 1
-piste n 6
+piste n 7
 pistes n 3
 pitié n 1
 pittoresque dl(0,n,n) 1
@@ -33167,7 +33195,7 @@ places n 24
 placé dl(0,n,n) 1
 placé dl(0,np,s_ppart) 1
 placé dr(0,dr(0,dl(0,np,s_ppart),pp),np) 4
-placé dr(0,pass,pp) 6
+placé dr(0,pass,pp) 7
 placée dr(0,dl(0,n,n),pp) 4
 placée dr(0,pass,pp) 4
 placées dr(0,pass,pp) 1
@@ -33214,7 +33242,7 @@ plaines n 1
 plaint dr(0,dl(0,cl_r,dl(0,np,s)),pp_de) 2
 plaint dr(0,dl(0,cl_r,dl(1,s,s)),np) 1
 plainte n 10
-plainte np 9
+plainte np 10
 plaintes n 4
 plaints dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_de) 1
 plaisance n 2
@@ -33349,7 +33377,7 @@ plus dr(0,dr(0,n,n),dr(0,n,n)) 155
 plus dr(0,dr(0,n,s_q),n) 3
 plus dr(0,dr(0,n,s_q),pp) 1
 plus dr(0,dr(0,np,np),dr(0,np,np)) 9
-plus dr(0,dr(0,np,s_q),np) 4
+plus dr(0,dr(0,np,s_q),np) 5
 plus dr(0,dr(0,np,s_q),pp) 1
 plus dr(0,dr(0,np,s_q),pp_de) 11
 plus dr(0,dr(0,p(0,dl(0,n,n),dia(0,box(0,np))),s_q),p(0,dl(0,n,n),np)) 1
@@ -33378,7 +33406,7 @@ plusieurs dr(0,dl(1,s,s),n) 1
 plusieurs dr(0,dr(0,dl(1,dl(0,n,n),dl(0,n,n)),dl(1,dl(0,n,n),dl(0,n,n))),n) 1
 plusieurs dr(0,dr(0,passa,passa),n) 1
 plusieurs dr(0,dr(0,s,s),n) 1
-plusieurs dr(0,np,n) 127
+plusieurs dr(0,np,n) 131
 plusieurs np 4
 plut dl(0,np,s_ppart) 1
 plutôt dl(1,s,s) 8
@@ -33439,8 +33467,9 @@ poissons n 5
 poker n 1
 polaire dl(0,n,n) 1
 polar n 1
-police n 18
+police n 19
 policier dl(0,n,n) 1
+policier n 1
 policiers n 7
 policière dl(0,n,n) 1
 policières dl(0,n,n) 2
@@ -33450,12 +33479,12 @@ politesse n 1
 politiciens n 1
 politico- dr(0,dl(0,n,n),dl(0,n,n)) 4
 politico-financiers dl(0,n,n) 1
-politique dl(0,n,n) 83
+politique dl(0,n,n) 84
 politique dl(0,np,np) 2
 politique n 231
 politiquement dl(1,dl(0,n,n),dl(0,n,n)) 2
 politiquement dr(0,dl(0,n,n),dl(0,n,n)) 4
-politiques dl(0,n,n) 65
+politiques dl(0,n,n) 67
 politiques dl(0,np,np) 2
 politiques n 34
 politologue n 1
@@ -33541,6 +33570,7 @@ porte dr(0,dl(0,np,s),pp_sur) 9
 porte dr(0,dr(0,dl(0,np,s),np),pp) 2
 porte dr(0,dr(0,dl(0,np,s),np),pp_a) 2
 porte dr(0,dr(0,dl(0,np,s),pp_a),np) 7
+porte dr(0,dr(0,dl(0,np,s),pp_contre),np) 1
 porte dr(0,dr(0,s,pp_sur),np) 1
 porte n 18
 porte-clés n 1
@@ -33727,11 +33757,11 @@ poulet n 2
 poulets n 1
 poupe n 2
 poupin dl(0,n,n) 1
-pour dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s_inf)) 169
+pour dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,np,s_inf)) 170
 pour dr(0,dl(0,dl(0,np,s),dl(0,np,s)),np) 1
 pour dr(0,dl(0,n,n),dl(0,np,s_inf)) 128
 pour dr(0,dl(0,n,n),n) 32
-pour dr(0,dl(0,n,n),np) 631
+pour dr(0,dl(0,n,n),np) 632
 pour dr(0,dl(0,n,n),pp) 1
 pour dr(0,dl(0,n,n),s_q) 3
 pour dr(0,dl(0,np,np),dl(0,np,s)) 2
@@ -33741,7 +33771,7 @@ pour dr(0,dl(0,np,np),np) 117
 pour dr(0,dl(0,np,np),s_q) 4
 pour dr(0,dl(1,dl(0,n,n),dl(0,n,n)),dl(0,np,s_inf)) 18
 pour dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 6
-pour dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 86
+pour dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 87
 pour dr(0,dl(1,dl(0,n,n),dl(0,n,n)),s_q) 1
 pour dr(0,dl(1,dl(0,np,np),dl(0,np,np)),dl(0,np,s_inf)) 1
 pour dr(0,dl(1,dl(0,np,np),dl(0,np,np)),np) 2
@@ -33765,10 +33795,10 @@ pour dr(0,dr(0,s,s),dl(0,np,s_inf)) 35
 pour dr(0,dr(0,s,s),n) 4
 pour dr(0,dr(0,s,s),np) 55
 pour dr(0,np,np) 2
-pour dr(0,passa,dl(0,np,s_inf)) 27
+pour dr(0,passa,dl(0,np,s_inf)) 26
 pour dr(0,passa,n) 5
 pour dr(0,passa,np) 27
-pour dr(0,passadv,dl(0,np,s_inf)) 3
+pour dr(0,passadv,dl(0,np,s_inf)) 4
 pour dr(0,pour_inf,dl(0,np,s_inf)) 99
 pour dr(0,pp,n) 1
 pour dr(0,pp_pour,dl(0,n,n)) 1
@@ -33961,7 +33991,7 @@ prenant dr(0,dr(0,dl(0,np,s_ppres),np),pp_en) 4
 prenant dr(0,dr(0,dl(0,np,s_ppres),pp),np) 3
 prenante dl(0,np,np) 2
 prenantes dl(0,n,n) 2
-prend dr(0,dl(0,np,s),np) 24
+prend dr(0,dl(0,np,s),np) 25
 prend dr(0,dr(0,dl(0,np,s),np),pp) 1
 prend dr(0,dr(0,dl(0,np,s),np),pp_en) 5
 prend dr(0,dr(0,dl(0,np,s),pp),np) 2
@@ -34194,7 +34224,7 @@ privées dl(0,n,n) 18
 privés dl(0,n,n) 28
 privés dr(0,pass,pp_de) 2
 privés n 1
-prix n 429
+prix n 430
 prière n 1
 pro dr(0,n,n) 1
 pro- dr(0,dl(0,n,n),dl(0,n,n)) 3
@@ -34231,7 +34261,7 @@ prochains dr(0,n,n) 24
 prochains n 1
 proche dl(0,n,n) 5
 proche dl(0,np,np) 2
-proche dr(0,dl(0,n,n),pp_de) 24
+proche dr(0,dl(0,n,n),pp_de) 25
 proche dr(0,n,n) 2
 proche n 4
 proches dl(0,n,n) 1
@@ -34259,6 +34289,7 @@ procurés dr(0,dl(0,cl_r,dl(0,np,s_ppart)),np) 1
 procède dr(0,dl(0,np,s),pp_a) 4
 procèdent dr(0,dl(0,np,s),pp_a) 1
 procès n 16
+procès-verbal n 1
 procéda dr(0,dl(0,np,s),pp_a) 1
 procédaient dr(0,dl(0,np,s),pp_a) 1
 procédant dr(0,dl(0,np,s_ppres),pp_a) 1
@@ -34509,6 +34540,7 @@ prononcé dr(0,dl(0,cl_r,dl(0,np,s_ppart)),pp_sur) 1
 prononcé dr(0,dl(0,n,n),np) 2
 prononcé dr(0,dl(0,n,n),pp_par) 2
 prononcé dr(0,dl(0,np,s_ppart),np) 5
+prononcé pass 1
 prononcée dl(0,cl_r,dl(0,np,s_ppart)) 1
 prononcée dl(0,n,n) 3
 prononcées dl(0,n,n) 2
@@ -34758,7 +34790,7 @@ près dr(0,dl(0,n,n),np) 1
 près dr(0,dl(0,n,n),pp_de) 12
 près dr(0,dl(0,np,np),pp_de) 3
 près dr(0,dl(1,s,s),pp_de) 8
-près dr(0,np,pp_de) 109
+près dr(0,np,pp_de) 110
 près dr(0,pp,pp_de) 5
 près n 6
 près np 3
@@ -35234,9 +35266,9 @@ publicitaire dl(0,n,n) 18
 publicitaire dl(0,np,np) 1
 publicitaires dl(0,n,n) 16
 publicité dl(0,n,n) 1
-publicité n 29
+publicité n 30
 publicités n 2
-publics dl(0,n,n) 135
+publics dl(0,n,n) 136
 publics dl(0,np,np) 2
 publics n 2
 publie dr(0,dl(0,np,s),np) 6
@@ -35490,7 +35522,7 @@ qu' dr(0,s_q,dl(0,n,n)) 12
 qu' dr(0,s_q,dl(0,np,s)) 2
 qu' dr(0,s_q,dl(1,s,s)) 8
 qu' dr(0,s_q,n) 5
-qu' dr(0,s_q,np) 30
+qu' dr(0,s_q,np) 31
 qu' dr(0,s_q,passm) 1
 qu' dr(0,s_q,pp) 74
 qu' dr(0,s_q,s) 634
@@ -35640,7 +35672,7 @@ que dr(0,s_q,n) 11
 que dr(0,s_q,np) 264
 que dr(0,s_q,passm) 4
 que dr(0,s_q,pp) 64
-que dr(0,s_q,s) 1522
+que dr(0,s_q,s) 1523
 que dr(0,s_whq,dr(0,dl(0,np,s),dia(1,box(1,np)))) 5
 que dr(0,s_whq,dr(0,s,dia(1,box(1,np)))) 6
 quel dl(0,n,n) 3
@@ -35709,9 +35741,9 @@ qui dr(0,dl(0,dr(0,pp,np),dl(0,np,np)),dr(0,s,dia(1,box(1,pp)))) 1
 qui dr(0,dl(0,dr(0,pp,np),dl(0,np,np)),s) 2
 qui dr(0,dl(0,dr(0,pp,np),dl(1,s,s)),dl(1,s,s)) 1
 qui dr(0,dl(0,dr(0,pp,np),s_whq),dr(0,s,dia(1,box(1,pp)))) 1
-qui dr(0,dl(0,n,n),dl(0,np,s)) 2202
+qui dr(0,dl(0,n,n),dl(0,np,s)) 2203
 qui dr(0,dl(0,np,dl(0,np,np)),dl(0,np,s)) 2
-qui dr(0,dl(0,np,np),dl(0,np,s)) 417
+qui dr(0,dl(0,np,np),dl(0,np,s)) 419
 qui dr(0,np,dl(0,np,s)) 6
 qui dr(0,s_whq,dl(0,np,s)) 5
 qui np 2
@@ -36318,6 +36350,7 @@ rectificative dl(0,n,n) 2
 rectifie dr(0,dl(0,np,s),np) 2
 recueil n 3
 recueille dr(0,dl(0,np,s),np) 2
+recueilli dr(0,dl(0,n,n),pp_par) 1
 recueilli dr(0,dl(0,np,s_ppart),np) 5
 recueillies dl(0,n,n) 2
 recueillir dr(0,dl(0,np,s_inf),np) 3
@@ -36717,6 +36750,7 @@ remontait dr(0,dl(0,np,s),pp_a) 1
 remontant dr(0,dl(0,np,s_ppres),np) 2
 remontant dr(0,dl(0,np,s_ppres),pp) 1
 remonte dl(0,np,s) 1
+remonte dr(0,dl(0,np,s),pp) 1
 remonte dr(0,dl(0,np,s),pp_a) 5
 remonte dr(0,dr(0,s,pp_a),np) 1
 remontent dl(0,np,s) 1
@@ -36806,7 +36840,7 @@ rencontrer dr(0,dr(0,dl(0,np,s_inf),pp),np) 1
 rencontres n 7
 rencontrèrent dr(0,dl(0,np,s),np) 1
 rencontré dr(0,dl(0,n,n),pp_par) 1
-rencontré dr(0,dl(0,np,s_ppart),np) 3
+rencontré dr(0,dl(0,np,s_ppart),np) 4
 rencontrées dr(0,dl(0,n,n),pp_par) 2
 rencontrés dl(0,n,n) 1
 rend dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,n,n)) 1
@@ -37093,9 +37127,9 @@ reprise dl(0,cl_r,dl(0,np,s_ppart)) 1
 reprise dr(0,dl(0,n,n),pp_par) 1
 reprise dr(0,pass,pp_par) 2
 reprise n 134
-reprises n 19
+reprises n 21
 reprochait dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 1
-reproche dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 3
+reproche dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 4
 reproche dr(0,dr(0,dl(0,np,s),pp_a),np) 1
 reproche n 6
 reprochent dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 2
@@ -37191,7 +37225,7 @@ responsabilités n 20
 responsable dl(0,n,n) 4
 responsable dr(0,dl(0,n,n),pp) 1
 responsable dr(0,dl(0,n,n),pp_de) 9
-responsable n 36
+responsable n 37
 responsables dl(0,n,n) 3
 responsables dr(0,dl(0,n,n),pp_de) 2
 responsables n 73
@@ -37373,7 +37407,7 @@ retombée n 1
 retombées n 3
 retombés dl(0,np,s_ppart) 1
 retour dl(0,n,n) 1
-retour n 66
+retour n 67
 retournant dr(0,dl(0,cl_r,dl(0,n,n)),pp_contre) 1
 retourne dl(0,cl_r,dl(0,np,s)) 1
 retourne dr(0,dl(0,cl_r,dl(0,np,s)),pp) 1
@@ -37493,6 +37527,7 @@ reverser dr(0,dr(0,dl(0,np,s_inf),pp_a),np) 2
 reversion n 1
 reversé dr(0,pass,pp_a) 2
 reversée dr(0,pass,pp_a) 1
+reversés dr(0,dl(0,n,n),pp_a) 1
 reviendra dr(0,dl(0,np,s),pp_a) 1
 reviendra dr(0,dl(0,np,s),pp_sur) 1
 reviendrait dr(0,dl(0,dl(0,np,s_inf),s),dl(0,np,s_ainf)) 1
@@ -37543,12 +37578,12 @@ revêtement n 1
 revêtir dr(0,dl(0,np,s_inf),np) 1
 rez-de-chaussée n 1
 reçoit dl(0,np,s) 1
-reçoit dr(0,dl(0,np,s),np) 7
+reçoit dr(0,dl(0,np,s),np) 8
 reçoit dr(0,dr(0,dl(0,np,s),np),pp_de) 1
 reçoit dr(0,dr(0,s,np),np) 1
 reçoivent dr(0,dl(0,np,s),np) 7
 reçu dr(0,dl(0,n,n),pp_par) 1
-reçu dr(0,dl(0,np,s_ppart),np) 24
+reçu dr(0,dl(0,np,s_ppart),np) 25
 reçu dr(0,dr(0,dl(0,np,s_ppart),pp_de),np) 1
 reçu dr(0,pass,pp_de) 1
 reçu dr(0,pass,pp_par) 1
@@ -38512,6 +38547,7 @@ révolutionnaire n 1
 révolutionnaires dl(0,n,n) 1
 révolutionnaires n 2
 révolutions n 1
+révoqué dl(0,n,n) 1
 révât dr(0,dl(0,np,s),pp_a) 1
 révèle dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,n,n)) 2
 révèle dr(0,dl(0,np,s),np) 5
@@ -38581,7 +38617,7 @@ rêvé dr(0,dl(0,np,s_ppart),np) 2
 rôdage n 1
 rôle n 70
 rôles n 5
-s' cl_r 1467
+s' cl_r 1468
 s' dr(0,dl(0,n,n),s) 1
 s' dr(0,dl(0,np,s),s) 1
 s' dr(0,dl(0,s,s),s) 14
@@ -38690,7 +38726,7 @@ sait dr(0,dr(0,dl(0,np,s),dl(0,n,n)),np) 1
 sait dr(0,dr(0,dl(0,np,s),s_q),pp_de) 1
 sait dr(0,dr(0,s,np),np) 1
 salaire n 56
-salaires n 100
+salaires n 102
 salamandre n 1
 salarial dl(0,n,n) 12
 salariale dl(0,n,n) 26
@@ -38996,7 +39032,7 @@ secrètes dl(0,n,n) 2
 secrétaire n 66
 secrétaire np 7
 secrétaire-général n 2
-secrétaires n 2
+secrétaires n 4
 secrétariat n 9
 secs dl(0,n,n) 1
 sectaire dl(0,n,n) 1
@@ -39125,7 +39161,7 @@ sept dr(0,np,n) 34
 sept n 2
 sept np 2
 septembre dl(0,n,n) 1
-septembre n 133
+septembre n 136
 septennat n 2
 septentrional dl(0,n,n) 2
 septicisme n 1
@@ -39133,11 +39169,11 @@ septième dr(0,n,n) 3
 sera dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s_ppart))) 4
 sera dr(0,dl(0,dl(0,np,s_inf),s),dl(0,n,n)) 1
 sera dr(0,dl(0,dl(0,np,s_inf),s),np) 1
-sera dr(0,dl(0,np,s),dl(0,n,n)) 62
+sera dr(0,dl(0,np,s),dl(0,n,n)) 63
 sera dr(0,dl(0,np,s),dl(0,np,s_deinf)) 1
 sera dr(0,dl(0,np,s),dl(0,np,s_ppart)) 2
 sera dr(0,dl(0,np,s),np) 39
-sera dr(0,dl(0,np,s),pass) 152
+sera dr(0,dl(0,np,s),pass) 153
 sera dr(0,dl(0,np,s),pp) 12
 sera dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),dl(0,n,n)) 5
 sera dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),np) 1
@@ -39149,7 +39185,7 @@ serai dr(0,dl(0,np,s),dl(0,np,s_ppart)) 1
 seraient dr(0,dl(0,cl_r,dl(0,np,s)),dl(0,cl_r,dl(0,np,s_ppart))) 1
 seraient dr(0,dl(0,np,s),dl(0,n,n)) 7
 seraient dr(0,dl(0,np,s),dl(0,np,s_ppart)) 14
-seraient dr(0,dl(0,np,s),np) 4
+seraient dr(0,dl(0,np,s),np) 5
 seraient dr(0,dl(0,np,s),pass) 3
 seraient dr(0,dl(0,np,s),pp) 2
 seraient dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),pp_a) 1
@@ -39164,7 +39200,7 @@ serait dr(0,dl(0,np,s),dl(0,np,s_ainf)) 1
 serait dr(0,dl(0,np,s),dl(0,np,s_deinf)) 2
 serait dr(0,dl(0,np,s),dl(0,np,s_inf)) 1
 serait dr(0,dl(0,np,s),dl(0,np,s_ppart)) 2
-serait dr(0,dl(0,np,s),np) 19
+serait dr(0,dl(0,np,s),np) 21
 serait dr(0,dl(0,np,s),pass) 33
 serait dr(0,dl(0,np,s),pp) 10
 serait dr(0,dl(0,np,s),s_q) 1
@@ -39250,7 +39286,7 @@ serviront dr(0,dl(0,np,s),np) 1
 serviront dr(0,dl(0,np,s),pp_a) 2
 servis dl(0,n,n) 1
 serviteurs n 1
-ses dr(0,np,n) 780
+ses dr(0,np,n) 781
 session n 12
 seuil n 23
 seuils n 3
@@ -39523,7 +39559,7 @@ sixième dr(0,n,n) 4
 siècle n 57
 siècles n 9
 siège dr(0,dl(0,np,s),pp_a) 1
-siège n 48
+siège n 49
 siègent dr(0,s,np) 1
 sièges n 4
 siégeaient dr(0,dl(0,np,s),pp_sur) 1
@@ -39722,14 +39758,14 @@ sommes dr(0,dl(0,np,s),np) 8
 sommes dr(0,dl(0,np,s),pass) 2
 sommes dr(0,dl(0,np,s),pp) 14
 sommes dr(0,dr(0,s,pp),np) 2
-sommes n 22
+sommes n 23
 sommet n 62
 sommets n 5
 sommé dr(0,pass,dl(0,np,s_deinf)) 1
 somptuaires dl(0,n,n) 1
 somptueux dl(0,n,n) 1
 son dr(0,dl(0,np,np),n) 1
-son dr(0,np,n) 1063
+son dr(0,np,n) 1067
 son n 3
 sondage n 11
 sondages n 5
@@ -39763,7 +39799,7 @@ sont dr(0,dr(0,dl(0,np,s),s_q),dl(0,n,n)) 2
 sont dr(0,dr(0,s,dl(0,n,n)),np) 4
 sont dr(0,dr(0,s,np),dl(0,np,s_ppart)) 1
 sont dr(0,dr(0,s,np),np) 8
-sont dr(0,dr(0,s,np),pass) 14
+sont dr(0,dr(0,s,np),pass) 15
 sont dr(0,dr(0,s,np),pp) 1
 sont dr(0,dr(0,s,pp),np) 2
 sophistication n 2
@@ -39864,6 +39900,7 @@ souhaitaient dr(0,dl(0,np,s),np) 1
 souhaitaient dr(0,dl(0,np,s),s_q) 1
 souhaitait dr(0,dl(0,np,s),dl(0,np,s_inf)) 10
 souhaitait dr(0,dl(0,np,s),np) 2
+souhaitant dr(0,dl(0,n,n),dl(0,np,s_inf)) 1
 souhaitant dr(0,dl(0,np,s_ppres),s_q) 2
 souhaite dr(0,dl(0,np,s),dl(0,np,s_inf)) 11
 souhaite dr(0,dl(0,np,s),np) 7
@@ -39967,7 +40004,7 @@ soupçonne dr(0,dl(0,np,s),np) 1
 soupçonne dr(0,dr(0,dl(0,np,s),dl(0,np,s_deinf)),np) 1
 soupçonne dr(0,dr(0,dl(0,np,s),pp_a),np) 1
 soupçonner dr(0,dr(0,dl(0,np,s_inf),pp_de),np) 1
-soupçonné dr(0,dl(0,n,n),dl(0,np,s_deinf)) 2
+soupçonné dr(0,dl(0,n,n),dl(0,np,s_deinf)) 3
 soupçonné dr(0,pass,dl(0,np,s_deinf)) 1
 soupçonnés dr(0,dl(0,n,n),dl(0,np,s_deinf)) 1
 soupçonnés dr(0,pass,dl(0,np,s_deinf)) 1
@@ -40006,7 +40043,7 @@ sous dr(0,dr(0,s,s),n) 1
 sous dr(0,dr(0,s,s),np) 6
 sous dr(0,passa,n) 4
 sous dr(0,passa,np) 4
-sous dr(0,pp_sous,n) 11
+sous dr(0,pp_sous,n) 12
 sous dr(0,pp_sous,np) 27
 sous n 2
 sous-chef n 1
@@ -40510,7 +40547,7 @@ suis dr(0,dl(0,np,s),dl(0,np,s_ppart)) 23
 suis dr(0,dl(0,np,s),np) 1
 suis dr(0,dl(0,np,s),pass) 1
 suis dr(0,dl(0,np,s),pp) 3
-suisse dl(0,n,n) 13
+suisse dl(0,n,n) 14
 suisse n 1
 suisses dl(0,n,n) 12
 suit dl(0,np,s) 1
@@ -40601,6 +40638,7 @@ superviser dr(0,dl(0,np,s_inf),np) 2
 superviseur n 1
 supervision n 6
 supplanta dr(0,dl(0,np,s),np) 1
+suppléant dl(0,n,n) 1
 supplément n 3
 supplémentaire dl(0,n,n) 16
 supplémentaire dl(0,np,np) 2
@@ -40672,11 +40710,11 @@ supérieurs n 1
 supériorité n 2
 sur dr(0,dl(0,n,dl(1,s,s)),n) 1
 sur dr(0,dl(0,n,n),n) 22
-sur dr(0,dl(0,n,n),np) 761
+sur dr(0,dl(0,n,n),np) 760
 sur dr(0,dl(0,np,dl(1,s,s)),np) 1
 sur dr(0,dl(0,np,np),n) 3
-sur dr(0,dl(0,np,np),np) 66
-sur dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 1
+sur dr(0,dl(0,np,np),np) 67
+sur dr(0,dl(1,dl(0,n,n),dl(0,n,n)),n) 2
 sur dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 45
 sur dr(0,dl(1,s,s),n) 21
 sur dr(0,dl(1,s,s),np) 319
@@ -40686,8 +40724,8 @@ sur dr(0,dr(0,s,s),n) 3
 sur dr(0,dr(0,s,s),np) 26
 sur dr(0,passa,n) 2
 sur dr(0,passa,np) 21
-sur dr(0,pp_sur,n) 10
-sur dr(0,pp_sur,np) 626
+sur dr(0,pp_sur,n) 11
+sur dr(0,pp_sur,np) 630
 sur-investissement n 1
 sur-le-champ dl(1,s,s) 2
 surcapacité n 2
@@ -40974,7 +41012,7 @@ séquestre n 1
 séquestrés pass 1
 séraphisme n 1
 série appb 2
-série n 45
+série n 46
 séries n 7
 sérieuse dl(0,n,n) 6
 sérieuse dr(0,n,n) 2
@@ -41536,6 +41574,7 @@ titres n 75
 titres-chocs n 1
 titré dr(0,dl(0,np,s_ppart),s_q) 1
 titulaire n 2
+titulaire np 1
 titulaires dl(0,n,n) 3
 titulaires dr(0,dl(0,n,n),pp_de) 1
 titulaires n 7
@@ -41761,8 +41800,7 @@ tous dr(0,n,n) 3
 tous dr(0,np,n) 18
 tous dr(0,np,np) 169
 tous np 20
-tout dl(1,s,s) 1
-tout dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,dl(0,np,s),dl(0,np,s))) 23
+tout dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,dl(0,np,s),dl(0,np,s))) 24
 tout dr(0,dl(0,n,n),dl(0,n,n)) 54
 tout dr(0,dl(0,n,n),np) 1
 tout dr(0,dl(0,n,n),pp_de) 1
@@ -41995,7 +42033,7 @@ transmettre dr(0,dr(0,dl(0,np,s_inf),np),pp_a) 1
 transmettre dr(0,dr(0,dl(0,np,s_inf),pp_a),np) 1
 transmis dr(0,dr(0,dl(0,n,n),pp_par),pp_a) 1
 transmis dr(0,dr(0,dl(0,np,s_ppart),pp_a),np) 1
-transmis dr(0,dr(0,pass,pp_par),pp_a) 1
+transmis dr(0,dr(0,pass,pp_par),pp_a) 2
 transmis dr(0,pass,pp_a) 2
 transmise dr(0,dl(0,n,n),pp_a) 1
 transmise dr(0,pass,pp_a) 1
@@ -42012,6 +42050,7 @@ transportant dr(0,dl(0,n,n),np) 1
 transporte dr(0,dl(0,np,s),np) 2
 transportent dr(0,dl(0,np,s),np) 1
 transporter dl(0,np,s_inf) 1
+transporter dr(0,dl(0,np,s_inf),np) 1
 transporter dr(0,dl(0,np,s_inf),pp) 1
 transporter dr(0,dr(0,dl(0,np,s_inf),pp),np) 1
 transporteur n 6
@@ -42035,7 +42074,7 @@ traumatisante dl(0,n,n) 1
 traumatisent dr(0,dr(0,s,np),np) 1
 traumatisme n 2
 travail dl(0,n,n) 2
-travail n 284
+travail n 285
 travailla dl(0,np,s) 1
 travaillaient dl(0,np,s) 3
 travaillait dl(0,np,s) 1
@@ -42183,7 +42222,7 @@ trois dr(0,dr(0,dr(0,n,n),dr(0,n,n)),n) 1
 trois dr(0,dr(0,np,np),n) 8
 trois dr(0,dr(0,s,s),n) 1
 trois dr(0,n,n) 77
-trois dr(0,np,n) 176
+trois dr(0,np,n) 177
 trois n 2
 trois np 21
 trois-quarts n 1
@@ -42441,7 +42480,7 @@ témoignent dr(0,dr(0,s,pp_de),np) 8
 témoigner dl(0,np,s_inf) 2
 témoigner dr(0,dl(0,np,s_inf),pp_de) 2
 témoin dr(0,dl(0,n,n),pp_de) 1
-témoin n 5
+témoin n 7
 témoins n 3
 ténacité n 1
 ténors n 2
@@ -42494,7 +42533,7 @@ un dr(0,dr(0,pp,pp),n) 1
 un dr(0,dr(0,s,s),n) 2
 un dr(0,n,n) 4
 un dr(0,np,dl(0,n,n)) 1
-un dr(0,np,n) 3323
+un dr(0,np,n) 3328
 un dr(0,passa,n) 2
 un n 108
 un np 52
@@ -42518,7 +42557,7 @@ une dr(0,dr(0,dl(1,s,s),dl(1,s,s)),n) 12
 une dr(0,dr(0,dr(0,s,s),dr(0,s,s)),n) 2
 une dr(0,dr(0,passm,passm),n) 1
 une dr(0,dr(0,pp,pp),n) 2
-une dr(0,np,n) 3406
+une dr(0,np,n) 3412
 une n 44
 une np 41
 unes n 4
@@ -42957,7 +42996,7 @@ verrouiller dr(0,dl(0,np,s_inf),np) 2
 verrouillé dl(0,n,n) 1
 verrous n 1
 vers dr(0,dl(0,n,n),n) 1
-vers dr(0,dl(0,n,n),np) 43
+vers dr(0,dl(0,n,n),np) 44
 vers dr(0,dl(0,np,np),np) 2
 vers dr(0,dl(1,dl(0,n,n),dl(0,n,n)),np) 2
 vers dr(0,dl(1,s,s),np) 42
@@ -43449,7 +43488,7 @@ volent dr(0,dr(0,dl(0,np,s),np),pp_a) 1
 voler dr(0,dl(0,np,s_inf),np) 1
 voler dr(0,dl(0,np,s_inf),pp) 1
 voleraient dr(0,dl(0,np,s),pp_a) 1
-volet n 12
+volet n 13
 volets n 3
 voleurs n 1
 volontaire dl(0,n,n) 4
@@ -43477,7 +43516,7 @@ volumineuses dl(0,n,n) 1
 volumineuses dr(0,n,n) 1
 volumineux dr(0,n,n) 2
 vont dl(0,np,s) 2
-vont dr(0,dl(0,np,s),dl(0,np,s_inf)) 52
+vont dr(0,dl(0,np,s),dl(0,np,s_inf)) 53
 vont dr(0,dl(0,np,s),np) 1
 vont dr(0,dl(0,np,s),pp) 3
 vont dr(0,dl(0,np,s),pp_a) 4
@@ -43736,7 +43775,7 @@ zéros n 2
 À dr(0,dr(0,s,dr(0,s,dia(1,box(1,pp_a)))),np) 1
 À dr(0,dr(0,s,s),dl(0,np,s_inf)) 6
 À dr(0,dr(0,s,s),n) 5
-À dr(0,dr(0,s,s),np) 31
+À dr(0,dr(0,s,s),np) 32
 Ça np 8
 ÉCONOMIE n 1
 ÉLÉGANCE n 1
@@ -43755,7 +43794,8 @@ zéros n 2
 Émile dr(0,np,np) 1
 Épaulement n 1
 Épilogue n 1
-Éric appb 4
+Éric appb 8
+Éric dr(0,np,np) 1
 Ériger dr(0,dr(0,dl(0,np,s_inf),pp),np) 1
 État n 15
 État-voyou n 1
@@ -43778,7 +43818,7 @@ zéros n 2
 à dr(0,dl(0,n,dr(0,s,s)),n) 1
 à dr(0,dl(0,n,n),dl(0,np,s_inf)) 214
 à dr(0,dl(0,n,n),n) 401
-à dr(0,dl(0,n,n),np) 1072
+à dr(0,dl(0,n,n),np) 1074
 à dr(0,dl(0,n,n),s) 1
 à dr(0,dl(0,n,pp_a),n) 1
 à dr(0,dl(0,np,dl(1,s,s)),np) 4
@@ -43801,7 +43841,7 @@ zéros n 2
 à dr(0,dl(1,passm,passm),np) 1
 à dr(0,dl(1,s,s),dl(0,np,s_inf)) 67
 à dr(0,dl(1,s,s),n) 247
-à dr(0,dl(1,s,s),np) 785
+à dr(0,dl(1,s,s),np) 786
 à dr(0,dl(1,s,s),s) 1
 à dr(0,dr(0,dl(0,dl(0,np,s),dl(0,np,s)),dl(0,dl(0,np,s),dl(0,np,s))),n) 1
 à dr(0,dr(0,dl(0,n,n),dl(0,n,n)),dl(0,np,s_inf)) 1
@@ -43827,13 +43867,13 @@ zéros n 2
 à dr(0,dr(0,s,dr(0,s,dia(1,box(1,pp_a)))),np) 11
 à dr(0,dr(0,s,s),dl(0,np,s_inf)) 13
 à dr(0,dr(0,s,s),n) 24
-à dr(0,dr(0,s,s),np) 103
+à dr(0,dr(0,s,s),np) 104
 à dr(0,passa,dl(0,np,s_inf)) 8
 à dr(0,passa,n) 7
 à dr(0,passa,np) 76
 à dr(0,pp_a,dl(0,np,s_inf)) 1
 à dr(0,pp_a,n) 171
-à dr(0,pp_a,np) 2917
+à dr(0,pp_a,np) 2925
 à-coups n 1
 âge n 37
 âges n 4
@@ -43886,7 +43926,7 @@ zéros n 2
 échafaudages n 1
 échafaudent dr(0,dl(0,cl_r,s),np) 1
 échafaudées pass 1
-échange n 37
+échange n 38
 échangeaient dr(0,dr(0,dl(0,np,s),pp_a),np) 1
 échangent dl(0,cl_r,dl(0,np,s)) 1
 échanger dl(0,cl_r,dl(0,np,s_inf)) 1
@@ -44021,6 +44061,7 @@ zéros n 2
 écoutent dr(0,dl(0,np,s),np) 1
 écouter dr(0,dl(0,np,s_inf),np) 2
 écouter dr(0,dr(0,dl(0,np,s_inf),dl(0,np,s_inf)),np) 2
+écoutes n 1
 écouté dr(0,dl(0,np,s_ppart),np) 1
 écran n 25
 écrans n 7
@@ -44103,7 +44144,7 @@ zéros n 2
 également dl(0,n,n) 2
 également dl(0,np,np) 2
 également dl(1,dl(0,n,n),dl(0,n,n)) 3
-également dl(1,s,s) 81
+également dl(1,s,s) 82
 également dr(0,dl(0,n,n),dl(0,n,n)) 13
 également dr(0,dl(0,np,s),dl(0,np,s)) 25
 également dr(0,dl(1,s,s),dl(1,s,s)) 2
@@ -44170,7 +44211,7 @@ zéros n 2
 élection n 12
 élections n 35
 électives dl(0,n,n) 1
-électoral dl(0,n,n) 1
+électoral dl(0,n,n) 2
 électorale dl(0,n,n) 11
 électorales dl(0,n,n) 7
 électoraliste dl(0,n,n) 1
@@ -44713,7 +44754,7 @@ zéros n 2
 étroits dr(0,n,n) 1
 étude n 56
 études dl(0,n,n) 1
-études n 37
+études n 38
 étudiant n 2
 étudiantes dl(0,n,n) 1
 étudiants n 27
@@ -44730,8 +44771,8 @@ zéros n 2
 étudiés pass 1
 été dr(0,dl(0,np,s_ppart),dl(0,n,n)) 90
 été dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)) 6
-été dr(0,dl(0,np,s_ppart),np) 71
-été dr(0,dl(0,np,s_ppart),pass) 713
+été dr(0,dl(0,np,s_ppart),np) 72
+été dr(0,dl(0,np,s_ppart),pass) 714
 été dr(0,dl(0,np,s_ppart),pp) 37
 été dr(0,dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)),dl(0,n,n)) 1
 été dr(0,dr(0,dl(0,np,s_ppart),dl(0,np,s_deinf)),np) 1
