@@ -1,36 +1,36 @@
 
-SENT: 1520 sentences, 313 correct (20.59%)
-WORD: 42317 words, 38129 correct (90.10%)
-NINT: 42317 words, 38129 correct (90.10%)
-TAGS: 42317 tags, 1.0 tags per word
+SENT: 1529 sentences, 316 correct (20.67%)
+WORD: 42600 words, 38384 correct (90.10%)
+NINT: 42600 words, 38384 correct (90.10%)
+TAGS: 42600 tags, 1.0 tags per word
 
 
-SENT: 1520 sentences, 710 correct (46.71%)
-WORD: 42317 words, 40768 correct (96.34%)
-NINT: 42317 words, 40768 correct (96.34%)
-TAGS: 58402 tags, 1.4 tags per word
+SENT: 1529 sentences, 713 correct (46.63%)
+WORD: 42600 words, 41039 correct (96.34%)
+NINT: 42600 words, 41039 correct (96.34%)
+TAGS: 58817 tags, 1.4 tags per word
 
 
-SENT: 1520 sentences, 838 correct (55.13%)
-WORD: 42317 words, 41139 correct (97.22%)
-NINT: 42317 words, 41139 correct (97.22%)
-TAGS: 67067 tags, 1.6 tags per word
+SENT: 1529 sentences, 842 correct (55.07%)
+WORD: 42600 words, 41413 correct (97.21%)
+NINT: 42600 words, 41413 correct (97.21%)
+TAGS: 67480 tags, 1.6 tags per word
 
 
-SENT: 1520 sentences, 1061 correct (69.80%)
-WORD: 42317 words, 41656 correct (98.44%)
-NINT: 42317 words, 41656 correct (98.44%)
-TAGS: 101464 tags, 2.4 tags per word
+SENT: 1529 sentences, 1064 correct (69.59%)
+WORD: 42600 words, 41933 correct (98.43%)
+NINT: 42600 words, 41933 correct (98.43%)
+TAGS: 102127 tags, 2.4 tags per word
 
 
-SENT: 1520 sentences, 1105 correct (72.70%)
-WORD: 42317 words, 41734 correct (98.62%)
-NINT: 42317 words, 41734 correct (98.62%)
-TAGS: 123617 tags, 2.9 tags per word
+SENT: 1529 sentences, 1108 correct (72.47%)
+WORD: 42600 words, 42012 correct (98.62%)
+NINT: 42600 words, 42012 correct (98.62%)
+TAGS: 124317 tags, 2.9 tags per word
 
 
-SENT: 1520 sentences, 1163 correct (76.51%)
-WORD: 42317 words, 41842 correct (98.88%)
-NINT: 42317 words, 41842 correct (98.88%)
-TAGS: 194752 tags, 4.6 tags per word
+SENT: 1529 sentences, 1169 correct (76.46%)
+WORD: 42600 words, 42123 correct (98.88%)
+NINT: 42600 words, 42123 correct (98.88%)
+TAGS: 195917 tags, 4.6 tags per word
 
