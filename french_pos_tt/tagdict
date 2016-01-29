@@ -2,19 +2,19 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_pos --input m3_tt.txt --ifmt %w|%p|%s \n --model all_pos_tt --solver bfgs --niterations 10000 --verbose --comment Training and tagging the POS tagger on the complete set of data using the Treetagger POS tag set
 
 ! PUN 167
-" PUN:cit 5622
+" PUN:cit 5640
 $ SYM 1
-% SYM 2396
+% SYM 2404
 & SYM 8
 ' PUN:cit 3
 'm VER:pres 1
-( PUN 2797
+( PUN 2808
 (...) PUN 36
-) PUN 2800
+) PUN 2811
 * SYM 8
 + SYM 102
-, PUN 25176
-- PUN 1683
+, PUN 25252
+- PUN 1698
 -6 NUM 1
 -T-IL PRO:PER 1
 -ce PRO:DEM 29
@@ -23,7 +23,7 @@ $ SYM 1
 -elle PRO:PER 28
 -elles PRO:PER 10
 -en PRO:PER 2
--il PRO:PER 93
+-il PRO:PER 94
 -ils PRO:PER 34
 -je PRO:PER 4
 -le PRO:PER 3
@@ -39,7 +39,7 @@ $ SYM 1
 -tu PRO:PER 1
 -vous PRO:PER 25
 -y PRO:PER 2
-. PUN 13914
+. PUN 13953
 .. PUN 5
 ... PUN 305
 / SYM 64
@@ -70,14 +70,14 @@ $ SYM 1
 0,69 NUM 1
 0,7 NUM 13
 0,74 NUM 1
-0,8 NUM 21
+0,8 NUM 22
 0,80 NUM 1
 0,89 NUM 1
 0,9 NUM 11
 0,95 NUM 1
 0,96 NUM 1
 0-6 NUM 1
-1 NUM 305
+1 NUM 306
 1,04 NUM 1
 1,09 NUM 1
 1,1 NUM 18
@@ -86,7 +86,7 @@ $ SYM 1
 1,13 NUM 1
 1,15 NUM 1
 1,17 NUM 1
-1,2 NUM 30
+1,2 NUM 32
 1,20 NUM 2
 1,25 NUM 2
 1,27 NUM 1
@@ -100,7 +100,7 @@ $ SYM 1
 1,47 NUM 1
 1,4850 NUM 1
 1,49 NUM 1
-1,5 NUM 39
+1,5 NUM 40
 1,50 NUM 4
 1,5180 NUM 1
 1,54 NUM 2
@@ -217,7 +217,7 @@ $ SYM 1
 108.500 NUM 1
 109 NUM 1
 109,70 NUM 1
-11 NUM 70
+11 NUM 71
 11,1 NUM 2
 11,2 NUM 1
 11,25 NUM 1
@@ -339,7 +339,7 @@ $ SYM 1
 14.000 NUM 4
 14.500 NUM 1
 14.533 NUM 2
-140 NUM 6
+140 NUM 7
 140.000 NUM 2
 1400 NUM 1
 14000 NUM 1
@@ -358,7 +358,7 @@ $ SYM 1
 148 NUM 1
 149 NUM 1
 1493 NUM 1
-15 NUM 154
+15 NUM 155
 15,1 NUM 1
 15,5 NUM 6
 15,6 NUM 1
@@ -368,7 +368,7 @@ $ SYM 1
 15-25 NUM 1
 15.000 NUM 4
 15.520 NUM 1
-150 NUM 31
+150 NUM 32
 150.000 NUM 7
 1500 NUM 5
 15000 NUM 2
@@ -643,40 +643,40 @@ $ SYM 1
 1983-1990 NUM 1
 1984 NUM 30
 1985 NUM 35
-1986 NUM 72
+1986 NUM 73
 1986-1988 NUM 1
 1987 NUM 56
-1988 NUM 64
+1988 NUM 65
 1988-1989 NUM 2
 1988-1990 NUM 1
 1988-1991 NUM 1
 1989 NUM 148
 1989-1995 NUM 1
 199.920 NUM 1
-1990 NUM 233
+1990 NUM 236
 1990-1991 NUM 1
 1990-1992 NUM 1
 1991 NUM 490
 1991-1992 NUM 3
 1992 NOM 1
-1992 NUM 469
+1992 NUM 471
 1992-1993 NUM 1
 1992-1995 NUM 1
 1993 NUM 214
 1993-1997 NUM 2
 1994 NUM 85
-1995 NUM 52
+1995 NUM 53
 1996 NUM 13
-1997 NUM 22
-1998 NUM 17
+1997 NUM 24
+1998 NUM 18
 1999 NUM 16
-1er NUM 54
-2 NUM 246
+1er NUM 55
+2 NUM 248
 2,08 NUM 1
 2,1 NUM 11
 2,11 NUM 3
 2,13 NUM 1
-2,2 NUM 14
+2,2 NUM 15
 2,23 NUM 1
 2,25 NUM 4
 2,28 NUM 1
@@ -743,11 +743,11 @@ $ SYM 1
 20.000 NUM 12
 200 NUM 19
 200.000 NUM 19
-2000 NUM 47
+2000 NUM 51
 2000-5 NUM 1
 20000 NUM 3
 200000 NUM 1
-2001 NUM 22
+2001 NUM 23
 2002 NUM 23
 2002-2004 NUM 1
 2003 NUM 8
@@ -772,7 +772,7 @@ $ SYM 1
 2077 NUM 1
 208 NUM 2
 209 NUM 1
-21 NUM 62
+21 NUM 63
 21,40 NUM 1
 21,5 NUM 4
 21,7 NUM 1
@@ -789,7 +789,7 @@ $ SYM 1
 217,5 NUM 1
 218.000 NUM 1
 21e NUM 3
-22 NUM 66
+22 NUM 67
 22,15 NUM 1
 22,20 NUM 1
 22,3 NUM 2
@@ -824,6 +824,7 @@ $ SYM 1
 23,7 NUM 1
 23,9 NUM 2
 23.700 NUM 1
+23/12/2006 NUM 1
 230 NUM 6
 23000 NUM 2
 232 NUM 1
@@ -832,7 +833,7 @@ $ SYM 1
 235 NUM 1
 236 NUM 1
 237 NUM 1
-24 NUM 48
+24 NUM 49
 24,2 NUM 1
 24,4 NUM 1
 24,5 NUM 6
@@ -974,6 +975,7 @@ $ SYM 1
 3.045 NUM 1
 3.066.400 NUM 1
 3.090 NUM 1
+3.092 NUM 1
 3.111 NUM 2
 3.130 NUM 1
 3.146 NUM 1
@@ -1001,7 +1003,7 @@ $ SYM 1
 30,45 NUM 1
 30,5 NUM 1
 30.000 NUM 16
-300 NUM 25
+300 NUM 26
 300.000 NUM 10
 3000 NUM 4
 30000 NUM 1
@@ -1030,6 +1032,7 @@ $ SYM 1
 32,10 NUM 1
 32,2 NUM 2
 32,5 NUM 1
+32,6 NUM 1
 32,9 NUM 1
 32.000 NUM 1
 32.900 NUM 1
@@ -1049,6 +1052,7 @@ $ SYM 1
 335 NUM 1
 335,6 NUM 1
 336 NUM 1
+336.210,00 NUM 1
 336e NOM 1
 336e NUM 1
 337 NUM 1
@@ -1213,6 +1217,7 @@ $ SYM 1
 458 NUM 2
 46 NUM 8
 46,5 NUM 1
+46,7 NUM 1
 46.000 NUM 2
 4600 NUM 1
 465 NUM 1
@@ -1224,6 +1229,7 @@ $ SYM 1
 47,6 NUM 1
 47.800 NUM 1
 4700 NUM 1
+471 NUM 1
 471.000 NUM 1
 472 NUM 1
 48 NUM 8
@@ -1244,7 +1250,7 @@ $ SYM 1
 4X4 ABR 1
 4e NUM 2
 4ème ADJ 1
-5 NUM 160
+5 NUM 161
 5,06 NUM 1
 5,1 NUM 6
 5,10 NUM 1
@@ -1278,7 +1284,7 @@ $ SYM 1
 5,95 NUM 1
 5,97 NUM 1
 5-6 NUM 1
-5.000 NUM 12
+5.000 NUM 13
 5.200 NUM 1
 5.500 NUM 3
 5.543,30 NUM 1
@@ -1318,7 +1324,7 @@ $ SYM 1
 52000 NUM 1
 523 NUM 1
 525 NUM 1
-53 NUM 11
+53 NUM 12
 53,5 NUM 1
 53,9 NUM 1
 53.000 NUM 1
@@ -1402,7 +1408,7 @@ $ SYM 1
 60,60 NUM 1
 60.000 NUM 4
 60.680 NUM 1
-600 NUM 24
+600 NUM 25
 600.000 NUM 12
 600000 NUM 1
 605 NUM 1
@@ -1713,7 +1719,7 @@ $ SYM 1
 99 NUM 2
 99,8 NUM 1
 997 NUM 1
-: PUN 1316
+: PUN 1324
 ; PUN 344
 = SYM 8
 ? PUN 328
@@ -1871,7 +1877,7 @@ Adversaires NOM 1
 Aegon NAM 2
 Aeritalia NAM 1
 Aerospace NAM 4
-Affaire NOM 34
+Affaire NOM 38
 Affaires NOM 9
 Affecté VER:pper 1
 Affectés VER:pper 1
@@ -2115,7 +2121,7 @@ Arkadi NAM 1
 Arkansas NAM 3
 Arlington NAM 1
 Arlésienne NAM 1
-Armand NAM 7
+Armand NAM 8
 Armenia NAM 1
 Army NAM 1
 Armée NAM 2
@@ -2192,7 +2198,7 @@ Aube NAM 1
 Aubert NAM 1
 Aubry NAM 11
 Auch NAM 5
-Aucun PRO:IND 9
+Aucun PRO:IND 10
 Aucune PRO:IND 9
 Audi NAM 2
 Audincourt NAM 1
@@ -2304,7 +2310,7 @@ BSN ABR 12
 BT ABR 4
 BTAN ABR 2
 BTF ABR 12
-BTP ABR 7
+BTP ABR 8
 BTS ABR 11
 BUDAPEST NAM 1
 BUE ABR 5
@@ -2627,7 +2633,7 @@ Boutros-Ghali NAM 1
 Bouvet NAM 1
 Bouw NAM 3
 Bouxières-aux-Dames NAM 1
-Bouygues NAM 17
+Bouygues NAM 18
 Boyer NAM 2
 Bozzo NAM 1
 Bradstreet NAM 2
@@ -2814,11 +2820,11 @@ CFE-CGC ABR 10
 CFIUS ABR 2
 CFM-56 ABR 2
 CFTC ABR 30
+CG2A ABR 2
 CGA NAM 1
 CGC ABR 6
 CGCT NAM 1
-CGE ABR 1
-CGE NAM 1
+CGE ABR 3
 CGI ABR 1
 CGM ABR 2
 CGPME ABR 5
@@ -2998,10 +3004,12 @@ Cartier NAM 1
 Carton NAM 1
 Cas NOM 1
 Casadevall NAM 1
+Casetta NAM 2
 Casquette NOM 1
 Cassandre NAM 1
 Cassani NAM 2
 Cassation NOM 2
+Cassette NOM 1
 Castaneda NAM 1
 Castelo NAM 1
 Castelsarrasin NAM 1
@@ -3012,7 +3020,7 @@ Catholicisme NOM 1
 Catia NAM 2
 Catteau NAM 1
 Catégorie NOM 1
-Catégories NOM 11
+Catégories NOM 12
 Caucase NAM 2
 Cauterets NAM 13
 Cauteretz NAM 5
@@ -3041,7 +3049,7 @@ Centre-Ouest NAM 1
 Centres NOM 1
 Centrest NAM 1
 Centro NAM 1
-Cependant ADV 30
+Cependant ADV 31
 Cernay NAM 1
 Cerro NAM 2
 Certainement ADV 2
@@ -3056,14 +3064,14 @@ Cesano NAM 1
 Cessez VER:impe 1
 Cet PRO:DEM 35
 Cetelem NAM 1
-Cette PRO:DEM 243
+Cette PRO:DEM 244
 Ceux PRO:DEM 10
 Ceux-ci PRO:DEM 10
 Chaath NAM 2
 Chacun PRO:IND 8
 Chaffoteaux NAM 1
 Chaim NAM 1
-Chaisaz NAM 1
+Chaisaz NAM 2
 Chaix NAM 1
 Chalande NAM 1
 Chalmin NAM 1
@@ -3094,7 +3102,7 @@ Charasse NAM 6
 Charbonnages NOM 2
 Charente-Maritime NAM 1
 Chargeurs NAM 4
-Chargé VER:pper 1
+Chargé VER:pper 2
 Charles NAM 15
 Charles-Emile NAM 1
 Charlie-hebdo NAM 1
@@ -3141,7 +3149,7 @@ Chines NAM 1
 Chinois NAM 4
 Chinon NAM 1
 Chipie NAM 4
-Chirac NAM 27
+Chirac NAM 38
 Chivasso NAM 1
 Choc NOM 1
 Choisi VER:pper 1
@@ -3192,7 +3200,7 @@ Clamecy NAM 2
 Clarifier VER:infi 1
 Clarisse NAM 1
 Classique NAM 1
-Claude NAM 11
+Claude NAM 12
 Clean NAM 1
 Clearstream NAM 7
 Clergerie NAM 1
@@ -3236,6 +3244,7 @@ Collin NAM 1
 Collins NAM 1
 Colloque NOM 1
 Collor NAM 5
+Collusions NOM 1
 Cologne NAM 2
 Colombes NAM 1
 Colombie NAM 17
@@ -3253,7 +3262,7 @@ Combien ADV 3
 Comité NAM 1
 Comité NOM 13
 Commandes NOM 1
-Comme ADV 48
+Comme ADV 49
 Comme KON 29
 Comment ADV 24
 Commentant VER:ppre 2
@@ -3273,7 +3282,7 @@ Communication NAM 32
 Communication NOM 1
 Communication-développement NAM 1
 Communications NAM 2
-Compagnie NAM 24
+Compagnie NAM 25
 Compagnies NAM 1
 Compania NAM 2
 Company NAM 7
@@ -3407,7 +3416,7 @@ Coudanne NAM 1
 Coumélie NAM 1
 Council NAM 1
 County NAM 1
-Cour NAM 26
+Cour NAM 27
 Courau NAM 1
 Courcelles NAM 2
 Courcelles-lès-Montbéliard NAM 1
@@ -3664,7 +3673,7 @@ Diables NAM 1
 Diane NAM 1
 Diberder NAM 1
 Diderot NAM 1
-Didier NAM 20
+Didier NAM 21
 Die NAM 1
 Dieppe NAM 1
 Dieter NAM 3
@@ -3682,6 +3691,7 @@ Dijon NAM 4
 Dimanche NAM 3
 Dimanche NOM 9
 Dimitrievitch NAM 2
+Dintilhac NAM 1
 Dire VER:infi 2
 Directeur NOM 2
 Direction NOM 5
@@ -3771,6 +3781,7 @@ Droit NOM 1
 Droits NOM 2
 Drome NAM 1
 Drug NAM 1
+Drut NAM 1
 Du PRP:det 48
 Duane NAM 1
 Dubaï NAM 1
@@ -3913,6 +3924,7 @@ ET KON 11
 ETAM ABR 1
 ETATS-UNIS NAM 2
 ETHANOL NOM 1
+EUR ABR 1
 EUROCRATES NOM 1
 EXCLUSION NOM 1
 EXISTE VER:pres 1
@@ -3974,6 +3986,7 @@ Egaz NAM 1
 Eglise NAM 1
 Egor NAM 4
 Egypte NAM 5
+Eiffage NAM 1
 Eiffel NAM 7
 Eins NAM 1
 Eisswein NAM 2
@@ -4020,7 +4033,7 @@ Employer VER:infi 1
 Emprunt NOM 2
 Empruntez VER:impe 1
 En PRO:PER 4
-En PRP 542
+En PRP 543
 Enagas NAM 1
 Enchaîné NAM 2
 Encore ADV 12
@@ -4038,7 +4051,7 @@ Engrenage NOM 1
 Enjeu NOM 1
 Enjoué ADJ 1
 Eno NAM 1
-Enquête NOM 2
+Enquête NOM 3
 Enron NAM 1
 Ensemble ADV 6
 Ensuite ADV 15
@@ -4214,6 +4227,7 @@ FLEXIBLE ADJ 1
 FMC ABR 1
 FMI ABR 37
 FMP ABR 1
+FN ABR 1
 FNAC ABR 1
 FNB ABR 2
 FNCA NAM 1
@@ -4316,7 +4330,7 @@ Fin NOM 19
 Finalement ADV 4
 Finalisation NOM 1
 Finance NAM 4
-Financement NOM 4
+Financement NOM 5
 Finances NAM 2
 Finances NOM 3
 Financial NAM 13
@@ -4503,6 +4517,7 @@ GIAT NAM 1
 GIE ABR 4
 GILLIAM NAM 1
 GLAM NAM 1
+GLNF ABR 1
 GM NAM 1
 GMF ABR 4
 GNL ABR 9
@@ -4637,7 +4652,7 @@ Gimvindus NAM 1
 Giorgio NAM 1
 Girard NAM 6
 Girardin NAM 3
-Giraud NAM 12
+Giraud NAM 13
 Giromagny NAM 3
 Gironde NAM 3
 Giroud NAM 1
@@ -4766,7 +4781,7 @@ Gustave NAM 1
 Gutenberg NAM 2
 Gutman NAM 1
 Gutmann NAM 2
-Guy NAM 21
+Guy NAM 22
 Guyane NAM 2
 Guyau NAM 5
 Guyomard NAM 1
@@ -4778,13 +4793,13 @@ Gèdre NAM 7
 Général NOM 3
 Général-Beuret NAM 1
 Générale ADJ 5
-Générale NAM 13
+Générale NAM 14
 Généralisée VER:pper 1
 Génération NAM 1
 Généreusement ADV 1
 Généval NAM 1
 Géorgique NOM 1
-Gérard NAM 17
+Gérard NAM 19
 Gérer VER:infi 2
 Günter NAM 1
 Günther NAM 1
@@ -4798,7 +4813,7 @@ HBO ABR 1
 HCR ABR 2
 HEC NAM 1
 HENRI NAM 1
-HLM ABR 40
+HLM ABR 42
 HN ABR 1
 HOMMES NOM 1
 HP ABR 2
@@ -4909,7 +4924,7 @@ Hirel NAM 1
 Hirson NAM 1
 Hislaire NAM 1
 Histoire NAM 1
-Histoire NOM 9
+Histoire NOM 10
 Historiquement ADV 1
 Hitler NAM 2
 Hleb NAM 1
@@ -5033,7 +5048,7 @@ Ier NUM 3
 Ifop ABR 1
 Ikea NAM 1
 Il NAM 1
-Il PRO:PER 597
+Il PRO:PER 598
 Ile-de-France NAM 11
 Ileau NAM 1
 Illoud NAM 1
@@ -5185,13 +5200,13 @@ Jaans NAM 1
 Jack NAM 4
 Jack-Yves NAM 1
 Jackie NAM 1
-Jacky NAM 2
+Jacky NAM 3
 Jacob NAM 3
 Jacobs NAM 2
 Jacomet NAM 1
 Jacou NAM 2
 Jacqueline NAM 3
-Jacques NAM 88
+Jacques NAM 98
 Jacques-Bailleurs NAM 1
 Jacquin NAM 4
 Jacquot NAM 1
@@ -5223,7 +5238,7 @@ Jean-Bedel NAM 2
 Jean-Benoit NAM 1
 Jean-Charles NAM 2
 Jean-Christophe NAM 1
-Jean-Claude NAM 43
+Jean-Claude NAM 49
 Jean-Cyrille NAM 1
 Jean-Daniel NAM 1
 Jean-François NAM 18
@@ -5239,7 +5254,7 @@ Jean-Michel NAM 6
 Jean-Moulin NAM 1
 Jean-Noël NAM 5
 Jean-Paul NAM 10
-Jean-Pierre NAM 24
+Jean-Pierre NAM 27
 Jean-René NAM 2
 Jean-Sébastien NAM 1
 Jean-Yves NAM 10
@@ -5444,7 +5459,7 @@ Kyubin NAM 1
 Kélian NAM 2
 Kéloglanian NAM 1
 Köhler NAM 1
-L' DET:ART 661
+L' DET:ART 665
 L. ABR 5
 LA ABR 1
 LA DET:ART 8
@@ -5473,7 +5488,7 @@ LTV ABR 17
 LUNDI NOM 3
 LUXEMBOURG NAM 2
 LYON NAM 2
-La DET:ART 1102
+La DET:ART 1105
 La PRO:PER 1
 Labarde NAM 1
 Labeyrie NAM 1
@@ -5553,7 +5568,7 @@ Lavinia NAM 1
 Lazard NAM 1
 Lazare NAM 1
 Lazaro NAM 1
-Le DET:ART 1291
+Le DET:ART 1298
 Lebaube NAM 1
 Lebel NAM 1
 Leblé NAM 2
@@ -5585,7 +5600,7 @@ Leonid NAM 1
 Lepicard NAM 1
 Lequel PRO:REL 1
 Leroy NAM 3
-Les DET:ART 955
+Les DET:ART 957
 Les PRO:PER 3
 Leser NAM 1
 Lesieur NAM 4
@@ -5615,7 +5630,8 @@ Libron NAM 1
 Libyan NAM 3
 Libye NAM 3
 Libéral ADJ 1
-Libération NAM 12
+Libération NAM 10
+Libération NOM 3
 Libéraux NOM 1
 Licences NOM 1
 Lien NOM 2
@@ -5682,6 +5698,7 @@ Long NAM 1
 Longtemps ADV 4
 Longue ADJ 1
 Longue NAM 1
+Longuet NAM 1
 Lonsdale NAM 1
 Loo NAM 1
 Looses NAM 1
@@ -5706,6 +5723,7 @@ Loudun NAM 12
 Louis NAM 40
 Louis-Pascal NAM 1
 Louise NAM 1
+Louise-Yvonne NAM 2
 Lourdes NAM 5
 Louron NAM 1
 Louts NOM 1
@@ -5742,7 +5760,7 @@ Lyon-Libération NAM 4
 Lyon-Turin NAM 1
 Lyonnais ADJ 1
 Lyonnais NAM 16
-Lyonnaise NAM 8
+Lyonnaise NAM 9
 Lyonnaise-Dumez NAM 4
 Lys NAM 2
 LÉGAL ADJ 1
@@ -5837,7 +5855,7 @@ Maintenant ADV 2
 Maintenue VER:pper 1
 Maintes ADJ 1
 Maire NAM 1
-Mairie NOM 3
+Mairie NOM 4
 Mais KON 375
 Maison NAM 9
 Maison NOM 1
@@ -6059,7 +6077,7 @@ Mezzogiorno NAM 1
 Mi-avril NOM 1
 Miami NAM 1
 Michael NAM 9
-Michel NAM 118
+Michel NAM 123
 Michel-Edouard NAM 1
 Michelin NAM 6
 Michigan NAM 3
@@ -6143,7 +6161,7 @@ Mon DET:POS 5
 Monaco NAM 3
 Monark NAM 1
 Monclain NAM 1
-Monde NAM 191
+Monde NAM 192
 Monde-Economie NAM 1
 Monde-l'économie NAM 1
 Mondes NAM 2
@@ -6270,7 +6288,7 @@ Ménétrez NAM 2
 Méridian NAM 1
 Méridien NAM 10
 Mérieux NAM 1
-Méry NAM 13
+Méry NAM 20
 Métamorphose NOM 1
 Météo NAM 1
 Météo-France NAM 1
@@ -6459,8 +6477,7 @@ Novembre NOM 2
 Noël NAM 19
 Nuevo-Leon NAM 1
 Nuit NOM 1
-Nul DET:ART 3
-Nul PRO:IND 3
+Nul PRO:IND 6
 Numéro NOM 1
 Nursultan NAM 1
 Nyrup NAM 1
@@ -6598,6 +6615,7 @@ Osse NAM 1
 Ossian NAM 1
 Ostdeutscher NAM 1
 Ostrava NAM 2
+Otis NAM 2
 Otso NAM 2
 Ou KON 11
 Ouattara NAM 1
@@ -6640,7 +6658,7 @@ PAS ADV 2
 PAS NOM 1
 PAYS-BAS NAM 1
 PC ABR 4
-PCF ABR 4
+PCF ABR 6
 PCV ABR 1
 PDG ABR 74
 PDO ABR 2
@@ -6675,6 +6693,7 @@ POUR PRP 3
 POURQUOI ADV 1
 POURRA VER:futu 1
 POUSSETTES NOM 1
+PR ABR 1
 PRAGUE NAM 1
 PRESTATIONS NOM 1
 PRET NOM 1
@@ -6686,7 +6705,7 @@ PROJET NOM 3
 PROMATT NAM 1
 PROMET VER:pres 1
 PROTESTATION NOM 1
-PS ABR 17
+PS ABR 21
 PSA ABR 7
 PSA-Citroën NAM 1
 PSA-Peugeot-Citroën NAM 1
@@ -6738,7 +6757,7 @@ Pareillement ADV 1
 Parfois ADV 4
 Paribas NAM 24
 Pariente NAM 3
-Paris NAM 283
+Paris NAM 288
 Paris-Bordeaux NAM 1
 Paris-Bâle NAM 1
 Paris-Dakar NAM 1
@@ -6757,7 +6776,7 @@ Parquet NOM 1
 Parretti NAM 6
 Partant VER:ppre 2
 Partex NAM 1
-Parti NAM 32
+Parti NAM 35
 Parti VER:pper 2
 Participant VER:ppre 1
 Particulièrement ADV 2
@@ -6854,6 +6873,7 @@ Peugeot NAM 20
 Peugeot-Citroën NAM 2
 Peut VER:pres 4
 Peut-être ADV 10
+Peybernès NAM 1
 Peylevade NAM 1
 Peyrelevade NAM 4
 Pfauwadel NAM 1
@@ -7000,7 +7020,7 @@ Prague NAM 3
 Prate NAM 1
 Pratiquant VER:ppre 1
 Premier NAM 1
-Premier NUM 15
+Premier NUM 16
 Première NUM 11
 Premièrement ADV 1
 Prenant VER:ppre 2
@@ -7060,6 +7080,7 @@ Propositions NOM 1
 Propria NAM 1
 Proprietary NAM 1
 Propriété NOM 1
+Protagonistes NOM 1
 Proton NAM 4
 Provence NAM 2
 Provençal NAM 6
@@ -7159,7 +7180,7 @@ Quesnot NAM 2
 Questiaux NAM 1
 Question NAM 1
 Question NOM 1
-Questionné VER:pper 1
+Questionné VER:pper 2
 Qui PRO:REL 15
 Quick NAM 1
 Quiconque PRO:IND 1
@@ -7188,7 +7209,7 @@ RDA ABR 15
 RECORD NOM 1
 REDRESSEMENT NOM 1
 REFUGE NOM 1
-REGIS NAM 1
+REGIS ABR 1
 REGROUPEMENT NOM 1
 REIMS NAM 1
 RELANCE NOM 1
@@ -7217,7 +7238,7 @@ ROSY NAM 1
 ROUTIERS NOM 1
 ROUTIÈRE ADJ 1
 ROYALTIES NOM 1
-RPR ABR 48
+RPR ABR 57
 RPR-UDF ABR 1
 RPR-UDF-UDC ABR 1
 RSF ABR 3
@@ -7255,6 +7276,7 @@ Rappelant VER:ppre 2
 Rarement ADV 2
 Ras-Laffan NAM 1
 Rasmussen NAM 1
+Rassemblement NOM 1
 Ratier-Figeac NAM 1
 Rationalité NOM 1
 Rattrapé VER:pper 1
@@ -7364,7 +7386,7 @@ Rhône NAM 5
 Rhône-Alpes NAM 3
 Rhône-Poulenc NAM 8
 Ribaud NAM 1
-Riberolles NAM 6
+Riberolles NAM 7
 Riboud NAM 7
 Ribéry NAM 1
 Ricard NAM 1
@@ -7442,7 +7464,7 @@ Round NAM 10
 Roussel-Uclaf NAM 1
 Rousselot NAM 3
 Rousset NAM 2
-Roussin NAM 9
+Roussin NAM 13
 Roux NAM 2
 Rovno NAM 2
 Rowntree NAM 1
@@ -7486,7 +7508,7 @@ Réduire VER:infi 2
 Réduite VER:pper 2
 Réformistes NOM 1
 Réfugié VER:pper 1
-Références NOM 11
+Références NOM 12
 Régie NAM 4
 Régionalement ADV 1
 Régis NAM 1
@@ -7498,7 +7520,7 @@ Rémy-Cointreau NAM 1
 Réole NAM 1
 Répondant VER:ppre 1
 Républicain NAM 2
-République NAM 58
+République NAM 59
 Républiques NOM 18
 Réputée VER:pper 1
 Réquisitoire NOM 1
@@ -7800,7 +7822,7 @@ Schreiber NAM 1
 Schreiner NAM 1
 Schroders NAM 1
 Schtroumpfs NAM 2
-Schuller NAM 19
+Schuller NAM 20
 Schuller-Maréchal NAM 3
 Schumacher NAM 1
 Schumpeter NAM 1
@@ -7837,7 +7859,7 @@ Seine-et-Marne NAM 1
 Seiters NAM 2
 Selenia NAM 1
 Sellier NAM 3
-Selon PRP 84
+Selon PRP 86
 Sema NAM 7
 Semaines NAM 3
 Semdim NAM 1
@@ -7878,7 +7900,7 @@ Seule ADJ 3
 Seule ADV 9
 Seulement ADV 3
 Seules ADV 4
-Seuls ADV 10
+Seuls ADV 11
 Seveso NAM 2
 Seychelles NAM 1
 Seydoux NAM 1
@@ -7913,6 +7935,7 @@ Signe NOM 6
 Signet NAM 1
 Signoles NAM 1
 Signé VER:pper 1
+Silence NAM 1
 Silla NAM 1
 Silver NAM 2
 Silvia NAM 1
@@ -7967,7 +7990,7 @@ Sogénor NAM 3
 Soir NAM 3
 Soirée NAM 1
 Soisson NAM 3
-Soit KON 4
+Soit KON 5
 Soixante-quinze NUM 1
 Solana NAM 1
 Sole-24 NAM 1
@@ -7979,7 +8002,7 @@ Solidarité NAM 2
 Solution NOM 1
 Solutions NAM 1
 Somalie NAM 1
-Somatem NAM 1
+Somatem NAM 3
 Sombart NAM 10
 Sombre ADJ 1
 Sommet NAM 1
@@ -8026,6 +8049,7 @@ Soyons VER:impe 1
 Sp ABR 1
 Speedo NAM 1
 Sphère NAM 3
+Spie-Batignolles NAM 1
 Spirou NAM 2
 Sport NAM 1
 Sportage NAM 1
@@ -8101,10 +8125,10 @@ Sud NAM 32
 Sud-Est NAM 19
 Sud-Ouest NAM 9
 Sud-est NAM 1
-Suez NAM 20
+Suez NAM 21
 Suffit VER:pres 2
 Suicide NOM 1
-Suisse NAM 19
+Suisse NAM 20
 Suisses NOM 1
 Suit VER:pres 1
 Suite NOM 2
@@ -8325,7 +8349,7 @@ Thionville NAM 1
 Thiriot NAM 3
 This DET:ART 1
 Tholy NAM 1
-Thomas NAM 11
+Thomas NAM 13
 Thomson NAM 53
 Thomson-Brandt NAM 1
 Thomson-CEA NAM 1
@@ -8443,7 +8467,7 @@ Triel NAM 1
 Triomphe NAM 1
 Tripoli NAM 2
 Triste ADJ 1
-Trois NUM 19
+Trois NUM 20
 Troisième NUM 3
 Troisièmement ADV 1
 Trop ADV 4
@@ -8504,7 +8528,7 @@ UIMM ABR 6
 UIR ABR 1
 UJJEF ABR 2
 ULN ABR 20
-UMP ABR 4
+UMP ABR 5
 UN DET:ART 44
 UNAT ABR 2
 UNC ABR 1
@@ -8531,7 +8555,7 @@ Uhrenbetrieb NAM 1
 Ukraine NAM 14
 Ukraine-Sud NAM 1
 Ultrafertile NAM 1
-Un DET:ART 246
+Un DET:ART 247
 Un NUM 5
 Une DET:ART 244
 Une NAM 2
@@ -8676,7 +8700,7 @@ Verrerie NAM 1
 Vers PRP 1
 Versailles NAM 1
 Vert NAM 4
-Verts NAM 1
+Verts NAM 2
 Very NAM 1
 Veszprem NAM 2
 Veut VER:pres 1
@@ -8744,7 +8768,7 @@ Vitré NAM 1
 Vittel NAM 1
 Vivant NAM 1
 Vive VER:subp 1
-Vivendi NAM 1
+Vivendi NAM 2
 Vivifiant VER:ppre 1
 Vivre NAM 1
 Vivre VER:infi 1
@@ -8928,14 +8952,14 @@ Zuchowicz NAM 1
 Zurich NAM 3
 Zygomusic NAM 1
 Zénith NAM 1
-[ PUN 33
-] PUN 33
+[ PUN 34
+] PUN 34
 ^ SYM 5
 _ PUN 1
 a DET:ART 1
 a NOM 1
 a PRP 15
-a VER:pres 2959
+a VER:pres 2965
 abaissa VER:simp 1
 abaissant VER:ppre 5
 abaissement NOM 10
@@ -9036,7 +9060,7 @@ abstraction NOM 2
 abstraire VER:infi 1
 absurde ADJ 3
 absurde NOM 2
-abus NOM 17
+abus NOM 18
 abuser VER:infi 2
 abusif ADJ 1
 abusifs ADJ 2
@@ -9177,7 +9201,7 @@ accusaient VER:impf 2
 accusait VER:impf 2
 accusant VER:ppre 2
 accusateur ADJ 1
-accusation NOM 8
+accusation NOM 9
 accusations NOM 1
 accuse VER:pres 3
 accusent VER:pres 3
@@ -9259,7 +9283,7 @@ acquittant VER:ppre 1
 acquitte VER:pres 2
 acquittent VER:pres 1
 acquitter VER:infi 2
-acquitté VER:pper 1
+acquitté VER:pper 2
 acquièrent VER:pres 1
 acquérant VER:ppre 2
 acquéreur NOM 5
@@ -9423,8 +9447,8 @@ affaiblir VER:infi 2
 affaiblis VER:pper 1
 affaiblissement NOM 1
 affaiblit VER:pres 2
-affaire NOM 133
-affaires NOM 232
+affaire NOM 138
+affaires NOM 233
 affairé ADJ 1
 affaisse VER:pres 1
 affamés VER:pper 1
@@ -9466,7 +9490,7 @@ affirmait VER:impf 7
 affirmant VER:ppre 6
 affirmation NOM 4
 affirmations NOM 1
-affirme VER:pres 29
+affirme VER:pres 30
 affirment VER:pres 12
 affirmer VER:infi 5
 affirmèrent VER:simp 1
@@ -9613,7 +9637,7 @@ aimerions VER:cond 1
 aimé VER:pper 1
 aimée VER:pper 1
 aincu ADJ 1
-ainsi ADV 186
+ainsi ADV 187
 ainsi KON 81
 air NOM 28
 air-bag NOM 15
@@ -9767,7 +9791,7 @@ allégé VER:pper 1
 allégée VER:pper 2
 allés VER:pper 4
 aloi NOM 1
-alors ADV 155
+alors ADV 156
 alors KON 144
 alourdir VER:infi 5
 alourdirait VER:cond 1
@@ -9827,7 +9851,7 @@ ambitionne VER:pres 3
 ambitions NOM 13
 ambulances NOM 1
 amena VER:simp 2
-amende NOM 28
+amende NOM 29
 amendement NOM 7
 amendements NOM 2
 amendes NOM 4
@@ -9927,7 +9951,7 @@ aménagent VER:pres 1
 aménager VER:infi 3
 aménagée VER:pper 2
 aménagés VER:pper 1
-américain ADJ 89
+américain ADJ 90
 américain NOM 11
 américaine ADJ 97
 américaine NOM 1
@@ -9959,7 +9983,7 @@ anarchiques ADJ 1
 anathèmes NOM 1
 ancestrale ADJ 1
 anchois NOM 1
-ancien ADJ 104
+ancien ADJ 108
 ancienne ADJ 27
 anciennement ADV 2
 anciennes ADJ 11
@@ -9970,7 +9994,7 @@ ancre NOM 1
 ancre VER:pres 1
 ancrée VER:pper 1
 ancrées VER:pper 1
-ancêtre NOM 1
+ancêtre NOM 2
 ancêtres NOM 1
 and KON 22
 andin ADJ 1
@@ -10043,7 +10067,7 @@ annonçant VER:ppre 10
 annonçons VER:pres 1
 annuaire NOM 1
 annuaires NOM 1
-annuel ADJ 42
+annuel ADJ 43
 annuelle ADJ 19
 annuellement ADV 3
 annuelles ADJ 10
@@ -10058,7 +10082,7 @@ annulées VER:pper 1
 annulés VER:pper 3
 année NOM 561
 année-record NOM 2
-années NOM 291
+années NOM 293
 anodine ADJ 1
 anodins ADJ 1
 anomalie NOM 1
@@ -10069,7 +10093,7 @@ anonymement ADV 1
 anonymes ADJ 2
 anonymes NOM 1
 anormal ADJ 3
-ans NOM 542
+ans NOM 544
 anser-anser NAM 1
 antan NOM 3
 antarctique NOM 1
@@ -10144,7 +10168,7 @@ apparaissait VER:impf 2
 apparaissant VER:ppre 2
 apparaissent VER:pres 11
 apparaitre VER:infi 1
-apparaît VER:pres 23
+apparaît VER:pres 24
 apparaîtra VER:futu 3
 apparaître VER:infi 19
 appareil NOM 17
@@ -10171,7 +10195,7 @@ appartenu VER:pper 3
 appartenue VER:pper 1
 appartiendra VER:futu 1
 appartiendrait VER:cond 1
-appartiennent VER:pres 6
+appartiennent VER:pres 7
 appartient VER:pres 12
 apparu VER:pper 9
 apparue VER:pper 1
@@ -10181,7 +10205,7 @@ appauvri VER:pper 1
 appauvrir VER:infi 2
 appauvrissement NOM 1
 appauvrit VER:pres 2
-appel NOM 75
+appel NOM 77
 appelaient VER:impf 3
 appelant VER:ppre 2
 appelations NOM 2
@@ -10375,7 +10399,7 @@ ardeur NOM 1
 ardoise NOM 5
 ardoisières NOM 1
 ardues ADJ 1
-argent NOM 80
+argent NOM 82
 argentier NOM 1
 argentiers NOM 4
 argentin ADJ 1
@@ -10432,7 +10456,7 @@ arrivai VER:simp 1
 arrivaient VER:impf 3
 arrivant VER:ppre 3
 arrivants NOM 1
-arrive VER:pres 23
+arrive VER:pres 24
 arrivent VER:pres 8
 arriver VER:infi 10
 arrivera VER:futu 3
@@ -10514,7 +10538,7 @@ as VER:pres 2
 ascendante ADJ 3
 ascendantes ADJ 1
 ascenseur NOM 1
-ascenseurs NOM 5
+ascenseurs NOM 6
 ascension NOM 15
 aseptisaient VER:impf 1
 aseptisé VER:pper 1
@@ -10539,7 +10563,7 @@ assaut NOM 5
 assauts NOM 3
 assemble VER:pres 1
 assemblé VER:pper 1
-assemblée NOM 29
+assemblée NOM 30
 assemblée-marathon NOM 1
 assemblées NOM 5
 assemblés VER:pper 2
@@ -10563,7 +10587,7 @@ assises NOM 5
 assises VER:pper 1
 assista VER:simp 2
 assistait VER:impf 1
-assistance NOM 13
+assistance NOM 14
 assistante NOM 2
 assistantes NOM 1
 assistants NOM 1
@@ -10572,7 +10596,7 @@ assistent VER:pres 1
 assister VER:infi 2
 assisterons VER:futu 1
 assisté NOM 1
-assisté VER:pper 9
+assisté VER:pper 10
 assistée VER:pper 3
 assistées VER:pper 2
 assistés NOM 1
@@ -10581,7 +10605,7 @@ assiégée VER:pper 1
 associant VER:ppre 6
 associates NOM 1
 associatif ADJ 1
-association NOM 41
+association NOM 42
 associations NOM 28
 associative ADJ 3
 associatives ADJ 1
@@ -10753,12 +10777,13 @@ attrayants ADJ 2
 attribuant VER:ppre 2
 attribue VER:pres 4
 attribuent VER:pres 3
-attribuer VER:infi 4
+attribuer VER:infi 5
 attributaire NOM 1
-attribution NOM 12
+attributaires ADJ 1
+attribution NOM 13
 attributions NOM 1
 attributs NOM 2
-attribué VER:pper 7
+attribué VER:pper 8
 attribuée VER:pper 3
 attribuées VER:pper 5
 attribués VER:pper 1
@@ -10770,7 +10795,7 @@ atténué VER:pper 4
 atténuées VER:pper 1
 atypique ADJ 2
 atypiques ADJ 1
-au PRP:det 2275
+au PRP:det 2280
 au-dehors ADV 1
 au-delà ADV 4
 au-delà PRP 31
@@ -10798,7 +10823,7 @@ audiovisuels ADJ 3
 audit NOM 4
 auditeur NOM 1
 auditeurs NOM 4
-audition NOM 4
+audition NOM 5
 auditionner VER:infi 1
 auditionné VER:pper 2
 auditions NOM 4
@@ -10918,24 +10943,24 @@ autoroutières ADJ 3
 autosubsistance NOM 1
 autosuffisance NOM 4
 autour PRP 55
-autre ADJ 174
+autre ADJ 175
 autre PRO:IND 74
 autrefois ADV 8
 autrement ADV 11
-autres ADJ 333
+autres ADJ 334
 autres PRO:IND 20
 autrichienne ADJ 1
 autrui PRO:IND 1
-aux PRP:det 1118
+aux PRP:det 1120
 auxiliaire ADJ 1
 auxiliaire NOM 1
 auxiliaires ADJ 1
 auxiliaires NOM 1
 auxquelles PRO:REL 8
 auxquels PRO:REL 19
-avaient VER:impf 141
+avaient VER:impf 143
 avais VER:impf 20
-avait VER:impf 494
+avait VER:impf 498
 aval NOM 6
 avalanche NOM 1
 avaleur NOM 1
@@ -10976,7 +11001,7 @@ avantageux ADJ 1
 avantagé VER:pper 1
 avares ADJ 1
 avatars NOM 1
-avec PRP 1042
+avec PRP 1045
 avenant NOM 2
 avenants NOM 2
 avenir NOM 68
@@ -11002,7 +11027,7 @@ aviation NOM 7
 avicole ADJ 2
 aviculture NOM 2
 aviez VER:impf 2
-avion NOM 12
+avion NOM 14
 avions NOM 16
 avions VER:impf 9
 avis NOM 27
@@ -11014,7 +11039,7 @@ avocat NOM 6
 avocate NOM 1
 avocats NOM 5
 avoir NOM 1
-avoir VER:infi 300
+avoir VER:infi 303
 avoirs NOM 5
 avoisinait VER:impf 2
 avoisinant VER:ppre 1
@@ -11041,7 +11066,7 @@ axes NOM 4
 axiome NOM 1
 axé VER:pper 1
 axée VER:pper 2
-ayant VER:ppre 86
+ayant VER:ppre 87
 ayatollah NOM 1
 ayez VER:subp 1
 azimuts NOM 4
@@ -11176,7 +11201,7 @@ barque NOM 1
 barques NOM 1
 barrage NOM 4
 barrages NOM 6
-barre NOM 12
+barre NOM 13
 barreau NOM 1
 barreaux NOM 1
 barrent VER:pres 1
@@ -11280,7 +11305,7 @@ bienfaisance NOM 1
 bienfaisants ADJ 1
 bienfait NOM 2
 bienfaits NOM 3
-biens NOM 72
+biens NOM 73
 bientôt ADV 30
 bienveillant ADJ 2
 bienveillante ADJ 1
@@ -11303,7 +11328,7 @@ bilingue ADJ 1
 bilingues ADJ 2
 billes NOM 2
 billet NOM 10
-billets NOM 7
+billets NOM 9
 billetterie NOM 2
 billettiste NOM 1
 bimestriel NOM 1
@@ -11536,7 +11561,7 @@ branches NOM 13
 branché VER:pper 1
 brandie VER:pper 1
 branle-bas NOM 1
-bras NOM 10
+bras NOM 11
 brasseries NOM 1
 brasseur NOM 1
 brassés VER:pper 1
@@ -11634,7 +11659,7 @@ brûler VER:infi 2
 brûleront VER:futu 1
 brûlé VER:pper 2
 bucolique ADJ 1
-budget NOM 86
+budget NOM 87
 budgets NOM 10
 budgétaire ADJ 55
 budgétaires ADJ 23
@@ -11670,7 +11695,7 @@ bâlois ADJ 1
 bât NOM 2
 bâti VER:pper 5
 bâtie VER:pper 1
-bâtiment NOM 33
+bâtiment NOM 34
 bâtiment-génie NOM 1
 bâtiments NOM 7
 bâtiments-relais NOM 1
@@ -11693,7 +11718,7 @@ bénéficiaires ADJ 7
 bénéficiaires NOM 17
 bénéficiait VER:impf 3
 bénéficiant VER:ppre 6
-bénéficie VER:pres 14
+bénéficie VER:pres 15
 bénéficient VER:pres 8
 bénéficier VER:infi 20
 bénéficiera VER:futu 7
@@ -11719,8 +11744,8 @@ c' PRO:DEM 330
 cabane NOM 4
 cabillaud NOM 1
 cabine NOM 3
-cabines NOM 2
-cabinet NOM 36
+cabines NOM 3
+cabinet NOM 37
 cabinets NOM 3
 cacao NOM 6
 cachait VER:impf 2
@@ -11926,6 +11951,7 @@ carrément ADV 2
 carrés ADJ 7
 cars NOM 1
 carte NOM 15
+cartel NOM 1
 cartes NOM 7
 cartons NOM 3
 cartoon VER:pres 1
@@ -11947,7 +11973,7 @@ casques NOM 1
 casquette NOM 1
 cassa NOM 2
 cassant VER:ppre 1
-cassation NOM 7
+cassation NOM 8
 casse VER:pres 1
 casse-tête NOM 1
 cassent VER:pres 1
@@ -12003,7 +12029,7 @@ cavale NOM 1
 cavalerie NOM 1
 cavalier NOM 1
 cavernes NOM 1
-ce PRO:DEM 1088
+ce PRO:DEM 1092
 ceci PRO:DEM 3
 ceindre VER:infi 1
 ceinte VER:pper 1
@@ -12079,7 +12105,7 @@ certifiés VER:pper 1
 certitude NOM 1
 certitudes NOM 1
 cerveau NOM 1
-ces PRO:DEM 487
+ces PRO:DEM 489
 cessa VER:simp 1
 cessait VER:impf 2
 cessant VER:ppre 1
@@ -12096,8 +12122,8 @@ cessibles ADJ 1
 cession NOM 32
 cessions NOM 4
 cessé VER:pper 20
-cet PRO:DEM 131
-cette PRO:DEM 746
+cet PRO:DEM 132
+cette PRO:DEM 749
 ceux PRO:DEM 143
 ceux-ci PRO:DEM 10
 chacun PRO:IND 65
@@ -12258,7 +12284,7 @@ chaut VER:pres 1
 chaîne NOM 105
 chaînes NOM 50
 check-list NOM 1
-chef NOM 49
+chef NOM 51
 chef-d'oeuvre NOM 2
 chef-lieu NOM 1
 chefs NOM 45
@@ -12417,7 +12443,7 @@ cimentière ADJ 1
 ciments NOM 10
 cimes NOM 3
 cimetière NOM 2
-cinq NUM 150
+cinq NUM 151
 cinquantaine NUM 10
 cinquante NUM 22
 cinquante-cinq NUM 6
@@ -12634,6 +12660,7 @@ collaboré VER:pper 2
 colle NOM 2
 collectant VER:ppre 1
 collecte NOM 10
+collecteur NOM 1
 collectif ADJ 6
 collectif NOM 4
 collectifs ADJ 8
@@ -12727,7 +12754,7 @@ commandité NOM 1
 commando NOM 1
 commandé VER:pper 2
 commandée VER:pper 1
-comme ADV 470
+comme ADV 471
 comme KON 156
 commence VER:pres 30
 commencent VER:pres 14
@@ -12746,7 +12773,7 @@ commentant VER:ppre 1
 commentateurs NOM 3
 commente VER:pres 9
 commenterait VER:cond 1
-commenté VER:pper 2
+commenté VER:pper 3
 commentée VER:pper 2
 commentées VER:pper 1
 commençaient VER:impf 1
@@ -12757,7 +12784,7 @@ commerce NOM 137
 commercer VER:infi 1
 commerces NOM 5
 commercial ADJ 49
-commerciale ADJ 44
+commerciale ADJ 45
 commercialement ADV 2
 commerciales ADJ 32
 commercialisant VER:ppre 1
@@ -12778,9 +12805,9 @@ commises VER:pper 4
 commissaire NOM 16
 commissaires NOM 5
 commissariat NOM 5
-commission NOM 63
+commission NOM 65
 commissionnaires NOM 1
-commissions NOM 30
+commissions NOM 33
 commode ADJ 3
 commodes ADJ 1
 commodité NOM 2
@@ -12904,7 +12931,7 @@ complété VER:pper 1
 complétée VER:pper 1
 comportait VER:impf 2
 comportant VER:ppre 6
-comporte VER:pres 12
+comporte VER:pres 13
 comportement NOM 12
 comportent VER:pres 3
 comporter VER:infi 1
@@ -12938,7 +12965,7 @@ compriment VER:pres 1
 comprimer VER:infi 3
 comprimées VER:pper 1
 compris VER:pper 63
-comprise VER:pper 6
+comprise VER:pper 7
 comprises VER:pper 5
 compromettent VER:pres 1
 compromettrait VER:cond 1
@@ -13008,7 +13035,7 @@ conceptions NOM 2
 concepts NOM 1
 concernant VER:ppre 32
 concernante ADJ 1
-concerne VER:pres 40
+concerne VER:pres 41
 concernent VER:pres 6
 concerner VER:infi 1
 concernera VER:futu 1
@@ -13125,6 +13152,7 @@ conduites VER:pper 4
 conduits VER:pper 6
 confection NOM 3
 confectionner VER:infi 1
+confessions NOM 1
 confetti NOM 1
 confettis NOM 1
 confiait VER:impf 2
@@ -13148,7 +13176,7 @@ confirmation NOM 7
 confirme VER:pres 20
 confirment VER:pres 3
 confirmer VER:infi 9
-confirmé VER:pper 22
+confirmé VER:pper 23
 confirmée VER:pper 7
 confirmées VER:pper 2
 confiserie NOM 2
@@ -13281,7 +13309,7 @@ consciencieux ADJ 1
 conscient ADJ 3
 consciente ADJ 4
 conscients ADJ 3
-conseil NOM 111
+conseil NOM 112
 conseillaient VER:impf 1
 conseillait VER:impf 2
 conseille VER:pres 1
@@ -13317,7 +13345,7 @@ conservera VER:futu 3
 conserverait VER:cond 2
 conserveront VER:futu 2
 conservé VER:pper 4
-conservés VER:pper 2
+conservés VER:pper 3
 considère VER:pres 17
 considèrent VER:pres 9
 considérable ADJ 21
@@ -13412,7 +13440,7 @@ constructeur NOM 37
 constructeurs NOM 54
 constructibles ADJ 1
 constructif ADJ 2
-construction NOM 71
+construction NOM 74
 constructions NOM 4
 construira VER:futu 2
 construire VER:infi 18
@@ -13576,7 +13604,7 @@ contrasté VER:pper 1
 contrastée VER:pper 1
 contrastées VER:pper 2
 contrastés VER:pper 1
-contrat NOM 78
+contrat NOM 79
 contrats NOM 48
 contrats-formation NOM 1
 contraventionnelles ADJ 1
@@ -13620,7 +13648,7 @@ contrepartiste NOM 1
 contrer VER:infi 3
 contrevenir VER:infi 1
 contribua VER:simp 1
-contribuable NOM 1
+contribuable NOM 2
 contribuables NOM 4
 contribuait VER:impf 1
 contribuant VER:ppre 2
@@ -13796,7 +13824,7 @@ corroborés VER:pper 1
 corrodée VER:pper 1
 corrompent VER:pres 1
 corruptibles ADJ 1
-corruption NOM 7
+corruption NOM 9
 corrélativement ADV 1
 corrézien ADJ 1
 corsent VER:pres 1
@@ -13916,7 +13944,7 @@ courûmes VER:simp 1
 cousin NOM 3
 cousins NOM 1
 coussins NOM 3
-couteau NOM 1
+couteau NOM 2
 coutume NOM 1
 coutumier NOM 1
 coutumière ADJ 1
@@ -14033,7 +14061,7 @@ criée NOM 1
 crocodile NOM 1
 crocodiles NOM 5
 croient VER:pres 5
-croire VER:infi 29
+croire VER:infi 30
 crois VER:pres 9
 croisance NOM 1
 croisement NOM 1
@@ -14231,7 +14259,7 @@ céleste ADJ 1
 célibataire ADJ 2
 célibataire NOM 1
 célèbre ADJ 13
-célèbres ADJ 2
+célèbres ADJ 3
 célébration NOM 3
 célébrer VER:infi 3
 célébrité NOM 1
@@ -14258,7 +14286,7 @@ côtoyant VER:ppre 1
 côté NOM 117
 côté VER:pper 1
 côtés NOM 16
-d' PRP 6045
+d' PRP 6068
 dactylographiée VER:pper 1
 dalles NOM 1
 dam NOM 1
@@ -14276,7 +14304,7 @@ danois ADJ 21
 danois NOM 1
 danoise ADJ 10
 danoises ADJ 1
-dans PRP 2439
+dans PRP 2444
 danse NOM 3
 dansent VER:pres 1
 danseuse NOM 1
@@ -14292,7 +14320,7 @@ datés VER:pper 1
 dauphin NOM 1
 dauphins NOM 1
 davantage ADV 48
-de PRP 22393
+de PRP 22454
 debout ADJ 1
 debt NOM 1
 dedans ADV 1
@@ -14318,7 +14346,7 @@ demandes NOM 20
 demandeur NOM 2
 demandeurs NOM 12
 demandez VER:pres 1
-demandé VER:pper 34
+demandé VER:pper 35
 demandée VER:pper 3
 demandées VER:pper 1
 demandés VER:pper 5
@@ -14350,7 +14378,7 @@ dentaire ADJ 1
 dentelées VER:pper 1
 dents NOM 1
 depuis ADV 11
-depuis PRP 486
+depuis PRP 487
 der PRP:det 1
 derechef ADV 2
 dernier ADJ 192
@@ -14363,7 +14391,7 @@ dernièrement ADV 1
 dernières ADJ 69
 dernières NOM 9
 derrière PRP 27
-des PRP:det 7111
+des PRP:det 7140
 descend VER:pres 1
 descendaient VER:impf 1
 descendait VER:impf 1
@@ -14417,7 +14445,7 @@ destin NOM 4
 destinait VER:impf 1
 destinataire NOM 1
 destinataires NOM 1
-destination NOM 13
+destination NOM 14
 destinations NOM 4
 destins NOM 1
 destiné VER:pper 29
@@ -14435,9 +14463,9 @@ deutschemark NOM 13
 deutschemarks NOM 20
 deutschen ADJ 1
 deux NUM 662
-deuxième NUM 72
-devaient VER:impf 21
-devait VER:impf 78
+deuxième NUM 73
+devaient VER:impf 22
+devait VER:impf 80
 devance VER:pres 1
 devancent VER:pres 1
 devancé VER:pper 1
@@ -14450,7 +14478,7 @@ devenait VER:impf 6
 devenir NOM 7
 devenir VER:infi 35
 devenu VER:pper 31
-devenue VER:pper 28
+devenue VER:pper 29
 devenues VER:pper 3
 devenus VER:pper 15
 deviendra VER:futu 5
@@ -14588,7 +14616,7 @@ directe ADJ 10
 directement ADV 42
 directes ADJ 7
 directeur ADJ 2
-directeur NOM 166
+directeur NOM 167
 directeur-fondateur NOM 1
 directeurs ADJ 16
 directeurs NOM 16
@@ -14606,7 +14634,7 @@ direz VER:futu 1
 dirham NOM 1
 dirhams NOM 1
 dirige VER:pres 10
-dirigeant NOM 11
+dirigeant NOM 13
 dirigeante ADJ 1
 dirigeante NOM 1
 dirigeantes ADJ 1
@@ -14615,7 +14643,7 @@ dirigeants NOM 70
 diriger VER:infi 4
 dirigez VER:impe 1
 dirigisme NOM 3
-dirigé VER:pper 11
+dirigé VER:pper 13
 dirigée VER:pper 12
 dirigées VER:pper 1
 dirigés VER:pper 3
@@ -14829,7 +14857,7 @@ dixit VER:pres 1
 dixième NUM 4
 dixièmes NOM 1
 dizaine NUM 23
-dizaines NUM 15
+dizaines NUM 16
 dizaï'n NOM 1
 dizaï'neur NOM 1
 dizaïgn VER:impe 1
@@ -14901,7 +14929,7 @@ données NOM 44
 données VER:pper 5
 donnés VER:pper 2
 dons NOM 1
-dont PRO:REL 499
+dont PRO:REL 502
 dopa VER:simp 1
 doper VER:infi 2
 dopé VER:pper 1
@@ -14917,7 +14945,7 @@ dos NOM 7
 dose NOM 4
 doser VER:infi 2
 doses NOM 1
-dossier NOM 50
+dossier NOM 54
 dossiers NOM 17
 dotation NOM 2
 dotations NOM 2
@@ -14957,8 +14985,8 @@ douloureuse ADJ 2
 douloureuses ADJ 4
 douloureux ADJ 7
 doutant VER:ppre 1
-doute NOM 105
-doute VER:pres 5
+doute NOM 102
+doute VER:pres 8
 doutent VER:pres 1
 douter VER:infi 8
 douterait VER:cond 1
@@ -14997,16 +15025,16 @@ dressé VER:pper 4
 dreyfusardes ADJ 1
 drogue NOM 2
 droguerie NOM 1
-droit ADJ 6
+droit ADJ 7
 droit ADV 4
 droit NOM 72
 droite ADJ 1
-droite NOM 35
+droite NOM 37
 droits NOM 56
 drolatiques ADJ 1
 drôle ADJ 1
 drôlerie NOM 1
-du PRP:det 4965
+du PRP:det 4983
 du VER:pper 1
 dualité NOM 1
 duc NOM 1
@@ -15043,7 +15071,7 @@ dureté NOM 1
 durillons NOM 1
 durs ADJ 6
 duré VER:pper 4
-durée NOM 111
+durée NOM 112
 durées NOM 5
 dus VER:pper 2
 dut VER:simp 1
@@ -15113,11 +15141,11 @@ décalage NOM 12
 décalages NOM 1
 décalé VER:pper 1
 décapitalisation NOM 1
-décembre NOM 432
+décembre NOM 433
 décemment ADV 1
 décennie NOM 14
 décennies NOM 8
-décentralisation NOM 7
+décentralisation NOM 8
 décentralisé VER:pper 1
 décentralisée VER:pper 2
 décentralisées VER:pper 1
@@ -15176,14 +15204,14 @@ déclamations NOM 1
 déclaraient VER:impf 1
 déclarait VER:impf 4
 déclarant VER:ppre 5
-déclaration NOM 14
+déclaration NOM 15
 déclarations NOM 29
 déclare VER:pres 15
 déclarent VER:pres 4
 déclarer VER:infi 4
 déclarera VER:futu 2
 déclarerait VER:cond 1
-déclaré VER:pper 70
+déclaré VER:pper 71
 déclarée VER:pper 1
 déclarées VER:pper 2
 déclarés VER:pper 6
@@ -15294,7 +15322,7 @@ décrétée VER:pper 1
 décuple NOM 1
 décèle VER:pres 1
 décès NOM 9
-décédé VER:pper 6
+décédé VER:pper 7
 décédée VER:pper 1
 décélération NOM 3
 dédaigner VER:infi 1
@@ -15691,7 +15719,7 @@ dérapage NOM 6
 dérapages NOM 7
 dérivant VER:ppre 1
 dérive NOM 6
-dérives NOM 1
+dérives NOM 2
 dérivés NOM 2
 dérivés VER:pper 1
 dérobade NOM 1
@@ -15822,7 +15850,7 @@ détachement NOM 2
 détacher VER:infi 1
 détachées VER:pper 9
 détachés VER:pper 4
-détail NOM 33
+détail NOM 34
 détaillait VER:impf 1
 détaillant VER:ppre 1
 détaillants NOM 4
@@ -15868,13 +15896,13 @@ détiendront VER:futu 3
 détiennent VER:pres 8
 détient VER:pres 28
 détour NOM 5
-détournement NOM 1
+détournement NOM 2
 détournements NOM 1
 détournent VER:pres 1
 détourner VER:infi 3
 détournée VER:pper 1
 détournées VER:pper 1
-détournés VER:pper 1
+détournés VER:pper 2
 détracteurs NOM 5
 détriment NOM 12
 détritiques ADJ 1
@@ -15943,7 +15971,7 @@ dîné VER:pper 3
 dû VER:pper 70
 dûment ADV 5
 eau NOM 53
-eaux NOM 48
+eaux NOM 51
 eaux-Dumez NAM 1
 effacer VER:infi 3
 effacé VER:pper 3
@@ -15960,7 +15988,7 @@ effectuait VER:impf 1
 effectuant VER:ppre 2
 effectue VER:pres 5
 effectuent VER:pres 4
-effectuer VER:infi 7
+effectuer VER:infi 8
 effectueront VER:futu 1
 effectué VER:pper 21
 effectuée VER:pper 10
@@ -16034,6 +16062,7 @@ embellie NOM 5
 embellies NOM 1
 embellies VER:pper 1
 emblée ADV 6
+emblématique ADJ 1
 embouchure NOM 1
 embouteillage NOM 1
 embouteillées VER:pper 1
@@ -16129,7 +16158,7 @@ empêtrée VER:pper 1
 empêtrés VER:pper 2
 en ABR 5
 en PRO:PER 448
-en PRP 5240
+en PRP 5256
 en-dessous PRP 2
 en-tête NOM 2
 encablures NOM 1
@@ -16231,7 +16260,7 @@ engagements NOM 23
 engagent VER:pres 7
 engager VER:infi 16
 engageraient VER:cond 2
-engagé VER:pper 26
+engagé VER:pper 27
 engagée VER:pper 26
 engagées VER:pper 9
 engagés VER:pper 3
@@ -16278,7 +16307,7 @@ ennui NOM 1
 ennuie VER:pres 3
 ennuis NOM 4
 enorgueillir VER:infi 1
-enquête NOM 83
+enquête NOM 84
 enquête VER:pres 5
 enquêter VER:infi 1
 enquêtes NOM 9
@@ -16397,13 +16426,13 @@ entraînant VER:ppre 7
 entraîne VER:pres 5
 entraînement NOM 5
 entraînent VER:pres 2
-entraîner VER:infi 10
+entraîner VER:infi 11
 entraînera VER:futu 3
 entraînerait VER:cond 4
 entraîneur NOM 1
 entraîné VER:pper 13
 entraînés VER:pper 2
-entre PRP 510
+entre PRP 514
 entre VER:pres 11
 entre-temps ADV 1
 entrecoupée VER:pper 1
@@ -16420,7 +16449,7 @@ entrepreunariat NOM 1
 entrepris VER:pper 9
 entreprise NOM 235
 entreprise VER:pper 1
-entreprises NOM 338
+entreprises NOM 341
 entreprises VER:pper 4
 entreprises-phares NOM 1
 entrepôt NOM 3
@@ -16432,7 +16461,7 @@ entretenir VER:infi 3
 entretenu VER:pper 6
 entretenue VER:pper 2
 entretenus VER:pper 1
-entretien NOM 28
+entretien NOM 29
 entretiennent VER:pres 2
 entretiens NOM 5
 entretient VER:pres 1
@@ -16567,7 +16596,7 @@ espoirs NOM 14
 esprit NOM 31
 esprits NOM 6
 espèce NOM 7
-espèces NOM 2
+espèces NOM 7
 espère VER:pres 30
 espèrent VER:pres 4
 espérait VER:impf 3
@@ -16619,7 +16648,7 @@ essuie VER:pres 1
 essuie-tout NOM 2
 essuyé VER:pper 1
 est NOM 19
-est VER:pres 3043
+est VER:pres 3048
 est-allemand ADJ 5
 est-allemande ADJ 3
 est-européen ADJ 1
@@ -16655,7 +16684,7 @@ estompent VER:pres 1
 estomper VER:infi 1
 estrade NOM 1
 estuaire NOM 1
-et KON 6720
+et KON 6738
 etc ABR 4
 etc. ABR 32
 ethnies NOM 1
@@ -16684,7 +16713,7 @@ européennes ADJ 47
 européennes NOM 2
 européens ADJ 68
 européens NOM 5
-euros NOM 17
+euros NOM 19
 eurosceptique ADJ 1
 eurosceptiques NOM 3
 eurovision NOM 1
@@ -16696,7 +16725,7 @@ eux PRO:PER 66
 eux-mêmes PRO:PER 12
 ex ADV 3
 ex PRP 2
-ex- ADV 92
+ex- ADV 96
 ex-officio ADJ 1
 exacerbation NOM 2
 exacerber VER:infi 1
@@ -16714,12 +16743,12 @@ exagérées VER:pper 2
 exagérément ADV 1
 exalte VER:pres 1
 exalter VER:infi 1
-examen NOM 38
+examen NOM 39
 examens NOM 2
 examina VER:simp 2
 examinant VER:ppre 1
 examine VER:pres 1
-examiner VER:infi 7
+examiner VER:infi 8
 examineront VER:futu 2
 examinons VER:pres 1
 examiné VER:pper 6
@@ -16868,8 +16897,8 @@ explication NOM 6
 explications NOM 4
 explicitement ADV 4
 explicites ADJ 1
-expliquait VER:impf 9
-expliquant VER:ppre 9
+expliquait VER:impf 10
+expliquant VER:ppre 10
 explique VER:pres 85
 expliquent VER:pres 15
 expliquer VER:infi 17
@@ -16973,7 +17002,7 @@ exsangues ADJ 1
 extensible ADJ 1
 extensification NOM 1
 extensifs ADJ 1
-extension NOM 14
+extension NOM 15
 extensions NOM 1
 extensive ADJ 2
 extermination NOM 1
@@ -17067,7 +17096,7 @@ factuels ADJ 1
 facturation NOM 1
 facturations NOM 1
 facture NOM 5
-factures NOM 10
+factures NOM 12
 faculté NOM 5
 facultés NOM 1
 fahr. ABR 1
@@ -17321,7 +17350,7 @@ filer VER:infi 3
 files NOM 1
 filets NOM 3
 filiale ADJ 1
-filiale NOM 103
+filiale NOM 105
 filiales ADJ 1
 filiales NOM 28
 filialisation NOM 7
@@ -17329,7 +17358,7 @@ filialisée VER:pper 1
 filiformes ADJ 1
 filière NOM 6
 filières NOM 8
-fille NOM 17
+fille NOM 18
 filles NOM 5
 film NOM 9
 filme VER:pres 1
@@ -17353,7 +17382,7 @@ finalité NOM 3
 finance NAM 4
 finance NOM 6
 finance VER:pres 1
-financement NOM 76
+financement NOM 79
 financements NOM 2
 financent VER:pres 4
 financer VER:infi 29
@@ -17364,9 +17393,9 @@ financier ADJ 61
 financier NOM 5
 financiers ADJ 91
 financiers NOM 8
-financière ADJ 94
+financière ADJ 96
 financièrement ADV 7
-financières ADJ 44
+financières ADJ 45
 financé VER:pper 6
 financée VER:pper 6
 financées VER:pper 2
@@ -17553,7 +17582,7 @@ fonder VER:infi 1
 fonderie NOM 3
 fonderies NOM 1
 fondre VER:infi 2
-fonds NOM 124
+fonds NOM 127
 fondu VER:pper 1
 fondé VER:pper 6
 fondée VER:pper 19
@@ -17722,7 +17751,7 @@ fragmentation NOM 1
 fragments NOM 1
 fragmenté VER:pper 1
 frais ADJ 12
-frais NOM 34
+frais NOM 35
 franc ADJ 2
 franc NOM 120
 franc-mark NOM 7
@@ -17743,7 +17772,7 @@ franchissement NOM 2
 franchissez VER:impe 1
 franchisés VER:pper 1
 franchit VER:pres 2
-francilien ADJ 1
+francilien ADJ 2
 francisation NOM 1
 franciser VER:infi 1
 franco-allemand ADJ 6
@@ -17760,14 +17789,14 @@ francophobie NOM 1
 francophone ADJ 6
 francophones ADJ 2
 francophones NOM 2
-francs NOM 967
+francs NOM 974
 frange NOM 1
 franglais NOM 1
-français ADJ 303
+français ADJ 304
 français NOM 24
-française ADJ 134
+française ADJ 136
 française NOM 3
-françaises ADJ 65
+françaises ADJ 66
 françaises NOM 2
 frappait VER:impf 1
 frappant VER:ppre 2
@@ -17905,7 +17934,7 @@ fustiger VER:infi 1
 fustigé VER:pper 1
 fusée NOM 2
 fusées NOM 1
-fut VER:simp 91
+fut VER:simp 92
 futur ADJ 16
 futur NOM 10
 future ADJ 13
@@ -17951,7 +17980,7 @@ féroce ADJ 2
 fétiche ADJ 2
 fétiches ADJ 1
 fétus NOM 1
-février NOM 58
+février NOM 59
 fêtaient VER:impf 1
 fête NOM 19
 fête VER:pres 1
@@ -18050,7 +18079,7 @@ gastronome NOM 1
 gastronomique ADJ 1
 gastronomiques ADJ 1
 gauche ADJ 1
-gauche NOM 34
+gauche NOM 36
 gauches NOM 2
 gaule NOM 1
 gaulliste ADJ 1
@@ -18151,7 +18180,7 @@ gonfleraient VER:cond 1
 gonflé VER:pper 1
 gonflée VER:pper 1
 gonflés VER:pper 1
-gorge NOM 2
+gorge NOM 3
 gosier NOM 1
 gospel NOM 1
 gosse NOM 1
@@ -18213,7 +18242,7 @@ grandissant VER:ppre 7
 grandissante VER:ppre 1
 grandissantes VER:ppre 2
 grandit VER:pres 2
-grands ADJ 106
+grands ADJ 109
 grands-parents NOM 4
 grange NOM 1
 granit NOM 6
@@ -18290,7 +18319,7 @@ grognes NOM 1
 gronde VER:pres 4
 gros ADJ 29
 gros NOM 9
-grosse ADJ 5
+grosse ADJ 6
 grosses ADJ 4
 grossie VER:pper 1
 grossir VER:infi 5
@@ -18303,10 +18332,10 @@ grotte NOM 3
 group NAM 4
 group NOM 7
 groupant VER:ppre 1
-groupe NOM 500
+groupe NOM 501
 groupement NOM 5
 groupements NOM 4
-groupes NOM 65
+groupes NOM 66
 groupée VER:pper 1
 grue NOM 1
 grues NOM 1
@@ -18373,7 +18402,7 @@ génisses NOM 1
 génère VER:pres 2
 général ADJ 176
 général NOM 43
-générale ADJ 93
+générale ADJ 94
 généralement ADV 25
 générales ADJ 14
 généralisation NOM 6
@@ -18818,7 +18847,7 @@ ignorent VER:pres 3
 ignorer VER:infi 6
 ignoré VER:pper 1
 ignorés VER:pper 1
-il PRO:PER 1391
+il PRO:PER 1395
 illettrisme NOM 1
 illicite ADJ 1
 illimitée ADJ 1
@@ -18837,7 +18866,7 @@ illustres ADJ 3
 illustré VER:pper 1
 illustrées VER:pper 1
 illustrés ADJ 1
-illégal ADJ 7
+illégal ADJ 8
 illégale ADJ 2
 illégalement ADV 2
 illégales ADJ 1
@@ -18872,7 +18901,7 @@ immensité NOM 5
 immerger VER:infi 1
 immergés VER:pper 1
 immeuble NOM 16
-immeubles NOM 21
+immeubles NOM 22
 immigration NOM 5
 immigrés NOM 4
 imminent ADJ 2
@@ -18896,7 +18925,7 @@ immondices NOM 1
 immortelle ADJ 1
 immuable ADJ 1
 immuables ADJ 1
-immunité NOM 4
+immunité NOM 5
 immédiat ADJ 7
 immédiat NOM 13
 immédiate ADJ 6
@@ -18935,7 +18964,7 @@ implications NOM 2
 implicite ADJ 1
 implicitement ADV 3
 impliquait VER:impf 3
-impliquant VER:ppre 5
+impliquant VER:ppre 6
 implique VER:pres 13
 impliquerait VER:cond 1
 impliqué VER:pper 4
@@ -18947,7 +18976,7 @@ impopulaires ADJ 1
 impopularité NOM 1
 import-export NOM 1
 importance NOM 42
-important ADJ 64
+important ADJ 65
 important NOM 5
 importante ADJ 43
 importantes ADJ 36
@@ -19078,7 +19107,7 @@ incapable ADJ 8
 incapables ADJ 2
 incapacité NOM 8
 incarcération NOM 1
-incarcéré VER:pper 2
+incarcéré VER:pper 3
 incarcérés VER:pper 1
 incarnant VER:ppre 1
 incarnent VER:pres 2
@@ -19554,12 +19583,12 @@ institutions NOM 17
 institutrice NOM 2
 instituts NOM 2
 institué VER:pper 1
-instruction NOM 26
+instruction NOM 29
 instructions NOM 1
 instruire VER:infi 3
 instruit VER:pper 2
 instruit VER:pres 1
-instruite VER:pper 2
+instruite VER:pper 3
 instrument NOM 7
 instrumentale ADJ 1
 instruments NOM 6
@@ -19643,7 +19672,7 @@ interministérielle ADJ 4
 interministériels ADJ 2
 intermède NOM 1
 intermédiaire ADJ 3
-intermédiaire NOM 14
+intermédiaire NOM 15
 intermédiaires ADJ 8
 intermédiaires NOM 19
 internat NAM 1
@@ -19679,7 +19708,7 @@ interprété VER:pper 1
 interprétée VER:pper 1
 interrogation NOM 1
 interrogations NOM 3
-interrogatoire NOM 1
+interrogatoire NOM 2
 interroge VER:pres 11
 interrogea VER:simp 1
 interrogeait VER:impf 1
@@ -19823,7 +19852,7 @@ inversée VER:pper 1
 investi VER:pper 8
 investies VER:pper 2
 investigation NOM 1
-investigations NOM 7
+investigations NOM 8
 investir VER:infi 26
 investira VER:futu 1
 investis VER:pper 6
@@ -19975,7 +20004,7 @@ jaillissent VER:pres 2
 jalousement ADV 1
 jalousies NOM 2
 jaloux ADJ 1
-jamais ADV 101
+jamais ADV 102
 jambe NOM 1
 jambes NOM 3
 janvier NOM 347
@@ -20087,16 +20116,16 @@ judicieux ADJ 2
 judo NOM 2
 judoka NOM 1
 judokas NOM 2
-juge NOM 49
+juge NOM 51
 juge VER:pres 12
 jugeaient VER:impf 1
 jugeait VER:impf 3
 jugeant VER:ppre 4
-jugement NOM 11
+jugement NOM 12
 jugements NOM 2
 jugent VER:pres 14
 juger VER:infi 10
-juges NOM 29
+juges NOM 30
 juguler VER:infi 1
 jugulée VER:pper 1
 jugé VER:pper 20
@@ -20132,7 +20161,7 @@ juste ADJ 21
 juste ADV 17
 justement ADV 8
 justes ADJ 1
-justice NOM 31
+justice NOM 32
 justifiant VER:ppre 1
 justification NOM 1
 justifications NOM 1
@@ -20166,9 +20195,9 @@ koweïtiens ADJ 2
 krach NOM 4
 kurde ADJ 2
 kérosène NOM 1
-l' DET:ART 7869
+l' DET:ART 7882
 l' PRO:PER 213
-la DET:ART 10805
+la DET:ART 10824
 la NOM 1
 la PRO:PER 74
 label NOM 5
@@ -20296,7 +20325,7 @@ laxiste NOM 1
 laïcisant VER:ppre 1
 laïcs NOM 2
 laïques ADJ 1
-le DET:ART 7017
+le DET:ART 7033
 le PRO:PER 241
 leader NOM 14
 leader-ship NOM 1
@@ -20320,7 +20349,7 @@ lenticulaire ADJ 1
 lentilles NOM 1
 lents ADJ 1
 lequel PRO:REL 35
-les DET:ART 6647
+les DET:ART 6661
 les PRO:PER 126
 lesdites PRO:DEM 2
 lesdits PRO:DEM 3
@@ -20331,10 +20360,10 @@ lessives NOM 2
 lestement ADV 1
 lettre NOM 20
 lettres NOM 8
-leur DET:POS 554
+leur DET:POS 555
 leur PRO:PER 88
 leur PRO:POS 2
-leurs DET:POS 479
+leurs DET:POS 480
 leurs PRO:POS 2
 levant VER:ppre 1
 lever VER:infi 6
@@ -20391,7 +20420,7 @@ licenciés NOM 2
 licenciés VER:pper 1
 lie VER:infi 1
 lie VER:pres 1
-lien NOM 7
+lien NOM 8
 liens NOM 15
 lier VER:infi 2
 lies NOM 1
@@ -20437,7 +20466,7 @@ lionceau NOM 1
 liqueur NOM 1
 liquidateurs NOM 1
 liquidation NOM 21
-liquide ADJ 11
+liquide ADJ 12
 liquide NOM 1
 liquide VER:pres 1
 liquider VER:infi 4
@@ -20525,13 +20554,13 @@ locaux NOM 14
 locomotive NOM 2
 locomotives NOM 1
 locution NOM 1
-loge NOM 3
+loge NOM 4
 loge VER:pres 1
 logement NOM 50
 logements NOM 31
 logements-passerelles NOM 1
 loger VER:infi 5
-loges NOM 3
+loges NOM 4
 logiciel NOM 5
 logiciels NOM 6
 logique ADJ 7
@@ -20549,7 +20578,7 @@ lointain ADJ 3
 lointaine ADJ 2
 lointaines ADJ 3
 lointains NOM 1
-lois NOM 12
+lois NOM 13
 loisir NOM 5
 loisirs NOM 16
 loix NOM 1
@@ -20576,11 +20605,11 @@ lorgnent VER:pres 1
 lorrain ADJ 1
 lorraine ADJ 1
 lorraines ADJ 1
-lors ADV 126
-lorsqu' KON 35
+lors ADV 127
+lorsqu' KON 36
 lorsque KON 51
 losange NOM 2
-lot NOM 5
+lot NOM 6
 loterie NOM 1
 loties VER:pper 1
 lotissement NOM 1
@@ -20626,7 +20655,7 @@ lue VER:pper 2
 lues VER:pper 1
 lueurs NOM 2
 lugubre ADJ 1
-lui PRO:PER 281
+lui PRO:PER 284
 lui-même PRO:PER 25
 luminaires NOM 1
 lumineux ADJ 1
@@ -20656,7 +20685,7 @@ luxuriante ADJ 1
 luzules NOM 1
 lycée NOM 2
 lycéens NOM 1
-lycées NOM 2
+lycées NOM 7
 lynchage NOM 1
 lyonnais ADJ 36
 lyonnaise ADJ 2
@@ -20756,7 +20785,7 @@ magnétoscopes NOM 4
 magouilles NOM 1
 magrets NOM 1
 magyare ADJ 1
-mai NOM 134
+mai NOM 135
 maigre ADJ 4
 maigres ADJ 1
 maillage NOM 2
@@ -20774,7 +20803,7 @@ mains NOM 15
 maint PRO:IND 1
 maintenaient VER:impf 1
 maintenait VER:impf 2
-maintenance NOM 7
+maintenance NOM 8
 maintenant ADV 57
 maintenant VER:ppre 6
 maintenir VER:infi 33
@@ -20788,8 +20817,8 @@ maintiennent VER:pres 3
 maintient VER:pres 9
 maire NOM 42
 maires NOM 9
-mairie NOM 16
-mais KON 595
+mairie NOM 17
+mais KON 596
 mais NOM 1
 maison NOM 39
 maison-mère NOM 2
@@ -20869,7 +20898,7 @@ managers NOM 7
 managériales ADJ 1
 mandant NOM 5
 mandants NOM 2
-mandat NOM 23
+mandat NOM 24
 mandataire ADJ 1
 mandataires ADJ 4
 mandataires NOM 6
@@ -20958,9 +20987,9 @@ marche NOM 17
 marche VER:pres 4
 marchent VER:pres 1
 marchepied NOM 1
-marché NOM 485
+marché NOM 490
 marché VER:pper 9
-marchés NOM 132
+marchés NOM 139
 mardi NOM 134
 marge NOM 23
 marges NOM 18
@@ -21083,6 +21112,7 @@ maximum ADJ 6
 maximum NOM 22
 maçonnerie NOM 1
 maçonnique ADJ 2
+maçonniques ADJ 2
 maçons NOM 1
 maître NOM 6
 maître-nageur NOM 1
@@ -21156,7 +21186,7 @@ menu NOM 5
 menus ADJ 1
 mené VER:pper 14
 menée VER:pper 24
-menées VER:pper 12
+menées VER:pper 13
 menés VER:pper 3
 mer NOM 25
 merchant NOM 1
@@ -21257,13 +21287,13 @@ mille-feuille NOM 1
 milles NOM 1
 milliard NOM 99
 milliardaire NOM 4
-milliards NOM 631
+milliards NOM 633
 millier NOM 6
 milliers NOM 15
 millimètre NOM 1
 millimètres NOM 1
 million NOM 63
-millions NOM 611
+millions NOM 620
 millénaire NOM 1
 millésime NOM 2
 mimétisme NOM 1
@@ -21300,7 +21330,7 @@ minimisé VER:pper 1
 minimum ADJ 18
 minimum NOM 24
 minimum-vieillesse NOM 1
-ministre NOM 306
+ministre NOM 308
 ministre-président NOM 1
 ministres NOM 66
 ministère NOM 82
@@ -21338,9 +21368,9 @@ mirobolants ADJ 1
 miroir NOM 1
 miroirs NOM 3
 miroiter VER:infi 2
-mis VER:pper 115
+mis VER:pper 116
 mise NOM 109
-mise VER:pper 25
+mise VER:pper 26
 mise VER:pres 1
 misent VER:pres 1
 miser VER:infi 1
@@ -21441,7 +21471,7 @@ moindres NOM 1
 moines NOM 1
 moins ADV 364
 moins-values NOM 2
-mois NOM 489
+mois NOM 491
 moitié ADV 4
 moitié NOM 74
 moitié-moitié NOM 1
@@ -21490,14 +21520,14 @@ montagne NOM 12
 montagnes NOM 24
 montai VER:simp 1
 montait VER:impf 4
-montant NOM 72
+montant NOM 74
 montant VER:ppre 1
 montantes ADJ 1
-montants NOM 1
+montants NOM 3
 montbéliardais ADJ 1
 monte VER:pres 5
 monte-matériaux NOM 1
-montent VER:pres 9
+montent VER:pres 10
 monter VER:infi 20
 monterait VER:cond 1
 montgolfière NOM 1
@@ -21512,7 +21542,7 @@ montrer VER:infi 19
 montrerait VER:cond 1
 montres NOM 3
 montrèrent VER:simp 1
-montré VER:pper 20
+montré VER:pper 21
 montrée VER:pper 1
 montrées VER:pper 1
 montrés VER:pper 4
@@ -21580,7 +21610,7 @@ motions NOM 1
 motivant ADJ 1
 motivation NOM 1
 motiver VER:infi 1
-motivé VER:pper 2
+motivé VER:pper 3
 motivée VER:pper 2
 motivés VER:pper 2
 moto NOM 4
@@ -21864,7 +21894,7 @@ mômes NOM 2
 mûr ADJ 1
 mûs VER:pper 1
 n ABR 9
-n' ADV 1242
+n' ADV 1247
 n88-70 NAM 1
 naguère ADV 9
 nain NOM 2
@@ -21934,7 +21964,7 @@ naître VER:infi 2
 naïf ADJ 1
 naïve ADJ 1
 naïveté NOM 2
-ne ADV 1254
+ne ADV 1257
 neige NOM 9
 neiges NOM 7
 nerveuse ADJ 1
@@ -22071,7 +22101,7 @@ notaient VER:impf 1
 notaire NOM 3
 notaires NOM 4
 notait VER:impf 3
-notamment ADV 238
+notamment ADV 239
 notation NOM 7
 note NOM 19
 note VER:pres 32
@@ -22296,7 +22326,7 @@ obtenu VER:pper 27
 obtenue VER:pper 3
 obtenues VER:pper 1
 obtenus VER:pper 8
-obtiendra VER:futu 1
+obtiendra VER:futu 2
 obtiendrait VER:cond 1
 obtiendrons VER:futu 1
 obtiennent VER:pres 3
@@ -22319,9 +22349,9 @@ occidentale ADJ 12
 occidentales ADJ 6
 occidentaux ADJ 14
 occlusion NOM 1
-occulte ADJ 2
+occulte ADJ 4
 occulte VER:pres 1
-occultes ADJ 7
+occultes ADJ 9
 occupa VER:simp 2
 occupait VER:impf 5
 occupant VER:ppre 1
@@ -22377,6 +22407,7 @@ officielles ADJ 8
 officiels ADJ 7
 officier NOM 2
 officiers NOM 12
+officieuse ADJ 1
 officieusement ADV 1
 officines NOM 1
 offrait VER:impf 3
@@ -22384,7 +22415,7 @@ offrant VER:ppre 5
 offre NOM 76
 offre VER:pres 15
 offrent VER:pres 7
-offres NOM 28
+offres NOM 30
 offrir VER:infi 18
 offrira VER:futu 2
 offrons VER:pres 1
@@ -22428,7 +22459,7 @@ ondes NOM 2
 ondulations NOM 1
 ondulés VER:pper 1
 ongles NOM 1
-ont VER:pres 1197
+ont VER:pres 1200
 onuso-américaine ADJ 1
 onze NUM 24
 onzième NUM 3
@@ -22448,7 +22479,7 @@ opportunité NOM 1
 opportunités NOM 1
 opportunément ADV 1
 opposaient VER:impf 1
-opposait VER:impf 5
+opposait VER:impf 6
 opposant VER:ppre 2
 opposants NOM 2
 oppose VER:pres 10
@@ -22546,7 +22577,7 @@ organisons VER:impe 1
 organisé VER:pper 18
 organisée VER:pper 20
 organisées VER:pper 4
-organisés VER:pper 3
+organisés VER:pper 4
 orge NOM 1
 orgueil NOM 1
 orgueilleuse ADJ 1
@@ -22591,7 +22622,7 @@ ostensiblement ADV 1
 osé VER:pper 2
 otage NOM 1
 otages NOM 2
-ou KON 822
+ou KON 823
 oubli NOM 2
 oubliait VER:impf 1
 oubliant VER:ppre 1
@@ -22663,7 +22694,7 @@ pages NOM 28
 pagination NOM 1
 paie NOM 4
 paie VER:pres 5
-paiement NOM 20
+paiement NOM 21
 paiements NOM 14
 paient VER:pres 3
 paiera VER:futu 2
@@ -22727,7 +22758,7 @@ papillon NOM 1
 paquebot NOM 1
 paquebots NOM 4
 paquet NOM 2
-par PRP 2651
+par PRP 2662
 par-delà PRP 1
 par-dessus PRP 1
 para- ADV 1
@@ -22778,7 +22809,7 @@ paraîtra VER:futu 2
 paraîtraient VER:cond 1
 paraître VER:infi 10
 parc NOM 27
-parce KON 72
+parce KON 73
 parcelle NOM 2
 parcelles NOM 1
 parcellisation NOM 1
@@ -22825,7 +22856,7 @@ paris NAM 1
 parisien ADJ 14
 parisienne ADJ 16
 parisiennes ADJ 5
-parisiens ADJ 8
+parisiens ADJ 9
 paritaire ADJ 2
 paritaires ADJ 2
 parity NOM 2
@@ -22870,7 +22901,7 @@ parrainage NOM 1
 parraine VER:pres 1
 pars VER:pres 1
 parsemés VER:pper 1
-part NOM 217
+part NOM 219
 part VER:pres 6
 partage NOM 23
 partage VER:pres 7
@@ -22881,7 +22912,7 @@ partager VER:infi 10
 partagé VER:pper 3
 partagée VER:pper 6
 partagées VER:pper 1
-partagés VER:pper 1
+partagés VER:pper 2
 partait VER:impf 1
 partant ADJ 1
 partant NOM 1
@@ -22914,7 +22945,7 @@ participera VER:futu 1
 participeraient VER:cond 1
 participeront VER:futu 3
 participèrent VER:simp 1
-participé VER:pper 9
+participé VER:pper 10
 particularisme NOM 1
 particularité NOM 3
 particularités NOM 2
@@ -22934,9 +22965,9 @@ partiellement ADV 12
 partielles ADJ 2
 partiels ADJ 1
 parties NOM 23
-partir VER:infi 112
+partir VER:infi 113
 partiront VER:futu 1
-partis NOM 17
+partis NOM 22
 partis VER:pper 1
 partis VER:simp 1
 partisan ADJ 1
@@ -22964,7 +22995,7 @@ parviennent VER:pres 5
 parvient VER:pres 3
 parvins VER:simp 1
 paré ADJ 1
-pas ADV 1507
+pas ADV 1511
 pas NOM 20
 passa VER:simp 3
 passablement ADV 2
@@ -23028,7 +23059,7 @@ patience NOM 1
 patinage NOM 1
 patriarche NOM 1
 patrie NOM 1
-patrimoine NOM 17
+patrimoine NOM 18
 patrimoines NOM 1
 patrimoniale ADJ 3
 patrimoniales ADJ 1
@@ -23039,7 +23070,7 @@ patronale ADJ 7
 patronales ADJ 12
 patronat NOM 33
 patronaux ADJ 7
-patrons NOM 21
+patrons NOM 22
 patrouiller VER:infi 2
 patrouilles NOM 1
 patrouilleur NOM 1
@@ -23081,7 +23112,7 @@ paysans ADJ 3
 paysans NOM 30
 payé VER:pper 15
 payée VER:pper 4
-payés VER:pper 12
+payés VER:pper 14
 pc ABR 1
 peau NOM 2
 peaufine VER:pres 1
@@ -23105,7 +23136,7 @@ penchera VER:futu 1
 pencheront VER:futu 1
 penchés VER:pper 1
 pendant NOM 2
-pendant PRP 101
+pendant PRP 102
 pensaient VER:impf 1
 pensais VER:impf 3
 pensait VER:impf 4
@@ -23197,6 +23228,7 @@ permissivité NOM 1
 permit VER:simp 3
 permutations NOM 1
 pernicieux ADJ 1
+peronnellement ADV 1
 perpendiculaire ADJ 2
 perpendiculairement ADV 1
 perpendiculaires ADJ 2
@@ -23288,7 +23320,7 @@ pessimistes ADJ 3
 pessimistes NOM 2
 pesticides NOM 2
 pesé VER:pper 7
-petit ADJ 54
+petit ADJ 55
 petit-fils NOM 1
 petite ADJ 49
 petites ADJ 34
@@ -23296,7 +23328,7 @@ petits ADJ 51
 petits NOM 8
 petits-enfants NOM 2
 peton NOM 1
-peu ADV 322
+peu ADV 323
 peuplaient VER:impf 1
 peuple NOM 7
 peuplement NOM 1
@@ -23307,7 +23339,7 @@ peuplée VER:pper 1
 peur NOM 17
 peut VER:pres 245
 peut-être ADV 63
-peuvent VER:pres 75
+peuvent VER:pres 76
 peux VER:pres 3
 pfennigs NOM 1
 phare NOM 4
@@ -23547,10 +23579,10 @@ pluriannuelle ADJ 1
 pluriannuels ADJ 2
 pluriel NOM 2
 plurifonctionnalité NOM 1
-plus ADV 1843
+plus ADV 1845
 plus-value NOM 12
 plus-values NOM 12
-plusieurs PRO:IND 140
+plusieurs PRO:IND 144
 plut VER:pper 1
 plutôt ADV 70
 pluviales ADJ 1
@@ -23601,12 +23633,12 @@ policé ADJ 1
 polis ADJ 2
 politesse NOM 1
 politiciens NOM 1
-politico- ADV 4
+politico- ADV 7
 politico-financiers ADJ 1
-politique ADJ 90
+politique ADJ 91
 politique NOM 231
 politiquement ADV 6
-politiques ADJ 70
+politiques ADJ 72
 politiques NOM 34
 politologue NOM 1
 polka NOM 1
@@ -23673,7 +23705,7 @@ portait VER:impf 4
 portant VER:ppre 23
 portants NOM 1
 porte NOM 18
-porte VER:pres 39
+porte VER:pres 40
 porte-clés NOM 1
 porte-monnaie NOM 1
 porte-parole NOM 23
@@ -23718,7 +23750,7 @@ poserait VER:cond 1
 poseurs NOM 1
 positif ADJ 19
 positifs ADJ 5
-position NOM 47
+position NOM 48
 positionnement NOM 2
 positionner VER:infi 1
 positions NOM 18
@@ -23747,7 +23779,7 @@ poster VER:infi 1
 posteriori ADV 2
 posters NOM 1
 postes NOM 49
-posthumes ADJ 1
+posthumes ADJ 2
 postiers NOM 1
 postulats NOM 1
 postule VER:pres 1
@@ -23789,7 +23821,7 @@ poulet NOM 2
 poulets NOM 1
 poupe NOM 2
 poupin ADJ 1
-pour PRP 2756
+pour PRP 2764
 pourcentage NOM 21
 pourfendre VER:infi 1
 pourparlers NOM 8
@@ -23845,7 +23877,7 @@ poussées VER:pper 1
 poussés VER:pper 1
 pouvaient VER:impf 12
 pouvais VER:impf 2
-pouvait VER:impf 30
+pouvait VER:impf 31
 pouvant VER:ppre 11
 pouviez VER:impf 1
 pouvions VER:impf 2
@@ -23881,7 +23913,7 @@ premier NUM 357
 premiers NUM 99
 première NUM 187
 premières ADJ 21
-premières NUM 31
+premières NUM 32
 prenaient VER:impf 1
 prenait VER:impf 4
 prenant VER:ppre 11
@@ -24045,7 +24077,7 @@ prochains ADJ 26
 proche ADJ 35
 proche NOM 3
 proches ADJ 8
-proches NOM 8
+proches NOM 9
 proclamaient VER:impf 1
 proclament VER:pres 1
 proclamer VER:infi 1
@@ -24058,14 +24090,14 @@ procure VER:pres 2
 procurent VER:pres 1
 procurer VER:infi 9
 procureront VER:futu 1
-procureur NOM 9
+procureur NOM 10
 procuré VER:pper 2
 procurée VER:pper 1
 procurés VER:pper 1
 procède VER:pres 4
 procèdent VER:pres 1
 procès NOM 19
-procès-verbal NOM 1
+procès-verbal NOM 2
 procéda VER:simp 1
 procédaient VER:impf 1
 procédant VER:ppre 1
@@ -24293,7 +24325,7 @@ propriété NOM 33
 propriétés NOM 6
 propulsa VER:simp 1
 propulsion NOM 2
-prorata NOM 1
+prorata NOM 2
 proscrire VER:infi 1
 prospectent VER:pres 1
 prospecter VER:infi 1
@@ -24307,7 +24339,7 @@ prospèrent VER:pres 1
 prospères ADJ 3
 prospérer VER:infi 1
 prospérité NOM 11
-protagonistes NOM 9
+protagonistes NOM 10
 protecteur ADJ 1
 protection NOM 33
 protectionnisme NOM 7
@@ -24344,6 +24376,7 @@ prouvées VER:pper 1
 provenaient VER:impf 1
 provenance NOM 14
 provenant VER:ppre 12
+provenir VER:infi 1
 provençale ADJ 1
 provençales ADJ 1
 proverbe NOM 2
@@ -24351,7 +24384,7 @@ provided VER:pper 1
 proviendra VER:futu 2
 proviendraient VER:cond 1
 proviennent VER:pres 6
-provient VER:pres 5
+provient VER:pres 6
 province NOM 16
 provinces NOM 4
 provincial ADJ 1
@@ -24500,7 +24533,7 @@ préjuger VER:infi 1
 préjugés NOM 2
 prélever VER:infi 1
 préleveurs NOM 1
-prélevé VER:pper 1
+prélevé VER:pper 2
 prélevée VER:pper 1
 prélevées VER:pper 2
 prélevés VER:pper 1
@@ -24550,7 +24583,7 @@ préretraites NOM 7
 prérogatives NOM 6
 prés NOM 1
 présager VER:infi 3
-présence NOM 36
+présence NOM 37
 présent ADJ 17
 présent NOM 38
 présentait VER:impf 4
@@ -24582,7 +24615,7 @@ préservés VER:pper 3
 présidaient VER:impf 1
 préside VER:pres 10
 présidence NOM 40
-président NOM 324
+président NOM 326
 président-secrétaire NOM 1
 présidente NOM 5
 présidentiel ADJ 1
@@ -24677,7 +24710,7 @@ psychologiques ADJ 2
 psychologues NOM 2
 psychose NOM 1
 ptt ABR 1
-pu VER:pper 96
+pu VER:pper 97
 pub NOM 4
 pub-info NOM 1
 publiait VER:impf 3
@@ -24689,7 +24722,7 @@ publicitaire ADJ 19
 publicitaires ADJ 16
 publicité NOM 31
 publicités NOM 2
-publics ADJ 142
+publics ADJ 145
 publics NOM 2
 publie VER:pres 6
 publient VER:pres 1
@@ -24704,7 +24737,7 @@ publiquement ADV 4
 publiques ADJ 51
 publié VER:pper 43
 publiée VER:pper 12
-publiées VER:pper 12
+publiées VER:pper 13
 publiés VER:pper 12
 puces NOM 5
 pudeur NOM 1
@@ -24723,7 +24756,7 @@ puissant ADJ 7
 puissante ADJ 7
 puissantes ADJ 3
 puissants ADJ 6
-puisse VER:subp 14
+puisse VER:subp 15
 puissent VER:subp 5
 puisé VER:pper 2
 puits NOM 6
@@ -24778,7 +24811,7 @@ pédagogiques ADJ 2
 pédiatrie NOM 1
 pélagiques ADJ 1
 pénal ADJ 6
-pénale ADJ 7
+pénale ADJ 8
 pénales ADJ 3
 pénalisant VER:ppre 1
 pénalisantes ADJ 1
@@ -24816,7 +24849,7 @@ périlleux ADJ 2
 périls NOM 3
 périmètre NOM 1
 périmètres NOM 1
-période NOM 95
+période NOM 96
 périodes NOM 16
 périodiquement ADV 2
 périodiques ADJ 3
@@ -24857,7 +24890,7 @@ pôle NOM 2
 pôles NOM 4
 qatarie ADJ 1
 qu' ADV 138
-qu' KON 814
+qu' KON 815
 qu' PRO:REL 299
 qua NOM 2
 quadrangulaire ADJ 1
@@ -24923,8 +24956,8 @@ quatre-vingt-quinze NUM 1
 quatre-vingts NUM 7
 quatrième NUM 27
 que ADV 245
-que KON 2082
-que PRO:REL 367
+que KON 2088
+que PRO:REL 368
 quel PRO:REL 23
 quelconque ADJ 2
 quelle PRO:REL 8
@@ -24946,7 +24979,7 @@ questionnent VER:pres 1
 questions NOM 19
 questions-clés NOM 1
 queue NOM 2
-qui PRO:REL 2659
+qui PRO:REL 2665
 qui-vive NOM 1
 quiconque PRO:IND 1
 quidam NOM 1
@@ -24954,7 +24987,7 @@ quincaillerie NOM 1
 quinquennat NOM 1
 quintuple NOM 1
 quinzaine NOM 13
-quinze NUM 33
+quinze NUM 34
 quinzième NUM 1
 quittait VER:impf 1
 quittant VER:ppre 3
@@ -25004,7 +25037,8 @@ rachetés VER:pper 2
 rachète VER:pres 4
 rachèterait VER:cond 1
 racines NOM 4
-racontait VER:impf 1
+racket NOM 1
+racontait VER:impf 2
 raconte VER:pres 9
 raconter VER:infi 3
 radars NOM 1
@@ -25278,7 +25312,7 @@ recevait VER:impf 2
 recevant VER:ppre 5
 recevoir NOM 1
 recevoir VER:infi 12
-recevra VER:futu 6
+recevra VER:futu 7
 recevront VER:futu 2
 rechange NOM 3
 recharger VER:infi 1
@@ -25334,7 +25368,7 @@ reconnaissent VER:pres 3
 reconnaît VER:pres 19
 reconnaîtra VER:futu 1
 reconnaître VER:infi 10
-reconnu VER:pper 15
+reconnu VER:pper 16
 reconnue VER:pper 1
 reconnues VER:pper 1
 reconnus VER:pper 3
@@ -25474,7 +25508,7 @@ refusa VER:simp 1
 refusaient VER:impf 1
 refusait VER:impf 4
 refusant VER:ppre 5
-refuse VER:pres 10
+refuse VER:pres 11
 refusent VER:pres 7
 refuser VER:infi 7
 refuseront VER:futu 1
@@ -25633,7 +25667,7 @@ remettent VER:pres 4
 remettra VER:futu 2
 remettre VER:infi 30
 remirent VER:simp 1
-remis VER:pper 16
+remis VER:pper 17
 remise NOM 15
 remise VER:pper 5
 remises NOM 3
@@ -25879,7 +25913,7 @@ représentante NOM 3
 représentants NOM 30
 représentatif ADJ 5
 représentatifs ADJ 1
-représentation NOM 11
+représentation NOM 12
 représentations NOM 3
 représentatives ADJ 2
 représentativité NOM 1
@@ -26016,7 +26050,7 @@ retentissantes ADJ 1
 retenu VER:pper 9
 retenue NOM 4
 retenue VER:pper 9
-retenues VER:pper 1
+retenues VER:pper 2
 retenus VER:pper 3
 retiendra VER:futu 2
 retiennent VER:pres 1
@@ -26107,7 +26141,7 @@ revenus VER:pper 3
 reverrai VER:futu 1
 revers NOM 2
 reversement NOM 1
-reverser VER:infi 2
+reverser VER:infi 3
 reversion NOM 1
 reversé VER:pper 2
 reversée VER:pper 1
@@ -26121,7 +26155,7 @@ revient NOM 9
 revient VER:pres 23
 revigorer VER:infi 1
 revigoré VER:pper 1
-revint VER:simp 2
+revint VER:simp 3
 revirement NOM 3
 revirements NOM 2
 revitalisation NOM 2
@@ -26172,7 +26206,7 @@ rideau NOM 3
 ridicule ADJ 2
 ridicule NOM 2
 ridicules ADJ 1
-rien PRO:IND 96
+rien PRO:IND 97
 riens NOM 1
 rigide ADJ 1
 rigidité NOM 3
@@ -26340,7 +26374,7 @@ rythmes NOM 5
 rythmé VER:pper 1
 règle NOM 12
 règle VER:pres 3
-règlement NOM 26
+règlement NOM 27
 règlements NOM 6
 règlent VER:pres 2
 règles NOM 41
@@ -26527,8 +26561,8 @@ régiment NOM 5
 régiments NOM 1
 régimes NOM 15
 région NOM 77
-régional ADJ 28
-régionale ADJ 12
+régional ADJ 29
+régionale ADJ 13
 régionales ADJ 12
 régionales NOM 3
 régionalisme NOM 1
@@ -26546,7 +26580,7 @@ réglementation NOM 22
 réglementations NOM 2
 réglementée VER:pper 3
 réglementées VER:pper 1
-régler VER:infi 11
+régler VER:infi 12
 réglé VER:pper 4
 réglée VER:pper 1
 régnaient VER:impf 1
@@ -26599,6 +26633,7 @@ réjouis VER:pres 1
 réjouissant ADJ 1
 réjouit VER:simp 1
 rémission NOM 1
+rémunérant VER:ppre 1
 rémunérateur ADJ 2
 rémunérateurs ADJ 5
 rémunération NOM 35
@@ -26610,7 +26645,7 @@ rémunérée VER:pper 3
 rémunérées VER:pper 1
 rémunérés VER:pper 5
 rénales ADJ 1
-rénovation NOM 6
+rénovation NOM 9
 rénover VER:infi 2
 rénové VER:pper 2
 réorganisation NOM 15
@@ -26667,7 +26702,7 @@ réponses NOM 10
 répressif ADJ 1
 répression NOM 8
 répressive ADJ 1
-républicain ADJ 4
+républicain ADJ 7
 républicaine ADJ 3
 républicaines ADJ 3
 républicains ADJ 1
@@ -26811,6 +26846,7 @@ réunir VER:infi 10
 réunira VER:futu 3
 réunis VER:pper 11
 réunissaient VER:impf 2
+réunissait VER:impf 1
 réunissant VER:ppre 5
 réunissent VER:pres 1
 réunit VER:pres 3
@@ -26902,8 +26938,8 @@ rôdage NOM 1
 rôle NOM 71
 rôles NOM 5
 s' KON 61
-s' PRO:PER 1472
-sa DET:POS 545
+s' PRO:PER 1474
+sa DET:POS 548
 sable NOM 2
 sabler VER:infi 1
 sables NOM 1
@@ -27152,7 +27188,7 @@ scénario NOM 8
 scénarios NOM 5
 scénarisation NOM 1
 scénaristes NOM 1
-se PRO:PER 1327
+se PRO:PER 1331
 second NUM 61
 secondaire ADJ 2
 secondaires ADJ 3
@@ -27162,7 +27198,7 @@ seconde NUM 49
 seconder VER:infi 1
 secondes NOM 5
 seconds NOM 2
-secondé VER:pper 1
+secondé VER:pper 2
 secouait VER:impf 1
 secoue VER:pres 1
 secouer VER:infi 3
@@ -27206,11 +27242,11 @@ sellerie NOM 1
 sellette NOM 1
 selon PRP 228
 semailles NOM 1
-semaine NOM 106
+semaine NOM 107
 semaines NOM 87
 sembla VER:simp 1
 semblable ADJ 3
-semblables ADJ 3
+semblables ADJ 4
 semblaient VER:impf 6
 semblait VER:impf 12
 semblant NOM 1
@@ -27251,7 +27287,7 @@ sentiments NOM 3
 sentir VER:infi 12
 sentiront VER:futu 1
 sept NUM 67
-septembre NOM 139
+septembre NOM 140
 septennat NOM 2
 septentrional ADJ 2
 septicisme NOM 1
@@ -27260,7 +27296,7 @@ sera VER:futu 291
 serai VER:futu 1
 seraient VER:cond 33
 serais VER:cond 2
-serait VER:cond 125
+serait VER:cond 126
 seras VER:futu 1
 serbe ADJ 1
 serbes ADJ 2
@@ -27287,7 +27323,7 @@ servent VER:pres 2
 serveurs NOM 4
 serveuse NOM 1
 serveuses NOM 1
-servi VER:pper 9
+servi VER:pper 10
 service NOM 77
 services NOM 138
 servie VER:pper 2
@@ -27301,20 +27337,20 @@ servirait VER:cond 3
 serviront VER:futu 4
 servis VER:pper 1
 serviteurs NOM 1
-ses DET:POS 781
+ses DET:POS 782
 session NOM 12
 seuil NOM 23
 seuils NOM 3
 seul ADJ 62
 seul ADV 14
 seul NOM 12
-seule ADJ 64
+seule ADJ 65
 seule ADV 5
 seule NOM 6
 seulement ADV 119
 seules ADJ 14
 seules ADV 4
-seuls ADJ 25
+seuls ADJ 26
 seuls ADV 8
 seuls NOM 1
 sexe NOM 2
@@ -27395,7 +27431,7 @@ similaire ADJ 4
 similaires ADJ 2
 similitude NOM 1
 simple ADJ 44
-simplement ADV 23
+simplement ADV 24
 simples ADJ 8
 simplicité NOM 1
 simplifiant VER:ppre 1
@@ -27484,7 +27520,7 @@ socialiste ADJ 29
 socialiste NOM 2
 socialistes ADJ 6
 socialistes NOM 16
-sociaux ADJ 71
+sociaux ADJ 72
 sociaux-démocrates NOM 3
 society NOM 1
 socio-culturel ADJ 1
@@ -27499,7 +27535,7 @@ socioprofessionnelles ADJ 1
 sociétaires NOM 1
 société NOM 274
 société-holding NOM 1
-sociétés NOM 111
+sociétés NOM 112
 sociétés-écrans NOM 1
 socle NOM 1
 soeur NOM 3
@@ -27521,7 +27557,7 @@ soins NOM 5
 soir NOM 43
 soirée NOM 26
 sois VER:subp 1
-soit KON 203
+soit KON 204
 soit VER:subp 122
 soixantaine NUM 5
 soixante NUM 11
@@ -27579,7 +27615,7 @@ sombrer VER:infi 2
 sombrera VER:futu 1
 sombres ADJ 4
 sombré VER:pper 2
-somme NOM 21
+somme NOM 22
 sommeil NOM 3
 sommeille VER:pres 1
 sommerso NOM 1
@@ -27590,7 +27626,7 @@ sommets NOM 5
 sommé VER:pper 1
 somptuaires ADJ 1
 somptueux ADJ 1
-son DET:POS 1075
+son DET:POS 1076
 son NOM 3
 sondage NOM 11
 sondages NOM 5
@@ -27608,7 +27644,7 @@ sonner VER:infi 1
 sonnette NOM 3
 sons NAM 1
 sons NOM 1
-sont VER:pres 1011
+sont VER:pres 1013
 sophistication NOM 2
 sophistiqué VER:pper 1
 sophistiquée VER:pper 1
@@ -27722,7 +27758,7 @@ soupirer VER:infi 1
 souple ADJ 5
 souplesse NOM 5
 soupçon NOM 2
-soupçonne VER:pres 3
+soupçonne VER:pres 4
 soupçonner VER:infi 1
 soupçonné VER:pper 4
 soupçonnés VER:pper 2
@@ -27748,7 +27784,7 @@ sournois ADJ 1
 sournoisement ADV 1
 sournoises ADJ 1
 sous NOM 2
-sous PRP 206
+sous PRP 207
 sous-chef NOM 1
 sous-consommation NOM 1
 sous-direction NOM 1
@@ -27876,7 +27912,7 @@ spécialisée VER:pper 32
 spécialisées VER:pper 9
 spécialisés VER:pper 12
 spécialité NOM 1
-spéciaux ADJ 5
+spéciaux ADJ 6
 spécifiant VER:ppre 1
 spécifications NOM 1
 spécificité NOM 3
@@ -28138,7 +28174,7 @@ suivait VER:impf 2
 suivant NOM 1
 suivant PRP 6
 suivant VER:ppre 7
-suivante ADJ 1
+suivante ADJ 2
 suivante NOM 2
 suivante VER:ppre 9
 suivantes VER:ppre 7
@@ -28148,7 +28184,7 @@ suive VER:subp 1
 suivent VER:pres 8
 suivez VER:impe 3
 suivi NOM 2
-suivi VER:pper 20
+suivi VER:pper 21
 suivie VER:pper 12
 suivies VER:pper 9
 suivirent VER:simp 2
@@ -28237,7 +28273,7 @@ supérieures ADJ 10
 supérieurs ADJ 23
 supérieurs NOM 1
 supériorité NOM 2
-sur PRP 1940
+sur PRP 1944
 sur-investissement NOM 1
 sur-le-champ ADV 2
 surcapacité NOM 2
@@ -28299,7 +28335,7 @@ surqualifiés NOM 1
 surqualifiés VER:pper 1
 surréaction NOM 1
 sursaut NOM 3
-sursis NOM 13
+sursis NOM 14
 surteint ADJ 1
 surteint NOM 1
 surtout ADV 132
@@ -28528,7 +28564,7 @@ tambours NOM 1
 tamisés VER:pper 1
 tampon NOM 1
 tamponner VER:infi 1
-tandis KON 60
+tandis KON 61
 tangible ADJ 1
 tangibles ADJ 1
 tangos NOM 1
@@ -28901,7 +28937,7 @@ torture NOM 2
 tortures NOM 1
 torturé VER:pper 3
 total ADJ 22
-total NOM 80
+total NOM 81
 totale ADJ 31
 totalement ADV 30
 totales ADJ 4
@@ -29032,7 +29068,7 @@ traitant VER:ppre 2
 traitement NOM 24
 traitements NOM 2
 traitent VER:pres 1
-traiter VER:infi 8
+traiter VER:infi 9
 traiterions VER:cond 1
 traites NOM 1
 traiteur NOM 1
@@ -29151,7 +29187,7 @@ travailliste ADJ 3
 travaillons VER:pres 1
 travaillé VER:pper 11
 travaillées VER:pper 1
-travaux NOM 57
+travaux NOM 58
 travel NOM 1
 travers NOM 28
 traversait VER:impf 1
@@ -29196,7 +29232,7 @@ triangle NOM 1
 triangulation NOM 1
 tribulations NOM 2
 tribunal NOM 64
-tribunaux NOM 6
+tribunaux NOM 7
 tribune NOM 2
 tribut NOM 4
 triche VER:pres 2
@@ -29304,7 +29340,7 @@ troïka NOM 1
 truchement NOM 4
 trucs NOM 2
 truites NOM 2
-truqués VER:pper 1
+truqués VER:pper 2
 trust NAM 1
 très ADV 434
 très-considérable ADJ 1
@@ -29313,9 +29349,9 @@ trébuché VER:pper 1
 trésor NOM 9
 trésorerie NOM 28
 trésoreries NOM 3
-trésorier NOM 1
+trésorier NOM 2
 trésoriers NOM 2
-trésorière NOM 1
+trésorière NOM 3
 trésors NOM 1
 trêve NOM 5
 trône NOM 1
@@ -29407,7 +29443,7 @@ témoigne VER:pres 17
 témoignent VER:pres 11
 témoigner VER:infi 4
 témoin ADJ 1
-témoin NOM 8
+témoin NOM 9
 témoins NOM 3
 ténacité NOM 1
 ténors NOM 2
@@ -29437,15 +29473,15 @@ ultrasophistiqué ADJ 1
 ultérieur ADJ 1
 ultérieurement ADV 4
 ultérieurs ADJ 1
-un DET:ART 3467
-un NUM 183
+un DET:ART 3475
+un NUM 184
 unanimement ADV 1
 unanimes ADJ 1
 unanimiste ADJ 1
 unanimité NOM 12
 und KON 4
-une DET:ART 3470
-une NUM 89
+une DET:ART 3474
+une NUM 90
 unes NOM 1
 unes PRO 3
 uni VER:pper 1
@@ -29722,8 +29758,8 @@ versait VER:impf 1
 versant NOM 6
 versants NOM 1
 verse VER:pres 3
-versement NOM 13
-versements NOM 8
+versement NOM 14
+versements NOM 9
 versent VER:pres 2
 verser VER:infi 13
 versera VER:futu 2
@@ -29731,8 +29767,8 @@ verseront VER:futu 1
 version NOM 6
 versé VER:pper 10
 versée VER:pper 5
-versées VER:pper 19
-versés VER:pper 10
+versées VER:pper 21
+versés VER:pper 12
 vert ADJ 18
 vert NOM 2
 verte ADJ 4
@@ -29762,7 +29798,7 @@ veuve NOM 2
 veuves NOM 2
 veux VER:pres 2
 via NOM 2
-via PRP 9
+via PRP 10
 viabilité NOM 2
 viable ADJ 1
 viables ADJ 1
@@ -30000,7 +30036,7 @@ volent VER:pres 2
 voler VER:infi 2
 voleraient VER:cond 1
 volet NOM 13
-volets NOM 3
+volets NOM 4
 voleurs NOM 1
 volontaire ADJ 5
 volontairement ADV 5
@@ -30059,12 +30095,12 @@ voyage VER:pres 1
 voyageaient VER:impf 1
 voyager NAM 1
 voyager VER:infi 3
-voyages NOM 14
+voyages NOM 17
 voyageur NOM 1
 voyageurs ADJ 2
 voyageurs NOM 6
 voyagé VER:pper 1
-voyaient VER:impf 5
+voyaient VER:impf 6
 voyait VER:impf 4
 voyant VER:ppre 7
 voyante ADJ 2
@@ -30147,7 +30183,7 @@ world NAM 1
 worsred NOM 1
 x SYM 1
 xénophobe ADJ 1
-y PRO:PER 528
+y PRO:PER 529
 yankees NOM 1
 yaourts NOM 3
 yards NOM 2
@@ -30199,7 +30235,7 @@ zéros NOM 2
 Éric NAM 18
 Ériger VER:infi 1
 État NAM 1
-État NOM 14
+État NOM 16
 État-voyou NOM 1
 États NOM 2
 États-UNIS NAM 1
@@ -30208,7 +30244,8 @@ zéros NOM 2
 Évaluées VER:pper 1
 Évoquant VER:ppre 1
 Évènement NOM 1
-à PRP 7987
+Île-de-France NAM 6
+à PRP 8002
 à-coups NOM 1
 âge NOM 37
 âges NOM 4
@@ -30721,7 +30758,7 @@ zéros NOM 2
 érosion NOM 10
 éruption NOM 1
 étable NOM 1
-établi VER:pper 16
+établi VER:pper 17
 établie VER:pper 4
 établies VER:pper 2
 établir VER:infi 18
@@ -30732,7 +30769,7 @@ zéros NOM 2
 établissait VER:impf 2
 établissant VER:ppre 5
 établissement NOM 43
-établissements NOM 59
+établissements NOM 60
 établissent VER:pres 1
 établit VER:pres 6
 étage NOM 5
@@ -30741,7 +30778,7 @@ zéros NOM 2
 étaient VER:impf 155
 étain NOM 3
 étais VER:impf 8
-était VER:impf 443
+était VER:impf 445
 étale VER:pres 1
 étalent VER:pres 2
 étaler VER:infi 1
@@ -30816,7 +30853,7 @@ zéros NOM 2
 étourdisse VER:subp 1
 étrange ADJ 2
 étranger ADJ 12
-étranger NOM 56
+étranger NOM 57
 étrangers ADJ 66
 étrangers NOM 12
 étranges ADJ 2
@@ -30847,7 +30884,7 @@ zéros NOM 2
 étudiées VER:pper 1
 étudiés VER:pper 1
 été NOM 64
-été VER:pper 928
+été VER:pper 932
 évacués VER:pper 1
 évaluait VER:impf 2
 évaluation NOM 13
@@ -30906,7 +30943,7 @@ zéros NOM 2
 évoquent VER:pres 1
 évoquer VER:infi 6
 évoquons VER:pres 1
-évoqué VER:pper 6
+évoqué VER:pper 7
 évoquée VER:pper 7
 évoquées VER:pper 2
 évoqués VER:pper 3
@@ -30919,7 +30956,7 @@ zéros NOM 2
 évêques NOM 1
 êtes VER:pres 2
 être NOM 1
-être VER:infi 562
+être VER:infi 563
 île NOM 14
 île-Longue NAM 1
 île-de-France NAM 4
