@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_pos --input m3.txt --ifmt %w|%p|%s \n --model all_pos --solver bfgs --niterations 10000 --verbose --comment Training and tagging the POS tagger on the complete data using the merged POS tag set
 
 # the number of tags in the tagset
-nclasses = 73
+nclasses = 74
 # the number of instances in the training data
-nevents = 432177
+nevents = 436987
 # the number of unique instances in the training data
-ncontexts = 413583
+ncontexts = 418020
 # the number of features in the model
-nfeatures = 392011
+nfeatures = 396308
 # the number of attributes in the model
-nattributes = 169593
+nattributes = 171421

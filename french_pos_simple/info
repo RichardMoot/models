@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_pos --input m3_simple.txt --ifmt %w|%p|%s \n --model all_pos_simple --solver bfgs --niterations 10000 --verbose --comment Training and tagging the POS tagger on the complete set of data using the simple POS tag set
 
 # the number of tags in the tagset
-nclasses = 39
+nclasses = 40
 # the number of instances in the training data
-nevents = 432177
+nevents = 436987
 # the number of unique instances in the training data
-ncontexts = 413480
+ncontexts = 417917
 # the number of features in the model
-nfeatures = 355991
+nfeatures = 359828
 # the number of attributes in the model
-nattributes = 168660
+nattributes = 170473
