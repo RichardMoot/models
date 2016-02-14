@@ -1,36 +1,36 @@
 
-SENT: 1520 sentences, 321 correct (21.12%)
-WORD: 42317 words, 38256 correct (90.40%)
-NINT: 42317 words, 38256 correct (90.40%)
-TAGS: 42317 tags, 1.0 tags per word
+SENT: 1559 sentences, 336 correct (21.55%)
+WORD: 43161 words, 39025 correct (90.42%)
+NINT: 43161 words, 39025 correct (90.42%)
+TAGS: 43161 tags, 1.0 tags per word
 
 
-SENT: 1520 sentences, 703 correct (46.25%)
-WORD: 42317 words, 40758 correct (96.32%)
-NINT: 42317 words, 40758 correct (96.32%)
-TAGS: 57667 tags, 1.4 tags per word
+SENT: 1559 sentences, 734 correct (47.08%)
+WORD: 43161 words, 41578 correct (96.33%)
+NINT: 43161 words, 41578 correct (96.33%)
+TAGS: 58900 tags, 1.4 tags per word
 
 
-SENT: 1520 sentences, 829 correct (54.54%)
-WORD: 42317 words, 41129 correct (97.19%)
-NINT: 42317 words, 41129 correct (97.19%)
-TAGS: 65900 tags, 1.6 tags per word
+SENT: 1559 sentences, 852 correct (54.65%)
+WORD: 43161 words, 41942 correct (97.18%)
+NINT: 43161 words, 41942 correct (97.18%)
+TAGS: 67154 tags, 1.6 tags per word
 
 
-SENT: 1520 sentences, 1052 correct (69.21%)
-WORD: 42317 words, 41631 correct (98.38%)
-NINT: 42317 words, 41631 correct (98.38%)
-TAGS: 98715 tags, 2.3 tags per word
+SENT: 1559 sentences, 1088 correct (69.79%)
+WORD: 43161 words, 42472 correct (98.40%)
+NINT: 43161 words, 42472 correct (98.40%)
+TAGS: 100768 tags, 2.3 tags per word
 
 
-SENT: 1520 sentences, 1087 correct (71.51%)
-WORD: 42317 words, 41702 correct (98.55%)
-NINT: 42317 words, 41702 correct (98.55%)
-TAGS: 119716 tags, 2.8 tags per word
+SENT: 1559 sentences, 1118 correct (71.71%)
+WORD: 43161 words, 42545 correct (98.57%)
+NINT: 43161 words, 42545 correct (98.57%)
+TAGS: 122382 tags, 2.8 tags per word
 
 
-SENT: 1520 sentences, 1147 correct (75.46%)
-WORD: 42317 words, 41812 correct (98.81%)
-NINT: 42317 words, 41812 correct (98.81%)
-TAGS: 190301 tags, 4.5 tags per word
+SENT: 1559 sentences, 1182 correct (75.82%)
+WORD: 43161 words, 42656 correct (98.83%)
+NINT: 43161 words, 42656 correct (98.83%)
+TAGS: 194528 tags, 4.5 tags per word
 

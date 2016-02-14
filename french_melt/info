@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input m2_melt.txt --model french_melt --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words in order to find errors in assigned supertags, using the MElt POS tag set
 
 # the number of tags in the tagset
-nclasses = 392
+nclasses = 395
 # the number of instances in the training data
-nevents = 432443
+nevents = 437253
 # the number of unique instances in the training data
-ncontexts = 415015
+ncontexts = 419489
 # the number of features in the model
-nfeatures = 484057
+nfeatures = 488878
 # the number of attributes in the model
-nattributes = 152266
+nattributes = 153874
