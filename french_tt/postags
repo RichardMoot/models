@@ -2,14 +2,14 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input m2_tt.txt --model french_tt --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words in order to find errors in assigned supertags, using the Treetagger POS tag set
 
 ABR 4520
-ADJ 24202
+ADJ 24203
 ADV 19566
 DET:ART 44435
 DET:POS 4039
 INT 39
 KON 13840
 NAM 18596
-NOM 87981
+NOM 87980
 NUM 14609
 PRO 23
 PRO:DEM 4574
