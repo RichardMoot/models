@@ -1,36 +1,36 @@
 
-SENT: 1559 sentences, 332 correct (21.30%)
-WORD: 43161 words, 38977 correct (90.31%)
-NINT: 43161 words, 38977 correct (90.31%)
+SENT: 1559 sentences, 333 correct (21.36%)
+WORD: 43161 words, 38979 correct (90.31%)
+NINT: 43161 words, 38979 correct (90.31%)
 TAGS: 43161 tags, 1.0 tags per word
 
 
-SENT: 1559 sentences, 755 correct (48.43%)
-WORD: 43161 words, 41635 correct (96.46%)
-NINT: 43161 words, 41635 correct (96.46%)
-TAGS: 59169 tags, 1.4 tags per word
+SENT: 1559 sentences, 753 correct (48.30%)
+WORD: 43161 words, 41633 correct (96.46%)
+NINT: 43161 words, 41633 correct (96.46%)
+TAGS: 59193 tags, 1.4 tags per word
 
 
-SENT: 1559 sentences, 878 correct (56.32%)
-WORD: 43161 words, 42003 correct (97.32%)
-NINT: 43161 words, 42003 correct (97.32%)
-TAGS: 68072 tags, 1.6 tags per word
+SENT: 1559 sentences, 875 correct (56.13%)
+WORD: 43161 words, 42002 correct (97.31%)
+NINT: 43161 words, 42002 correct (97.31%)
+TAGS: 68114 tags, 1.6 tags per word
 
 
 SENT: 1559 sentences, 1096 correct (70.30%)
-WORD: 43161 words, 42497 correct (98.46%)
-NINT: 43161 words, 42497 correct (98.46%)
-TAGS: 102509 tags, 2.4 tags per word
+WORD: 43161 words, 42495 correct (98.46%)
+NINT: 43161 words, 42495 correct (98.46%)
+TAGS: 102576 tags, 2.4 tags per word
 
 
-SENT: 1559 sentences, 1139 correct (73.06%)
-WORD: 43161 words, 42579 correct (98.65%)
-NINT: 43161 words, 42579 correct (98.65%)
-TAGS: 124409 tags, 2.9 tags per word
+SENT: 1559 sentences, 1140 correct (73.12%)
+WORD: 43161 words, 42581 correct (98.66%)
+NINT: 43161 words, 42581 correct (98.66%)
+TAGS: 124509 tags, 2.9 tags per word
 
 
-SENT: 1559 sentences, 1197 correct (76.78%)
-WORD: 43161 words, 42687 correct (98.90%)
-NINT: 43161 words, 42687 correct (98.90%)
-TAGS: 195581 tags, 4.5 tags per word
+SENT: 1559 sentences, 1198 correct (76.84%)
+WORD: 43161 words, 42688 correct (98.90%)
+NINT: 43161 words, 42688 correct (98.90%)
+TAGS: 195825 tags, 4.5 tags per word
 
