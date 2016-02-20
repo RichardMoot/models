@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input mb.txt --model french_bootstrap --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words for bootstrapping, using the merged POS tag set
 
 # the number of tags in the tagset
-nclasses = 468
+nclasses = 470
 # the number of instances in the training data
 nevents = 437253
 # the number of unique instances in the training data
-ncontexts = 419036
+ncontexts = 419032
 # the number of features in the model
-nfeatures = 539210
+nfeatures = 539445
 # the number of attributes in the model
-nattributes = 160636
+nattributes = 160654
