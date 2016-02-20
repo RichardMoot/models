@@ -2,12 +2,12 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input m2_simple.txt --model french_simple --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words in order to find errors in assigned supertags, using the simple POS tag set
 
 # the number of tags in the tagset
-nclasses = 395
+nclasses = 396
 # the number of instances in the training data
 nevents = 437253
 # the number of unique instances in the training data
 ncontexts = 419485
 # the number of features in the model
-nfeatures = 496426
+nfeatures = 496622
 # the number of attributes in the model
-nattributes = 154622
+nattributes = 154635

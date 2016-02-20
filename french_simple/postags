@@ -2,7 +2,7 @@
 #   /Users/moot/Corpus/WSJ/candc-1.00/bin/train_super --input m2_simple.txt --model french_simple --solver bfgs --verbose --niterations 10000 --comment Training and tagging all words in order to find errors in assigned supertags, using the simple POS tag set
 
 ABR 4520
-ADJ 24154
+ADJ 24155
 ADJWH 27
 ADV 19281
 ADVWH 144
@@ -20,7 +20,7 @@ ET-VER:impe 1
 ET-VER:pper 2
 ET-VER:ppre 2
 I-INT 39
-NC 87723
+NC 87722
 NPP 18585
 NUM 14609
 P 60147
