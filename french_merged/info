@@ -8,6 +8,6 @@ nevents = 437253
 # the number of unique instances in the training data
 ncontexts = 419495
 # the number of features in the model
-nfeatures = 523800
+nfeatures = 523806
 # the number of attributes in the model
 nattributes = 159829
