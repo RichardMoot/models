@@ -1,6 +1,6 @@
 # French Part-of-Speech tag and Supertag models
 
-This repository contains the model directories for French Part-of-Speech (POS) and supertags, obtained from the [TLGbank](https://github.com/RichardMoot/TLGbank/) for use with the
+This repository contains the model directories for French Part-of-Speech (POS) and supertags, obtained from the [TLGbank](http://richardmoot.github.io/TLGbank/) for use with the
 [C&C supertagger
   and part-of-speech tagger](http://svn.ask.it.usyd.edu.au/trac/candc/wiki).
 
